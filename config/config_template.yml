@@ -1,11 +1,13 @@
 # SearchParams:
 domains: ['theage', 'theaustralian', 'couriermail', 'dailytelegraph', 'smh', 'thewest', 'watoday', 'heraldsun']
-query: ''
-date_from: '2022-09-01'
-date_to: '2022-10-01'
-country: 'au'
+query: '*'
+date_from: '2024-03-01'
+date_to: '2024-03-03'
+
+country: 'au'  #au/de
+language: 'en'  #en/de
 
 # Google BigQuery Params
-project_name: 'your-project'
-dataset_name: 'newsdataio'
-tablename: 'news_gather_2023'
+project_name: 'dmrc-data'
+dataset_name: 'newsdataio_2024'
+tablename: 'newsdata_nov2023_au'

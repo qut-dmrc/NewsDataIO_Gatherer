@@ -24,7 +24,7 @@ class Query:
 
 
 class BigQuery:
-    gbq_creds = os.environ['gbq_servicekey_dmrc-data']
+    gbq_creds = os.environ['gbq_servicekey']
     project_name = config['project_name']
     dataset_name = config['dataset_name']
     tablename = config['tablename']
