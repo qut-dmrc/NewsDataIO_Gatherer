@@ -1,0 +1,20 @@
+# SearchParams:
+domains: ['heraldsun']
+#  ['7news', 'skynewsau', 'sbs', 'reneweconomy', 'womensagenda', 'spectator_au', 'greenleft', 'rebelnews', 'quadrant', 'pedestrian', 'michaelwest', 'junkee', 'dailymailuk', '6newsau', 'news', 'heraldsun', 'theaustralian', 'thesaturdaypaper', 'theklaxon', 'redflag', 'yahoo', 'abc_net', 'canberratimes', 'crikey', 'theguardian','independent_australia', '9news_au', 'theconversation', 'thenewdaily', 'smh', 'thewest', 'aap', 'theage', 'vice', 'couriermail']
+
+#  ['3sat_de', 'morgenpost', 'arte', 'bild', 'bildblog', 'freitag', 'derwesten', 'dw', 'deutschlandfunk', 'achgut', 'dietagespost', 'faz', 'focus', 'abendblatt', 'gmx', 'handelsblatt', 'haz', 'heise', 'jungewelt', 'lvz', 'netzpolitik', 'n-tv', 'rp_online', 'spiegel', 'stern', 'leonberger_kreiszeitung', 'sueddeutsche', 'tagesschau', 'tagesspiegel', 'taz', 'telepolis', 'tichyseinblick', 't-online', 'ubermedien', 'wazonline', 'welt', 'yahoo', 'zdf', 'zeit']
+
+#['7news', 'skynewsau', 'sbs', 'reneweconomy', 'womensagenda', 'spectator_au', 'greenleft', 'rebelnews', 'quadrant', 'pedestrian', 'michaelwest', 'junkee', 'dailymailuk', '6newsau', 'news', 'heraldsun', 'theaustralian', 'thesaturdaypaper', 'theklaxon', 'redflag', 'yahoo', 'abc_net', 'canberratimes', 'crikey', 'theguardian','independent_australia', '9news_au', 'theconversation', 'thenewdaily', 'smh', 'thewest', 'aap', 'theage', 'vice', 'couriermail']
+
+
+query: '*'
+date_from: '2024-03-01'
+date_to: '2024-03-03'
+
+country: 'au'  #au/de
+language: 'en'  #en/de
+
+# Google BigQuery Params
+project_name: 'dmrc-data'
+dataset_name: 'newsdataio_2024'
+tablename: 'newsdata_nov2023_au'

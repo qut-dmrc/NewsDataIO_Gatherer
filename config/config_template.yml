@@ -1,0 +1,11 @@
+# SearchParams:
+domains: ['theage', 'theaustralian', 'couriermail', 'dailytelegraph', 'smh', 'thewest', 'watoday', 'heraldsun']
+query: ''
+date_from: '2022-09-01'
+date_to: '2022-10-01'
+country: 'au'
+
+# Google BigQuery Params
+project_name: 'your-project'
+dataset_name: 'newsdataio'
+tablename: 'news_gather_2023'
