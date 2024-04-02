@@ -1,0 +1,28 @@
+2024-02-15 10:26:51,604 [INFO] Starting News Gatherer
+2024-02-15 10:26:51,604 [INFO] Collecting news content from 1 domains.
+2024-02-15 10:26:51,604 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-15 10:26:51,605 [INFO] Gathering news articles from theaustralian from 2023-10-09 to 2024-01-07
+2024-02-15 10:26:51,605 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theaustralian&language=en&from_date=2023-10-09&to_date=2024-01-07&country=au
+2024-02-15 10:26:53,720 [INFO] Response: 200
+2024-02-15 10:26:53,720 [INFO] Gathering page 1 of 1
+2024-02-15 10:26:53,722 [INFO] 
+Compiling 1 pages of results...
+2024-02-15 10:26:53,722 [INFO] All news articles gathered from theaustralian from 2023-10-09 to 2024-01-07!
+2024-02-15 10:26:53,722 [INFO] Processing tables...
+2024-02-15 10:26:53,742 [INFO] Tables have been processed.
+2024-02-15 10:26:53,743 [INFO] 
+Pushing results from theaustralian to Google BigQuery database...
+2024-02-15 10:26:54,495 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-15 10:26:54,855 [INFO] Table exists
+2024-02-15 10:27:00,355 [INFO] Loaded 136522 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-02-15 10:27:00,710 [INFO] Table exists
+2024-02-15 10:27:06,055 [INFO] Loaded 138790 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-02-15 10:27:06,416 [INFO] Table exists
+2024-02-15 10:27:11,537 [INFO] Loaded 312794 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-02-15 10:27:11,880 [INFO] Table exists
+2024-02-15 10:27:16,528 [INFO] Loaded 150076 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-02-15 10:27:16,528 [INFO] 
+Gather complete!

@@ -1,0 +1,8 @@
+2023-07-11 17:31:23,230 [INFO] Starting News Gatherer
+2023-07-11 17:31:23,230 [INFO] Collecting news content from 31 domains.
+2023-07-11 17:31:23,230 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-11 17:31:23,230 [INFO] Gathering news articles from abc_net from 2022-09-01 to 2022-10-01
+2023-07-11 17:31:23,230 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=abc_net&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au

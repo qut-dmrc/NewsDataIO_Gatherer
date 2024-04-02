@@ -1,0 +1,1501 @@
+2024-02-21 14:42:41,224 [INFO] Starting News Gatherer
+2024-02-21 14:42:41,225 [INFO] Collecting news content from 3 domains.
+2024-02-21 14:42:41,225 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 14:42:41,225 [INFO] Gathering news articles from aap from 2023-08-01 to 2024-02-01
+2024-02-21 14:42:41,225 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=aap&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au
+2024-02-21 14:42:42,527 [INFO] Response: 200
+2024-02-21 14:42:42,529 [INFO] Gathering page 1 of 3
+2024-02-21 14:42:42,531 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=aap&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706686183751685495
+2024-02-21 14:42:43,638 [INFO] Response: 200
+2024-02-21 14:42:43,639 [INFO] Gathering page 2 of 3
+2024-02-21 14:42:43,640 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=aap&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706095905532444502
+2024-02-21 14:42:44,551 [INFO] Response: 200
+2024-02-21 14:42:44,551 [INFO] Gathering page 3 of 3
+2024-02-21 14:42:44,553 [INFO] 
+Compiling 3 pages of results...
+2024-02-21 14:42:44,554 [INFO] All news articles gathered from aap from 2023-08-01 to 2024-02-01!
+2024-02-21 14:42:44,554 [INFO] Processing tables...
+2024-02-21 14:42:44,589 [INFO] Tables have been processed.
+2024-02-21 14:42:44,590 [INFO] 
+Pushing results from aap to Google BigQuery database...
+2024-02-21 14:42:45,347 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-21 14:42:45,712 [INFO] Table exists
+2024-02-21 14:42:51,610 [INFO] Loaded 155293 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-02-21 14:42:51,941 [INFO] Table exists
+2024-02-21 14:43:32,535 [INFO] Loaded 178192 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-02-21 14:43:32,899 [INFO] Table exists
+2024-02-21 14:43:38,252 [INFO] Loaded 369227 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-02-21 14:43:38,576 [INFO] Table exists
+2024-02-21 14:43:44,619 [INFO] Loaded 191949 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-02-21 14:43:44,619 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 14:43:44,619 [INFO] Gathering news articles from theage from 2023-08-01 to 2024-02-01
+2024-02-21 14:43:44,619 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au
+2024-02-21 14:43:46,185 [INFO] Response: 200
+2024-02-21 14:43:46,187 [INFO] Gathering page 1 of 284
+2024-02-21 14:43:46,188 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706747400631389950
+2024-02-21 14:43:47,361 [INFO] Response: 200
+2024-02-21 14:43:47,364 [INFO] Gathering page 2 of 284
+2024-02-21 14:43:47,365 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706725800678701868
+2024-02-21 14:43:48,963 [INFO] Response: 200
+2024-02-21 14:43:48,966 [INFO] Gathering page 3 of 284
+2024-02-21 14:43:48,967 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706706000979024329
+2024-02-21 14:43:50,063 [INFO] Response: 200
+2024-02-21 14:43:50,065 [INFO] Gathering page 4 of 284
+2024-02-21 14:43:50,067 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706688000382986799
+2024-02-21 14:43:51,279 [INFO] Response: 200
+2024-02-21 14:43:51,280 [INFO] Gathering page 5 of 284
+2024-02-21 14:43:51,281 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706677526032610121
+2024-02-21 14:43:52,624 [INFO] Response: 200
+2024-02-21 14:43:52,625 [INFO] Gathering page 6 of 284
+2024-02-21 14:43:52,626 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706664798710201860
+2024-02-21 14:43:53,963 [INFO] Response: 200
+2024-02-21 14:43:53,965 [INFO] Gathering page 7 of 284
+2024-02-21 14:43:53,966 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706647628111590411
+2024-02-21 14:43:55,306 [INFO] Response: 200
+2024-02-21 14:43:55,309 [INFO] Gathering page 8 of 284
+2024-02-21 14:43:55,311 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706637600043342392
+2024-02-21 14:43:56,408 [INFO] Response: 200
+2024-02-21 14:43:56,410 [INFO] Gathering page 9 of 284
+2024-02-21 14:43:56,412 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706605186572656195
+2024-02-21 14:43:57,516 [INFO] Response: 200
+2024-02-21 14:43:57,517 [INFO] Gathering page 10 of 284
+2024-02-21 14:43:57,518 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706594302931249482
+2024-02-21 14:43:58,651 [INFO] Response: 200
+2024-02-21 14:43:58,652 [INFO] Gathering page 11 of 284
+2024-02-21 14:43:58,653 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706584933314859776
+2024-02-21 14:43:59,953 [INFO] Response: 200
+2024-02-21 14:43:59,954 [INFO] Gathering page 12 of 284
+2024-02-21 14:43:59,956 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706574230966536000
+2024-02-21 14:44:01,349 [INFO] Response: 200
+2024-02-21 14:44:01,352 [INFO] Gathering page 13 of 284
+2024-02-21 14:44:01,355 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706533866271959999
+2024-02-21 14:44:02,505 [INFO] Response: 200
+2024-02-21 14:44:02,507 [INFO] Gathering page 14 of 284
+2024-02-21 14:44:02,507 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706516927946330393
+2024-02-21 14:44:03,616 [INFO] Response: 200
+2024-02-21 14:44:03,617 [INFO] Gathering page 15 of 284
+2024-02-21 14:44:03,618 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706509430023254317
+2024-02-21 14:44:05,024 [INFO] Response: 200
+2024-02-21 14:44:05,025 [INFO] Gathering page 16 of 284
+2024-02-21 14:44:05,026 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706496497339121635
+2024-02-21 14:44:06,375 [INFO] Response: 200
+2024-02-21 14:44:06,376 [INFO] Gathering page 17 of 284
+2024-02-21 14:44:06,378 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706477282588877948
+2024-02-21 14:44:07,639 [INFO] Response: 200
+2024-02-21 14:44:07,639 [INFO] Gathering page 18 of 284
+2024-02-21 14:44:07,640 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706464800887360146
+2024-02-21 14:44:08,997 [INFO] Response: 200
+2024-02-21 14:44:09,001 [INFO] Gathering page 19 of 284
+2024-02-21 14:44:09,003 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706432968725758913
+2024-02-21 14:44:10,358 [INFO] Response: 200
+2024-02-21 14:44:10,359 [INFO] Gathering page 20 of 284
+2024-02-21 14:44:10,360 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706411095642760991
+2024-02-21 14:44:11,710 [INFO] Response: 200
+2024-02-21 14:44:11,713 [INFO] Gathering page 21 of 284
+2024-02-21 14:44:11,714 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706378400911756834
+2024-02-21 14:44:13,068 [INFO] Response: 200
+2024-02-21 14:44:13,071 [INFO] Gathering page 22 of 284
+2024-02-21 14:44:13,074 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706359152610767805
+2024-02-21 14:44:14,233 [INFO] Response: 200
+2024-02-21 14:44:14,234 [INFO] Gathering page 23 of 284
+2024-02-21 14:44:14,235 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706323500839431189
+2024-02-21 14:44:15,568 [INFO] Response: 200
+2024-02-21 14:44:15,570 [INFO] Gathering page 24 of 284
+2024-02-21 14:44:15,571 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706293800252274532
+2024-02-21 14:44:17,144 [INFO] Response: 200
+2024-02-21 14:44:17,146 [INFO] Gathering page 25 of 284
+2024-02-21 14:44:17,147 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706289480704785374
+2024-02-21 14:44:18,473 [INFO] Response: 200
+2024-02-21 14:44:18,475 [INFO] Gathering page 26 of 284
+2024-02-21 14:44:18,478 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706249714513348870
+2024-02-21 14:44:19,792 [INFO] Response: 200
+2024-02-21 14:44:19,795 [INFO] Gathering page 27 of 284
+2024-02-21 14:44:19,797 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706232154868064842
+2024-02-21 14:44:20,967 [INFO] Response: 200
+2024-02-21 14:44:20,969 [INFO] Gathering page 28 of 284
+2024-02-21 14:44:20,970 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706209304724460819
+2024-02-21 14:44:22,307 [INFO] Response: 200
+2024-02-21 14:44:22,309 [INFO] Gathering page 29 of 284
+2024-02-21 14:44:22,310 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706193900770192639
+2024-02-21 14:44:23,636 [INFO] Response: 200
+2024-02-21 14:44:23,637 [INFO] Gathering page 30 of 284
+2024-02-21 14:44:23,640 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706164292442635854
+2024-02-21 14:44:25,006 [INFO] Response: 200
+2024-02-21 14:44:25,006 [INFO] Gathering page 31 of 284
+2024-02-21 14:44:25,007 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706147415776497881
+2024-02-21 14:44:26,113 [INFO] Response: 200
+2024-02-21 14:44:26,115 [INFO] Gathering page 32 of 284
+2024-02-21 14:44:26,115 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706123786170358553
+2024-02-21 14:44:27,540 [INFO] Response: 200
+2024-02-21 14:44:27,542 [INFO] Gathering page 33 of 284
+2024-02-21 14:44:27,545 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706119200034951538
+2024-02-21 14:44:28,855 [INFO] Response: 200
+2024-02-21 14:44:28,856 [INFO] Gathering page 34 of 284
+2024-02-21 14:44:28,858 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706083200481462246
+2024-02-21 14:44:30,172 [INFO] Response: 200
+2024-02-21 14:44:30,175 [INFO] Gathering page 35 of 284
+2024-02-21 14:44:30,176 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706066684632213565
+2024-02-21 14:44:31,491 [INFO] Response: 200
+2024-02-21 14:44:31,493 [INFO] Gathering page 36 of 284
+2024-02-21 14:44:31,496 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706049835996605863
+2024-02-21 14:44:32,789 [INFO] Response: 200
+2024-02-21 14:44:32,790 [INFO] Gathering page 37 of 284
+2024-02-21 14:44:32,791 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706033100614878539
+2024-02-21 14:44:34,099 [INFO] Response: 200
+2024-02-21 14:44:34,100 [INFO] Gathering page 38 of 284
+2024-02-21 14:44:34,102 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1706014860306209216
+2024-02-21 14:44:35,421 [INFO] Response: 200
+2024-02-21 14:44:35,424 [INFO] Gathering page 39 of 284
+2024-02-21 14:44:35,427 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705992617783384678
+2024-02-21 14:44:36,740 [INFO] Response: 200
+2024-02-21 14:44:36,741 [INFO] Gathering page 40 of 284
+2024-02-21 14:44:36,742 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705973441071068721
+2024-02-21 14:44:37,885 [INFO] Response: 200
+2024-02-21 14:44:37,886 [INFO] Gathering page 41 of 284
+2024-02-21 14:44:37,887 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705954989414282914
+2024-02-21 14:44:39,572 [INFO] Response: 200
+2024-02-21 14:44:39,573 [INFO] Gathering page 42 of 284
+2024-02-21 14:44:39,574 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705946400626647565
+2024-02-21 14:44:40,925 [INFO] Response: 200
+2024-02-21 14:44:40,926 [INFO] Gathering page 43 of 284
+2024-02-21 14:44:40,927 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705921096140874766
+2024-02-21 14:44:42,025 [INFO] Response: 200
+2024-02-21 14:44:42,028 [INFO] Gathering page 44 of 284
+2024-02-21 14:44:42,030 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705909359453577029
+2024-02-21 14:44:43,156 [INFO] Response: 200
+2024-02-21 14:44:43,158 [INFO] Gathering page 45 of 284
+2024-02-21 14:44:43,160 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705896758745416664
+2024-02-21 14:44:44,541 [INFO] Response: 200
+2024-02-21 14:44:44,545 [INFO] Gathering page 46 of 284
+2024-02-21 14:44:44,547 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705876046993825982
+2024-02-21 14:44:45,868 [INFO] Response: 200
+2024-02-21 14:44:45,871 [INFO] Gathering page 47 of 284
+2024-02-21 14:44:45,874 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705860000813948800
+2024-02-21 14:44:47,234 [INFO] Response: 200
+2024-02-21 14:44:47,237 [INFO] Gathering page 48 of 284
+2024-02-21 14:44:47,240 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705825800417759383
+2024-02-21 14:44:48,549 [INFO] Response: 200
+2024-02-21 14:44:48,551 [INFO] Gathering page 49 of 284
+2024-02-21 14:44:48,552 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705801287588390050
+2024-02-21 14:44:49,894 [INFO] Response: 200
+2024-02-21 14:44:49,897 [INFO] Gathering page 50 of 284
+2024-02-21 14:44:49,900 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705773600790451991
+2024-02-21 14:44:51,238 [INFO] Response: 200
+2024-02-21 14:44:51,240 [INFO] Gathering page 51 of 284
+2024-02-21 14:44:51,241 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705739883942736010
+2024-02-21 14:44:52,328 [INFO] Response: 200
+2024-02-21 14:44:52,331 [INFO] Gathering page 52 of 284
+2024-02-21 14:44:52,333 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705712629033550380
+2024-02-21 14:44:53,614 [INFO] Response: 200
+2024-02-21 14:44:53,615 [INFO] Gathering page 53 of 284
+2024-02-21 14:44:53,616 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705687200975834285
+2024-02-21 14:44:55,166 [INFO] Response: 200
+2024-02-21 14:44:55,170 [INFO] Gathering page 54 of 284
+2024-02-21 14:44:55,172 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705672666842401131
+2024-02-21 14:44:56,450 [INFO] Response: 200
+2024-02-21 14:44:56,452 [INFO] Gathering page 55 of 284
+2024-02-21 14:44:56,455 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705646956019448368
+2024-02-21 14:44:57,748 [INFO] Response: 200
+2024-02-21 14:44:57,750 [INFO] Gathering page 56 of 284
+2024-02-21 14:44:57,752 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705626000044564695
+2024-02-21 14:44:59,074 [INFO] Response: 200
+2024-02-21 14:44:59,075 [INFO] Gathering page 57 of 284
+2024-02-21 14:44:59,077 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705604460121716568
+2024-02-21 14:45:00,402 [INFO] Response: 200
+2024-02-21 14:45:00,403 [INFO] Gathering page 58 of 284
+2024-02-21 14:45:00,404 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705600800007593448
+2024-02-21 14:45:01,937 [INFO] Response: 200
+2024-02-21 14:45:01,938 [INFO] Gathering page 59 of 284
+2024-02-21 14:45:01,940 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705558124862879130
+2024-02-21 14:45:03,353 [INFO] Response: 200
+2024-02-21 14:45:03,357 [INFO] Gathering page 60 of 284
+2024-02-21 14:45:03,361 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705542504846537926
+2024-02-21 14:45:04,615 [INFO] Response: 200
+2024-02-21 14:45:04,615 [INFO] Gathering page 61 of 284
+2024-02-21 14:45:04,617 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705521137302249910
+2024-02-21 14:45:05,976 [INFO] Response: 200
+2024-02-21 14:45:05,978 [INFO] Gathering page 62 of 284
+2024-02-21 14:45:05,979 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705514400726773189
+2024-02-21 14:45:07,314 [INFO] Response: 200
+2024-02-21 14:45:07,316 [INFO] Gathering page 63 of 284
+2024-02-21 14:45:07,317 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705483074916243063
+2024-02-21 14:45:08,672 [INFO] Response: 200
+2024-02-21 14:45:08,675 [INFO] Gathering page 64 of 284
+2024-02-21 14:45:08,678 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705461547751089975
+2024-02-21 14:45:09,810 [INFO] Response: 200
+2024-02-21 14:45:09,811 [INFO] Gathering page 65 of 284
+2024-02-21 14:45:09,812 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705440133770979596
+2024-02-21 14:45:10,952 [INFO] Response: 200
+2024-02-21 14:45:10,954 [INFO] Gathering page 66 of 284
+2024-02-21 14:45:10,955 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705428600521805869
+2024-02-21 14:45:12,275 [INFO] Response: 200
+2024-02-21 14:45:12,277 [INFO] Gathering page 67 of 284
+2024-02-21 14:45:12,278 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705400891956578426
+2024-02-21 14:45:13,389 [INFO] Response: 200
+2024-02-21 14:45:13,390 [INFO] Gathering page 68 of 284
+2024-02-21 14:45:13,391 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705387615950498099
+2024-02-21 14:45:14,702 [INFO] Response: 200
+2024-02-21 14:45:14,704 [INFO] Gathering page 69 of 284
+2024-02-21 14:45:14,707 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705366511767708788
+2024-02-21 14:45:15,810 [INFO] Response: 200
+2024-02-21 14:45:15,811 [INFO] Gathering page 70 of 284
+2024-02-21 14:45:15,813 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705344755444281404
+2024-02-21 14:45:17,130 [INFO] Response: 200
+2024-02-21 14:45:17,131 [INFO] Gathering page 71 of 284
+2024-02-21 14:45:17,132 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705326753410497705
+2024-02-21 14:45:18,271 [INFO] Response: 200
+2024-02-21 14:45:18,273 [INFO] Gathering page 72 of 284
+2024-02-21 14:45:18,273 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705304303365107207
+2024-02-21 14:45:19,585 [INFO] Response: 200
+2024-02-21 14:45:19,586 [INFO] Gathering page 73 of 284
+2024-02-21 14:45:19,587 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705294758254843682
+2024-02-21 14:45:20,689 [INFO] Response: 200
+2024-02-21 14:45:20,690 [INFO] Gathering page 74 of 284
+2024-02-21 14:45:20,693 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705281676367439332
+2024-02-21 14:45:22,076 [INFO] Response: 200
+2024-02-21 14:45:22,077 [INFO] Gathering page 75 of 284
+2024-02-21 14:45:22,079 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705257611918041476
+2024-02-21 14:45:23,464 [INFO] Response: 200
+2024-02-21 14:45:23,466 [INFO] Gathering page 76 of 284
+2024-02-21 14:45:23,468 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705219173591354489
+2024-02-21 14:45:24,786 [INFO] Response: 200
+2024-02-21 14:45:24,789 [INFO] Gathering page 77 of 284
+2024-02-21 14:45:24,791 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705178533518141579
+2024-02-21 14:45:26,156 [INFO] Response: 200
+2024-02-21 14:45:26,157 [INFO] Gathering page 78 of 284
+2024-02-21 14:45:26,158 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705145254625498756
+2024-02-21 14:45:27,249 [INFO] Response: 200
+2024-02-21 14:45:27,251 [INFO] Gathering page 79 of 284
+2024-02-21 14:45:27,255 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705130734921250232
+2024-02-21 14:45:28,393 [INFO] Response: 200
+2024-02-21 14:45:28,394 [INFO] Gathering page 80 of 284
+2024-02-21 14:45:28,396 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705085100598118227
+2024-02-21 14:45:29,960 [INFO] Response: 200
+2024-02-21 14:45:29,963 [INFO] Gathering page 81 of 284
+2024-02-21 14:45:29,964 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705054234051814756
+2024-02-21 14:45:31,287 [INFO] Response: 200
+2024-02-21 14:45:31,288 [INFO] Gathering page 82 of 284
+2024-02-21 14:45:31,290 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705037685558881973
+2024-02-21 14:45:32,648 [INFO] Response: 200
+2024-02-21 14:45:32,651 [INFO] Gathering page 83 of 284
+2024-02-21 14:45:32,653 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1705012471535388127
+2024-02-21 14:45:33,999 [INFO] Response: 200
+2024-02-21 14:45:34,002 [INFO] Gathering page 84 of 284
+2024-02-21 14:45:34,006 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1704996000682159236
+2024-02-21 14:45:35,308 [INFO] Response: 200
+2024-02-21 14:45:35,309 [INFO] Gathering page 85 of 284
+2024-02-21 14:45:35,310 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1704961784423203007
+2024-02-21 14:45:36,634 [INFO] Response: 200
+2024-02-21 14:45:36,636 [INFO] Gathering page 86 of 284
+2024-02-21 14:45:36,637 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1704942030772257651
+2024-02-21 14:45:37,743 [INFO] Response: 200
+2024-02-21 14:45:37,744 [INFO] Gathering page 87 of 284
+2024-02-21 14:45:37,745 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1704921051429700623
+2024-02-21 14:45:39,059 [INFO] Response: 200
+2024-02-21 14:45:39,063 [INFO] Gathering page 88 of 284
+2024-02-21 14:45:39,064 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1704891660074599546
+2024-02-21 14:45:40,374 [INFO] Response: 200
+2024-02-21 14:45:40,375 [INFO] Gathering page 89 of 284
+2024-02-21 14:45:40,376 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1704862432794909511
+2024-02-21 14:45:41,684 [INFO] Response: 200
+2024-02-21 14:45:41,685 [INFO] Gathering page 90 of 284
+2024-02-21 14:45:41,686 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1704830375362884100
+2024-02-21 14:45:42,995 [INFO] Response: 200
+2024-02-21 14:45:42,998 [INFO] Gathering page 91 of 284
+2024-02-21 14:45:43,000 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1704797988076768299
+2024-02-21 14:45:44,319 [INFO] Response: 200
+2024-02-21 14:45:44,320 [INFO] Gathering page 92 of 284
+2024-02-21 14:45:44,322 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1704777814707039699
+2024-02-21 14:45:45,715 [INFO] Response: 200
+2024-02-21 14:45:45,717 [INFO] Gathering page 93 of 284
+2024-02-21 14:45:45,718 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1704760800744015503
+2024-02-21 14:45:47,046 [INFO] Response: 200
+2024-02-21 14:45:47,047 [INFO] Gathering page 94 of 284
+2024-02-21 14:45:47,049 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1704736800260191513
+2024-02-21 14:45:48,402 [INFO] Response: 200
+2024-02-21 14:45:48,403 [INFO] Gathering page 95 of 284
+2024-02-21 14:45:48,404 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1704698878789950525
+2024-02-21 14:45:49,720 [INFO] Response: 200
+2024-02-21 14:45:49,722 [INFO] Gathering page 96 of 284
+2024-02-21 14:45:49,725 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1704665982137045638
+2024-02-21 14:45:51,035 [INFO] Response: 200
+2024-02-21 14:45:51,040 [INFO] Gathering page 97 of 284
+2024-02-21 14:45:51,041 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1704650400078058157
+2024-02-21 14:45:52,254 [INFO] Response: 200
+2024-02-21 14:45:52,255 [INFO] Gathering page 98 of 284
+2024-02-21 14:45:52,257 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1704616718413117257
+2024-02-21 14:45:54,022 [INFO] Response: 200
+2024-02-21 14:45:54,023 [INFO] Gathering page 99 of 284
+2024-02-21 14:45:54,024 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1704595447023098611
+2024-02-21 14:45:56,460 [INFO] Response: 200
+2024-02-21 14:45:56,462 [INFO] Gathering page 100 of 284
+2024-02-21 14:45:56,465 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1704564000126311548
+2024-02-21 14:45:57,609 [INFO] Response: 200
+2024-02-21 14:45:57,610 [INFO] Gathering page 101 of 284
+2024-02-21 14:45:57,613 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1704528557531135148
+2024-02-21 14:45:58,730 [INFO] Response: 200
+2024-02-21 14:45:58,732 [INFO] Gathering page 102 of 284
+2024-02-21 14:45:58,733 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1704489455461908974
+2024-02-21 14:46:00,266 [INFO] Response: 200
+2024-02-21 14:46:00,268 [INFO] Gathering page 103 of 284
+2024-02-21 14:46:00,269 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1704460752958127459
+2024-02-21 14:46:01,699 [INFO] Response: 200
+2024-02-21 14:46:01,701 [INFO] Gathering page 104 of 284
+2024-02-21 14:46:01,704 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1704440539678645098
+2024-02-21 14:46:03,073 [INFO] Response: 200
+2024-02-21 14:46:03,075 [INFO] Gathering page 105 of 284
+2024-02-21 14:46:03,076 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1704396232702036895
+2024-02-21 14:46:04,438 [INFO] Response: 200
+2024-02-21 14:46:04,440 [INFO] Gathering page 106 of 284
+2024-02-21 14:46:04,442 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1704363787472395564
+2024-02-21 14:46:05,818 [INFO] Response: 200
+2024-02-21 14:46:05,819 [INFO] Gathering page 107 of 284
+2024-02-21 14:46:05,820 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1704346757935025698
+2024-02-21 14:46:07,146 [INFO] Response: 200
+2024-02-21 14:46:07,147 [INFO] Gathering page 108 of 284
+2024-02-21 14:46:07,148 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1704304800599165612
+2024-02-21 14:46:08,449 [INFO] Response: 200
+2024-02-21 14:46:08,451 [INFO] Gathering page 109 of 284
+2024-02-21 14:46:08,452 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1704270820642742032
+2024-02-21 14:46:09,810 [INFO] Response: 200
+2024-02-21 14:46:09,811 [INFO] Gathering page 110 of 284
+2024-02-21 14:46:09,811 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1704234283406279748
+2024-02-21 14:46:11,337 [INFO] Response: 200
+2024-02-21 14:46:11,339 [INFO] Gathering page 111 of 284
+2024-02-21 14:46:11,340 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1704197026737560577
+2024-02-21 14:46:12,696 [INFO] Response: 200
+2024-02-21 14:46:12,699 [INFO] Gathering page 112 of 284
+2024-02-21 14:46:12,701 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1704171398987580558
+2024-02-21 14:46:14,094 [INFO] Response: 200
+2024-02-21 14:46:14,095 [INFO] Gathering page 113 of 284
+2024-02-21 14:46:14,096 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1704154700886922884
+2024-02-21 14:46:15,451 [INFO] Response: 200
+2024-02-21 14:46:15,452 [INFO] Gathering page 114 of 284
+2024-02-21 14:46:15,453 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1704132000780203675
+2024-02-21 14:46:16,796 [INFO] Response: 200
+2024-02-21 14:46:16,798 [INFO] Gathering page 115 of 284
+2024-02-21 14:46:16,800 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1704097800414155359
+2024-02-21 14:46:17,921 [INFO] Response: 200
+2024-02-21 14:46:17,922 [INFO] Gathering page 116 of 284
+2024-02-21 14:46:17,923 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1704081600657871264
+2024-02-21 14:46:19,277 [INFO] Response: 200
+2024-02-21 14:46:19,278 [INFO] Gathering page 117 of 284
+2024-02-21 14:46:19,278 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1704053859479142656
+2024-02-21 14:46:21,260 [INFO] Response: 200
+2024-02-21 14:46:21,261 [INFO] Gathering page 118 of 284
+2024-02-21 14:46:21,263 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1704013200891284103
+2024-02-21 14:46:22,399 [INFO] Response: 200
+2024-02-21 14:46:22,401 [INFO] Gathering page 119 of 284
+2024-02-21 14:46:22,404 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1703987562789718572
+2024-02-21 14:46:23,483 [INFO] Response: 200
+2024-02-21 14:46:23,484 [INFO] Gathering page 120 of 284
+2024-02-21 14:46:23,486 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1703931451315583441
+2024-02-21 14:46:24,595 [INFO] Response: 200
+2024-02-21 14:46:24,599 [INFO] Gathering page 121 of 284
+2024-02-21 14:46:24,600 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1703909594765802219
+2024-02-21 14:46:25,946 [INFO] Response: 200
+2024-02-21 14:46:25,950 [INFO] Gathering page 122 of 284
+2024-02-21 14:46:25,953 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1703872800823066803
+2024-02-21 14:46:27,515 [INFO] Response: 200
+2024-02-21 14:46:27,517 [INFO] Gathering page 123 of 284
+2024-02-21 14:46:27,518 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1703838150381019710
+2024-02-21 14:46:28,841 [INFO] Response: 200
+2024-02-21 14:46:28,843 [INFO] Gathering page 124 of 284
+2024-02-21 14:46:28,844 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1703790000889790349
+2024-02-21 14:46:30,167 [INFO] Response: 200
+2024-02-21 14:46:30,220 [INFO] Gathering page 125 of 284
+2024-02-21 14:46:30,221 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1703752616078522132
+2024-02-21 14:46:31,530 [INFO] Response: 200
+2024-02-21 14:46:31,531 [INFO] Gathering page 126 of 284
+2024-02-21 14:46:31,532 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1703713977915511926
+2024-02-21 14:46:32,834 [INFO] Response: 200
+2024-02-21 14:46:32,835 [INFO] Gathering page 127 of 284
+2024-02-21 14:46:32,836 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1703671200281608140
+2024-02-21 14:46:33,948 [INFO] Response: 200
+2024-02-21 14:46:33,949 [INFO] Gathering page 128 of 284
+2024-02-21 14:46:33,951 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1703644205578336725
+2024-02-21 14:46:35,317 [INFO] Response: 200
+2024-02-21 14:46:35,318 [INFO] Gathering page 129 of 284
+2024-02-21 14:46:35,319 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1703613600365218393
+2024-02-21 14:46:36,973 [INFO] Response: 200
+2024-02-21 14:46:36,974 [INFO] Gathering page 130 of 284
+2024-02-21 14:46:36,975 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1703546205686109770
+2024-02-21 14:46:38,301 [INFO] Response: 200
+2024-02-21 14:46:38,302 [INFO] Gathering page 131 of 284
+2024-02-21 14:46:38,303 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1703498976715798779
+2024-02-21 14:46:39,622 [INFO] Response: 200
+2024-02-21 14:46:39,623 [INFO] Gathering page 132 of 284
+2024-02-21 14:46:39,624 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1703453700716595167
+2024-02-21 14:46:41,030 [INFO] Response: 200
+2024-02-21 14:46:41,031 [INFO] Gathering page 133 of 284
+2024-02-21 14:46:41,032 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1703393700638835063
+2024-02-21 14:46:42,401 [INFO] Response: 200
+2024-02-21 14:46:42,402 [INFO] Gathering page 134 of 284
+2024-02-21 14:46:42,403 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1703354400867834806
+2024-02-21 14:46:43,737 [INFO] Response: 200
+2024-02-21 14:46:43,738 [INFO] Gathering page 135 of 284
+2024-02-21 14:46:43,738 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1703309432723884989
+2024-02-21 14:46:45,073 [INFO] Response: 200
+2024-02-21 14:46:45,074 [INFO] Gathering page 136 of 284
+2024-02-21 14:46:45,075 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1703268000538307585
+2024-02-21 14:46:46,375 [INFO] Response: 200
+2024-02-21 14:46:46,376 [INFO] Gathering page 137 of 284
+2024-02-21 14:46:46,377 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1703232000065839624
+2024-02-21 14:46:47,719 [INFO] Response: 200
+2024-02-21 14:46:47,721 [INFO] Gathering page 138 of 284
+2024-02-21 14:46:47,721 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1703204084215579586
+2024-02-21 14:46:49,035 [INFO] Response: 200
+2024-02-21 14:46:49,037 [INFO] Gathering page 139 of 284
+2024-02-21 14:46:49,038 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1703181600243711334
+2024-02-21 14:46:50,338 [INFO] Response: 200
+2024-02-21 14:46:50,340 [INFO] Gathering page 140 of 284
+2024-02-21 14:46:50,340 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1703134282286470718
+2024-02-21 14:46:51,644 [INFO] Response: 200
+2024-02-21 14:46:51,645 [INFO] Gathering page 141 of 284
+2024-02-21 14:46:51,645 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1703114498447926108
+2024-02-21 14:46:52,945 [INFO] Response: 200
+2024-02-21 14:46:52,945 [INFO] Gathering page 142 of 284
+2024-02-21 14:46:52,946 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1703095200166183149
+2024-02-21 14:46:54,253 [INFO] Response: 200
+2024-02-21 14:46:54,255 [INFO] Gathering page 143 of 284
+2024-02-21 14:46:54,256 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1703055628207657516
+2024-02-21 14:46:55,556 [INFO] Response: 200
+2024-02-21 14:46:55,556 [INFO] Gathering page 144 of 284
+2024-02-21 14:46:55,557 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1703037000813043357
+2024-02-21 14:46:56,842 [INFO] Response: 200
+2024-02-21 14:46:56,843 [INFO] Gathering page 145 of 284
+2024-02-21 14:46:56,844 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1703010600751249435
+2024-02-21 14:46:58,211 [INFO] Response: 200
+2024-02-21 14:46:58,212 [INFO] Gathering page 146 of 284
+2024-02-21 14:46:58,214 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1702969200792191203
+2024-02-21 14:46:59,585 [INFO] Response: 200
+2024-02-21 14:46:59,586 [INFO] Gathering page 147 of 284
+2024-02-21 14:46:59,587 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1702950695509235511
+2024-02-21 14:47:01,149 [INFO] Response: 200
+2024-02-21 14:47:01,150 [INFO] Gathering page 148 of 284
+2024-02-21 14:47:01,151 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1702924200609790314
+2024-02-21 14:47:02,514 [INFO] Response: 200
+2024-02-21 14:47:02,516 [INFO] Gathering page 149 of 284
+2024-02-21 14:47:02,518 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1702888980283020435
+2024-02-21 14:47:03,898 [INFO] Response: 200
+2024-02-21 14:47:03,899 [INFO] Gathering page 150 of 284
+2024-02-21 14:47:03,900 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1702871587059186770
+2024-02-21 14:47:05,252 [INFO] Response: 200
+2024-02-21 14:47:05,253 [INFO] Gathering page 151 of 284
+2024-02-21 14:47:05,254 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1702845393608405864
+2024-02-21 14:47:06,631 [INFO] Response: 200
+2024-02-21 14:47:06,631 [INFO] Gathering page 152 of 284
+2024-02-21 14:47:06,632 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1702817940542246596
+2024-02-21 14:47:07,963 [INFO] Response: 200
+2024-02-21 14:47:07,964 [INFO] Gathering page 153 of 284
+2024-02-21 14:47:07,965 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1702791563268380162
+2024-02-21 14:47:09,289 [INFO] Response: 200
+2024-02-21 14:47:09,290 [INFO] Gathering page 154 of 284
+2024-02-21 14:47:09,292 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1702751400251941312
+2024-02-21 14:47:10,603 [INFO] Response: 200
+2024-02-21 14:47:10,604 [INFO] Gathering page 155 of 284
+2024-02-21 14:47:10,605 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1702713570836524566
+2024-02-21 14:47:11,903 [INFO] Response: 200
+2024-02-21 14:47:11,904 [INFO] Gathering page 156 of 284
+2024-02-21 14:47:11,905 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1702666320942598295
+2024-02-21 14:47:13,441 [INFO] Response: 200
+2024-02-21 14:47:13,443 [INFO] Gathering page 157 of 284
+2024-02-21 14:47:13,445 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1702633416365543361
+2024-02-21 14:47:14,766 [INFO] Response: 200
+2024-02-21 14:47:14,767 [INFO] Gathering page 158 of 284
+2024-02-21 14:47:14,768 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1702615649695322161
+2024-02-21 14:47:16,072 [INFO] Response: 200
+2024-02-21 14:47:16,073 [INFO] Gathering page 159 of 284
+2024-02-21 14:47:16,074 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1702578600465048574
+2024-02-21 14:47:17,392 [INFO] Response: 200
+2024-02-21 14:47:17,393 [INFO] Gathering page 160 of 284
+2024-02-21 14:47:17,394 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1702544897465859415
+2024-02-21 14:47:18,693 [INFO] Response: 200
+2024-02-21 14:47:18,695 [INFO] Gathering page 161 of 284
+2024-02-21 14:47:18,698 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1702529637226486024
+2024-02-21 14:47:19,998 [INFO] Response: 200
+2024-02-21 14:47:19,999 [INFO] Gathering page 162 of 284
+2024-02-21 14:47:20,000 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1702493972626869151
+2024-02-21 14:47:21,291 [INFO] Response: 200
+2024-02-21 14:47:21,293 [INFO] Gathering page 163 of 284
+2024-02-21 14:47:21,294 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1702457136977620861
+2024-02-21 14:47:22,663 [INFO] Response: 200
+2024-02-21 14:47:22,665 [INFO] Gathering page 164 of 284
+2024-02-21 14:47:22,668 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1702437044212502242
+2024-02-21 14:47:24,002 [INFO] Response: 200
+2024-02-21 14:47:24,004 [INFO] Gathering page 165 of 284
+2024-02-21 14:47:24,005 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1702404540799776877
+2024-02-21 14:47:25,314 [INFO] Response: 200
+2024-02-21 14:47:25,315 [INFO] Gathering page 166 of 284
+2024-02-21 14:47:25,316 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1702371600722295011
+2024-02-21 14:47:26,702 [INFO] Response: 200
+2024-02-21 14:47:26,704 [INFO] Gathering page 167 of 284
+2024-02-21 14:47:26,705 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1702347950516372495
+2024-02-21 14:47:28,066 [INFO] Response: 200
+2024-02-21 14:47:28,067 [INFO] Gathering page 168 of 284
+2024-02-21 14:47:28,068 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1702328060485253064
+2024-02-21 14:47:29,403 [INFO] Response: 200
+2024-02-21 14:47:29,404 [INFO] Gathering page 169 of 284
+2024-02-21 14:47:29,405 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1702290772050751557
+2024-02-21 14:47:30,688 [INFO] Response: 200
+2024-02-21 14:47:30,689 [INFO] Gathering page 170 of 284
+2024-02-21 14:47:30,691 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1702268578309965000
+2024-02-21 14:47:32,022 [INFO] Response: 200
+2024-02-21 14:47:32,023 [INFO] Gathering page 171 of 284
+2024-02-21 14:47:32,024 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1702237682272856802
+2024-02-21 14:47:33,380 [INFO] Response: 200
+2024-02-21 14:47:33,381 [INFO] Gathering page 172 of 284
+2024-02-21 14:47:33,381 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1702198438160552837
+2024-02-21 14:47:34,758 [INFO] Response: 200
+2024-02-21 14:47:34,759 [INFO] Gathering page 173 of 284
+2024-02-21 14:47:34,760 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1702171703311181617
+2024-02-21 14:47:36,065 [INFO] Response: 200
+2024-02-21 14:47:36,067 [INFO] Gathering page 174 of 284
+2024-02-21 14:47:36,070 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1702144800459264901
+2024-02-21 14:47:37,174 [INFO] Response: 200
+2024-02-21 14:47:37,176 [INFO] Gathering page 175 of 284
+2024-02-21 14:47:37,179 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1702101286795869904
+2024-02-21 14:47:38,527 [INFO] Response: 200
+2024-02-21 14:47:38,528 [INFO] Gathering page 176 of 284
+2024-02-21 14:47:38,529 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1702058400923034784
+2024-02-21 14:47:39,881 [INFO] Response: 200
+2024-02-21 14:47:39,882 [INFO] Gathering page 177 of 284
+2024-02-21 14:47:39,884 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1702020298117046041
+2024-02-21 14:47:41,181 [INFO] Response: 200
+2024-02-21 14:47:41,182 [INFO] Gathering page 178 of 284
+2024-02-21 14:47:41,183 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1701997539817330836
+2024-02-21 14:47:42,483 [INFO] Response: 200
+2024-02-21 14:47:42,484 [INFO] Gathering page 179 of 284
+2024-02-21 14:47:42,485 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1701974700063410605
+2024-02-21 14:47:43,808 [INFO] Response: 200
+2024-02-21 14:47:43,809 [INFO] Gathering page 180 of 284
+2024-02-21 14:47:43,810 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1701941210581772535
+2024-02-21 14:47:45,203 [INFO] Response: 200
+2024-02-21 14:47:45,204 [INFO] Gathering page 181 of 284
+2024-02-21 14:47:45,205 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1701923400125741836
+2024-02-21 14:47:46,535 [INFO] Response: 200
+2024-02-21 14:47:46,536 [INFO] Gathering page 182 of 284
+2024-02-21 14:47:46,537 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1701904117123320988
+2024-02-21 14:47:47,895 [INFO] Response: 200
+2024-02-21 14:47:47,897 [INFO] Gathering page 183 of 284
+2024-02-21 14:47:47,899 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1701885600107581662
+2024-02-21 14:47:49,352 [INFO] Response: 200
+2024-02-21 14:47:49,353 [INFO] Gathering page 184 of 284
+2024-02-21 14:47:49,353 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1701848471834925676
+2024-02-21 14:47:50,801 [INFO] Response: 200
+2024-02-21 14:47:50,802 [INFO] Gathering page 185 of 284
+2024-02-21 14:47:50,802 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1701831509087177014
+2024-02-21 14:47:52,190 [INFO] Response: 200
+2024-02-21 14:47:52,191 [INFO] Gathering page 186 of 284
+2024-02-21 14:47:52,193 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1701801955770484124
+2024-02-21 14:47:53,558 [INFO] Response: 200
+2024-02-21 14:47:53,561 [INFO] Gathering page 187 of 284
+2024-02-21 14:47:53,564 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1701769717018197108
+2024-02-21 14:47:54,921 [INFO] Response: 200
+2024-02-21 14:47:54,925 [INFO] Gathering page 188 of 284
+2024-02-21 14:47:54,926 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1701741667787702849
+2024-02-21 14:47:56,252 [INFO] Response: 200
+2024-02-21 14:47:56,253 [INFO] Gathering page 189 of 284
+2024-02-21 14:47:56,254 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1701715996356983653
+2024-02-21 14:47:57,576 [INFO] Response: 200
+2024-02-21 14:47:57,577 [INFO] Gathering page 190 of 284
+2024-02-21 14:47:57,578 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1701673200723844077
+2024-02-21 14:47:58,872 [INFO] Response: 200
+2024-02-21 14:47:58,873 [INFO] Gathering page 191 of 284
+2024-02-21 14:47:58,874 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1701651358181646219
+2024-02-21 14:48:00,195 [INFO] Response: 200
+2024-02-21 14:48:00,197 [INFO] Gathering page 192 of 284
+2024-02-21 14:48:00,198 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1701626400438389854
+2024-02-21 14:48:01,583 [INFO] Response: 200
+2024-02-21 14:48:01,587 [INFO] Gathering page 193 of 284
+2024-02-21 14:48:01,590 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1701590323412859569
+2024-02-21 14:48:02,721 [INFO] Response: 200
+2024-02-21 14:48:02,722 [INFO] Gathering page 194 of 284
+2024-02-21 14:48:02,723 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1701578643057615752
+2024-02-21 14:48:04,085 [INFO] Response: 200
+2024-02-21 14:48:04,086 [INFO] Gathering page 195 of 284
+2024-02-21 14:48:04,087 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1701540000793706215
+2024-02-21 14:48:05,470 [INFO] Response: 200
+2024-02-21 14:48:05,471 [INFO] Gathering page 196 of 284
+2024-02-21 14:48:05,473 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1701504534696561245
+2024-02-21 14:48:06,827 [INFO] Response: 200
+2024-02-21 14:48:06,829 [INFO] Gathering page 197 of 284
+2024-02-21 14:48:06,831 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1701462164763750049
+2024-02-21 14:48:08,366 [INFO] Response: 200
+2024-02-21 14:48:08,368 [INFO] Gathering page 198 of 284
+2024-02-21 14:48:08,370 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1701435540874203769
+2024-02-21 14:48:09,695 [INFO] Response: 200
+2024-02-21 14:48:09,697 [INFO] Gathering page 199 of 284
+2024-02-21 14:48:09,700 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1701414789926835576
+2024-02-21 14:48:11,014 [INFO] Response: 200
+2024-02-21 14:48:11,015 [INFO] Gathering page 200 of 284
+2024-02-21 14:48:11,016 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1701343152975601198
+2024-02-21 14:48:11,896 [INFO] Response: 200
+2024-02-21 14:48:11,897 [INFO] Gathering page 201 of 284
+2024-02-21 14:48:11,898 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1701195300492160418
+2024-02-21 14:48:13,079 [INFO] Response: 200
+2024-02-21 14:48:13,080 [INFO] Gathering page 202 of 284
+2024-02-21 14:48:13,081 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1700890253231581621
+2024-02-21 14:48:14,161 [INFO] Response: 200
+2024-02-21 14:48:14,162 [INFO] Gathering page 203 of 284
+2024-02-21 14:48:14,163 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1700720104679758660
+2024-02-21 14:48:15,259 [INFO] Response: 200
+2024-02-21 14:48:15,260 [INFO] Gathering page 204 of 284
+2024-02-21 14:48:15,261 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1700632800127155726
+2024-02-21 14:48:16,325 [INFO] Response: 200
+2024-02-21 14:48:16,326 [INFO] Gathering page 205 of 284
+2024-02-21 14:48:16,330 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1700541000351775560
+2024-02-21 14:48:17,436 [INFO] Response: 200
+2024-02-21 14:48:17,438 [INFO] Gathering page 206 of 284
+2024-02-21 14:48:17,440 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1700340408078920810
+2024-02-21 14:48:18,579 [INFO] Response: 200
+2024-02-21 14:48:18,581 [INFO] Gathering page 207 of 284
+2024-02-21 14:48:18,583 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1700197948311029717
+2024-02-21 14:48:19,708 [INFO] Response: 200
+2024-02-21 14:48:19,709 [INFO] Gathering page 208 of 284
+2024-02-21 14:48:19,710 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1700049965004648421
+2024-02-21 14:48:20,578 [INFO] Response: 200
+2024-02-21 14:48:20,578 [INFO] Gathering page 209 of 284
+2024-02-21 14:48:20,579 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1699901119891752914
+2024-02-21 14:48:21,648 [INFO] Response: 200
+2024-02-21 14:48:21,649 [INFO] Gathering page 210 of 284
+2024-02-21 14:48:21,650 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1699812000288578634
+2024-02-21 14:48:22,751 [INFO] Response: 200
+2024-02-21 14:48:22,751 [INFO] Gathering page 211 of 284
+2024-02-21 14:48:22,754 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1699578289957825739
+2024-02-21 14:48:23,607 [INFO] Response: 200
+2024-02-21 14:48:23,608 [INFO] Gathering page 212 of 284
+2024-02-21 14:48:23,610 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1699513200347098279
+2024-02-21 14:48:24,694 [INFO] Response: 200
+2024-02-21 14:48:24,695 [INFO] Gathering page 213 of 284
+2024-02-21 14:48:24,697 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1699305679932555002
+2024-02-21 14:48:25,776 [INFO] Response: 200
+2024-02-21 14:48:25,777 [INFO] Gathering page 214 of 284
+2024-02-21 14:48:25,779 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1699183343592394031
+2024-02-21 14:48:26,637 [INFO] Response: 200
+2024-02-21 14:48:26,639 [INFO] Gathering page 215 of 284
+2024-02-21 14:48:26,642 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1699034400511735180
+2024-02-21 14:48:27,508 [INFO] Response: 200
+2024-02-21 14:48:27,509 [INFO] Gathering page 216 of 284
+2024-02-21 14:48:27,510 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1698960251249784167
+2024-02-21 14:48:28,587 [INFO] Response: 200
+2024-02-21 14:48:28,587 [INFO] Gathering page 217 of 284
+2024-02-21 14:48:28,588 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1698803085519714798
+2024-02-21 14:48:29,707 [INFO] Response: 200
+2024-02-21 14:48:29,708 [INFO] Gathering page 218 of 284
+2024-02-21 14:48:29,709 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1698649200791717510
+2024-02-21 14:48:30,786 [INFO] Response: 200
+2024-02-21 14:48:30,786 [INFO] Gathering page 219 of 284
+2024-02-21 14:48:30,787 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1698555908070537967
+2024-02-21 14:48:31,888 [INFO] Response: 200
+2024-02-21 14:48:31,889 [INFO] Gathering page 220 of 284
+2024-02-21 14:48:31,890 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1698396311696540109
+2024-02-21 14:48:32,966 [INFO] Response: 200
+2024-02-21 14:48:32,967 [INFO] Gathering page 221 of 284
+2024-02-21 14:48:32,971 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1698214939040569545
+2024-02-21 14:48:33,872 [INFO] Response: 200
+2024-02-21 14:48:33,873 [INFO] Gathering page 222 of 284
+2024-02-21 14:48:33,874 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1698039011971730932
+2024-02-21 14:48:34,985 [INFO] Response: 200
+2024-02-21 14:48:34,987 [INFO] Gathering page 223 of 284
+2024-02-21 14:48:34,991 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1697833355947194182
+2024-02-21 14:48:36,097 [INFO] Response: 200
+2024-02-21 14:48:36,099 [INFO] Gathering page 224 of 284
+2024-02-21 14:48:36,102 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1697695200655425004
+2024-02-21 14:48:37,181 [INFO] Response: 200
+2024-02-21 14:48:37,183 [INFO] Gathering page 225 of 284
+2024-02-21 14:48:37,186 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1697606127889765940
+2024-02-21 14:48:38,324 [INFO] Response: 200
+2024-02-21 14:48:38,324 [INFO] Gathering page 226 of 284
+2024-02-21 14:48:38,326 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1697515189413473344
+2024-02-21 14:48:39,414 [INFO] Response: 200
+2024-02-21 14:48:39,415 [INFO] Gathering page 227 of 284
+2024-02-21 14:48:39,416 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1697374800216600376
+2024-02-21 14:48:40,563 [INFO] Response: 200
+2024-02-21 14:48:40,564 [INFO] Gathering page 228 of 284
+2024-02-21 14:48:40,565 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1697199675291804573
+2024-02-21 14:48:41,651 [INFO] Response: 200
+2024-02-21 14:48:41,652 [INFO] Gathering page 229 of 284
+2024-02-21 14:48:41,653 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1697083560603713053
+2024-02-21 14:48:42,713 [INFO] Response: 200
+2024-02-21 14:48:42,713 [INFO] Gathering page 230 of 284
+2024-02-21 14:48:42,715 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1696928353051742523
+2024-02-21 14:48:43,787 [INFO] Response: 200
+2024-02-21 14:48:43,788 [INFO] Gathering page 231 of 284
+2024-02-21 14:48:43,789 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1696838739692207856
+2024-02-21 14:48:44,928 [INFO] Response: 200
+2024-02-21 14:48:44,929 [INFO] Gathering page 232 of 284
+2024-02-21 14:48:44,930 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1696770983706921867
+2024-02-21 14:48:45,995 [INFO] Response: 200
+2024-02-21 14:48:45,996 [INFO] Gathering page 233 of 284
+2024-02-21 14:48:45,997 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1696663544525403630
+2024-02-21 14:48:47,058 [INFO] Response: 200
+2024-02-21 14:48:47,060 [INFO] Gathering page 234 of 284
+2024-02-21 14:48:47,062 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1696539577089531066
+2024-02-21 14:48:48,139 [INFO] Response: 200
+2024-02-21 14:48:48,140 [INFO] Gathering page 235 of 284
+2024-02-21 14:48:48,141 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1696467072577064968
+2024-02-21 14:48:49,235 [INFO] Response: 200
+2024-02-21 14:48:49,237 [INFO] Gathering page 236 of 284
+2024-02-21 14:48:49,238 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1696321856683723201
+2024-02-21 14:48:50,307 [INFO] Response: 200
+2024-02-21 14:48:50,308 [INFO] Gathering page 237 of 284
+2024-02-21 14:48:50,309 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1696110342879789041
+2024-02-21 14:48:51,176 [INFO] Response: 200
+2024-02-21 14:48:51,178 [INFO] Gathering page 238 of 284
+2024-02-21 14:48:51,181 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1695910500367750259
+2024-02-21 14:48:52,277 [INFO] Response: 200
+2024-02-21 14:48:52,277 [INFO] Gathering page 239 of 284
+2024-02-21 14:48:52,278 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1695820292510739124
+2024-02-21 14:48:53,381 [INFO] Response: 200
+2024-02-21 14:48:53,385 [INFO] Gathering page 240 of 284
+2024-02-21 14:48:53,388 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1695668400999739999
+2024-02-21 14:48:54,471 [INFO] Response: 200
+2024-02-21 14:48:54,473 [INFO] Gathering page 241 of 284
+2024-02-21 14:48:54,476 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1695555970562315167
+2024-02-21 14:48:55,332 [INFO] Response: 200
+2024-02-21 14:48:55,333 [INFO] Gathering page 242 of 284
+2024-02-21 14:48:55,336 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1695456958095764883
+2024-02-21 14:48:56,414 [INFO] Response: 200
+2024-02-21 14:48:56,416 [INFO] Gathering page 243 of 284
+2024-02-21 14:48:56,418 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1695341096109844694
+2024-02-21 14:48:57,490 [INFO] Response: 200
+2024-02-21 14:48:57,491 [INFO] Gathering page 244 of 284
+2024-02-21 14:48:57,492 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1695241819155813859
+2024-02-21 14:48:58,566 [INFO] Response: 200
+2024-02-21 14:48:58,566 [INFO] Gathering page 245 of 284
+2024-02-21 14:48:58,567 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1695102233966629889
+2024-02-21 14:48:59,676 [INFO] Response: 200
+2024-02-21 14:48:59,676 [INFO] Gathering page 246 of 284
+2024-02-21 14:48:59,677 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1694977200551516979
+2024-02-21 14:49:00,948 [INFO] Response: 200
+2024-02-21 14:49:00,949 [INFO] Gathering page 247 of 284
+2024-02-21 14:49:00,950 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1694808000527784757
+2024-02-21 14:49:02,624 [INFO] Response: 200
+2024-02-21 14:49:02,625 [INFO] Gathering page 248 of 284
+2024-02-21 14:49:02,626 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1694719047780495208
+2024-02-21 14:49:03,803 [INFO] Response: 200
+2024-02-21 14:49:03,804 [INFO] Gathering page 249 of 284
+2024-02-21 14:49:03,806 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1694486744699874215
+2024-02-21 14:49:04,902 [INFO] Response: 200
+2024-02-21 14:49:04,903 [INFO] Gathering page 250 of 284
+2024-02-21 14:49:04,905 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1694344291259755212
+2024-02-21 14:49:06,297 [INFO] Response: 200
+2024-02-21 14:49:06,298 [INFO] Gathering page 251 of 284
+2024-02-21 14:49:06,299 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1694220795779447874
+2024-02-21 14:49:07,605 [INFO] Response: 200
+2024-02-21 14:49:07,606 [INFO] Gathering page 252 of 284
+2024-02-21 14:49:07,608 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1694136600549847205
+2024-02-21 14:49:08,707 [INFO] Response: 200
+2024-02-21 14:49:08,708 [INFO] Gathering page 253 of 284
+2024-02-21 14:49:08,709 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1694095500229320582
+2024-02-21 14:49:09,774 [INFO] Response: 200
+2024-02-21 14:49:09,776 [INFO] Gathering page 254 of 284
+2024-02-21 14:49:09,778 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1694001903660235154
+2024-02-21 14:49:10,879 [INFO] Response: 200
+2024-02-21 14:49:10,880 [INFO] Gathering page 255 of 284
+2024-02-21 14:49:10,881 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1693943192639711463
+2024-02-21 14:49:12,179 [INFO] Response: 200
+2024-02-21 14:49:12,180 [INFO] Gathering page 256 of 284
+2024-02-21 14:49:12,181 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1693819800703437279
+2024-02-21 14:49:13,478 [INFO] Response: 200
+2024-02-21 14:49:13,479 [INFO] Gathering page 257 of 284
+2024-02-21 14:49:13,481 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1693791000759873446
+2024-02-21 14:49:14,843 [INFO] Response: 200
+2024-02-21 14:49:14,845 [INFO] Gathering page 258 of 284
+2024-02-21 14:49:14,846 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1693697094926643816
+2024-02-21 14:49:15,934 [INFO] Response: 200
+2024-02-21 14:49:15,934 [INFO] Gathering page 259 of 284
+2024-02-21 14:49:15,935 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1693622466083214172
+2024-02-21 14:49:17,014 [INFO] Response: 200
+2024-02-21 14:49:17,015 [INFO] Gathering page 260 of 284
+2024-02-21 14:49:17,017 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1693438975728952459
+2024-02-21 14:49:18,318 [INFO] Response: 200
+2024-02-21 14:49:18,320 [INFO] Gathering page 261 of 284
+2024-02-21 14:49:18,322 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1693256046515715034
+2024-02-21 14:49:19,647 [INFO] Response: 200
+2024-02-21 14:49:19,649 [INFO] Gathering page 262 of 284
+2024-02-21 14:49:19,651 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1693166400571726958
+2024-02-21 14:49:20,987 [INFO] Response: 200
+2024-02-21 14:49:20,988 [INFO] Gathering page 263 of 284
+2024-02-21 14:49:20,989 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1693105647087740292
+2024-02-21 14:49:22,328 [INFO] Response: 200
+2024-02-21 14:49:22,329 [INFO] Gathering page 264 of 284
+2024-02-21 14:49:22,330 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1692905400775527597
+2024-02-21 14:49:23,402 [INFO] Response: 200
+2024-02-21 14:49:23,403 [INFO] Gathering page 265 of 284
+2024-02-21 14:49:23,405 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1692755999162313225
+2024-02-21 14:49:24,742 [INFO] Response: 200
+2024-02-21 14:49:24,743 [INFO] Gathering page 266 of 284
+2024-02-21 14:49:24,744 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1692626460692981481
+2024-02-21 14:49:26,068 [INFO] Response: 200
+2024-02-21 14:49:26,069 [INFO] Gathering page 267 of 284
+2024-02-21 14:49:26,070 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1692582326433650889
+2024-02-21 14:49:27,413 [INFO] Response: 200
+2024-02-21 14:49:27,415 [INFO] Gathering page 268 of 284
+2024-02-21 14:49:27,417 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1692518400753994993
+2024-02-21 14:49:28,735 [INFO] Response: 200
+2024-02-21 14:49:28,736 [INFO] Gathering page 269 of 284
+2024-02-21 14:49:28,737 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1692476868447703750
+2024-02-21 14:49:30,071 [INFO] Response: 200
+2024-02-21 14:49:30,071 [INFO] Gathering page 270 of 284
+2024-02-21 14:49:30,072 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1692263572424019110
+2024-02-21 14:49:31,410 [INFO] Response: 200
+2024-02-21 14:49:31,412 [INFO] Gathering page 271 of 284
+2024-02-21 14:49:31,415 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1692226159951783259
+2024-02-21 14:49:32,710 [INFO] Response: 200
+2024-02-21 14:49:32,711 [INFO] Gathering page 272 of 284
+2024-02-21 14:49:32,713 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1692151200775757448
+2024-02-21 14:49:34,035 [INFO] Response: 200
+2024-02-21 14:49:34,036 [INFO] Gathering page 273 of 284
+2024-02-21 14:49:34,037 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1691956729178493636
+2024-02-21 14:49:35,394 [INFO] Response: 200
+2024-02-21 14:49:35,395 [INFO] Gathering page 274 of 284
+2024-02-21 14:49:35,397 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1691823472715711809
+2024-02-21 14:49:36,734 [INFO] Response: 200
+2024-02-21 14:49:36,735 [INFO] Gathering page 275 of 284
+2024-02-21 14:49:36,736 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1691722426586491922
+2024-02-21 14:49:38,031 [INFO] Response: 200
+2024-02-21 14:49:38,032 [INFO] Gathering page 276 of 284
+2024-02-21 14:49:38,033 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1691563676529700273
+2024-02-21 14:49:39,345 [INFO] Response: 200
+2024-02-21 14:49:39,348 [INFO] Gathering page 277 of 284
+2024-02-21 14:49:39,352 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1691463495571806954
+2024-02-21 14:49:40,685 [INFO] Response: 200
+2024-02-21 14:49:40,686 [INFO] Gathering page 278 of 284
+2024-02-21 14:49:40,687 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1691370009463753311
+2024-02-21 14:49:42,001 [INFO] Response: 200
+2024-02-21 14:49:42,004 [INFO] Gathering page 279 of 284
+2024-02-21 14:49:42,006 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1691237207603938491
+2024-02-21 14:49:43,306 [INFO] Response: 200
+2024-02-21 14:49:43,307 [INFO] Gathering page 280 of 284
+2024-02-21 14:49:43,308 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1691177400275649620
+2024-02-21 14:49:44,638 [INFO] Response: 200
+2024-02-21 14:49:44,639 [INFO] Gathering page 281 of 284
+2024-02-21 14:49:44,640 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1691128800239777890
+2024-02-21 14:49:45,981 [INFO] Response: 200
+2024-02-21 14:49:45,983 [INFO] Gathering page 282 of 284
+2024-02-21 14:49:45,985 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1691009450414627980
+2024-02-21 14:49:47,311 [INFO] Response: 200
+2024-02-21 14:49:47,312 [INFO] Gathering page 283 of 284
+2024-02-21 14:49:47,314 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theage&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au&page=1690869368035731166
+2024-02-21 14:49:48,382 [INFO] Response: 200
+2024-02-21 14:49:48,382 [INFO] Gathering page 284 of 284
+2024-02-21 14:49:48,384 [INFO] 
+Compiling 284 pages of results...
+2024-02-21 14:49:48,409 [INFO] All news articles gathered from theage from 2023-08-01 to 2024-02-01!
+2024-02-21 14:49:48,409 [INFO] Processing tables...
+2024-02-21 14:49:49,836 [INFO] Tables have been processed.
+2024-02-21 14:49:49,837 [INFO] 
+Pushing results from theage to Google BigQuery database...
+2024-02-21 14:49:50,642 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-21 14:49:50,956 [INFO] Table exists
+2024-02-21 14:50:26,421 [INFO] Loaded 169462 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-02-21 14:50:26,750 [INFO] Table exists
+2024-02-21 14:50:32,991 [INFO] Loaded 192361 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-02-21 14:50:33,324 [INFO] Table exists
+2024-02-21 14:50:39,205 [INFO] Loaded 383396 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-02-21 14:50:39,549 [INFO] Table exists
+2024-02-21 14:50:45,949 [INFO] Loaded 207359 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-02-21 14:50:45,953 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 14:50:45,953 [INFO] Gathering news articles from vice from 2023-08-01 to 2024-02-01
+2024-02-21 14:50:45,953 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=vice&language=en&from_date=2023-08-01&to_date=2024-02-01&country=au
+2024-02-21 14:50:47,161 [INFO] Response: 200
+2024-02-21 14:50:47,162 [INFO] Gathering page 1 of 1
+2024-02-21 14:50:47,164 [INFO] 
+Compiling 1 pages of results...
+2024-02-21 14:50:47,171 [INFO] All news articles gathered from vice from 2023-08-01 to 2024-02-01!
+2024-02-21 14:50:47,172 [INFO] Processing tables...
+2024-02-21 14:50:47,207 [INFO] Tables have been processed.
+2024-02-21 14:50:47,207 [INFO] 
+Pushing results from vice to Google BigQuery database...
+2024-02-21 14:50:48,042 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-21 14:50:48,378 [INFO] Table exists
+2024-02-21 14:50:54,196 [INFO] Loaded 169497 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-02-21 14:50:54,527 [INFO] Table exists
+2024-02-21 14:50:59,078 [INFO] Loaded 192396 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-02-21 14:50:59,388 [INFO] Table exists
+2024-02-21 14:51:03,897 [INFO] Loaded 383711 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-02-21 14:51:04,244 [INFO] Table exists
+2024-02-21 14:52:17,467 [INFO] Loaded 207431 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-02-21 14:52:17,467 [INFO] 
+Gather complete!

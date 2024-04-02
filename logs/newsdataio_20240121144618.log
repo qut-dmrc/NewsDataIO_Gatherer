@@ -1,0 +1,67 @@
+2024-01-21 14:46:18,739 [INFO] Starting News Gatherer
+2024-01-21 14:46:18,739 [INFO] Collecting news content from 1 domains.
+2024-01-21 14:46:18,739 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-01-21 14:46:18,739 [INFO] Gathering news articles from yahoo from 2023-08-01 to 2023-10-01
+2024-01-21 14:46:18,739 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-08-01&to_date=2023-10-01&country=au
+2024-01-21 14:46:19,781 [INFO] Response: 200
+2024-01-21 14:46:19,782 [INFO] Gathering page 1 of 46
+2024-01-21 14:46:19,783 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-08-01&to_date=2023-10-01&country=au&page=1695968287539765865
+2024-01-21 14:46:20,688 [INFO] Response: 200
+2024-01-21 14:46:20,689 [INFO] Gathering page 2 of 46
+2024-01-21 14:46:20,691 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-08-01&to_date=2023-10-01&country=au&page=1695885529508392775
+2024-01-21 14:46:21,587 [INFO] Response: 200
+2024-01-21 14:46:21,587 [INFO] Gathering page 3 of 46
+2024-01-21 14:46:21,588 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-08-01&to_date=2023-10-01&country=au&page=1695779663743883970
+2024-01-21 14:46:22,525 [INFO] Response: 200
+2024-01-21 14:46:22,525 [INFO] Gathering page 4 of 46
+2024-01-21 14:46:22,526 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-08-01&to_date=2023-10-01&country=au&page=1695706896731907791
+2024-01-21 14:46:23,418 [INFO] Response: 200
+2024-01-21 14:46:23,419 [INFO] Gathering page 5 of 46
+2024-01-21 14:46:23,420 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-08-01&to_date=2023-10-01&country=au&page=1695616270295839514
+2024-01-21 14:46:24,279 [INFO] Response: 200
+2024-01-21 14:46:24,280 [INFO] Gathering page 6 of 46
+2024-01-21 14:46:24,282 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-08-01&to_date=2023-10-01&country=au&page=1695429343690727133
+2024-01-21 14:46:25,161 [INFO] Response: 200
+2024-01-21 14:46:25,162 [INFO] Gathering page 7 of 46
+2024-01-21 14:46:25,162 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-08-01&to_date=2023-10-01&country=au&page=1695346784820291476
+2024-01-21 14:46:26,051 [INFO] Response: 200
+2024-01-21 14:46:26,052 [INFO] Gathering page 8 of 46
+2024-01-21 14:46:26,053 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-08-01&to_date=2023-10-01&country=au&page=1695272061201356746
+2024-01-21 14:46:26,924 [INFO] Response: 200
+2024-01-21 14:46:26,926 [INFO] Gathering page 9 of 46
+2024-01-21 14:46:26,927 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-08-01&to_date=2023-10-01&country=au&page=1695176744086394171
+2024-01-21 14:46:27,799 [INFO] Response: 200
+2024-01-21 14:46:27,799 [INFO] Gathering page 10 of 46
+2024-01-21 14:46:27,800 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-08-01&to_date=2023-10-01&country=au&page=1695098643778946654
+2024-01-21 14:46:28,650 [INFO] Response: 200
+2024-01-21 14:46:28,650 [INFO] Gathering page 11 of 46
+2024-01-21 14:46:28,651 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-08-01&to_date=2023-10-01&country=au&page=1695007029579727186
+2024-01-21 14:46:29,302 [INFO] Response: 429
+2024-01-21 14:46:29,302 [INFO] 'totalResults'
+2024-01-21 14:46:29,302 [INFO] 
+Gather complete!

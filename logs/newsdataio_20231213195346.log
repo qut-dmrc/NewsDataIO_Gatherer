@@ -1,0 +1,53 @@
+2023-12-13 19:53:46,911 [INFO] Starting News Gatherer
+2023-12-13 19:53:46,911 [INFO] Collecting news content from 21 domains.
+2023-12-13 19:53:46,911 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-12-13 19:53:46,912 [INFO] Gathering news articles from thesaturdaypaper from 2023-09-01 to 2023-09-15
+2023-12-13 19:53:46,912 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thesaturdaypaper&language=en&from_date=2023-09-01&to_date=2023-09-15&country=au
+2023-12-13 19:53:48,368 [INFO] Response: 200
+2023-12-13 19:53:48,370 [INFO] Gathering page 1 of 1
+2023-12-13 19:53:48,372 [INFO] 
+Compiling 1 pages of results...
+2023-12-13 19:53:48,373 [INFO] All news articles gathered from thesaturdaypaper from 2023-09-01 to 2023-09-15!
+2023-12-13 19:53:48,373 [INFO] Processing tables...
+2023-12-13 19:53:48,420 [INFO] Tables have been processed.
+2023-12-13 19:53:48,421 [INFO] 
+Pushing results from thesaturdaypaper to Google BigQuery database...
+2023-12-13 19:53:49,671 [INFO] Dataset dmrc-data.newsdataio_lv is not found
+2023-12-13 19:53:50,312 [INFO] Created new dataset: dmrc-data.newsdataio_lv
+2023-12-13 19:53:51,235 [INFO] Created table dmrc-data.newsdataio_lv.newsdata_sep2023_au
+2023-12-13 19:53:58,608 [INFO] Loaded 12 rows and 12 columns to dmrc-data.newsdataio_lv.newsdata_sep2023_au
+2023-12-13 19:53:59,561 [INFO] Created table dmrc-data.newsdataio_lv.newsdata_sep2023_au_categories
+2023-12-13 19:54:06,970 [INFO] Loaded 12 rows and 2 columns to dmrc-data.newsdataio_lv.newsdata_sep2023_au_categories
+2023-12-13 19:54:07,793 [INFO] Created table dmrc-data.newsdataio_lv.newsdata_sep2023_au_keywords
+2023-12-13 19:54:15,291 [INFO] Loaded 12 rows and 2 columns to dmrc-data.newsdataio_lv.newsdata_sep2023_au_keywords
+2023-12-13 19:54:16,415 [INFO] Created table dmrc-data.newsdataio_lv.newsdata_sep2023_au_creators
+2023-12-13 19:54:21,557 [INFO] Loaded 12 rows and 2 columns to dmrc-data.newsdataio_lv.newsdata_sep2023_au_creators
+2023-12-13 19:54:21,557 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-12-13 19:54:21,557 [INFO] Gathering news articles from 7news from 2023-09-01 to 2023-09-15
+2023-12-13 19:54:21,557 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=7news&language=en&from_date=2023-09-01&to_date=2023-09-15&country=au
+2023-12-13 19:54:55,956 [INFO] Response: 200
+2023-12-13 19:54:55,961 [INFO] Gathering page 1 of 12
+2023-12-13 19:54:55,964 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=7news&language=en&from_date=2023-09-01&to_date=2023-09-15&country=au&page=1694585178107303985
+2023-12-13 19:55:14,215 [INFO] Response: 200
+2023-12-13 19:55:14,219 [INFO] Gathering page 2 of 12
+2023-12-13 19:55:14,222 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=7news&language=en&from_date=2023-09-01&to_date=2023-09-15&country=au&page=1694499154587698381
+2023-12-13 19:55:48,036 [INFO] Response: 200
+2023-12-13 19:55:48,039 [INFO] Gathering page 3 of 12
+2023-12-13 19:55:48,042 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=7news&language=en&from_date=2023-09-01&to_date=2023-09-15&country=au&page=1694407193723764258
+2023-12-13 19:56:08,353 [INFO] Response: 200
+2023-12-13 19:56:08,355 [INFO] Gathering page 4 of 12
+2023-12-13 19:56:08,359 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=7news&language=en&from_date=2023-09-01&to_date=2023-09-15&country=au&page=1694303719756770871

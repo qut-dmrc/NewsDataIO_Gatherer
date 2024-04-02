@@ -1,0 +1,12 @@
+2023-06-28 14:39:22,109 [INFO] Starting News Gatherer
+2023-06-28 14:39:22,110 [INFO] Collecting news content from 28 domains.
+2023-06-28 14:39:22,110 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-06-28 14:39:22,110 [INFO] Gathering news articles from heraldsun from 2022-09-01 to 2022-10-01
+2023-06-28 14:39:22,110 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=heraldsun&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-06-28 14:39:22,859 [INFO] Response: 200
+2023-06-28 14:39:22,860 [INFO] Gathering page 1 of 0
+2023-06-28 14:39:22,861 [INFO] 
+Compiling 1 pages of results...

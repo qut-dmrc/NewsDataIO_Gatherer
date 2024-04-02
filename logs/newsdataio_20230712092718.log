@@ -1,0 +1,12 @@
+2023-07-12 09:27:18,504 [INFO] Starting News Gatherer
+2023-07-12 09:27:18,505 [INFO] Collecting news content from 1 domains.
+2023-07-12 09:27:18,505 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-12 09:27:18,505 [INFO] Gathering news articles from thewest from 2022-09-01 to 2022-10-01
+2023-07-12 09:27:18,505 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=thewest&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-12 09:27:29,354 [INFO] Response: 500
+2023-07-12 09:27:29,354 [INFO] Bad response: 500
+2023-07-12 09:27:29,354 [INFO] 
+Gather complete!

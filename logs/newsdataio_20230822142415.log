@@ -1,0 +1,12 @@
+2023-08-22 14:24:15,537 [INFO] Starting News Gatherer
+2023-08-22 14:24:15,537 [INFO] Collecting news content from 1 domains.
+2023-08-22 14:24:15,537 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-08-22 14:24:15,537 [INFO] Gathering news articles from abc_net from 2023-08-01 to 2023-08-22
+2023-08-22 14:24:15,537 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=abc_net&language=en&from_date=2023-08-01&to_date=2023-08-22&country=au
+2023-08-22 14:24:16,456 [INFO] Response: 422
+2023-08-22 14:24:16,457 [INFO] Domain abc_net does not exist in the NewsdataIO database. Moving to next keyword.
+2023-08-22 14:24:16,457 [INFO] 
+Gather complete!

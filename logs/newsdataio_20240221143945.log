@@ -1,0 +1,33 @@
+2024-02-21 14:39:45,752 [INFO] Starting News Gatherer
+2024-02-21 14:39:45,753 [INFO] Collecting news content from 1 domains.
+2024-02-21 14:39:45,753 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 14:39:45,753 [INFO] Gathering news articles from vice from 2024-01-01 to 2024-02-20
+2024-02-21 14:39:45,753 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=vice&language=en&from_date=2024-01-01&to_date=2024-02-20&country=au
+2024-02-21 14:39:47,500 [INFO] Response: 200
+2024-02-21 14:39:47,511 [INFO] Gathering page 1 of 2
+2024-02-21 14:39:47,513 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=vice&language=en&from_date=2024-01-01&to_date=2024-02-20&country=au&page=1705544931609001151
+2024-02-21 14:39:48,623 [INFO] Response: 200
+2024-02-21 14:39:48,624 [INFO] Gathering page 2 of 2
+2024-02-21 14:39:48,625 [INFO] 
+Compiling 2 pages of results...
+2024-02-21 14:39:48,625 [INFO] All news articles gathered from vice from 2024-01-01 to 2024-02-20!
+2024-02-21 14:39:48,625 [INFO] Processing tables...
+2024-02-21 14:39:48,662 [INFO] Tables have been processed.
+2024-02-21 14:39:48,662 [INFO] 
+Pushing results from vice to Google BigQuery database...
+2024-02-21 14:39:49,646 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-21 14:39:49,975 [INFO] Table exists
+2024-02-21 14:40:34,310 [INFO] Loaded 155169 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-02-21 14:40:34,658 [INFO] Table exists
+2024-02-21 14:40:40,824 [INFO] Loaded 178068 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-02-21 14:40:41,187 [INFO] Table exists
+2024-02-21 14:40:52,646 [INFO] Loaded 368994 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-02-21 14:40:53,002 [INFO] Table exists
+2024-02-21 14:40:58,036 [INFO] Loaded 191825 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-02-21 14:40:58,036 [INFO] 
+Gather complete!

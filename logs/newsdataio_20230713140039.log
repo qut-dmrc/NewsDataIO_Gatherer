@@ -1,0 +1,252 @@
+2023-07-13 14:00:39,347 [INFO] Starting News Gatherer
+2023-07-13 14:00:39,348 [INFO] Collecting news content from 31 domains.
+2023-07-13 14:00:39,348 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-13 14:00:39,348 [INFO] Gathering news articles from abc_net from 2022-09-01 to 2022-10-01
+2023-07-13 14:00:39,348 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=abc_net&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-13 14:00:50,214 [INFO] Response: 500
+2023-07-13 14:00:50,215 [INFO] Bad response: 500
+2023-07-13 14:00:50,215 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-13 14:00:50,215 [INFO] Gathering news articles from canberratimes from 2022-09-01 to 2022-10-01
+2023-07-13 14:00:50,215 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=canberratimes&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-13 14:01:01,229 [INFO] Response: 500
+2023-07-13 14:01:01,229 [INFO] Bad response: 500
+2023-07-13 14:01:01,230 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-13 14:01:01,230 [INFO] Gathering news articles from crikey from 2022-09-01 to 2022-10-01
+2023-07-13 14:01:01,231 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=crikey&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-13 14:01:12,890 [INFO] Response: 500
+2023-07-13 14:01:12,890 [INFO] Bad response: 500
+2023-07-13 14:01:12,890 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-13 14:01:12,890 [INFO] Gathering news articles from theguardian from 2022-09-01 to 2022-10-01
+2023-07-13 14:01:12,890 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=theguardian&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-13 14:01:23,825 [INFO] Response: 500
+2023-07-13 14:01:23,826 [INFO] Bad response: 500
+2023-07-13 14:01:23,826 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-13 14:01:23,827 [INFO] Gathering news articles from independent_australia from 2022-09-01 to 2022-10-01
+2023-07-13 14:01:23,827 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=independent_australia&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-13 14:01:34,762 [INFO] Response: 500
+2023-07-13 14:01:34,763 [INFO] Bad response: 500
+2023-07-13 14:01:34,763 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-13 14:01:34,763 [INFO] Gathering news articles from 9news_au from 2022-09-01 to 2022-10-01
+2023-07-13 14:01:34,764 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=9news_au&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-13 14:01:45,598 [INFO] Response: 500
+2023-07-13 14:01:45,599 [INFO] Bad response: 500
+2023-07-13 14:01:45,599 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-13 14:01:45,599 [INFO] Gathering news articles from theconversation from 2022-09-01 to 2022-10-01
+2023-07-13 14:01:45,600 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=theconversation&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-13 14:01:56,440 [INFO] Response: 500
+2023-07-13 14:01:56,440 [INFO] Bad response: 500
+2023-07-13 14:01:56,440 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-13 14:01:56,440 [INFO] Gathering news articles from thenewdaily from 2022-09-01 to 2022-10-01
+2023-07-13 14:01:56,441 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=thenewdaily&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-13 14:02:07,289 [INFO] Response: 500
+2023-07-13 14:02:07,290 [INFO] Bad response: 500
+2023-07-13 14:02:07,290 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-13 14:02:07,291 [INFO] Gathering news articles from smh from 2022-09-01 to 2022-10-01
+2023-07-13 14:02:07,291 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=smh&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-13 14:02:18,150 [INFO] Response: 500
+2023-07-13 14:02:18,151 [INFO] Bad response: 500
+2023-07-13 14:02:18,151 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-13 14:02:18,151 [INFO] Gathering news articles from thewest from 2022-09-01 to 2022-10-01
+2023-07-13 14:02:18,152 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=thewest&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-13 14:02:29,161 [INFO] Response: 500
+2023-07-13 14:02:29,162 [INFO] Bad response: 500
+2023-07-13 14:02:29,162 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-13 14:02:29,162 [INFO] Gathering news articles from yahoo from 2022-09-01 to 2022-10-01
+2023-07-13 14:02:29,162 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=yahoo&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-13 14:02:39,969 [INFO] Response: 500
+2023-07-13 14:02:39,970 [INFO] Bad response: 500
+2023-07-13 14:02:39,970 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-13 14:02:39,970 [INFO] Gathering news articles from 7news from 2022-09-01 to 2022-10-01
+2023-07-13 14:02:39,971 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=7news&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-13 14:02:50,856 [INFO] Response: 500
+2023-07-13 14:02:50,856 [INFO] Bad response: 500
+2023-07-13 14:02:50,857 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-13 14:02:50,857 [INFO] Gathering news articles from skynewsau from 2022-09-01 to 2022-10-01
+2023-07-13 14:02:50,857 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=skynewsau&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-13 14:03:01,701 [INFO] Response: 500
+2023-07-13 14:03:01,701 [INFO] Bad response: 500
+2023-07-13 14:03:01,702 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-13 14:03:01,702 [INFO] Gathering news articles from sbs from 2022-09-01 to 2022-10-01
+2023-07-13 14:03:01,702 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=sbs&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-13 14:03:12,844 [INFO] Response: 500
+2023-07-13 14:03:12,845 [INFO] Bad response: 500
+2023-07-13 14:03:12,845 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-13 14:03:12,845 [INFO] Gathering news articles from reneweconomy from 2022-09-01 to 2022-10-01
+2023-07-13 14:03:12,845 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=reneweconomy&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-13 14:03:23,693 [INFO] Response: 500
+2023-07-13 14:03:23,694 [INFO] Bad response: 500
+2023-07-13 14:03:23,694 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-13 14:03:23,694 [INFO] Gathering news articles from womensagenda from 2022-09-01 to 2022-10-01
+2023-07-13 14:03:23,695 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=womensagenda&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-13 14:03:34,744 [INFO] Response: 500
+2023-07-13 14:03:34,744 [INFO] Bad response: 500
+2023-07-13 14:03:34,745 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-13 14:03:34,745 [INFO] Gathering news articles from spectator from 2022-09-01 to 2022-10-01
+2023-07-13 14:03:34,745 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=spectator&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-13 14:03:45,576 [INFO] Response: 500
+2023-07-13 14:03:45,577 [INFO] Bad response: 500
+2023-07-13 14:03:45,577 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-13 14:03:45,578 [INFO] Gathering news articles from greenleft from 2022-09-01 to 2022-10-01
+2023-07-13 14:03:45,578 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=greenleft&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-13 14:03:56,482 [INFO] Response: 500
+2023-07-13 14:03:56,483 [INFO] Bad response: 500
+2023-07-13 14:03:56,483 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-13 14:03:56,483 [INFO] Gathering news articles from rebelnews from 2022-09-01 to 2022-10-01
+2023-07-13 14:03:56,483 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=rebelnews&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-13 14:04:07,418 [INFO] Response: 500
+2023-07-13 14:04:07,419 [INFO] Bad response: 500
+2023-07-13 14:04:07,420 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-13 14:04:07,420 [INFO] Gathering news articles from quadrant from 2022-09-01 to 2022-10-01
+2023-07-13 14:04:07,420 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=quadrant&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-13 14:04:18,465 [INFO] Response: 500
+2023-07-13 14:04:18,466 [INFO] Bad response: 500
+2023-07-13 14:04:18,466 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-13 14:04:18,467 [INFO] Gathering news articles from pedestrian from 2022-09-01 to 2022-10-01
+2023-07-13 14:04:18,467 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=pedestrian&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-13 14:04:29,482 [INFO] Response: 500
+2023-07-13 14:04:29,483 [INFO] Bad response: 500
+2023-07-13 14:04:29,483 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-13 14:04:29,483 [INFO] Gathering news articles from michaelwest from 2022-09-01 to 2022-10-01
+2023-07-13 14:04:29,484 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=michaelwest&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-13 14:04:40,447 [INFO] Response: 500
+2023-07-13 14:04:40,448 [INFO] Bad response: 500
+2023-07-13 14:04:40,448 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-13 14:04:40,448 [INFO] Gathering news articles from junkee from 2022-09-01 to 2022-10-01
+2023-07-13 14:04:40,449 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=junkee&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-13 14:04:51,461 [INFO] Response: 500
+2023-07-13 14:04:51,461 [INFO] Bad response: 500
+2023-07-13 14:04:51,462 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-13 14:04:51,462 [INFO] Gathering news articles from dailymailuk from 2022-09-01 to 2022-10-01
+2023-07-13 14:04:51,462 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=dailymailuk&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-13 14:05:02,530 [INFO] Response: 500
+2023-07-13 14:05:02,532 [INFO] Bad response: 500
+2023-07-13 14:05:02,532 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-13 14:05:02,533 [INFO] Gathering news articles from 6newsau from 2022-09-01 to 2022-10-01
+2023-07-13 14:05:02,533 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=6newsau&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-13 14:05:13,488 [INFO] Response: 500
+2023-07-13 14:05:13,489 [INFO] Bad response: 500
+2023-07-13 14:05:13,489 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-13 14:05:13,490 [INFO] Gathering news articles from news from 2022-09-01 to 2022-10-01
+2023-07-13 14:05:13,490 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=news&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-13 14:05:24,445 [INFO] Response: 500
+2023-07-13 14:05:24,446 [INFO] Bad response: 500
+2023-07-13 14:05:24,446 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-13 14:05:24,447 [INFO] Gathering news articles from heraldsun from 2022-09-01 to 2022-10-01
+2023-07-13 14:05:24,447 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=heraldsun&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-13 14:05:35,293 [INFO] Response: 500
+2023-07-13 14:05:35,294 [INFO] Bad response: 500
+2023-07-13 14:05:35,295 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-13 14:05:35,295 [INFO] Gathering news articles from theaustralian from 2022-09-01 to 2022-10-01
+2023-07-13 14:05:35,295 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=theaustralian&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-13 14:05:46,111 [INFO] Response: 500
+2023-07-13 14:05:46,112 [INFO] Bad response: 500
+2023-07-13 14:05:46,113 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-13 14:05:46,113 [INFO] Gathering news articles from thesaturdaypaper from 2022-09-01 to 2022-10-01
+2023-07-13 14:05:46,113 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=thesaturdaypaper&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-13 14:05:56,940 [INFO] Response: 500
+2023-07-13 14:05:56,940 [INFO] Bad response: 500
+2023-07-13 14:05:56,940 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-13 14:05:56,941 [INFO] Gathering news articles from theklaxon from 2022-09-01 to 2022-10-01
+2023-07-13 14:05:56,941 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=theklaxon&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-13 14:06:07,820 [INFO] Response: 500
+2023-07-13 14:06:07,820 [INFO] Bad response: 500
+2023-07-13 14:06:07,821 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-13 14:06:07,821 [INFO] Gathering news articles from redflag from 2022-09-01 to 2022-10-01
+2023-07-13 14:06:07,821 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=redflag&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-13 14:06:08,680 [INFO] Response: 422
+2023-07-13 14:06:08,680 [INFO] Domain redflag does not exist in the NewsdataIO database. Moving to next keyword.
+2023-07-13 14:06:08,680 [INFO] 
+Gather complete!

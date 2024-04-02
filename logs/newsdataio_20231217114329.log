@@ -1,0 +1,777 @@
+2023-12-17 11:43:29,613 [INFO] Starting News Gatherer
+2023-12-17 11:43:29,614 [INFO] Collecting news content from 1 domains.
+2023-12-17 11:43:29,614 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-12-17 11:43:29,614 [INFO] Gathering news articles from thewest from 2023-10-01 to 2023-12-15
+2023-12-17 11:43:29,614 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au
+2023-12-17 11:43:31,875 [INFO] Response: 200
+2023-12-17 11:43:31,876 [INFO] Gathering page 1 of 160
+2023-12-17 11:43:31,877 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1702583654327574017
+2023-12-17 11:43:33,478 [INFO] Response: 200
+2023-12-17 11:43:33,479 [INFO] Gathering page 2 of 160
+2023-12-17 11:43:33,481 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1702559133147496015
+2023-12-17 11:43:35,035 [INFO] Response: 200
+2023-12-17 11:43:35,036 [INFO] Gathering page 3 of 160
+2023-12-17 11:43:35,037 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1702535537773321511
+2023-12-17 11:43:36,945 [INFO] Response: 200
+2023-12-17 11:43:36,946 [INFO] Gathering page 4 of 160
+2023-12-17 11:43:36,947 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1702522734589150256
+2023-12-17 11:43:38,374 [INFO] Response: 200
+2023-12-17 11:43:38,375 [INFO] Gathering page 5 of 160
+2023-12-17 11:43:38,375 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1702508384855317760
+2023-12-17 11:43:39,889 [INFO] Response: 200
+2023-12-17 11:43:39,891 [INFO] Gathering page 6 of 160
+2023-12-17 11:43:39,893 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1702490400347575226
+2023-12-17 11:43:41,544 [INFO] Response: 200
+2023-12-17 11:43:41,545 [INFO] Gathering page 7 of 160
+2023-12-17 11:43:41,545 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1702461600352702008
+2023-12-17 11:43:43,598 [INFO] Response: 200
+2023-12-17 11:43:43,599 [INFO] Gathering page 8 of 160
+2023-12-17 11:43:43,599 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1702445662798548544
+2023-12-17 11:43:44,973 [INFO] Response: 200
+2023-12-17 11:43:44,974 [INFO] Gathering page 9 of 160
+2023-12-17 11:43:44,974 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1702433058108520703
+2023-12-17 11:43:46,368 [INFO] Response: 200
+2023-12-17 11:43:46,368 [INFO] Gathering page 10 of 160
+2023-12-17 11:43:46,369 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1702418101546601501
+2023-12-17 11:43:47,849 [INFO] Response: 200
+2023-12-17 11:43:47,850 [INFO] Gathering page 11 of 160
+2023-12-17 11:43:47,851 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1702385772222712612
+2023-12-17 11:43:49,491 [INFO] Response: 200
+2023-12-17 11:43:49,491 [INFO] Gathering page 12 of 160
+2023-12-17 11:43:49,492 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1702363835098698301
+2023-12-17 11:43:50,688 [INFO] Response: 200
+2023-12-17 11:43:50,689 [INFO] Gathering page 13 of 160
+2023-12-17 11:43:50,689 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1702348145922011548
+2023-12-17 11:43:52,217 [INFO] Response: 200
+2023-12-17 11:43:52,219 [INFO] Gathering page 14 of 160
+2023-12-17 11:43:52,219 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1702336860868146182
+2023-12-17 11:43:53,665 [INFO] Response: 200
+2023-12-17 11:43:53,666 [INFO] Gathering page 15 of 160
+2023-12-17 11:43:53,667 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1702312648076206396
+2023-12-17 11:43:54,841 [INFO] Response: 200
+2023-12-17 11:43:54,842 [INFO] Gathering page 16 of 160
+2023-12-17 11:43:54,843 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1702281600814450976
+2023-12-17 11:43:56,120 [INFO] Response: 200
+2023-12-17 11:43:56,121 [INFO] Gathering page 17 of 160
+2023-12-17 11:43:56,122 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1702266097138307787
+2023-12-17 11:43:57,294 [INFO] Response: 200
+2023-12-17 11:43:57,295 [INFO] Gathering page 18 of 160
+2023-12-17 11:43:57,296 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1702248627796149695
+2023-12-17 11:43:58,810 [INFO] Response: 200
+2023-12-17 11:43:58,810 [INFO] Gathering page 19 of 160
+2023-12-17 11:43:58,811 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1702224000140248567
+2023-12-17 11:44:00,263 [INFO] Response: 200
+2023-12-17 11:44:00,264 [INFO] Gathering page 20 of 160
+2023-12-17 11:44:00,264 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1702186063471778080
+2023-12-17 11:44:02,738 [INFO] Response: 200
+2023-12-17 11:44:02,739 [INFO] Gathering page 21 of 160
+2023-12-17 11:44:02,740 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1702150650620894122
+2023-12-17 11:44:04,306 [INFO] Response: 200
+2023-12-17 11:44:04,308 [INFO] Gathering page 22 of 160
+2023-12-17 11:44:04,310 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1702108127289005457
+2023-12-17 11:44:05,918 [INFO] Response: 200
+2023-12-17 11:44:05,919 [INFO] Gathering page 23 of 160
+2023-12-17 11:44:05,920 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1702083624277126616
+2023-12-17 11:44:07,570 [INFO] Response: 200
+2023-12-17 11:44:07,571 [INFO] Gathering page 24 of 160
+2023-12-17 11:44:07,572 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1702058400725961369
+2023-12-17 11:44:08,750 [INFO] Response: 200
+2023-12-17 11:44:08,752 [INFO] Gathering page 25 of 160
+2023-12-17 11:44:08,753 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1702022927693199907
+2023-12-17 11:44:10,128 [INFO] Response: 200
+2023-12-17 11:44:10,129 [INFO] Gathering page 26 of 160
+2023-12-17 11:44:10,130 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1702000156100794005
+2023-12-17 11:44:12,319 [INFO] Response: 200
+2023-12-17 11:44:12,319 [INFO] Gathering page 27 of 160
+2023-12-17 11:44:12,320 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1701986747362598277
+2023-12-17 11:44:13,511 [INFO] Response: 200
+2023-12-17 11:44:13,512 [INFO] Gathering page 28 of 160
+2023-12-17 11:44:13,512 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1701960110569154344
+2023-12-17 11:44:14,613 [INFO] Response: 200
+2023-12-17 11:44:14,613 [INFO] Gathering page 29 of 160
+2023-12-17 11:44:14,615 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1701932277442813473
+2023-12-17 11:44:16,398 [INFO] Response: 200
+2023-12-17 11:44:16,399 [INFO] Gathering page 30 of 160
+2023-12-17 11:44:16,400 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1701921511888438564
+2023-12-17 11:44:17,560 [INFO] Response: 200
+2023-12-17 11:44:17,560 [INFO] Gathering page 31 of 160
+2023-12-17 11:44:17,561 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1701909650789545936
+2023-12-17 11:44:18,723 [INFO] Response: 200
+2023-12-17 11:44:18,723 [INFO] Gathering page 32 of 160
+2023-12-17 11:44:18,724 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1701888996522092593
+2023-12-17 11:44:20,293 [INFO] Response: 200
+2023-12-17 11:44:20,294 [INFO] Gathering page 33 of 160
+2023-12-17 11:44:20,295 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1701859050765688667
+2023-12-17 11:44:21,416 [INFO] Response: 200
+2023-12-17 11:44:21,416 [INFO] Gathering page 34 of 160
+2023-12-17 11:44:21,417 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1701842985236377128
+2023-12-17 11:44:22,640 [INFO] Response: 200
+2023-12-17 11:44:22,640 [INFO] Gathering page 35 of 160
+2023-12-17 11:44:22,641 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1701831600529372627
+2023-12-17 11:44:23,845 [INFO] Response: 200
+2023-12-17 11:44:23,846 [INFO] Gathering page 36 of 160
+2023-12-17 11:44:23,847 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1701819185044181927
+2023-12-17 11:44:25,004 [INFO] Response: 200
+2023-12-17 11:44:25,005 [INFO] Gathering page 37 of 160
+2023-12-17 11:44:25,006 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1701794104656653781
+2023-12-17 11:44:26,148 [INFO] Response: 200
+2023-12-17 11:44:26,149 [INFO] Gathering page 38 of 160
+2023-12-17 11:44:26,149 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1701761302443503446
+2023-12-17 11:44:27,279 [INFO] Response: 200
+2023-12-17 11:44:27,279 [INFO] Gathering page 39 of 160
+2023-12-17 11:44:27,280 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1701743320720879329
+2023-12-17 11:44:28,857 [INFO] Response: 200
+2023-12-17 11:44:28,859 [INFO] Gathering page 40 of 160
+2023-12-17 11:44:28,861 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1701723125647787235
+2023-12-17 11:44:30,020 [INFO] Response: 200
+2023-12-17 11:44:30,021 [INFO] Gathering page 41 of 160
+2023-12-17 11:44:30,021 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1701687744214611888
+2023-12-17 11:44:31,164 [INFO] Response: 200
+2023-12-17 11:44:31,164 [INFO] Gathering page 42 of 160
+2023-12-17 11:44:31,165 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1701670545809681411
+2023-12-17 11:44:32,659 [INFO] Response: 200
+2023-12-17 11:44:32,660 [INFO] Gathering page 43 of 160
+2023-12-17 11:44:32,661 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1701657993486398270
+2023-12-17 11:44:33,798 [INFO] Response: 200
+2023-12-17 11:44:33,799 [INFO] Gathering page 44 of 160
+2023-12-17 11:44:33,799 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1701636422892859247
+2023-12-17 11:44:35,148 [INFO] Response: 200
+2023-12-17 11:44:35,149 [INFO] Gathering page 45 of 160
+2023-12-17 11:44:35,150 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1701608460511359131
+2023-12-17 11:44:36,540 [INFO] Response: 200
+2023-12-17 11:44:36,541 [INFO] Gathering page 46 of 160
+2023-12-17 11:44:36,542 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1701576090421892838
+2023-12-17 11:44:37,916 [INFO] Response: 200
+2023-12-17 11:44:37,917 [INFO] Gathering page 47 of 160
+2023-12-17 11:44:37,917 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1701540000883624049
+2023-12-17 11:44:39,039 [INFO] Response: 200
+2023-12-17 11:44:39,039 [INFO] Gathering page 48 of 160
+2023-12-17 11:44:39,040 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1701501973997276202
+2023-12-17 11:44:40,374 [INFO] Response: 200
+2023-12-17 11:44:40,375 [INFO] Gathering page 49 of 160
+2023-12-17 11:44:40,376 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1701475344586521332
+2023-12-17 11:44:41,742 [INFO] Response: 200
+2023-12-17 11:44:41,742 [INFO] Gathering page 50 of 160
+2023-12-17 11:44:41,743 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1701448354493727974
+2023-12-17 11:44:43,187 [INFO] Response: 200
+2023-12-17 11:44:43,188 [INFO] Gathering page 51 of 160
+2023-12-17 11:44:43,189 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1701412412539411683
+2023-12-17 11:44:44,823 [INFO] Response: 200
+2023-12-17 11:44:44,824 [INFO] Gathering page 52 of 160
+2023-12-17 11:44:44,825 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1701398477793933592
+2023-12-17 11:44:46,553 [INFO] Response: 200
+2023-12-17 11:44:46,553 [INFO] Gathering page 53 of 160
+2023-12-17 11:44:46,553 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1701367200987622162
+2023-12-17 11:44:48,024 [INFO] Response: 200
+2023-12-17 11:44:48,024 [INFO] Gathering page 54 of 160
+2023-12-17 11:44:48,025 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1701321639941057350
+2023-12-17 11:44:49,280 [INFO] Response: 200
+2023-12-17 11:44:49,281 [INFO] Gathering page 55 of 160
+2023-12-17 11:44:49,282 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1701291773628345009
+2023-12-17 11:44:50,767 [INFO] Response: 200
+2023-12-17 11:44:50,767 [INFO] Gathering page 56 of 160
+2023-12-17 11:44:50,768 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1701216337750695098
+2023-12-17 11:44:52,197 [INFO] Response: 200
+2023-12-17 11:44:52,197 [INFO] Gathering page 57 of 160
+2023-12-17 11:44:52,198 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1701149812699737753
+2023-12-17 11:44:53,862 [INFO] Response: 200
+2023-12-17 11:44:53,863 [INFO] Gathering page 58 of 160
+2023-12-17 11:44:53,864 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1701103569011808565
+2023-12-17 11:44:54,760 [INFO] Response: 200
+2023-12-17 11:44:54,761 [INFO] Gathering page 59 of 160
+2023-12-17 11:44:54,762 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1701043844075797348
+2023-12-17 11:44:55,667 [INFO] Response: 200
+2023-12-17 11:44:55,668 [INFO] Gathering page 60 of 160
+2023-12-17 11:44:55,668 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1700977820795821820
+2023-12-17 11:44:57,125 [INFO] Response: 200
+2023-12-17 11:44:57,125 [INFO] Gathering page 61 of 160
+2023-12-17 11:44:57,126 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1700914659903723352
+2023-12-17 11:44:58,017 [INFO] Response: 200
+2023-12-17 11:44:58,018 [INFO] Gathering page 62 of 160
+2023-12-17 11:44:58,019 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1700848800903831688
+2023-12-17 11:44:58,950 [INFO] Response: 200
+2023-12-17 11:44:58,951 [INFO] Gathering page 63 of 160
+2023-12-17 11:44:58,951 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1700832109523361046
+2023-12-17 11:45:00,723 [INFO] Response: 200
+2023-12-17 11:45:00,724 [INFO] Gathering page 64 of 160
+2023-12-17 11:45:00,725 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1700728351303360005
+2023-12-17 11:45:02,514 [INFO] Response: 200
+2023-12-17 11:45:02,515 [INFO] Gathering page 65 of 160
+2023-12-17 11:45:02,516 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1700667803027864291
+2023-12-17 11:45:04,011 [INFO] Response: 200
+2023-12-17 11:45:04,011 [INFO] Gathering page 66 of 160
+2023-12-17 11:45:04,012 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1700619839478831436
+2023-12-17 11:45:05,219 [INFO] Response: 200
+2023-12-17 11:45:05,220 [INFO] Gathering page 67 of 160
+2023-12-17 11:45:05,221 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1700561709586801359
+2023-12-17 11:45:06,905 [INFO] Response: 200
+2023-12-17 11:45:06,906 [INFO] Gathering page 68 of 160
+2023-12-17 11:45:06,907 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1700550517553243168
+2023-12-17 11:45:08,087 [INFO] Response: 200
+2023-12-17 11:45:08,088 [INFO] Gathering page 69 of 160
+2023-12-17 11:45:08,089 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1700456930739750525
+2023-12-17 11:45:09,332 [INFO] Response: 200
+2023-12-17 11:45:09,332 [INFO] Gathering page 70 of 160
+2023-12-17 11:45:09,333 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1700420400187697404
+2023-12-17 11:45:10,501 [INFO] Response: 200
+2023-12-17 11:45:10,502 [INFO] Gathering page 71 of 160
+2023-12-17 11:45:10,504 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1700416800160642056
+2023-12-17 11:45:11,840 [INFO] Response: 200
+2023-12-17 11:45:11,841 [INFO] Gathering page 72 of 160
+2023-12-17 11:45:11,842 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1700330400351741978
+2023-12-17 11:45:12,967 [INFO] Response: 200
+2023-12-17 11:45:12,968 [INFO] Gathering page 73 of 160
+2023-12-17 11:45:12,969 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1700264337503750652
+2023-12-17 11:45:14,131 [INFO] Response: 200
+2023-12-17 11:45:14,131 [INFO] Gathering page 74 of 160
+2023-12-17 11:45:14,132 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1700218800759898807
+2023-12-17 11:45:15,041 [INFO] Response: 200
+2023-12-17 11:45:15,042 [INFO] Gathering page 75 of 160
+2023-12-17 11:45:15,043 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1700192877231298450
+2023-12-17 11:45:16,200 [INFO] Response: 200
+2023-12-17 11:45:16,201 [INFO] Gathering page 76 of 160
+2023-12-17 11:45:16,202 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1700157600467025268
+2023-12-17 11:45:17,329 [INFO] Response: 200
+2023-12-17 11:45:17,329 [INFO] Gathering page 77 of 160
+2023-12-17 11:45:17,330 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1700071200799815326
+2023-12-17 11:45:18,635 [INFO] Response: 200
+2023-12-17 11:45:18,636 [INFO] Gathering page 78 of 160
+2023-12-17 11:45:18,637 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1700035004099728554
+2023-12-17 11:45:20,099 [INFO] Response: 200
+2023-12-17 11:45:20,100 [INFO] Gathering page 79 of 160
+2023-12-17 11:45:20,101 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1700001986939253203
+2023-12-17 11:45:21,695 [INFO] Response: 200
+2023-12-17 11:45:21,695 [INFO] Gathering page 80 of 160
+2023-12-17 11:45:21,696 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1699948732201346969
+2023-12-17 11:45:23,142 [INFO] Response: 200
+2023-12-17 11:45:23,142 [INFO] Gathering page 81 of 160
+2023-12-17 11:45:23,143 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1699936361111641707
+2023-12-17 11:45:24,459 [INFO] Response: 200
+2023-12-17 11:45:24,459 [INFO] Gathering page 82 of 160
+2023-12-17 11:45:24,460 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1699875000654794273
+2023-12-17 11:45:25,908 [INFO] Response: 200
+2023-12-17 11:45:25,908 [INFO] Gathering page 83 of 160
+2023-12-17 11:45:25,909 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1699851756071656305
+2023-12-17 11:45:27,503 [INFO] Response: 200
+2023-12-17 11:45:27,505 [INFO] Gathering page 84 of 160
+2023-12-17 11:45:27,506 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1699833310123624680
+2023-12-17 11:45:29,338 [INFO] Response: 200
+2023-12-17 11:45:29,339 [INFO] Gathering page 85 of 160
+2023-12-17 11:45:29,339 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1699780848431022922
+2023-12-17 11:45:30,648 [INFO] Response: 200
+2023-12-17 11:45:30,649 [INFO] Gathering page 86 of 160
+2023-12-17 11:45:30,649 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1699725600844154869
+2023-12-17 11:45:31,756 [INFO] Response: 200
+2023-12-17 11:45:31,756 [INFO] Gathering page 87 of 160
+2023-12-17 11:45:31,757 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1699686203095730596
+2023-12-17 11:45:32,929 [INFO] Response: 200
+2023-12-17 11:45:32,930 [INFO] Gathering page 88 of 160
+2023-12-17 11:45:32,930 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1699627565015779378
+2023-12-17 11:45:33,823 [INFO] Response: 200
+2023-12-17 11:45:33,824 [INFO] Gathering page 89 of 160
+2023-12-17 11:45:33,825 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1699578720737448892
+2023-12-17 11:45:34,972 [INFO] Response: 200
+2023-12-17 11:45:34,973 [INFO] Gathering page 90 of 160
+2023-12-17 11:45:34,974 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1699541167219244144
+2023-12-17 11:45:36,864 [INFO] Response: 200
+2023-12-17 11:45:36,864 [INFO] Gathering page 91 of 160
+2023-12-17 11:45:36,865 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1699494478352325079
+2023-12-17 11:45:38,156 [INFO] Response: 200
+2023-12-17 11:45:38,157 [INFO] Gathering page 92 of 160
+2023-12-17 11:45:38,158 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1699458131498815750
+2023-12-17 11:45:39,135 [INFO] Response: 200
+2023-12-17 11:45:39,136 [INFO] Gathering page 93 of 160
+2023-12-17 11:45:39,136 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1699409396118929982
+2023-12-17 11:45:40,521 [INFO] Response: 200
+2023-12-17 11:45:40,522 [INFO] Gathering page 94 of 160
+2023-12-17 11:45:40,523 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1699340400867717685
+2023-12-17 11:45:41,746 [INFO] Response: 200
+2023-12-17 11:45:41,747 [INFO] Gathering page 95 of 160
+2023-12-17 11:45:41,748 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1699264167543774873
+2023-12-17 11:45:43,030 [INFO] Response: 200
+2023-12-17 11:45:43,031 [INFO] Gathering page 96 of 160
+2023-12-17 11:45:43,032 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1699246985287720575
+2023-12-17 11:45:44,175 [INFO] Response: 200
+2023-12-17 11:45:44,176 [INFO] Gathering page 97 of 160
+2023-12-17 11:45:44,177 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1699214579256175111
+2023-12-17 11:45:45,518 [INFO] Response: 200
+2023-12-17 11:45:45,519 [INFO] Gathering page 98 of 160
+2023-12-17 11:45:45,520 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1699165680112291804
+2023-12-17 11:45:47,173 [INFO] Response: 200
+2023-12-17 11:45:47,173 [INFO] Gathering page 99 of 160
+2023-12-17 11:45:47,174 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1699120800356638628
+2023-12-17 11:45:48,215 [INFO] Response: 200
+2023-12-17 11:45:48,216 [INFO] Gathering page 100 of 160
+2023-12-17 11:45:48,219 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1699005642778325265
+2023-12-17 11:45:49,238 [INFO] Response: 200
+2023-12-17 11:45:49,239 [INFO] Gathering page 101 of 160
+2023-12-17 11:45:49,240 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1698984000691726273
+2023-12-17 11:45:50,140 [INFO] Response: 200
+2023-12-17 11:45:50,141 [INFO] Gathering page 102 of 160
+2023-12-17 11:45:50,142 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1698976343106962744
+2023-12-17 11:45:51,339 [INFO] Response: 200
+2023-12-17 11:45:51,339 [INFO] Gathering page 103 of 160
+2023-12-17 11:45:51,340 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1698948000440141632
+2023-12-17 11:45:52,255 [INFO] Response: 200
+2023-12-17 11:45:52,255 [INFO] Gathering page 104 of 160
+2023-12-17 11:45:52,256 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1698894708836094155
+2023-12-17 11:45:53,346 [INFO] Response: 200
+2023-12-17 11:45:53,347 [INFO] Gathering page 105 of 160
+2023-12-17 11:45:53,347 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1698861600818837430
+2023-12-17 11:45:54,258 [INFO] Response: 200
+2023-12-17 11:45:54,258 [INFO] Gathering page 106 of 160
+2023-12-17 11:45:54,259 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1698816079003733060
+2023-12-17 11:45:55,186 [INFO] Response: 200
+2023-12-17 11:45:55,187 [INFO] Gathering page 107 of 160
+2023-12-17 11:45:55,188 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1698775200087774637
+2023-12-17 11:45:56,124 [INFO] Response: 200
+2023-12-17 11:45:56,125 [INFO] Gathering page 108 of 160
+2023-12-17 11:45:56,126 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1698631455261669151
+2023-12-17 11:45:57,030 [INFO] Response: 200
+2023-12-17 11:45:57,030 [INFO] Gathering page 109 of 160
+2023-12-17 11:45:57,031 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1698619304818242232
+2023-12-17 11:45:57,936 [INFO] Response: 200
+2023-12-17 11:45:57,936 [INFO] Gathering page 110 of 160
+2023-12-17 11:45:57,937 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1698534331615904128
+2023-12-17 11:45:58,865 [INFO] Response: 200
+2023-12-17 11:45:58,865 [INFO] Gathering page 111 of 160
+2023-12-17 11:45:58,866 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1698429600095321205
+2023-12-17 11:45:59,772 [INFO] Response: 200
+2023-12-17 11:45:59,772 [INFO] Gathering page 112 of 160
+2023-12-17 11:45:59,773 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1698352583307760088
+2023-12-17 11:46:00,856 [INFO] Response: 200
+2023-12-17 11:46:00,857 [INFO] Gathering page 113 of 160
+2023-12-17 11:46:00,859 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1698286375265882389
+2023-12-17 11:46:01,809 [INFO] Response: 200
+2023-12-17 11:46:01,809 [INFO] Gathering page 114 of 160
+2023-12-17 11:46:01,810 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1698256800603738863
+2023-12-17 11:46:03,008 [INFO] Response: 200
+2023-12-17 11:46:03,009 [INFO] Gathering page 115 of 160
+2023-12-17 11:46:03,011 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1698220800775196083
+2023-12-17 11:46:03,920 [INFO] Response: 200
+2023-12-17 11:46:03,920 [INFO] Gathering page 116 of 160
+2023-12-17 11:46:03,921 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1698199105735108315
+2023-12-17 11:46:04,882 [INFO] Response: 200
+2023-12-17 11:46:04,883 [INFO] Gathering page 117 of 160
+2023-12-17 11:46:04,883 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1698190430810988354
+2023-12-17 11:46:05,830 [INFO] Response: 200
+2023-12-17 11:46:05,831 [INFO] Gathering page 118 of 160
+2023-12-17 11:46:05,833 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1698118704958783054
+2023-12-17 11:46:07,006 [INFO] Response: 200
+2023-12-17 11:46:07,007 [INFO] Gathering page 119 of 160
+2023-12-17 11:46:07,009 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1698038102951716057
+2023-12-17 11:46:08,140 [INFO] Response: 200
+2023-12-17 11:46:08,141 [INFO] Gathering page 120 of 160
+2023-12-17 11:46:08,144 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1698010165683730418
+2023-12-17 11:46:09,048 [INFO] Response: 200
+2023-12-17 11:46:09,049 [INFO] Gathering page 121 of 160
+2023-12-17 11:46:09,051 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1697953774527733618
+2023-12-17 11:46:09,948 [INFO] Response: 200
+2023-12-17 11:46:09,949 [INFO] Gathering page 122 of 160
+2023-12-17 11:46:09,950 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1697911200183746395
+2023-12-17 11:46:10,882 [INFO] Response: 200
+2023-12-17 11:46:10,882 [INFO] Gathering page 123 of 160
+2023-12-17 11:46:10,883 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1697865117127725791
+2023-12-17 11:46:11,800 [INFO] Response: 200
+2023-12-17 11:46:11,800 [INFO] Gathering page 124 of 160
+2023-12-17 11:46:11,801 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1697764816609171880
+2023-12-17 11:46:12,945 [INFO] Response: 200
+2023-12-17 11:46:12,945 [INFO] Gathering page 125 of 160
+2023-12-17 11:46:12,946 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1697696236683727082
+2023-12-17 11:46:13,869 [INFO] Response: 200
+2023-12-17 11:46:13,870 [INFO] Gathering page 126 of 160
+2023-12-17 11:46:13,871 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1697688352822017697
+2023-12-17 11:46:14,781 [INFO] Response: 200
+2023-12-17 11:46:14,782 [INFO] Gathering page 127 of 160
+2023-12-17 11:46:14,784 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1697614936413358706
+2023-12-17 11:46:15,679 [INFO] Response: 200
+2023-12-17 11:46:15,679 [INFO] Gathering page 128 of 160
+2023-12-17 11:46:15,680 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1697577886847089534
+2023-12-17 11:46:16,825 [INFO] Response: 200
+2023-12-17 11:46:16,825 [INFO] Gathering page 129 of 160
+2023-12-17 11:46:16,826 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1697518305471597166
+2023-12-17 11:46:18,013 [INFO] Response: 200
+2023-12-17 11:46:18,014 [INFO] Gathering page 130 of 160
+2023-12-17 11:46:18,015 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1697432301103789778
+2023-12-17 11:46:18,917 [INFO] Response: 200
+2023-12-17 11:46:18,918 [INFO] Gathering page 131 of 160
+2023-12-17 11:46:18,918 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1697423627175815198
+2023-12-17 11:46:19,843 [INFO] Response: 200
+2023-12-17 11:46:19,843 [INFO] Gathering page 132 of 160
+2023-12-17 11:46:19,844 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1697261923681266203
+2023-12-17 11:46:21,011 [INFO] Response: 200
+2023-12-17 11:46:21,011 [INFO] Gathering page 133 of 160
+2023-12-17 11:46:21,012 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1697169653370728818
+2023-12-17 11:46:22,158 [INFO] Response: 200
+2023-12-17 11:46:22,159 [INFO] Gathering page 134 of 160
+2023-12-17 11:46:22,159 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1697139800483534646
+2023-12-17 11:46:23,052 [INFO] Response: 200
+2023-12-17 11:46:23,052 [INFO] Gathering page 135 of 160
+2023-12-17 11:46:23,053 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1697092292451055198
+2023-12-17 11:46:23,961 [INFO] Response: 200
+2023-12-17 11:46:23,962 [INFO] Gathering page 136 of 160
+2023-12-17 11:46:23,962 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1697071962191751756
+2023-12-17 11:46:24,853 [INFO] Response: 200
+2023-12-17 11:46:24,854 [INFO] Gathering page 137 of 160
+2023-12-17 11:46:24,855 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1697050389883863574
+2023-12-17 11:46:26,044 [INFO] Response: 200
+2023-12-17 11:46:26,045 [INFO] Gathering page 138 of 160
+2023-12-17 11:46:26,046 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1697042295918060862
+2023-12-17 11:46:27,188 [INFO] Response: 200
+2023-12-17 11:46:27,189 [INFO] Gathering page 139 of 160
+2023-12-17 11:46:27,189 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1696991401679795587
+2023-12-17 11:46:28,380 [INFO] Response: 200
+2023-12-17 11:46:28,380 [INFO] Gathering page 140 of 160
+2023-12-17 11:46:28,381 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1696915470651764164
+2023-12-17 11:46:29,279 [INFO] Response: 200
+2023-12-17 11:46:29,280 [INFO] Gathering page 141 of 160
+2023-12-17 11:46:29,281 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1696887851712005517
+2023-12-17 11:46:30,254 [INFO] Response: 200
+2023-12-17 11:46:30,255 [INFO] Gathering page 142 of 160
+2023-12-17 11:46:30,256 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1696874400169403529
+2023-12-17 11:46:31,455 [INFO] Response: 200
+2023-12-17 11:46:31,456 [INFO] Gathering page 143 of 160
+2023-12-17 11:46:31,458 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1696837246175737151
+2023-12-17 11:46:32,428 [INFO] Response: 200
+2023-12-17 11:46:32,429 [INFO] Gathering page 144 of 160
+2023-12-17 11:46:32,431 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1696827199101953264
+2023-12-17 11:46:33,322 [INFO] Response: 200
+2023-12-17 11:46:33,323 [INFO] Gathering page 145 of 160
+2023-12-17 11:46:33,324 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1696756651835711201
+2023-12-17 11:46:34,230 [INFO] Response: 200
+2023-12-17 11:46:34,231 [INFO] Gathering page 146 of 160
+2023-12-17 11:46:34,232 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1696726958338274586
+2023-12-17 11:46:35,124 [INFO] Response: 200
+2023-12-17 11:46:35,125 [INFO] Gathering page 147 of 160
+2023-12-17 11:46:35,125 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1696701600360186003
+2023-12-17 11:46:36,028 [INFO] Response: 200
+2023-12-17 11:46:36,028 [INFO] Gathering page 148 of 160
+2023-12-17 11:46:36,029 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1696618800434109564
+2023-12-17 11:46:36,919 [INFO] Response: 200
+2023-12-17 11:46:36,920 [INFO] Gathering page 149 of 160
+2023-12-17 11:46:36,920 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1696609950646847356
+2023-12-17 11:46:37,876 [INFO] Response: 200
+2023-12-17 11:46:37,876 [INFO] Gathering page 150 of 160
+2023-12-17 11:46:37,877 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1696567184331745326
+2023-12-17 11:46:38,803 [INFO] Response: 200
+2023-12-17 11:46:38,804 [INFO] Gathering page 151 of 160
+2023-12-17 11:46:38,804 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1696543323292521768
+2023-12-17 11:46:39,697 [INFO] Response: 200
+2023-12-17 11:46:39,698 [INFO] Gathering page 152 of 160
+2023-12-17 11:46:39,700 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1696528800687578393
+2023-12-17 11:46:40,594 [INFO] Response: 200
+2023-12-17 11:46:40,594 [INFO] Gathering page 153 of 160
+2023-12-17 11:46:40,595 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-10-01&to_date=2023-12-15&country=au&page=1696523606925150818
+2023-12-17 11:46:41,272 [INFO] Response: 429
+2023-12-17 11:46:41,273 [INFO] 'totalResults'
+2023-12-17 11:46:41,273 [INFO] 
+Gather complete!

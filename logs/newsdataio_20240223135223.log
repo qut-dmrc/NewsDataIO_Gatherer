@@ -1,0 +1,1686 @@
+2024-02-23 13:52:23,589 [INFO] Starting News Gatherer
+2024-02-23 13:52:23,589 [INFO] Collecting news content from 38 domains.
+2024-02-23 13:52:23,589 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 13:52:23,589 [INFO] Gathering news articles from 3sat_de from 2024-01-05 to 2024-01-10
+2024-02-23 13:52:23,589 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=3sat_de&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 13:52:24,510 [INFO] Response: 200
+2024-02-23 13:52:24,510 [INFO] Gathering page 1 of 1
+2024-02-23 13:52:24,511 [INFO] 
+Compiling 1 pages of results...
+2024-02-23 13:52:24,512 [INFO] All news articles gathered from 3sat_de from 2024-01-05 to 2024-01-10!
+2024-02-23 13:52:24,512 [INFO] Processing tables...
+2024-02-23 13:52:24,534 [INFO] Tables have been processed.
+2024-02-23 13:52:24,535 [INFO] 
+Pushing results from 3sat_de to Google BigQuery database...
+2024-02-23 13:52:25,317 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-23 13:52:25,638 [INFO] Table exists
+2024-02-23 13:52:33,019 [INFO] Loaded 279804 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-02-23 13:52:33,372 [INFO] Table exists
+2024-02-23 13:52:38,178 [INFO] Loaded 281276 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-02-23 13:52:38,519 [INFO] Table exists
+2024-02-23 13:52:42,959 [INFO] Loaded 834485 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-02-23 13:52:43,330 [INFO] Table exists
+2024-02-23 13:52:50,447 [INFO] Loaded 294273 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-02-23 13:52:50,447 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 13:52:50,447 [INFO] Gathering news articles from morgenpost from 2024-01-05 to 2024-01-10
+2024-02-23 13:52:50,447 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 13:52:51,689 [INFO] Response: 200
+2024-02-23 13:52:51,690 [INFO] Gathering page 1 of 9
+2024-02-23 13:52:51,692 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704804187086859167
+2024-02-23 13:52:52,593 [INFO] Response: 200
+2024-02-23 13:52:52,594 [INFO] Gathering page 2 of 9
+2024-02-23 13:52:52,595 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704774600057592885
+2024-02-23 13:52:53,695 [INFO] Response: 200
+2024-02-23 13:52:53,696 [INFO] Gathering page 3 of 9
+2024-02-23 13:52:53,697 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704726688135181996
+2024-02-23 13:52:54,780 [INFO] Response: 200
+2024-02-23 13:52:54,780 [INFO] Gathering page 4 of 9
+2024-02-23 13:52:54,781 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704690000753969124
+2024-02-23 13:52:55,867 [INFO] Response: 200
+2024-02-23 13:52:55,867 [INFO] Gathering page 5 of 9
+2024-02-23 13:52:55,868 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704626549988477521
+2024-02-23 13:52:56,745 [INFO] Response: 200
+2024-02-23 13:52:56,745 [INFO] Gathering page 6 of 9
+2024-02-23 13:52:56,746 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704560522471472151
+2024-02-23 13:52:57,847 [INFO] Response: 200
+2024-02-23 13:52:57,848 [INFO] Gathering page 7 of 9
+2024-02-23 13:52:57,849 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704508595260045975
+2024-02-23 13:52:59,033 [INFO] Response: 200
+2024-02-23 13:52:59,034 [INFO] Gathering page 8 of 9
+2024-02-23 13:52:59,035 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704448727033454502
+2024-02-23 13:52:59,909 [INFO] Response: 200
+2024-02-23 13:52:59,910 [INFO] Gathering page 9 of 9
+2024-02-23 13:52:59,911 [INFO] 
+Compiling 9 pages of results...
+2024-02-23 13:52:59,912 [INFO] All news articles gathered from morgenpost from 2024-01-05 to 2024-01-10!
+2024-02-23 13:52:59,912 [INFO] Processing tables...
+2024-02-23 13:52:59,944 [INFO] Tables have been processed.
+2024-02-23 13:52:59,944 [INFO] 
+Pushing results from morgenpost to Google BigQuery database...
+2024-02-23 13:53:00,716 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-23 13:53:01,053 [INFO] Table exists
+2024-02-23 13:53:08,247 [INFO] Loaded 280246 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-02-23 13:53:08,542 [INFO] Table exists
+2024-02-23 13:53:14,916 [INFO] Loaded 281718 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-02-23 13:53:15,281 [INFO] Table exists
+2024-02-23 13:53:20,936 [INFO] Loaded 834927 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-02-23 13:53:21,281 [INFO] Table exists
+2024-02-23 13:53:34,419 [INFO] Loaded 294746 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-02-23 13:53:34,420 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 13:53:34,420 [INFO] Gathering news articles from arte from 2024-01-05 to 2024-01-10
+2024-02-23 13:53:34,420 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=arte&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 13:53:35,795 [INFO] Response: 200
+2024-02-23 13:53:35,795 [INFO] Gathering page 1 of 0
+2024-02-23 13:53:35,796 [INFO] No results for arte during your specified timeframe!
+2024-02-23 13:53:35,796 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 13:53:35,796 [INFO] Gathering news articles from bild from 2024-01-05 to 2024-01-10
+2024-02-23 13:53:35,796 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 13:53:37,231 [INFO] Response: 200
+2024-02-23 13:53:37,233 [INFO] Gathering page 1 of 18
+2024-02-23 13:53:37,234 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704823292118916548
+2024-02-23 13:53:38,583 [INFO] Response: 200
+2024-02-23 13:53:38,587 [INFO] Gathering page 2 of 18
+2024-02-23 13:53:38,588 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704812005100211997
+2024-02-23 13:53:39,969 [INFO] Response: 200
+2024-02-23 13:53:39,970 [INFO] Gathering page 3 of 18
+2024-02-23 13:53:39,972 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704794195252844030
+2024-02-23 13:53:41,286 [INFO] Response: 200
+2024-02-23 13:53:41,288 [INFO] Gathering page 4 of 18
+2024-02-23 13:53:41,290 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704749716785342287
+2024-02-23 13:53:42,594 [INFO] Response: 200
+2024-02-23 13:53:42,595 [INFO] Gathering page 5 of 18
+2024-02-23 13:53:42,596 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704728783566260725
+2024-02-23 13:53:43,910 [INFO] Response: 200
+2024-02-23 13:53:43,910 [INFO] Gathering page 6 of 18
+2024-02-23 13:53:43,911 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704716371530288478
+2024-02-23 13:53:45,237 [INFO] Response: 200
+2024-02-23 13:53:45,238 [INFO] Gathering page 7 of 18
+2024-02-23 13:53:45,240 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704703357142331012
+2024-02-23 13:53:46,534 [INFO] Response: 200
+2024-02-23 13:53:46,535 [INFO] Gathering page 8 of 18
+2024-02-23 13:53:46,536 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704652857468366438
+2024-02-23 13:53:47,819 [INFO] Response: 200
+2024-02-23 13:53:47,820 [INFO] Gathering page 9 of 18
+2024-02-23 13:53:47,821 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704633612544758396
+2024-02-23 13:53:49,103 [INFO] Response: 200
+2024-02-23 13:53:49,104 [INFO] Gathering page 10 of 18
+2024-02-23 13:53:49,105 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704619641663203792
+2024-02-23 13:53:50,485 [INFO] Response: 200
+2024-02-23 13:53:50,486 [INFO] Gathering page 11 of 18
+2024-02-23 13:53:50,487 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704570112216110493
+2024-02-23 13:53:51,812 [INFO] Response: 200
+2024-02-23 13:53:51,814 [INFO] Gathering page 12 of 18
+2024-02-23 13:53:51,816 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704550577587088928
+2024-02-23 13:53:53,112 [INFO] Response: 200
+2024-02-23 13:53:53,114 [INFO] Gathering page 13 of 18
+2024-02-23 13:53:53,115 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704528368907066554
+2024-02-23 13:53:54,448 [INFO] Response: 200
+2024-02-23 13:53:54,449 [INFO] Gathering page 14 of 18
+2024-02-23 13:53:54,450 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704483770947773175
+2024-02-23 13:53:55,784 [INFO] Response: 200
+2024-02-23 13:53:55,785 [INFO] Gathering page 15 of 18
+2024-02-23 13:53:55,786 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704466395516629836
+2024-02-23 13:53:57,172 [INFO] Response: 200
+2024-02-23 13:53:57,173 [INFO] Gathering page 16 of 18
+2024-02-23 13:53:57,174 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704453703800064007
+2024-02-23 13:53:58,637 [INFO] Response: 200
+2024-02-23 13:53:58,638 [INFO] Gathering page 17 of 18
+2024-02-23 13:53:58,639 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704435313892046085
+2024-02-23 13:53:59,492 [INFO] Response: 200
+2024-02-23 13:53:59,492 [INFO] Gathering page 18 of 18
+2024-02-23 13:53:59,493 [INFO] 
+Compiling 18 pages of results...
+2024-02-23 13:53:59,495 [INFO] All news articles gathered from bild from 2024-01-05 to 2024-01-10!
+2024-02-23 13:53:59,495 [INFO] Processing tables...
+2024-02-23 13:53:59,614 [INFO] Tables have been processed.
+2024-02-23 13:53:59,614 [INFO] 
+Pushing results from bild to Google BigQuery database...
+2024-02-23 13:54:00,421 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-23 13:54:00,757 [INFO] Table exists
+2024-02-23 13:54:12,027 [INFO] Loaded 281111 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-02-23 13:54:12,466 [INFO] Table exists
+2024-02-23 13:54:17,699 [INFO] Loaded 282583 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-02-23 13:54:18,057 [INFO] Table exists
+2024-02-23 13:54:26,145 [INFO] Loaded 843045 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-02-23 13:54:26,473 [INFO] Table exists
+2024-02-23 13:54:31,132 [INFO] Loaded 295611 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-02-23 13:54:31,132 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 13:54:31,133 [INFO] Gathering news articles from bildblog from 2024-01-05 to 2024-01-10
+2024-02-23 13:54:31,133 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bildblog&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 13:54:31,923 [INFO] Response: 200
+2024-02-23 13:54:31,924 [INFO] Gathering page 1 of 0
+2024-02-23 13:54:31,925 [INFO] No results for bildblog during your specified timeframe!
+2024-02-23 13:54:31,925 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 13:54:31,925 [INFO] Gathering news articles from freitag from 2024-01-05 to 2024-01-10
+2024-02-23 13:54:31,925 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=freitag&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 13:54:33,301 [INFO] Response: 200
+2024-02-23 13:54:33,302 [INFO] Gathering page 1 of 1
+2024-02-23 13:54:33,302 [INFO] 
+Compiling 1 pages of results...
+2024-02-23 13:54:33,303 [INFO] All news articles gathered from freitag from 2024-01-05 to 2024-01-10!
+2024-02-23 13:54:33,303 [INFO] Processing tables...
+2024-02-23 13:54:33,327 [INFO] Tables have been processed.
+2024-02-23 13:54:33,327 [INFO] 
+Pushing results from freitag to Google BigQuery database...
+2024-02-23 13:54:34,127 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-23 13:54:34,457 [INFO] Table exists
+2024-02-23 13:54:55,954 [INFO] Loaded 281153 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-02-23 13:54:56,319 [INFO] Table exists
+2024-02-23 13:55:01,765 [INFO] Loaded 282625 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-02-23 13:55:02,095 [INFO] Table exists
+2024-02-23 13:55:07,013 [INFO] Loaded 843087 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-02-23 13:55:07,377 [INFO] Table exists
+2024-02-23 13:55:13,175 [INFO] Loaded 295654 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-02-23 13:55:13,175 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 13:55:13,175 [INFO] Gathering news articles from derwesten from 2024-01-05 to 2024-01-10
+2024-02-23 13:55:13,175 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 13:55:14,706 [INFO] Response: 200
+2024-02-23 13:55:14,708 [INFO] Gathering page 1 of 14
+2024-02-23 13:55:14,709 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704825549927942947
+2024-02-23 13:55:16,063 [INFO] Response: 200
+2024-02-23 13:55:16,064 [INFO] Gathering page 2 of 14
+2024-02-23 13:55:16,065 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704786089076485989
+2024-02-23 13:55:17,431 [INFO] Response: 200
+2024-02-23 13:55:17,432 [INFO] Gathering page 3 of 14
+2024-02-23 13:55:17,433 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704755953474573711
+2024-02-23 13:55:18,736 [INFO] Response: 200
+2024-02-23 13:55:18,737 [INFO] Gathering page 4 of 14
+2024-02-23 13:55:18,737 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704722347615430903
+2024-02-23 13:55:20,049 [INFO] Response: 200
+2024-02-23 13:55:20,050 [INFO] Gathering page 5 of 14
+2024-02-23 13:55:20,051 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704690332284136632
+2024-02-23 13:55:21,412 [INFO] Response: 200
+2024-02-23 13:55:21,413 [INFO] Gathering page 6 of 14
+2024-02-23 13:55:21,414 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704659318403721133
+2024-02-23 13:55:22,795 [INFO] Response: 200
+2024-02-23 13:55:22,796 [INFO] Gathering page 7 of 14
+2024-02-23 13:55:22,797 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704631146991706566
+2024-02-23 13:55:24,154 [INFO] Response: 200
+2024-02-23 13:55:24,156 [INFO] Gathering page 8 of 14
+2024-02-23 13:55:24,157 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704604744175985909
+2024-02-23 13:55:25,439 [INFO] Response: 200
+2024-02-23 13:55:25,439 [INFO] Gathering page 9 of 14
+2024-02-23 13:55:25,441 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704571147277170518
+2024-02-23 13:55:26,741 [INFO] Response: 200
+2024-02-23 13:55:26,742 [INFO] Gathering page 10 of 14
+2024-02-23 13:55:26,743 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704532746882432638
+2024-02-23 13:55:28,075 [INFO] Response: 200
+2024-02-23 13:55:28,076 [INFO] Gathering page 11 of 14
+2024-02-23 13:55:28,077 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704496752749195490
+2024-02-23 13:55:29,379 [INFO] Response: 200
+2024-02-23 13:55:29,380 [INFO] Gathering page 12 of 14
+2024-02-23 13:55:29,382 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704463149795906861
+2024-02-23 13:55:30,718 [INFO] Response: 200
+2024-02-23 13:55:30,719 [INFO] Gathering page 13 of 14
+2024-02-23 13:55:30,720 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704439150062671907
+2024-02-23 13:55:32,056 [INFO] Response: 200
+2024-02-23 13:55:32,058 [INFO] Gathering page 14 of 14
+2024-02-23 13:55:32,059 [INFO] 
+Compiling 14 pages of results...
+2024-02-23 13:55:32,060 [INFO] All news articles gathered from derwesten from 2024-01-05 to 2024-01-10!
+2024-02-23 13:55:32,060 [INFO] Processing tables...
+2024-02-23 13:55:32,144 [INFO] Tables have been processed.
+2024-02-23 13:55:32,144 [INFO] 
+Pushing results from derwesten to Google BigQuery database...
+2024-02-23 13:55:32,918 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-23 13:55:33,249 [INFO] Table exists
+2024-02-23 13:55:41,514 [INFO] Loaded 281843 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-02-23 13:55:41,851 [INFO] Table exists
+2024-02-23 13:55:50,254 [INFO] Loaded 283315 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-02-23 13:55:50,617 [INFO] Table exists
+2024-02-23 13:55:56,309 [INFO] Loaded 844489 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-02-23 13:55:56,679 [INFO] Table exists
+2024-02-23 13:56:01,092 [INFO] Loaded 296344 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-02-23 13:56:01,092 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 13:56:01,093 [INFO] Gathering news articles from dw from 2024-01-05 to 2024-01-10
+2024-02-23 13:56:01,093 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=dw&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 13:56:02,504 [INFO] Response: 200
+2024-02-23 13:56:02,506 [INFO] Gathering page 1 of 2
+2024-02-23 13:56:02,507 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=dw&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704522300858982790
+2024-02-23 13:56:03,594 [INFO] Response: 200
+2024-02-23 13:56:03,595 [INFO] Gathering page 2 of 2
+2024-02-23 13:56:03,596 [INFO] 
+Compiling 2 pages of results...
+2024-02-23 13:56:03,597 [INFO] All news articles gathered from dw from 2024-01-05 to 2024-01-10!
+2024-02-23 13:56:03,597 [INFO] Processing tables...
+2024-02-23 13:56:03,626 [INFO] Tables have been processed.
+2024-02-23 13:56:03,626 [INFO] 
+Pushing results from dw to Google BigQuery database...
+2024-02-23 13:56:04,422 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-23 13:56:04,782 [INFO] Table exists
+2024-02-23 13:56:10,762 [INFO] Loaded 281917 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-02-23 13:56:11,116 [INFO] Table exists
+2024-02-23 13:56:16,206 [INFO] Loaded 283389 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-02-23 13:56:16,530 [INFO] Table exists
+2024-02-23 13:56:21,233 [INFO] Loaded 844563 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-02-23 13:56:21,558 [INFO] Table exists
+2024-02-23 13:56:29,403 [INFO] Loaded 296418 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-02-23 13:56:29,403 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 13:56:29,403 [INFO] Gathering news articles from deutschlandfunk from 2024-01-05 to 2024-01-10
+2024-02-23 13:56:29,403 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=deutschlandfunk&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 13:56:30,793 [INFO] Response: 200
+2024-02-23 13:56:30,794 [INFO] Gathering page 1 of 2
+2024-02-23 13:56:30,796 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=deutschlandfunk&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704433201223335335
+2024-02-23 13:56:31,635 [INFO] Response: 200
+2024-02-23 13:56:31,635 [INFO] Gathering page 2 of 2
+2024-02-23 13:56:31,636 [INFO] 
+Compiling 2 pages of results...
+2024-02-23 13:56:31,636 [INFO] All news articles gathered from deutschlandfunk from 2024-01-05 to 2024-01-10!
+2024-02-23 13:56:31,636 [INFO] Processing tables...
+2024-02-23 13:56:31,658 [INFO] Tables have been processed.
+2024-02-23 13:56:31,658 [INFO] 
+Pushing results from deutschlandfunk to Google BigQuery database...
+2024-02-23 13:56:32,424 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-23 13:56:32,763 [INFO] Table exists
+2024-02-23 13:56:38,100 [INFO] Loaded 281969 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-02-23 13:56:38,471 [INFO] Table exists
+2024-02-23 13:56:43,530 [INFO] Loaded 283441 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-02-23 13:56:43,893 [INFO] Table exists
+2024-02-23 13:56:49,737 [INFO] Loaded 844615 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-02-23 13:56:50,050 [INFO] Table exists
+2024-02-23 13:56:54,688 [INFO] Loaded 296470 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-02-23 13:56:54,689 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 13:56:54,689 [INFO] Gathering news articles from achgut from 2024-01-05 to 2024-01-10
+2024-02-23 13:56:54,689 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=achgut&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 13:56:55,471 [INFO] Response: 200
+2024-02-23 13:56:55,472 [INFO] Gathering page 1 of 0
+2024-02-23 13:56:55,473 [INFO] No results for achgut during your specified timeframe!
+2024-02-23 13:56:55,473 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 13:56:55,473 [INFO] Gathering news articles from dietagespost from 2024-01-05 to 2024-01-10
+2024-02-23 13:56:55,473 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=dietagespost&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 13:56:56,825 [INFO] Response: 200
+2024-02-23 13:56:56,827 [INFO] Gathering page 1 of 2
+2024-02-23 13:56:56,828 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=dietagespost&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704450606845319574
+2024-02-23 13:56:57,681 [INFO] Response: 200
+2024-02-23 13:56:57,681 [INFO] Gathering page 2 of 2
+2024-02-23 13:56:57,682 [INFO] 
+Compiling 2 pages of results...
+2024-02-23 13:56:57,682 [INFO] All news articles gathered from dietagespost from 2024-01-05 to 2024-01-10!
+2024-02-23 13:56:57,682 [INFO] Processing tables...
+2024-02-23 13:56:57,708 [INFO] Tables have been processed.
+2024-02-23 13:56:57,708 [INFO] 
+Pushing results from dietagespost to Google BigQuery database...
+2024-02-23 13:56:58,520 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-23 13:56:58,867 [INFO] Table exists
+2024-02-23 13:57:05,216 [INFO] Loaded 282025 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-02-23 13:57:05,510 [INFO] Table exists
+2024-02-23 13:57:10,564 [INFO] Loaded 283497 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-02-23 13:57:10,909 [INFO] Table exists
+2024-02-23 13:57:15,834 [INFO] Loaded 844671 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-02-23 13:57:16,167 [INFO] Table exists
+2024-02-23 13:57:24,156 [INFO] Loaded 296526 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-02-23 13:57:24,156 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 13:57:24,156 [INFO] Gathering news articles from faz from 2024-01-05 to 2024-01-10
+2024-02-23 13:57:24,156 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=faz&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 13:57:25,843 [INFO] Response: 200
+2024-02-23 13:57:25,845 [INFO] Gathering page 1 of 6
+2024-02-23 13:57:25,846 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=faz&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704779903874312877
+2024-02-23 13:57:27,226 [INFO] Response: 200
+2024-02-23 13:57:27,227 [INFO] Gathering page 2 of 6
+2024-02-23 13:57:27,228 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=faz&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704710874633753247
+2024-02-23 13:57:28,545 [INFO] Response: 200
+2024-02-23 13:57:28,547 [INFO] Gathering page 3 of 6
+2024-02-23 13:57:28,548 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=faz&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704627577845579040
+2024-02-23 13:57:29,898 [INFO] Response: 200
+2024-02-23 13:57:29,900 [INFO] Gathering page 4 of 6
+2024-02-23 13:57:29,901 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=faz&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704476224501135320
+2024-02-23 13:57:31,225 [INFO] Response: 200
+2024-02-23 13:57:31,226 [INFO] Gathering page 5 of 6
+2024-02-23 13:57:31,227 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=faz&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704436629837603839
+2024-02-23 13:57:32,081 [INFO] Response: 200
+2024-02-23 13:57:32,081 [INFO] Gathering page 6 of 6
+2024-02-23 13:57:32,082 [INFO] 
+Compiling 6 pages of results...
+2024-02-23 13:57:32,083 [INFO] All news articles gathered from faz from 2024-01-05 to 2024-01-10!
+2024-02-23 13:57:32,083 [INFO] Processing tables...
+2024-02-23 13:57:32,131 [INFO] Tables have been processed.
+2024-02-23 13:57:32,131 [INFO] 
+Pushing results from faz to Google BigQuery database...
+2024-02-23 13:57:32,922 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-23 13:57:33,244 [INFO] Table exists
+2024-02-23 13:57:50,365 [INFO] Loaded 282285 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-02-23 13:57:50,688 [INFO] Table exists
+2024-02-23 13:57:58,886 [INFO] Loaded 283757 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-02-23 13:57:59,224 [INFO] Table exists
+2024-02-23 13:58:06,988 [INFO] Loaded 844931 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-02-23 13:58:07,310 [INFO] Table exists
+2024-02-23 13:58:12,651 [INFO] Loaded 296786 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-02-23 13:58:12,652 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 13:58:12,652 [INFO] Gathering news articles from focus from 2024-01-05 to 2024-01-10
+2024-02-23 13:58:12,652 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=focus&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 13:58:14,366 [INFO] Response: 200
+2024-02-23 13:58:14,368 [INFO] Gathering page 1 of 8
+2024-02-23 13:58:14,370 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=focus&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704803415633714421
+2024-02-23 13:58:15,720 [INFO] Response: 200
+2024-02-23 13:58:15,721 [INFO] Gathering page 2 of 8
+2024-02-23 13:58:15,722 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=focus&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704755589873929023
+2024-02-23 13:58:17,311 [INFO] Response: 200
+2024-02-23 13:58:17,312 [INFO] Gathering page 3 of 8
+2024-02-23 13:58:17,313 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=focus&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704714337738722268
+2024-02-23 13:58:18,646 [INFO] Response: 200
+2024-02-23 13:58:18,647 [INFO] Gathering page 4 of 8
+2024-02-23 13:58:18,649 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=focus&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704660911503933571
+2024-02-23 13:58:19,993 [INFO] Response: 200
+2024-02-23 13:58:19,995 [INFO] Gathering page 5 of 8
+2024-02-23 13:58:19,996 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=focus&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704550587808732467
+2024-02-23 13:58:21,351 [INFO] Response: 200
+2024-02-23 13:58:21,353 [INFO] Gathering page 6 of 8
+2024-02-23 13:58:21,354 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=focus&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704468259368017330
+2024-02-23 13:58:22,875 [INFO] Response: 200
+2024-02-23 13:58:22,877 [INFO] Gathering page 7 of 8
+2024-02-23 13:58:22,878 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=focus&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704444410432098918
+2024-02-23 13:58:24,180 [INFO] Response: 200
+2024-02-23 13:58:24,182 [INFO] Gathering page 8 of 8
+2024-02-23 13:58:24,182 [INFO] 
+Compiling 8 pages of results...
+2024-02-23 13:58:24,183 [INFO] All news articles gathered from focus from 2024-01-05 to 2024-01-10!
+2024-02-23 13:58:24,183 [INFO] Processing tables...
+2024-02-23 13:58:24,272 [INFO] Tables have been processed.
+2024-02-23 13:58:24,272 [INFO] 
+Pushing results from focus to Google BigQuery database...
+2024-02-23 13:58:25,022 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-23 13:58:25,331 [INFO] Table exists
+2024-02-23 13:58:46,744 [INFO] Loaded 282667 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-02-23 13:58:47,138 [INFO] Table exists
+2024-02-23 13:58:54,754 [INFO] Loaded 284139 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-02-23 13:58:55,073 [INFO] Table exists
+2024-02-23 13:59:02,700 [INFO] Loaded 845695 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-02-23 13:59:03,049 [INFO] Table exists
+2024-02-23 13:59:07,832 [INFO] Loaded 297169 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-02-23 13:59:07,832 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 13:59:07,832 [INFO] Gathering news articles from abendblatt from 2024-01-05 to 2024-01-10
+2024-02-23 13:59:07,832 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abendblatt&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 13:59:09,450 [INFO] Response: 200
+2024-02-23 13:59:09,453 [INFO] Gathering page 1 of 11
+2024-02-23 13:59:09,456 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abendblatt&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704812316571706746
+2024-02-23 13:59:10,810 [INFO] Response: 200
+2024-02-23 13:59:10,811 [INFO] Gathering page 2 of 11
+2024-02-23 13:59:10,814 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abendblatt&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704780993379799217
+2024-02-23 13:59:12,181 [INFO] Response: 200
+2024-02-23 13:59:12,183 [INFO] Gathering page 3 of 11
+2024-02-23 13:59:12,184 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abendblatt&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704733200699185889
+2024-02-23 13:59:13,529 [INFO] Response: 200
+2024-02-23 13:59:13,530 [INFO] Gathering page 4 of 11
+2024-02-23 13:59:13,531 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abendblatt&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704710806162207642
+2024-02-23 13:59:14,833 [INFO] Response: 200
+2024-02-23 13:59:14,834 [INFO] Gathering page 5 of 11
+2024-02-23 13:59:14,835 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abendblatt&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704687326961218563
+2024-02-23 13:59:16,159 [INFO] Response: 200
+2024-02-23 13:59:16,160 [INFO] Gathering page 6 of 11
+2024-02-23 13:59:16,161 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abendblatt&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704617650805674598
+2024-02-23 13:59:17,465 [INFO] Response: 200
+2024-02-23 13:59:17,466 [INFO] Gathering page 7 of 11
+2024-02-23 13:59:17,467 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abendblatt&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704549024035750090
+2024-02-23 13:59:18,798 [INFO] Response: 200
+2024-02-23 13:59:18,799 [INFO] Gathering page 8 of 11
+2024-02-23 13:59:18,800 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abendblatt&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704516600743355557
+2024-02-23 13:59:20,196 [INFO] Response: 200
+2024-02-23 13:59:20,198 [INFO] Gathering page 9 of 11
+2024-02-23 13:59:20,199 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abendblatt&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704461818717667572
+2024-02-23 13:59:21,517 [INFO] Response: 200
+2024-02-23 13:59:21,518 [INFO] Gathering page 10 of 11
+2024-02-23 13:59:21,519 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abendblatt&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704425880671821608
+2024-02-23 13:59:22,583 [INFO] Response: 200
+2024-02-23 13:59:22,584 [INFO] Gathering page 11 of 11
+2024-02-23 13:59:22,584 [INFO] 
+Compiling 11 pages of results...
+2024-02-23 13:59:22,586 [INFO] All news articles gathered from abendblatt from 2024-01-05 to 2024-01-10!
+2024-02-23 13:59:22,586 [INFO] Processing tables...
+2024-02-23 13:59:22,661 [INFO] Tables have been processed.
+2024-02-23 13:59:22,661 [INFO] 
+Pushing results from abendblatt to Google BigQuery database...
+2024-02-23 13:59:23,422 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-23 13:59:23,766 [INFO] Table exists
+2024-02-23 13:59:37,853 [INFO] Loaded 283187 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-02-23 13:59:38,226 [INFO] Table exists
+2024-02-23 13:59:59,160 [INFO] Loaded 284659 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-02-23 13:59:59,539 [INFO] Table exists
+2024-02-23 14:00:07,422 [INFO] Loaded 846215 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-02-23 14:00:07,758 [INFO] Table exists
+2024-02-23 14:00:21,629 [INFO] Loaded 297712 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-02-23 14:00:21,630 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 14:00:21,630 [INFO] Gathering news articles from gmx from 2024-01-05 to 2024-01-10
+2024-02-23 14:00:21,630 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=gmx&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 14:00:22,429 [INFO] Response: 200
+2024-02-23 14:00:22,429 [INFO] Gathering page 1 of 0
+2024-02-23 14:00:22,430 [INFO] No results for gmx during your specified timeframe!
+2024-02-23 14:00:22,430 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 14:00:22,430 [INFO] Gathering news articles from handelsblatt from 2024-01-05 to 2024-01-10
+2024-02-23 14:00:22,430 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=handelsblatt&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 14:00:23,298 [INFO] Response: 200
+2024-02-23 14:00:23,298 [INFO] Gathering page 1 of 1
+2024-02-23 14:00:23,299 [INFO] 
+Compiling 1 pages of results...
+2024-02-23 14:00:23,300 [INFO] All news articles gathered from handelsblatt from 2024-01-05 to 2024-01-10!
+2024-02-23 14:00:23,300 [INFO] Processing tables...
+2024-02-23 14:00:23,317 [INFO] Tables have been processed.
+2024-02-23 14:00:23,317 [INFO] 
+Pushing results from handelsblatt to Google BigQuery database...
+2024-02-23 14:00:24,130 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-23 14:00:24,493 [INFO] Table exists
+2024-02-23 14:00:30,394 [INFO] Loaded 283189 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-02-23 14:00:30,745 [INFO] Table exists
+2024-02-23 14:00:35,264 [INFO] Loaded 284661 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-02-23 14:00:35,665 [INFO] Table exists
+2024-02-23 14:00:40,121 [INFO] Loaded 846217 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-02-23 14:00:40,482 [INFO] Table exists
+2024-02-23 14:00:46,656 [INFO] Loaded 297714 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-02-23 14:00:46,656 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 14:00:46,656 [INFO] Gathering news articles from haz from 2024-01-05 to 2024-01-10
+2024-02-23 14:00:46,656 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=haz&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 14:00:47,859 [INFO] Response: 200
+2024-02-23 14:00:47,860 [INFO] Gathering page 1 of 12
+2024-02-23 14:00:47,861 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=haz&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704817106423124766
+2024-02-23 14:00:48,979 [INFO] Response: 200
+2024-02-23 14:00:48,980 [INFO] Gathering page 2 of 12
+2024-02-23 14:00:48,985 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=haz&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704796890129135042
+2024-02-23 14:00:50,068 [INFO] Response: 200
+2024-02-23 14:00:50,069 [INFO] Gathering page 3 of 12
+2024-02-23 14:00:50,070 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=haz&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704766753755845884
+2024-02-23 14:00:51,161 [INFO] Response: 200
+2024-02-23 14:00:51,162 [INFO] Gathering page 4 of 12
+2024-02-23 14:00:51,163 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=haz&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704717161426894164
+2024-02-23 14:00:52,320 [INFO] Response: 200
+2024-02-23 14:00:52,321 [INFO] Gathering page 5 of 12
+2024-02-23 14:00:52,322 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=haz&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704688200978601374
+2024-02-23 14:00:53,438 [INFO] Response: 200
+2024-02-23 14:00:53,439 [INFO] Gathering page 6 of 12
+2024-02-23 14:00:53,440 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=haz&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704628093058767143
+2024-02-23 14:00:54,614 [INFO] Response: 200
+2024-02-23 14:00:54,615 [INFO] Gathering page 7 of 12
+2024-02-23 14:00:54,616 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=haz&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704610801409729180
+2024-02-23 14:00:55,787 [INFO] Response: 200
+2024-02-23 14:00:55,789 [INFO] Gathering page 8 of 12
+2024-02-23 14:00:55,790 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=haz&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704547213136277159
+2024-02-23 14:00:56,889 [INFO] Response: 200
+2024-02-23 14:00:56,890 [INFO] Gathering page 9 of 12
+2024-02-23 14:00:56,891 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=haz&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704495600836985863
+2024-02-23 14:00:57,976 [INFO] Response: 200
+2024-02-23 14:00:57,977 [INFO] Gathering page 10 of 12
+2024-02-23 14:00:57,978 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=haz&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704464870633921739
+2024-02-23 14:00:59,151 [INFO] Response: 200
+2024-02-23 14:00:59,153 [INFO] Gathering page 11 of 12
+2024-02-23 14:00:59,154 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=haz&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704445386048636119
+2024-02-23 14:01:00,086 [INFO] Response: 200
+2024-02-23 14:01:00,087 [INFO] Gathering page 12 of 12
+2024-02-23 14:01:00,088 [INFO] 
+Compiling 12 pages of results...
+2024-02-23 14:01:00,090 [INFO] All news articles gathered from haz from 2024-01-05 to 2024-01-10!
+2024-02-23 14:01:00,090 [INFO] Processing tables...
+2024-02-23 14:01:00,132 [INFO] Tables have been processed.
+2024-02-23 14:01:00,132 [INFO] 
+Pushing results from haz to Google BigQuery database...
+2024-02-23 14:01:00,938 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-23 14:01:01,273 [INFO] Table exists
+2024-02-23 14:01:08,939 [INFO] Loaded 283772 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-02-23 14:01:09,307 [INFO] Table exists
+2024-02-23 14:01:15,186 [INFO] Loaded 285244 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-02-23 14:01:15,547 [INFO] Table exists
+2024-02-23 14:01:27,406 [INFO] Loaded 846800 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-02-23 14:01:27,767 [INFO] Table exists
+2024-02-23 14:01:32,709 [INFO] Loaded 298312 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-02-23 14:01:32,709 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 14:01:32,709 [INFO] Gathering news articles from heise from 2024-01-05 to 2024-01-10
+2024-02-23 14:01:32,709 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=heise&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 14:01:33,954 [INFO] Response: 200
+2024-02-23 14:01:33,956 [INFO] Gathering page 1 of 13
+2024-02-23 14:01:33,957 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=heise&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704816780804938120
+2024-02-23 14:01:35,331 [INFO] Response: 200
+2024-02-23 14:01:35,332 [INFO] Gathering page 2 of 13
+2024-02-23 14:01:35,333 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=heise&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704799800589040674
+2024-02-23 14:01:37,114 [INFO] Response: 200
+2024-02-23 14:01:37,115 [INFO] Gathering page 3 of 13
+2024-02-23 14:01:37,116 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=heise&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704790200243149289
+2024-02-23 14:01:38,280 [INFO] Response: 200
+2024-02-23 14:01:38,281 [INFO] Gathering page 4 of 13
+2024-02-23 14:01:38,283 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=heise&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704773700299318293
+2024-02-23 14:01:39,392 [INFO] Response: 200
+2024-02-23 14:01:39,394 [INFO] Gathering page 5 of 13
+2024-02-23 14:01:39,396 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=heise&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704729840920054098
+2024-02-23 14:01:40,911 [INFO] Response: 200
+2024-02-23 14:01:40,913 [INFO] Gathering page 6 of 13
+2024-02-23 14:01:40,915 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=heise&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704714120992527658
+2024-02-23 14:01:42,046 [INFO] Response: 200
+2024-02-23 14:01:42,047 [INFO] Gathering page 7 of 13
+2024-02-23 14:01:42,048 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=heise&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704702600229205332
+2024-02-23 14:01:43,395 [INFO] Response: 200
+2024-02-23 14:01:43,397 [INFO] Gathering page 8 of 13
+2024-02-23 14:01:43,398 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=heise&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704637560759717330
+2024-02-23 14:01:44,745 [INFO] Response: 200
+2024-02-23 14:01:44,747 [INFO] Gathering page 9 of 13
+2024-02-23 14:01:44,749 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=heise&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704523620487720157
+2024-02-23 14:01:46,267 [INFO] Response: 200
+2024-02-23 14:01:46,269 [INFO] Gathering page 10 of 13
+2024-02-23 14:01:46,270 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=heise&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704458640736760038
+2024-02-23 14:01:47,588 [INFO] Response: 200
+2024-02-23 14:01:47,590 [INFO] Gathering page 11 of 13
+2024-02-23 14:01:47,591 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=heise&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704446160268072699
+2024-02-23 14:01:48,756 [INFO] Response: 200
+2024-02-23 14:01:48,758 [INFO] Gathering page 12 of 13
+2024-02-23 14:01:48,759 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=heise&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704425460867516714
+2024-02-23 14:01:49,546 [INFO] Response: 200
+2024-02-23 14:01:49,546 [INFO] Gathering page 13 of 13
+2024-02-23 14:01:49,547 [INFO] 
+Compiling 13 pages of results...
+2024-02-23 14:01:49,548 [INFO] All news articles gathered from heise from 2024-01-05 to 2024-01-10!
+2024-02-23 14:01:49,548 [INFO] Processing tables...
+2024-02-23 14:01:49,681 [INFO] Tables have been processed.
+2024-02-23 14:01:49,681 [INFO] 
+Pushing results from heise to Google BigQuery database...
+2024-02-23 14:01:50,420 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-23 14:01:50,726 [INFO] Table exists
+2024-02-23 14:01:57,145 [INFO] Loaded 284374 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-02-23 14:01:57,517 [INFO] Table exists
+2024-02-23 14:02:02,130 [INFO] Loaded 285846 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-02-23 14:02:02,509 [INFO] Table exists
+2024-02-23 14:02:07,882 [INFO] Loaded 847402 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-02-23 14:02:08,210 [INFO] Table exists
+2024-02-23 14:02:13,223 [INFO] Loaded 298914 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-02-23 14:02:13,223 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 14:02:13,223 [INFO] Gathering news articles from jungewelt from 2024-01-05 to 2024-01-10
+2024-02-23 14:02:13,223 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=jungewelt&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 14:02:14,052 [INFO] Response: 200
+2024-02-23 14:02:14,052 [INFO] Gathering page 1 of 0
+2024-02-23 14:02:14,053 [INFO] No results for jungewelt during your specified timeframe!
+2024-02-23 14:02:14,053 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 14:02:14,053 [INFO] Gathering news articles from lvz from 2024-01-05 to 2024-01-10
+2024-02-23 14:02:14,053 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=lvz&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 14:02:15,232 [INFO] Response: 200
+2024-02-23 14:02:15,232 [INFO] Gathering page 1 of 13
+2024-02-23 14:02:15,233 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=lvz&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704818392543648104
+2024-02-23 14:02:16,456 [INFO] Response: 200
+2024-02-23 14:02:16,457 [INFO] Gathering page 2 of 13
+2024-02-23 14:02:16,458 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=lvz&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704801791087199295
+2024-02-23 14:02:17,562 [INFO] Response: 200
+2024-02-23 14:02:17,562 [INFO] Gathering page 3 of 13
+2024-02-23 14:02:17,564 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=lvz&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704774601861345998
+2024-02-23 14:02:18,670 [INFO] Response: 200
+2024-02-23 14:02:18,671 [INFO] Gathering page 4 of 13
+2024-02-23 14:02:18,673 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=lvz&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704733050999151699
+2024-02-23 14:02:19,756 [INFO] Response: 200
+2024-02-23 14:02:19,757 [INFO] Gathering page 5 of 13
+2024-02-23 14:02:19,758 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=lvz&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704712375310479996
+2024-02-23 14:02:20,851 [INFO] Response: 200
+2024-02-23 14:02:20,851 [INFO] Gathering page 6 of 13
+2024-02-23 14:02:20,852 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=lvz&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704668400157973613
+2024-02-23 14:02:21,969 [INFO] Response: 200
+2024-02-23 14:02:21,970 [INFO] Gathering page 7 of 13
+2024-02-23 14:02:21,971 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=lvz&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704636060194402872
+2024-02-23 14:02:23,049 [INFO] Response: 200
+2024-02-23 14:02:23,050 [INFO] Gathering page 8 of 13
+2024-02-23 14:02:23,051 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=lvz&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704620197947930636
+2024-02-23 14:02:24,302 [INFO] Response: 200
+2024-02-23 14:02:24,303 [INFO] Gathering page 9 of 13
+2024-02-23 14:02:24,304 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=lvz&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704565469824703741
+2024-02-23 14:02:25,419 [INFO] Response: 200
+2024-02-23 14:02:25,420 [INFO] Gathering page 10 of 13
+2024-02-23 14:02:25,421 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=lvz&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704537198253216932
+2024-02-23 14:02:26,524 [INFO] Response: 200
+2024-02-23 14:02:26,525 [INFO] Gathering page 11 of 13
+2024-02-23 14:02:26,527 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=lvz&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704495600517265575
+2024-02-23 14:02:27,618 [INFO] Response: 200
+2024-02-23 14:02:27,618 [INFO] Gathering page 12 of 13
+2024-02-23 14:02:27,619 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=lvz&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704430843419112783
+2024-02-23 14:02:28,425 [INFO] Response: 200
+2024-02-23 14:02:28,426 [INFO] Gathering page 13 of 13
+2024-02-23 14:02:28,427 [INFO] 
+Compiling 13 pages of results...
+2024-02-23 14:02:28,429 [INFO] All news articles gathered from lvz from 2024-01-05 to 2024-01-10!
+2024-02-23 14:02:28,429 [INFO] Processing tables...
+2024-02-23 14:02:28,472 [INFO] Tables have been processed.
+2024-02-23 14:02:28,473 [INFO] 
+Pushing results from lvz to Google BigQuery database...
+2024-02-23 14:02:29,220 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-23 14:02:29,593 [INFO] Table exists
+2024-02-23 14:02:35,183 [INFO] Loaded 284989 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-02-23 14:02:35,503 [INFO] Table exists
+2024-02-23 14:02:39,902 [INFO] Loaded 286461 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-02-23 14:02:40,285 [INFO] Table exists
+2024-02-23 14:02:45,179 [INFO] Loaded 848017 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-02-23 14:02:45,644 [INFO] Table exists
+2024-02-23 14:02:53,502 [INFO] Loaded 299564 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-02-23 14:02:53,502 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 14:02:53,502 [INFO] Gathering news articles from netzpolitik from 2024-01-05 to 2024-01-10
+2024-02-23 14:02:53,503 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=netzpolitik&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 14:02:54,279 [INFO] Response: 200
+2024-02-23 14:02:54,279 [INFO] Gathering page 1 of 0
+2024-02-23 14:02:54,281 [INFO] No results for netzpolitik during your specified timeframe!
+2024-02-23 14:02:54,281 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 14:02:54,281 [INFO] Gathering news articles from n-tv from 2024-01-05 to 2024-01-10
+2024-02-23 14:02:54,281 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=n-tv&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 14:02:55,668 [INFO] Response: 200
+2024-02-23 14:02:55,670 [INFO] Gathering page 1 of 10
+2024-02-23 14:02:55,671 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=n-tv&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704810739626188141
+2024-02-23 14:02:57,003 [INFO] Response: 200
+2024-02-23 14:02:57,005 [INFO] Gathering page 2 of 10
+2024-02-23 14:02:57,006 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=n-tv&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704780124803605060
+2024-02-23 14:02:58,328 [INFO] Response: 200
+2024-02-23 14:02:58,331 [INFO] Gathering page 3 of 10
+2024-02-23 14:02:58,333 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=n-tv&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704726461255518850
+2024-02-23 14:02:59,705 [INFO] Response: 200
+2024-02-23 14:02:59,706 [INFO] Gathering page 4 of 10
+2024-02-23 14:02:59,707 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=n-tv&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704693872694941259
+2024-02-23 14:03:01,042 [INFO] Response: 200
+2024-02-23 14:03:01,043 [INFO] Gathering page 5 of 10
+2024-02-23 14:03:01,045 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=n-tv&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704629448642041917
+2024-02-23 14:03:02,559 [INFO] Response: 200
+2024-02-23 14:03:02,560 [INFO] Gathering page 6 of 10
+2024-02-23 14:03:02,561 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=n-tv&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704565503500350821
+2024-02-23 14:03:04,052 [INFO] Response: 200
+2024-02-23 14:03:04,054 [INFO] Gathering page 7 of 10
+2024-02-23 14:03:04,055 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=n-tv&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704521350727541029
+2024-02-23 14:03:05,391 [INFO] Response: 200
+2024-02-23 14:03:05,393 [INFO] Gathering page 8 of 10
+2024-02-23 14:03:05,394 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=n-tv&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704467860292877521
+2024-02-23 14:03:06,756 [INFO] Response: 200
+2024-02-23 14:03:06,759 [INFO] Gathering page 9 of 10
+2024-02-23 14:03:06,760 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=n-tv&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704424594315867915
+2024-02-23 14:03:07,543 [INFO] Response: 200
+2024-02-23 14:03:07,543 [INFO] Gathering page 10 of 10
+2024-02-23 14:03:07,544 [INFO] 
+Compiling 10 pages of results...
+2024-02-23 14:03:07,546 [INFO] All news articles gathered from n-tv from 2024-01-05 to 2024-01-10!
+2024-02-23 14:03:07,546 [INFO] Processing tables...
+2024-02-23 14:03:07,623 [INFO] Tables have been processed.
+2024-02-23 14:03:07,623 [INFO] 
+Pushing results from n-tv to Google BigQuery database...
+2024-02-23 14:03:08,423 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-23 14:03:08,756 [INFO] Table exists
+2024-02-23 14:03:15,202 [INFO] Loaded 285441 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-02-23 14:03:15,620 [INFO] Table exists
+2024-02-23 14:03:20,472 [INFO] Loaded 286913 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-02-23 14:03:20,886 [INFO] Table exists
+2024-02-23 14:03:27,241 [INFO] Loaded 848469 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-02-23 14:03:27,633 [INFO] Table exists
+2024-02-23 14:03:32,857 [INFO] Loaded 300016 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-02-23 14:03:32,858 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 14:03:32,858 [INFO] Gathering news articles from rp_online from 2024-01-05 to 2024-01-10
+2024-02-23 14:03:32,858 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=rp_online&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 14:03:34,336 [INFO] Response: 200
+2024-02-23 14:03:34,337 [INFO] Gathering page 1 of 25
+2024-02-23 14:03:34,338 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=rp_online&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704823020853291398
+2024-02-23 14:03:35,719 [INFO] Response: 200
+2024-02-23 14:03:35,721 [INFO] Gathering page 2 of 25
+2024-02-23 14:03:35,724 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=rp_online&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704812953550645423
+2024-02-23 14:03:37,082 [INFO] Response: 200
+2024-02-23 14:03:37,084 [INFO] Gathering page 3 of 25
+2024-02-23 14:03:37,085 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=rp_online&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704803220725397720
+2024-02-23 14:03:38,396 [INFO] Response: 200
+2024-02-23 14:03:38,398 [INFO] Gathering page 4 of 25
+2024-02-23 14:03:38,400 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=rp_online&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704792720571517128
+2024-02-23 14:03:39,716 [INFO] Response: 200
+2024-02-23 14:03:39,717 [INFO] Gathering page 5 of 25
+2024-02-23 14:03:39,718 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=rp_online&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704774180160273799
+2024-02-23 14:03:41,037 [INFO] Response: 200
+2024-02-23 14:03:41,038 [INFO] Gathering page 6 of 25
+2024-02-23 14:03:41,040 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=rp_online&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704743340867277753
+2024-02-23 14:03:42,402 [INFO] Response: 200
+2024-02-23 14:03:42,403 [INFO] Gathering page 7 of 25
+2024-02-23 14:03:42,404 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=rp_online&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704730740187841703
+2024-02-23 14:03:43,696 [INFO] Response: 200
+2024-02-23 14:03:43,697 [INFO] Gathering page 8 of 25
+2024-02-23 14:03:43,698 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=rp_online&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704726060261553993
+2024-02-23 14:03:45,047 [INFO] Response: 200
+2024-02-23 14:03:45,048 [INFO] Gathering page 9 of 25
+2024-02-23 14:03:45,050 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=rp_online&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704722220739135357
+2024-02-23 14:03:46,367 [INFO] Response: 200
+2024-02-23 14:03:46,368 [INFO] Gathering page 10 of 25
+2024-02-23 14:03:46,369 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=rp_online&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704711540763554612
+2024-02-23 14:03:47,691 [INFO] Response: 200
+2024-02-23 14:03:47,692 [INFO] Gathering page 11 of 25
+2024-02-23 14:03:47,693 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=rp_online&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704696720978372680
+2024-02-23 14:03:49,093 [INFO] Response: 200
+2024-02-23 14:03:49,095 [INFO] Gathering page 12 of 25
+2024-02-23 14:03:49,096 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=rp_online&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704685800729861637
+2024-02-23 14:03:50,479 [INFO] Response: 200
+2024-02-23 14:03:50,480 [INFO] Gathering page 13 of 25
+2024-02-23 14:03:50,482 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=rp_online&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704642480228085738
+2024-02-23 14:03:52,035 [INFO] Response: 200
+2024-02-23 14:03:52,037 [INFO] Gathering page 14 of 25
+2024-02-23 14:03:52,038 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=rp_online&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704631620498209180
+2024-02-23 14:03:53,563 [INFO] Response: 200
+2024-02-23 14:03:53,564 [INFO] Gathering page 15 of 25
+2024-02-23 14:03:53,565 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=rp_online&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704620400141775399
+2024-02-23 14:03:54,893 [INFO] Response: 200
+2024-02-23 14:03:54,894 [INFO] Gathering page 16 of 25
+2024-02-23 14:03:54,895 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=rp_online&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704552843430562589
+2024-02-23 14:03:56,505 [INFO] Response: 200
+2024-02-23 14:03:56,512 [INFO] Gathering page 17 of 25
+2024-02-23 14:03:56,514 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=rp_online&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704533400437535040
+2024-02-23 14:03:58,009 [INFO] Response: 200
+2024-02-23 14:03:58,011 [INFO] Gathering page 18 of 25
+2024-02-23 14:03:58,012 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=rp_online&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704513000926729817
+2024-02-23 14:03:59,347 [INFO] Response: 200
+2024-02-23 14:03:59,349 [INFO] Gathering page 19 of 25
+2024-02-23 14:03:59,350 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=rp_online&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704477840178664727
+2024-02-23 14:04:00,702 [INFO] Response: 200
+2024-02-23 14:04:00,703 [INFO] Gathering page 20 of 25
+2024-02-23 14:04:00,704 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=rp_online&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704470977317286601
+2024-02-23 14:04:02,152 [INFO] Response: 200
+2024-02-23 14:04:02,154 [INFO] Gathering page 21 of 25
+2024-02-23 14:04:02,155 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=rp_online&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704465000778165701
+2024-02-23 14:04:03,543 [INFO] Response: 200
+2024-02-23 14:04:03,544 [INFO] Gathering page 22 of 25
+2024-02-23 14:04:03,545 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=rp_online&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704455240604067834
+2024-02-23 14:04:04,852 [INFO] Response: 200
+2024-02-23 14:04:04,854 [INFO] Gathering page 23 of 25
+2024-02-23 14:04:04,855 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=rp_online&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704446400426770068
+2024-02-23 14:04:06,201 [INFO] Response: 200
+2024-02-23 14:04:06,202 [INFO] Gathering page 24 of 25
+2024-02-23 14:04:06,204 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=rp_online&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704428100582911296
+2024-02-23 14:04:07,240 [INFO] Response: 200
+2024-02-23 14:04:07,241 [INFO] Gathering page 25 of 25
+2024-02-23 14:04:07,242 [INFO] 
+Compiling 25 pages of results...
+2024-02-23 14:04:07,244 [INFO] All news articles gathered from rp_online from 2024-01-05 to 2024-01-10!
+2024-02-23 14:04:07,244 [INFO] Processing tables...
+2024-02-23 14:04:07,428 [INFO] Tables have been processed.
+2024-02-23 14:04:07,428 [INFO] 
+Pushing results from rp_online to Google BigQuery database...
+2024-02-23 14:04:08,224 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-23 14:04:08,554 [INFO] Table exists
+2024-02-23 14:04:19,679 [INFO] Loaded 286659 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-02-23 14:04:20,042 [INFO] Table exists
+2024-02-23 14:04:28,633 [INFO] Loaded 288131 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-02-23 14:04:28,973 [INFO] Table exists
+2024-02-23 14:04:46,741 [INFO] Loaded 851728 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-02-23 14:04:47,073 [INFO] Table exists
+2024-02-23 14:04:54,808 [INFO] Loaded 301552 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-02-23 14:04:54,808 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 14:04:54,808 [INFO] Gathering news articles from spiegel from 2024-01-05 to 2024-01-10
+2024-02-23 14:04:54,808 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=spiegel&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 14:04:56,020 [INFO] Response: 200
+2024-02-23 14:04:56,021 [INFO] Gathering page 1 of 6
+2024-02-23 14:04:56,023 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=spiegel&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704786180092871807
+2024-02-23 14:04:56,887 [INFO] Response: 200
+2024-02-23 14:04:56,888 [INFO] Gathering page 2 of 6
+2024-02-23 14:04:56,889 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=spiegel&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704699660119599568
+2024-02-23 14:04:57,967 [INFO] Response: 200
+2024-02-23 14:04:57,968 [INFO] Gathering page 3 of 6
+2024-02-23 14:04:57,969 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=spiegel&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704611820004767544
+2024-02-23 14:04:58,850 [INFO] Response: 200
+2024-02-23 14:04:58,851 [INFO] Gathering page 4 of 6
+2024-02-23 14:04:58,852 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=spiegel&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704478440897287958
+2024-02-23 14:04:59,927 [INFO] Response: 200
+2024-02-23 14:04:59,927 [INFO] Gathering page 5 of 6
+2024-02-23 14:04:59,928 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=spiegel&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704437340161559797
+2024-02-23 14:05:00,800 [INFO] Response: 200
+2024-02-23 14:05:00,801 [INFO] Gathering page 6 of 6
+2024-02-23 14:05:00,802 [INFO] 
+Compiling 6 pages of results...
+2024-02-23 14:05:00,803 [INFO] All news articles gathered from spiegel from 2024-01-05 to 2024-01-10!
+2024-02-23 14:05:00,804 [INFO] Processing tables...
+2024-02-23 14:05:00,847 [INFO] Tables have been processed.
+2024-02-23 14:05:00,847 [INFO] 
+Pushing results from spiegel to Google BigQuery database...
+2024-02-23 14:05:01,624 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-23 14:05:02,015 [INFO] Table exists
+2024-02-23 14:06:20,662 [INFO] Loaded 286915 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-02-23 14:06:20,983 [INFO] Table exists
+2024-02-23 14:06:30,814 [INFO] Loaded 288387 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-02-23 14:06:31,173 [INFO] Table exists
+2024-02-23 14:06:37,304 [INFO] Loaded 851984 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-02-23 14:06:37,622 [INFO] Table exists
+2024-02-23 14:07:01,218 [INFO] Loaded 301808 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-02-23 14:07:01,219 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 14:07:01,219 [INFO] Gathering news articles from stern from 2024-01-05 to 2024-01-10
+2024-02-23 14:07:01,219 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=stern&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 14:07:03,049 [INFO] Response: 200
+2024-02-23 14:07:03,050 [INFO] Gathering page 1 of 9
+2024-02-23 14:07:03,051 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=stern&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704809340578092915
+2024-02-23 14:07:04,466 [INFO] Response: 200
+2024-02-23 14:07:04,467 [INFO] Gathering page 2 of 9
+2024-02-23 14:07:04,468 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=stern&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704782757375783520
+2024-02-23 14:07:06,001 [INFO] Response: 200
+2024-02-23 14:07:06,004 [INFO] Gathering page 3 of 9
+2024-02-23 14:07:06,006 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=stern&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704734905731465483
+2024-02-23 14:07:07,397 [INFO] Response: 200
+2024-02-23 14:07:07,399 [INFO] Gathering page 4 of 9
+2024-02-23 14:07:07,401 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=stern&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704704640658912594
+2024-02-23 14:07:08,752 [INFO] Response: 200
+2024-02-23 14:07:08,753 [INFO] Gathering page 5 of 9
+2024-02-23 14:07:08,754 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=stern&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704643140497920805
+2024-02-23 14:07:10,069 [INFO] Response: 200
+2024-02-23 14:07:10,070 [INFO] Gathering page 6 of 9
+2024-02-23 14:07:10,071 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=stern&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704562260325942770
+2024-02-23 14:07:11,532 [INFO] Response: 200
+2024-02-23 14:07:11,533 [INFO] Gathering page 7 of 9
+2024-02-23 14:07:11,534 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=stern&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704489169107149935
+2024-02-23 14:07:12,934 [INFO] Response: 200
+2024-02-23 14:07:12,935 [INFO] Gathering page 8 of 9
+2024-02-23 14:07:12,936 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=stern&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704451320242454141
+2024-02-23 14:07:14,224 [INFO] Response: 200
+2024-02-23 14:07:14,227 [INFO] Gathering page 9 of 9
+2024-02-23 14:07:14,228 [INFO] 
+Compiling 9 pages of results...
+2024-02-23 14:07:14,230 [INFO] All news articles gathered from stern from 2024-01-05 to 2024-01-10!
+2024-02-23 14:07:14,231 [INFO] Processing tables...
+2024-02-23 14:07:14,303 [INFO] Tables have been processed.
+2024-02-23 14:07:14,304 [INFO] 
+Pushing results from stern to Google BigQuery database...
+2024-02-23 14:07:15,026 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-23 14:07:15,360 [INFO] Table exists
+2024-02-23 14:07:21,547 [INFO] Loaded 287360 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-02-23 14:07:21,873 [INFO] Table exists
+2024-02-23 14:07:28,212 [INFO] Loaded 288832 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-02-23 14:07:28,695 [INFO] Table exists
+2024-02-23 14:07:34,803 [INFO] Loaded 855998 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-02-23 14:07:35,148 [INFO] Table exists
+2024-02-23 14:07:41,187 [INFO] Loaded 302254 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-02-23 14:07:41,187 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 14:07:41,188 [INFO] Gathering news articles from leonberger_kreiszeitung from 2024-01-05 to 2024-01-10
+2024-02-23 14:07:41,188 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=leonberger_kreiszeitung&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 14:07:42,632 [INFO] Response: 200
+2024-02-23 14:07:42,634 [INFO] Gathering page 1 of 14
+2024-02-23 14:07:42,636 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=leonberger_kreiszeitung&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704815700748095024
+2024-02-23 14:07:43,960 [INFO] Response: 200
+2024-02-23 14:07:43,961 [INFO] Gathering page 2 of 14
+2024-02-23 14:07:43,962 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=leonberger_kreiszeitung&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704804540189335992
+2024-02-23 14:07:45,271 [INFO] Response: 200
+2024-02-23 14:07:45,272 [INFO] Gathering page 3 of 14
+2024-02-23 14:07:45,273 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=leonberger_kreiszeitung&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704793348801275701
+2024-02-23 14:07:46,598 [INFO] Response: 200
+2024-02-23 14:07:46,599 [INFO] Gathering page 4 of 14
+2024-02-23 14:07:46,600 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=leonberger_kreiszeitung&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704760453968615765
+2024-02-23 14:07:47,944 [INFO] Response: 200
+2024-02-23 14:07:47,945 [INFO] Gathering page 5 of 14
+2024-02-23 14:07:47,946 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=leonberger_kreiszeitung&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704724500583782475
+2024-02-23 14:07:49,038 [INFO] Response: 200
+2024-02-23 14:07:49,039 [INFO] Gathering page 6 of 14
+2024-02-23 14:07:49,041 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=leonberger_kreiszeitung&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704711720950111710
+2024-02-23 14:07:50,389 [INFO] Response: 200
+2024-02-23 14:07:50,390 [INFO] Gathering page 7 of 14
+2024-02-23 14:07:50,392 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=leonberger_kreiszeitung&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704687326718565211
+2024-02-23 14:07:51,710 [INFO] Response: 200
+2024-02-23 14:07:51,711 [INFO] Gathering page 8 of 14
+2024-02-23 14:07:51,712 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=leonberger_kreiszeitung&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704633574734170185
+2024-02-23 14:07:53,113 [INFO] Response: 200
+2024-02-23 14:07:53,114 [INFO] Gathering page 9 of 14
+2024-02-23 14:07:53,115 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=leonberger_kreiszeitung&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704607260685511051
+2024-02-23 14:07:54,454 [INFO] Response: 200
+2024-02-23 14:07:54,455 [INFO] Gathering page 10 of 14
+2024-02-23 14:07:54,456 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=leonberger_kreiszeitung&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704532300628924104
+2024-02-23 14:07:55,767 [INFO] Response: 200
+2024-02-23 14:07:55,768 [INFO] Gathering page 11 of 14
+2024-02-23 14:07:55,769 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=leonberger_kreiszeitung&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704477720086201315
+2024-02-23 14:07:57,061 [INFO] Response: 200
+2024-02-23 14:07:57,062 [INFO] Gathering page 12 of 14
+2024-02-23 14:07:57,063 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=leonberger_kreiszeitung&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704453999035805337
+2024-02-23 14:07:58,396 [INFO] Response: 200
+2024-02-23 14:07:58,397 [INFO] Gathering page 13 of 14
+2024-02-23 14:07:58,398 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=leonberger_kreiszeitung&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704427200789939105
+2024-02-23 14:07:59,191 [INFO] Response: 200
+2024-02-23 14:07:59,191 [INFO] Gathering page 14 of 14
+2024-02-23 14:07:59,192 [INFO] 
+Compiling 14 pages of results...
+2024-02-23 14:07:59,194 [INFO] All news articles gathered from leonberger_kreiszeitung from 2024-01-05 to 2024-01-10!
+2024-02-23 14:07:59,194 [INFO] Processing tables...
+2024-02-23 14:07:59,275 [INFO] Tables have been processed.
+2024-02-23 14:07:59,275 [INFO] 
+Pushing results from leonberger_kreiszeitung to Google BigQuery database...
+2024-02-23 14:08:00,026 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-23 14:08:00,370 [INFO] Table exists
+2024-02-23 14:08:07,040 [INFO] Loaded 288015 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-02-23 14:08:07,369 [INFO] Table exists
+2024-02-23 14:08:12,944 [INFO] Loaded 289487 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-02-23 14:08:13,264 [INFO] Table exists
+2024-02-23 14:08:28,573 [INFO] Loaded 856653 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-02-23 14:08:28,890 [INFO] Table exists
+2024-02-23 14:08:34,435 [INFO] Loaded 302931 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-02-23 14:08:34,435 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 14:08:34,436 [INFO] Gathering news articles from sueddeutsche from 2024-01-05 to 2024-01-10
+2024-02-23 14:08:34,436 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=sueddeutsche&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 14:08:35,812 [INFO] Response: 200
+2024-02-23 14:08:35,814 [INFO] Gathering page 1 of 7
+2024-02-23 14:08:35,815 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=sueddeutsche&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704813712078066748
+2024-02-23 14:08:37,122 [INFO] Response: 200
+2024-02-23 14:08:37,124 [INFO] Gathering page 2 of 7
+2024-02-23 14:08:37,126 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=sueddeutsche&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704772401290049286
+2024-02-23 14:08:38,531 [INFO] Response: 200
+2024-02-23 14:08:38,532 [INFO] Gathering page 3 of 7
+2024-02-23 14:08:38,534 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=sueddeutsche&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704724622474390112
+2024-02-23 14:08:39,858 [INFO] Response: 200
+2024-02-23 14:08:39,859 [INFO] Gathering page 4 of 7
+2024-02-23 14:08:39,861 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=sueddeutsche&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704645128292398140
+2024-02-23 14:08:41,180 [INFO] Response: 200
+2024-02-23 14:08:41,183 [INFO] Gathering page 5 of 7
+2024-02-23 14:08:41,184 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=sueddeutsche&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704616879709377974
+2024-02-23 14:08:42,491 [INFO] Response: 200
+2024-02-23 14:08:42,492 [INFO] Gathering page 6 of 7
+2024-02-23 14:08:42,494 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=sueddeutsche&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704460134513110360
+2024-02-23 14:08:43,547 [INFO] Response: 200
+2024-02-23 14:08:43,548 [INFO] Gathering page 7 of 7
+2024-02-23 14:08:43,549 [INFO] 
+Compiling 7 pages of results...
+2024-02-23 14:08:43,551 [INFO] All news articles gathered from sueddeutsche from 2024-01-05 to 2024-01-10!
+2024-02-23 14:08:43,551 [INFO] Processing tables...
+2024-02-23 14:08:43,599 [INFO] Tables have been processed.
+2024-02-23 14:08:43,599 [INFO] 
+Pushing results from sueddeutsche to Google BigQuery database...
+2024-02-23 14:08:44,425 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-23 14:08:44,782 [INFO] Table exists
+2024-02-23 14:08:53,716 [INFO] Loaded 288341 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-02-23 14:08:54,058 [INFO] Table exists
+2024-02-23 14:09:01,202 [INFO] Loaded 289813 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-02-23 14:09:01,567 [INFO] Table exists
+2024-02-23 14:09:06,674 [INFO] Loaded 858305 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-02-23 14:09:06,992 [INFO] Table exists
+2024-02-23 14:09:11,801 [INFO] Loaded 303337 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-02-23 14:09:11,801 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 14:09:11,802 [INFO] Gathering news articles from tagesschau from 2024-01-05 to 2024-01-10
+2024-02-23 14:09:11,802 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=tagesschau&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 14:09:13,231 [INFO] Response: 200
+2024-02-23 14:09:13,233 [INFO] Gathering page 1 of 3
+2024-02-23 14:09:13,235 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=tagesschau&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704716275917100606
+2024-02-23 14:09:14,547 [INFO] Response: 200
+2024-02-23 14:09:14,548 [INFO] Gathering page 2 of 3
+2024-02-23 14:09:14,553 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=tagesschau&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704553572503314782
+2024-02-23 14:09:15,869 [INFO] Response: 200
+2024-02-23 14:09:15,870 [INFO] Gathering page 3 of 3
+2024-02-23 14:09:15,871 [INFO] 
+Compiling 3 pages of results...
+2024-02-23 14:09:15,872 [INFO] All news articles gathered from tagesschau from 2024-01-05 to 2024-01-10!
+2024-02-23 14:09:15,872 [INFO] Processing tables...
+2024-02-23 14:09:15,907 [INFO] Tables have been processed.
+2024-02-23 14:09:15,907 [INFO] 
+Pushing results from tagesschau to Google BigQuery database...
+2024-02-23 14:09:16,825 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-23 14:09:17,226 [INFO] Table exists
+2024-02-23 14:09:23,612 [INFO] Loaded 288490 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-02-23 14:09:23,949 [INFO] Table exists
+2024-02-23 14:09:31,889 [INFO] Loaded 289962 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-02-23 14:09:32,224 [INFO] Table exists
+2024-02-23 14:09:40,939 [INFO] Loaded 858454 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-02-23 14:09:41,275 [INFO] Table exists
+2024-02-23 14:10:03,175 [INFO] Loaded 303486 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-02-23 14:10:03,175 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 14:10:03,175 [INFO] Gathering news articles from tagesspiegel from 2024-01-05 to 2024-01-10
+2024-02-23 14:10:03,175 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=tagesspiegel&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 14:10:04,637 [INFO] Response: 200
+2024-02-23 14:10:04,638 [INFO] Gathering page 1 of 11
+2024-02-23 14:10:04,640 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=tagesspiegel&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704808301728483134
+2024-02-23 14:10:06,061 [INFO] Response: 200
+2024-02-23 14:10:06,065 [INFO] Gathering page 2 of 11
+2024-02-23 14:10:06,066 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=tagesspiegel&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704784883312825476
+2024-02-23 14:10:07,441 [INFO] Response: 200
+2024-02-23 14:10:07,442 [INFO] Gathering page 3 of 11
+2024-02-23 14:10:07,443 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=tagesspiegel&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704724704749502515
+2024-02-23 14:10:08,771 [INFO] Response: 200
+2024-02-23 14:10:08,771 [INFO] Gathering page 4 of 11
+2024-02-23 14:10:08,774 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=tagesspiegel&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704706848030700078
+2024-02-23 14:10:09,840 [INFO] Response: 200
+2024-02-23 14:10:09,841 [INFO] Gathering page 5 of 11
+2024-02-23 14:10:09,842 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=tagesspiegel&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704645356506650238
+2024-02-23 14:10:10,970 [INFO] Response: 200
+2024-02-23 14:10:10,971 [INFO] Gathering page 6 of 11
+2024-02-23 14:10:10,972 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=tagesspiegel&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704628828534819785
+2024-02-23 14:10:12,347 [INFO] Response: 200
+2024-02-23 14:10:12,348 [INFO] Gathering page 7 of 11
+2024-02-23 14:10:12,349 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=tagesspiegel&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704555121698270072
+2024-02-23 14:10:13,700 [INFO] Response: 200
+2024-02-23 14:10:13,701 [INFO] Gathering page 8 of 11
+2024-02-23 14:10:13,702 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=tagesspiegel&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704492642760187163
+2024-02-23 14:10:15,047 [INFO] Response: 200
+2024-02-23 14:10:15,048 [INFO] Gathering page 9 of 11
+2024-02-23 14:10:15,049 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=tagesspiegel&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704464311429592751
+2024-02-23 14:10:16,447 [INFO] Response: 200
+2024-02-23 14:10:16,448 [INFO] Gathering page 10 of 11
+2024-02-23 14:10:16,449 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=tagesspiegel&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704447032897201104
+2024-02-23 14:10:17,473 [INFO] Response: 200
+2024-02-23 14:10:17,473 [INFO] Gathering page 11 of 11
+2024-02-23 14:10:17,475 [INFO] 
+Compiling 11 pages of results...
+2024-02-23 14:10:17,476 [INFO] All news articles gathered from tagesspiegel from 2024-01-05 to 2024-01-10!
+2024-02-23 14:10:17,476 [INFO] Processing tables...
+2024-02-23 14:10:17,534 [INFO] Tables have been processed.
+2024-02-23 14:10:17,535 [INFO] 
+Pushing results from tagesspiegel to Google BigQuery database...
+2024-02-23 14:10:18,327 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-23 14:10:18,693 [INFO] Table exists
+2024-02-23 14:10:24,729 [INFO] Loaded 289007 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-02-23 14:10:25,050 [INFO] Table exists
+2024-02-23 14:10:29,759 [INFO] Loaded 290479 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-02-23 14:10:30,088 [INFO] Table exists
+2024-02-23 14:10:34,677 [INFO] Loaded 858971 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-02-23 14:10:35,022 [INFO] Table exists
+2024-02-23 14:10:40,383 [INFO] Loaded 304003 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-02-23 14:10:40,384 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 14:10:40,384 [INFO] Gathering news articles from taz from 2024-01-05 to 2024-01-10
+2024-02-23 14:10:40,384 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=taz&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 14:10:42,139 [INFO] Response: 200
+2024-02-23 14:10:42,140 [INFO] Gathering page 1 of 3
+2024-02-23 14:10:42,142 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=taz&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704732240802910078
+2024-02-23 14:10:43,701 [INFO] Response: 200
+2024-02-23 14:10:43,702 [INFO] Gathering page 2 of 3
+2024-02-23 14:10:43,703 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=taz&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704612060190676485
+2024-02-23 14:10:45,229 [INFO] Response: 200
+2024-02-23 14:10:45,231 [INFO] Gathering page 3 of 3
+2024-02-23 14:10:45,232 [INFO] 
+Compiling 3 pages of results...
+2024-02-23 14:10:45,235 [INFO] All news articles gathered from taz from 2024-01-05 to 2024-01-10!
+2024-02-23 14:10:45,235 [INFO] Processing tables...
+2024-02-23 14:10:45,277 [INFO] Tables have been processed.
+2024-02-23 14:10:45,277 [INFO] 
+Pushing results from taz to Google BigQuery database...
+2024-02-23 14:10:46,027 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-23 14:10:46,353 [INFO] Table exists
+2024-02-23 14:10:52,983 [INFO] Loaded 289151 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-02-23 14:10:53,319 [INFO] Table exists
+2024-02-23 14:10:58,210 [INFO] Loaded 290667 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-02-23 14:10:58,537 [INFO] Table exists
+2024-02-23 14:11:03,732 [INFO] Loaded 859115 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-02-23 14:11:04,103 [INFO] Table exists
+2024-02-23 14:11:09,346 [INFO] Loaded 304147 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-02-23 14:11:09,346 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 14:11:09,346 [INFO] Gathering news articles from telepolis from 2024-01-05 to 2024-01-10
+2024-02-23 14:11:09,346 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=telepolis&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 14:11:10,309 [INFO] Response: 200
+2024-02-23 14:11:10,310 [INFO] Gathering page 1 of 1
+2024-02-23 14:11:10,311 [INFO] 
+Compiling 1 pages of results...
+2024-02-23 14:11:10,312 [INFO] All news articles gathered from telepolis from 2024-01-05 to 2024-01-10!
+2024-02-23 14:11:10,312 [INFO] Processing tables...
+2024-02-23 14:11:10,337 [INFO] Tables have been processed.
+2024-02-23 14:11:10,337 [INFO] 
+Pushing results from telepolis to Google BigQuery database...
+2024-02-23 14:11:11,122 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-23 14:11:11,432 [INFO] Table exists
+2024-02-23 14:11:16,166 [INFO] Loaded 289201 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-02-23 14:11:16,499 [INFO] Table exists
+2024-02-23 14:11:23,682 [INFO] Loaded 290717 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-02-23 14:11:24,030 [INFO] Table exists
+2024-02-23 14:11:28,273 [INFO] Loaded 859165 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-02-23 14:11:28,600 [INFO] Table exists
+2024-02-23 14:11:32,829 [INFO] Loaded 304197 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-02-23 14:11:32,829 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 14:11:32,829 [INFO] Gathering news articles from tichyseinblick from 2024-01-05 to 2024-01-10
+2024-02-23 14:11:32,829 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=tichyseinblick&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 14:11:33,978 [INFO] Response: 200
+2024-02-23 14:11:33,978 [INFO] Gathering page 1 of 1
+2024-02-23 14:11:33,979 [INFO] 
+Compiling 1 pages of results...
+2024-02-23 14:11:33,979 [INFO] All news articles gathered from tichyseinblick from 2024-01-05 to 2024-01-10!
+2024-02-23 14:11:33,979 [INFO] Processing tables...
+2024-02-23 14:11:33,999 [INFO] Tables have been processed.
+2024-02-23 14:11:33,999 [INFO] 
+Pushing results from tichyseinblick to Google BigQuery database...
+2024-02-23 14:11:34,723 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-23 14:11:35,102 [INFO] Table exists
+2024-02-23 14:11:40,933 [INFO] Loaded 289207 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-02-23 14:11:41,250 [INFO] Table exists
+2024-02-23 14:11:48,954 [INFO] Loaded 290723 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-02-23 14:11:49,291 [INFO] Table exists
+2024-02-23 14:11:55,312 [INFO] Loaded 859174 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-02-23 14:11:55,618 [INFO] Table exists
+2024-02-23 14:12:00,556 [INFO] Loaded 304203 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-02-23 14:12:00,556 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 14:12:00,556 [INFO] Gathering news articles from t-online from 2024-01-05 to 2024-01-10
+2024-02-23 14:12:00,556 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=t-online&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 14:12:02,181 [INFO] Response: 200
+2024-02-23 14:12:02,182 [INFO] Gathering page 1 of 4
+2024-02-23 14:12:02,183 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=t-online&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704729524821612174
+2024-02-23 14:12:03,854 [INFO] Response: 200
+2024-02-23 14:12:03,856 [INFO] Gathering page 2 of 4
+2024-02-23 14:12:03,857 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=t-online&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704612047283786363
+2024-02-23 14:12:05,204 [INFO] Response: 200
+2024-02-23 14:12:05,206 [INFO] Gathering page 3 of 4
+2024-02-23 14:12:05,207 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=t-online&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704449533959099189
+2024-02-23 14:12:06,291 [INFO] Response: 200
+2024-02-23 14:12:06,293 [INFO] Gathering page 4 of 4
+2024-02-23 14:12:06,294 [INFO] 
+Compiling 4 pages of results...
+2024-02-23 14:12:06,294 [INFO] All news articles gathered from t-online from 2024-01-05 to 2024-01-10!
+2024-02-23 14:12:06,294 [INFO] Processing tables...
+2024-02-23 14:12:06,340 [INFO] Tables have been processed.
+2024-02-23 14:12:06,341 [INFO] 
+Pushing results from t-online to Google BigQuery database...
+2024-02-23 14:12:07,134 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-23 14:12:07,483 [INFO] Table exists
+2024-02-23 14:12:13,691 [INFO] Loaded 289380 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-02-23 14:12:14,048 [INFO] Table exists
+2024-02-23 14:12:21,514 [INFO] Loaded 290896 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-02-23 14:12:21,849 [INFO] Table exists
+2024-02-23 14:12:27,250 [INFO] Loaded 859347 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-02-23 14:12:27,570 [INFO] Table exists
+2024-02-23 14:12:34,915 [INFO] Loaded 304441 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-02-23 14:12:34,915 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 14:12:34,915 [INFO] Gathering news articles from ubermedien from 2024-01-05 to 2024-01-10
+2024-02-23 14:12:34,915 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=ubermedien&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 14:12:35,736 [INFO] Response: 200
+2024-02-23 14:12:35,736 [INFO] Gathering page 1 of 0
+2024-02-23 14:12:35,737 [INFO] No results for ubermedien during your specified timeframe!
+2024-02-23 14:12:35,737 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 14:12:35,737 [INFO] Gathering news articles from wazonline from 2024-01-05 to 2024-01-10
+2024-02-23 14:12:35,737 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=wazonline&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 14:12:36,580 [INFO] Response: 200
+2024-02-23 14:12:36,581 [INFO] Gathering page 1 of 0
+2024-02-23 14:12:36,581 [INFO] No results for wazonline during your specified timeframe!
+2024-02-23 14:12:36,582 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 14:12:36,582 [INFO] Gathering news articles from welt from 2024-01-05 to 2024-01-10
+2024-02-23 14:12:36,582 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=welt&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 14:12:37,438 [INFO] Response: 200
+2024-02-23 14:12:37,438 [INFO] Gathering page 1 of 1
+2024-02-23 14:12:37,439 [INFO] 
+Compiling 1 pages of results...
+2024-02-23 14:12:37,439 [INFO] All news articles gathered from welt from 2024-01-05 to 2024-01-10!
+2024-02-23 14:12:37,440 [INFO] Processing tables...
+2024-02-23 14:12:37,456 [INFO] Tables have been processed.
+2024-02-23 14:12:37,456 [INFO] 
+Pushing results from welt to Google BigQuery database...
+2024-02-23 14:12:38,229 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-23 14:12:38,589 [INFO] Table exists
+2024-02-23 14:12:47,446 [INFO] Loaded 289389 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-02-23 14:12:47,774 [INFO] Table exists
+2024-02-23 14:12:53,465 [INFO] Loaded 290905 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-02-23 14:12:53,790 [INFO] Table exists
+2024-02-23 14:13:01,938 [INFO] Loaded 859356 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-02-23 14:13:02,271 [INFO] Table exists
+2024-02-23 14:13:07,169 [INFO] Loaded 304452 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-02-23 14:13:07,169 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 14:13:07,169 [INFO] Gathering news articles from yahoo from 2024-01-05 to 2024-01-10
+2024-02-23 14:13:07,169 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 14:13:08,043 [INFO] Response: 200
+2024-02-23 14:13:08,043 [INFO] Gathering page 1 of 0
+2024-02-23 14:13:08,044 [INFO] No results for yahoo during your specified timeframe!
+2024-02-23 14:13:08,044 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-23 14:13:08,044 [INFO] Gathering news articles from zdf from 2024-01-05 to 2024-01-10
+2024-02-23 14:13:08,044 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zdf&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de
+2024-02-23 14:13:09,446 [INFO] Response: 200
+2024-02-23 14:13:09,448 [INFO] Gathering page 1 of 2
+2024-02-23 14:13:09,450 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zdf&language=de&from_date=2024-01-05&to_date=2024-01-10&country=de&page=1704479100657309174
+2024-02-23 14:13:10,308 [INFO] Response: 200
+2024-02-23 14:13:10,309 [INFO] Gathering page 2 of 2
+2024-02-23 14:13:10,310 [INFO] 
+Compiling 2 pages of results...
+2024-02-23 14:13:10,310 [INFO] All news articles gathered from zdf from 2024-01-05 to 2024-01-10!
+2024-02-23 14:13:10,311 [INFO] Processing tables...
+2024-02-23 14:13:10,334 [INFO] Tables have been processed.
+2024-02-23 14:13:10,335 [INFO] 
+Pushing results from zdf to Google BigQuery database...
+2024-02-23 14:13:11,127 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-23 14:13:11,450 [INFO] Table exists
+2024-02-23 14:13:17,822 [INFO] Loaded 289444 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-02-23 14:13:18,270 [INFO] Table exists
+2024-02-23 14:13:25,861 [INFO] Loaded 290960 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-02-23 14:13:26,183 [INFO] Table exists
+2024-02-23 14:13:31,708 [INFO] Loaded 859411 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-02-23 14:13:32,030 [INFO] Table exists
+2024-02-23 14:13:49,346 [INFO] Loaded 304507 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-02-23 14:13:49,346 [INFO] 
+Gather complete!

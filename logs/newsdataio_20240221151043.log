@@ -1,0 +1,62 @@
+2024-02-21 15:10:43,049 [INFO] Starting News Gatherer
+2024-02-21 15:10:43,049 [INFO] Collecting news content from 1 domains.
+2024-02-21 15:10:43,049 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:10:43,049 [INFO] Gathering news articles from couriermail from 2023-11-01 to 2024-02-20
+2024-02-21 15:10:43,049 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-11-01&to_date=2024-02-20&country=au
+2024-02-21 15:10:43,971 [INFO] Response: 200
+2024-02-21 15:10:43,972 [INFO] Gathering page 1 of 16
+2024-02-21 15:10:43,973 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-11-01&to_date=2024-02-20&country=au&page=1700991780059740707
+2024-02-21 15:10:44,835 [INFO] Response: 200
+2024-02-21 15:10:44,835 [INFO] Gathering page 2 of 16
+2024-02-21 15:10:44,836 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-11-01&to_date=2024-02-20&country=au&page=1700835480659751380
+2024-02-21 15:10:45,717 [INFO] Response: 200
+2024-02-21 15:10:45,719 [INFO] Gathering page 3 of 16
+2024-02-21 15:10:45,721 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-11-01&to_date=2024-02-20&country=au&page=1700728380009545265
+2024-02-21 15:10:46,594 [INFO] Response: 200
+2024-02-21 15:10:46,594 [INFO] Gathering page 4 of 16
+2024-02-21 15:10:46,595 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-11-01&to_date=2024-02-20&country=au&page=1700645169635753985
+2024-02-21 15:10:47,467 [INFO] Response: 200
+2024-02-21 15:10:47,468 [INFO] Gathering page 5 of 16
+2024-02-21 15:10:47,470 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-11-01&to_date=2024-02-20&country=au&page=1700475190495783560
+2024-02-21 15:10:48,342 [INFO] Response: 200
+2024-02-21 15:10:48,343 [INFO] Gathering page 6 of 16
+2024-02-21 15:10:48,346 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-11-01&to_date=2024-02-20&country=au&page=1700346120969359721
+2024-02-21 15:10:49,212 [INFO] Response: 200
+2024-02-21 15:10:49,213 [INFO] Gathering page 7 of 16
+2024-02-21 15:10:49,216 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-11-01&to_date=2024-02-20&country=au&page=1700208000823661683
+2024-02-21 15:10:50,086 [INFO] Response: 200
+2024-02-21 15:10:50,087 [INFO] Gathering page 8 of 16
+2024-02-21 15:10:50,087 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-11-01&to_date=2024-02-20&country=au&page=1700111590567719236
+2024-02-21 15:10:50,950 [INFO] Response: 200
+2024-02-21 15:10:50,951 [INFO] Gathering page 9 of 16
+2024-02-21 15:10:50,952 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-11-01&to_date=2024-02-20&country=au&page=1700036280962380010
+2024-02-21 15:10:51,813 [INFO] Response: 200
+2024-02-21 15:10:51,813 [INFO] Gathering page 10 of 16
+2024-02-21 15:10:51,816 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-11-01&to_date=2024-02-20&country=au&page=1699920300347745089
+2024-02-21 15:10:52,463 [INFO] Response: 429
+2024-02-21 15:10:52,464 [INFO] 'totalResults'
+2024-02-21 15:10:52,464 [INFO] 
+Gather complete!

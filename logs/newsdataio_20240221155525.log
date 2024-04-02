@@ -1,0 +1,353 @@
+2024-02-21 15:55:25,600 [INFO] Starting News Gatherer
+2024-02-21 15:55:25,601 [INFO] Collecting news content from 39 domains.
+2024-02-21 15:55:25,601 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:25,601 [INFO] Gathering news articles from 3sat_de from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:25,601 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=3sat_de&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:26,594 [INFO] Response: 200
+2024-02-21 15:55:26,595 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:26,595 [INFO] No results for 3sat_de during your specified timeframe!
+2024-02-21 15:55:26,596 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:26,596 [INFO] Gathering news articles from morgenpost from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:26,596 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:27,452 [INFO] Response: 200
+2024-02-21 15:55:27,453 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:27,454 [INFO] No results for morgenpost during your specified timeframe!
+2024-02-21 15:55:27,454 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:27,454 [INFO] Gathering news articles from arte from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:27,454 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=arte&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:28,854 [INFO] Response: 200
+2024-02-21 15:55:28,855 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:28,856 [INFO] No results for arte during your specified timeframe!
+2024-02-21 15:55:28,856 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:28,856 [INFO] Gathering news articles from bild from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:28,856 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:29,659 [INFO] Response: 200
+2024-02-21 15:55:29,659 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:29,659 [INFO] No results for bild during your specified timeframe!
+2024-02-21 15:55:29,660 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:29,660 [INFO] Gathering news articles from bildblog from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:29,660 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bildblog&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:30,451 [INFO] Response: 200
+2024-02-21 15:55:30,451 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:30,452 [INFO] No results for bildblog during your specified timeframe!
+2024-02-21 15:55:30,453 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:30,453 [INFO] Gathering news articles from freitag from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:30,453 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=freitag&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:31,262 [INFO] Response: 200
+2024-02-21 15:55:31,263 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:31,264 [INFO] No results for freitag during your specified timeframe!
+2024-02-21 15:55:31,264 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:31,264 [INFO] Gathering news articles from derwesten from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:31,265 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:32,047 [INFO] Response: 200
+2024-02-21 15:55:32,047 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:32,047 [INFO] No results for derwesten during your specified timeframe!
+2024-02-21 15:55:32,047 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:32,048 [INFO] Gathering news articles from dw from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:32,048 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=dw&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:32,856 [INFO] Response: 200
+2024-02-21 15:55:32,857 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:32,858 [INFO] No results for dw during your specified timeframe!
+2024-02-21 15:55:32,859 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:32,859 [INFO] Gathering news articles from deutschlandfunk from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:32,859 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=deutschlandfunk&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:33,646 [INFO] Response: 200
+2024-02-21 15:55:33,646 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:33,647 [INFO] No results for deutschlandfunk during your specified timeframe!
+2024-02-21 15:55:33,647 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:33,647 [INFO] Gathering news articles from achgut from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:33,647 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=achgut&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:34,448 [INFO] Response: 200
+2024-02-21 15:55:34,449 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:34,450 [INFO] No results for achgut during your specified timeframe!
+2024-02-21 15:55:34,450 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:34,450 [INFO] Gathering news articles from dietagespost from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:34,450 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=dietagespost&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:35,269 [INFO] Response: 200
+2024-02-21 15:55:35,270 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:35,270 [INFO] No results for dietagespost during your specified timeframe!
+2024-02-21 15:55:35,270 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:35,270 [INFO] Gathering news articles from faz from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:35,270 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=faz&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:36,060 [INFO] Response: 200
+2024-02-21 15:55:36,060 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:36,062 [INFO] No results for faz during your specified timeframe!
+2024-02-21 15:55:36,062 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:36,062 [INFO] Gathering news articles from focus from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:36,063 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=focus&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:36,855 [INFO] Response: 200
+2024-02-21 15:55:36,855 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:36,857 [INFO] No results for focus during your specified timeframe!
+2024-02-21 15:55:36,857 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:36,857 [INFO] Gathering news articles from abendblatt from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:36,857 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abendblatt&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:37,512 [INFO] Response: 429
+2024-02-21 15:55:37,512 [INFO] Bad response: 429
+2024-02-21 15:55:37,512 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:37,513 [INFO] Gathering news articles from gmx from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:37,513 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=gmx&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:38,292 [INFO] Response: 200
+2024-02-21 15:55:38,292 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:38,293 [INFO] No results for gmx during your specified timeframe!
+2024-02-21 15:55:38,293 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:38,293 [INFO] Gathering news articles from handelsblatt from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:38,293 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=handelsblatt&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:39,150 [INFO] Response: 200
+2024-02-21 15:55:39,151 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:39,152 [INFO] No results for handelsblatt during your specified timeframe!
+2024-02-21 15:55:39,152 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:39,153 [INFO] Gathering news articles from haz from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:39,153 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=haz&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:39,963 [INFO] Response: 200
+2024-02-21 15:55:39,963 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:39,963 [INFO] No results for haz during your specified timeframe!
+2024-02-21 15:55:39,963 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:39,963 [INFO] Gathering news articles from heise from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:39,963 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=heise&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:40,756 [INFO] Response: 200
+2024-02-21 15:55:40,756 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:40,756 [INFO] No results for heise during your specified timeframe!
+2024-02-21 15:55:40,756 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:40,756 [INFO] Gathering news articles from jungewelt from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:40,756 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=jungewelt&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:41,720 [INFO] Response: 200
+2024-02-21 15:55:41,720 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:41,722 [INFO] No results for jungewelt during your specified timeframe!
+2024-02-21 15:55:41,722 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:41,722 [INFO] Gathering news articles from lvz from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:41,722 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=lvz&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:42,516 [INFO] Response: 200
+2024-02-21 15:55:42,516 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:42,517 [INFO] No results for lvz during your specified timeframe!
+2024-02-21 15:55:42,517 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:42,517 [INFO] Gathering news articles from netzpolitik from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:42,517 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=netzpolitik&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:43,574 [INFO] Response: 200
+2024-02-21 15:55:43,575 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:43,576 [INFO] No results for netzpolitik during your specified timeframe!
+2024-02-21 15:55:43,576 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:43,576 [INFO] Gathering news articles from n-tv from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:43,576 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=n-tv&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:44,548 [INFO] Response: 200
+2024-02-21 15:55:44,549 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:44,550 [INFO] No results for n-tv during your specified timeframe!
+2024-02-21 15:55:44,550 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:44,550 [INFO] Gathering news articles from rp_online from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:44,550 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=rp_online&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:45,366 [INFO] Response: 200
+2024-02-21 15:55:45,366 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:45,367 [INFO] No results for rp_online during your specified timeframe!
+2024-02-21 15:55:45,367 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:45,367 [INFO] Gathering news articles from spiegel from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:45,367 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=spiegel&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:46,199 [INFO] Response: 200
+2024-02-21 15:55:46,199 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:46,199 [INFO] No results for spiegel during your specified timeframe!
+2024-02-21 15:55:46,200 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:46,200 [INFO] Gathering news articles from stern from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:46,200 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=stern&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:46,987 [INFO] Response: 200
+2024-02-21 15:55:46,988 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:46,989 [INFO] No results for stern during your specified timeframe!
+2024-02-21 15:55:46,989 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:46,989 [INFO] Gathering news articles from leonberger_kreiszeitung from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:46,990 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=leonberger_kreiszeitung&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:47,760 [INFO] Response: 200
+2024-02-21 15:55:47,760 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:47,762 [INFO] No results for leonberger_kreiszeitung during your specified timeframe!
+2024-02-21 15:55:47,762 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:47,762 [INFO] Gathering news articles from sueddeutsche from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:47,762 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=sueddeutsche&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:48,528 [INFO] Response: 200
+2024-02-21 15:55:48,529 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:48,530 [INFO] No results for sueddeutsche during your specified timeframe!
+2024-02-21 15:55:48,530 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:48,530 [INFO] Gathering news articles from tagesschau from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:48,531 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=tagesschau&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:49,301 [INFO] Response: 200
+2024-02-21 15:55:49,301 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:49,303 [INFO] No results for tagesschau during your specified timeframe!
+2024-02-21 15:55:49,303 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:49,303 [INFO] Gathering news articles from tagesspiegel from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:49,303 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=tagesspiegel&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:50,136 [INFO] Response: 200
+2024-02-21 15:55:50,136 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:50,138 [INFO] No results for tagesspiegel during your specified timeframe!
+2024-02-21 15:55:50,138 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:50,138 [INFO] Gathering news articles from taz from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:50,138 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=taz&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:50,908 [INFO] Response: 200
+2024-02-21 15:55:50,908 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:50,908 [INFO] No results for taz during your specified timeframe!
+2024-02-21 15:55:50,908 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:50,908 [INFO] Gathering news articles from telepolis from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:50,909 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=telepolis&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:51,574 [INFO] Response: 429
+2024-02-21 15:55:51,574 [INFO] Bad response: 429
+2024-02-21 15:55:51,574 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:51,574 [INFO] Gathering news articles from tichyseinblick from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:51,574 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=tichyseinblick&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:52,566 [INFO] Response: 200
+2024-02-21 15:55:52,566 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:52,567 [INFO] No results for tichyseinblick during your specified timeframe!
+2024-02-21 15:55:52,567 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:52,567 [INFO] Gathering news articles from t-online from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:52,567 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=t-online&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:53,358 [INFO] Response: 200
+2024-02-21 15:55:53,359 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:53,359 [INFO] No results for t-online during your specified timeframe!
+2024-02-21 15:55:53,359 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:53,359 [INFO] Gathering news articles from ubermedien from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:53,359 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=ubermedien&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:54,153 [INFO] Response: 200
+2024-02-21 15:55:54,154 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:54,154 [INFO] No results for ubermedien during your specified timeframe!
+2024-02-21 15:55:54,155 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:54,155 [INFO] Gathering news articles from wazonline from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:54,155 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=wazonline&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:54,973 [INFO] Response: 200
+2024-02-21 15:55:54,973 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:54,973 [INFO] No results for wazonline during your specified timeframe!
+2024-02-21 15:55:54,973 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:54,973 [INFO] Gathering news articles from welt from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:54,973 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=welt&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:55,758 [INFO] Response: 200
+2024-02-21 15:55:55,758 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:55,759 [INFO] No results for welt during your specified timeframe!
+2024-02-21 15:55:55,760 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:55,760 [INFO] Gathering news articles from yahoo from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:55,760 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:56,672 [INFO] Response: 200
+2024-02-21 15:55:56,672 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:56,673 [INFO] No results for yahoo during your specified timeframe!
+2024-02-21 15:55:56,673 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:56,673 [INFO] Gathering news articles from zdf from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:56,673 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zdf&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:57,445 [INFO] Response: 200
+2024-02-21 15:55:57,445 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:57,446 [INFO] No results for zdf during your specified timeframe!
+2024-02-21 15:55:57,447 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:55:57,447 [INFO] Gathering news articles from zeit from 2023-08-01 to 2023-10-01
+2024-02-21 15:55:57,447 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=en&from_date=2023-08-01&to_date=2023-10-01&country=de
+2024-02-21 15:55:58,215 [INFO] Response: 200
+2024-02-21 15:55:58,216 [INFO] Gathering page 1 of 0
+2024-02-21 15:55:58,217 [INFO] No results for zeit during your specified timeframe!
+2024-02-21 15:55:58,217 [INFO] 
+Gather complete!

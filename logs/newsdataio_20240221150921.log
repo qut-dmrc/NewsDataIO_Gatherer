@@ -1,0 +1,13 @@
+2024-02-21 15:09:21,738 [INFO] Starting News Gatherer
+2024-02-21 15:09:21,739 [INFO] Collecting news content from 1 domains.
+2024-02-21 15:09:21,739 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:09:21,739 [INFO] Gathering news articles from couriermail from 2024-01-01 to 2024-02-20
+2024-02-21 15:09:21,739 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2024-01-01&to_date=2024-02-20&country=au
+2024-02-21 15:09:22,640 [INFO] Response: 200
+2024-02-21 15:09:22,640 [INFO] Gathering page 1 of 0
+2024-02-21 15:09:22,641 [INFO] No results for couriermail during your specified timeframe!
+2024-02-21 15:09:22,641 [INFO] 
+Gather complete!

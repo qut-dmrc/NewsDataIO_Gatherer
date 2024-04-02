@@ -1,0 +1,62 @@
+2023-11-02 20:01:06,422 [INFO] Starting News Gatherer
+2023-11-02 20:01:06,422 [INFO] Collecting news content from 21 domains.
+2023-11-02 20:01:06,422 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-11-02 20:01:06,423 [INFO] Gathering news articles from yahoo from 2023-09-01 to 2023-10-01
+2023-11-02 20:01:06,423 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au
+2023-11-02 20:01:07,131 [INFO] Response: 200
+2023-11-02 20:01:07,131 [INFO] Gathering page 1 of 23
+2023-11-02 20:01:07,135 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695971801440295039
+2023-11-02 20:01:07,820 [INFO] Response: 200
+2023-11-02 20:01:07,821 [INFO] Gathering page 2 of 23
+2023-11-02 20:01:07,823 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695886701031492241
+2023-11-02 20:01:08,544 [INFO] Response: 200
+2023-11-02 20:01:08,544 [INFO] Gathering page 3 of 23
+2023-11-02 20:01:08,546 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695780915515754517
+2023-11-02 20:01:09,254 [INFO] Response: 200
+2023-11-02 20:01:09,255 [INFO] Gathering page 4 of 23
+2023-11-02 20:01:09,257 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695708900610728672
+2023-11-02 20:01:10,051 [INFO] Response: 200
+2023-11-02 20:01:10,051 [INFO] Gathering page 5 of 23
+2023-11-02 20:01:10,053 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695619069047816672
+2023-11-02 20:01:10,759 [INFO] Response: 200
+2023-11-02 20:01:10,759 [INFO] Gathering page 6 of 23
+2023-11-02 20:01:10,761 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695433662007798844
+2023-11-02 20:01:11,509 [INFO] Response: 200
+2023-11-02 20:01:11,510 [INFO] Gathering page 7 of 23
+2023-11-02 20:01:11,511 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695347377427774691
+2023-11-02 20:01:12,234 [INFO] Response: 200
+2023-11-02 20:01:12,235 [INFO] Gathering page 8 of 23
+2023-11-02 20:01:12,240 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695272469517783379
+2023-11-02 20:01:12,949 [INFO] Response: 200
+2023-11-02 20:01:12,950 [INFO] Gathering page 9 of 23
+2023-11-02 20:01:12,951 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695180998488180048
+2023-11-02 20:01:13,658 [INFO] Response: 200
+2023-11-02 20:01:13,659 [INFO] Gathering page 10 of 23
+2023-11-02 20:01:13,662 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695101586867736292
+2023-11-02 20:01:14,333 [INFO] Response: 429
+2023-11-02 20:01:14,333 [INFO] 'totalResults'
+2023-11-02 20:01:14,334 [INFO] 
+Gather complete!

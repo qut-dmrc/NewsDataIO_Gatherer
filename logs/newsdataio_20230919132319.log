@@ -1,0 +1,28 @@
+2023-09-19 13:23:19,491 [INFO] Starting News Gatherer
+2023-09-19 13:23:19,492 [INFO] Collecting news content from 1 domains.
+2023-09-19 13:23:19,492 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-09-19 13:23:19,492 [INFO] Gathering news articles from abc_net from 2023-08-01 to 2023-08-02
+2023-09-19 13:23:19,492 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-08-01&to_date=2023-08-02&country=au
+2023-09-19 13:23:20,581 [INFO] Response: 200
+2023-09-19 13:23:20,582 [INFO] Gathering page 1 of 1
+2023-09-19 13:23:20,585 [INFO] 
+Compiling 1 pages of results...
+2023-09-19 13:23:20,585 [INFO] All news articles gathered from abc_net from 2023-08-01 to 2023-08-02!
+2023-09-19 13:23:20,586 [INFO] Processing tables...
+2023-09-19 13:23:20,641 [INFO] Tables have been processed.
+2023-09-19 13:23:20,641 [INFO] 
+Pushing results from abc_net to Google BigQuery database...
+2023-09-19 13:23:22,011 [INFO] Dataset dmrc-data.newsdataio already exists
+2023-09-19 13:23:22,933 [INFO] Created table dmrc-data.newsdataio.newsdata_aug2023_au
+2023-09-19 13:23:29,920 [INFO] Loaded 14 rows and 12 columns to dmrc-data.newsdataio.newsdata_aug2023_au
+2023-09-19 13:23:30,816 [INFO] Created table dmrc-data.newsdataio.newsdata_aug2023_au_categories
+2023-09-19 13:23:38,499 [INFO] Loaded 14 rows and 2 columns to dmrc-data.newsdataio.newsdata_aug2023_au_categories
+2023-09-19 13:23:39,344 [INFO] Created table dmrc-data.newsdataio.newsdata_aug2023_au_keywords
+2023-09-19 13:23:47,817 [INFO] Loaded 45 rows and 2 columns to dmrc-data.newsdataio.newsdata_aug2023_au_keywords
+2023-09-19 13:23:48,573 [INFO] Created table dmrc-data.newsdataio.newsdata_aug2023_au_creators
+2023-09-19 13:23:57,490 [INFO] Loaded 21 rows and 2 columns to dmrc-data.newsdataio.newsdata_aug2023_au_creators
+2023-09-19 13:23:57,490 [INFO] 
+Gather complete!

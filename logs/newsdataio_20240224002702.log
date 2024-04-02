@@ -1,0 +1,62 @@
+2024-02-24 00:27:02,699 [INFO] Starting News Gatherer
+2024-02-24 00:27:02,699 [INFO] Collecting news content from 38 domains.
+2024-02-24 00:27:02,699 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-24 00:27:02,699 [INFO] Gathering news articles from 3sat_de from 2024-02-01 to 2024-02-07
+2024-02-24 00:27:02,699 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=3sat_de&language=de&from_date=2024-02-01&to_date=2024-02-07&country=de
+2024-02-24 00:27:04,125 [INFO] Response: 200
+2024-02-24 00:27:04,127 [INFO] Gathering page 1 of 1
+2024-02-24 00:27:04,129 [INFO] 
+Compiling 1 pages of results...
+2024-02-24 00:27:04,130 [INFO] All news articles gathered from 3sat_de from 2024-02-01 to 2024-02-07!
+2024-02-24 00:27:04,130 [INFO] Processing tables...
+2024-02-24 00:27:04,151 [INFO] Tables have been processed.
+2024-02-24 00:27:04,151 [INFO] 
+Pushing results from 3sat_de to Google BigQuery database...
+2024-02-24 00:27:05,226 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-24 00:27:05,600 [INFO] Table exists
+2024-02-24 00:27:11,488 [INFO] Loaded 362640 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-02-24 00:27:11,911 [INFO] Table exists
+2024-02-24 00:27:16,815 [INFO] Loaded 364410 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-02-24 00:27:17,234 [INFO] Table exists
+2024-02-24 00:27:25,232 [INFO] Loaded 1123439 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-02-24 00:27:25,563 [INFO] Table exists
+2024-02-24 00:27:30,665 [INFO] Loaded 382125 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-02-24 00:27:30,666 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-24 00:27:30,666 [INFO] Gathering news articles from morgenpost from 2024-02-01 to 2024-02-07
+2024-02-24 00:27:30,666 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2024-02-01&to_date=2024-02-07&country=de
+2024-02-24 00:27:38,960 [INFO] Response: 200
+2024-02-24 00:27:38,960 [INFO] Gathering page 1 of 14
+2024-02-24 00:27:38,961 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2024-02-01&to_date=2024-02-07&country=de&page=1707291128013228732
+2024-02-24 00:27:39,857 [INFO] Response: 200
+2024-02-24 00:27:39,858 [INFO] Gathering page 2 of 14
+2024-02-24 00:27:39,859 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2024-02-01&to_date=2024-02-07&country=de&page=1707249600630465972
+2024-02-24 00:27:40,720 [INFO] Response: 200
+2024-02-24 00:27:40,722 [INFO] Gathering page 3 of 14
+2024-02-24 00:27:40,724 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2024-02-01&to_date=2024-02-07&country=de&page=1707221748584118101
+2024-02-24 00:27:41,590 [INFO] Response: 200
+2024-02-24 00:27:41,591 [INFO] Gathering page 4 of 14
+2024-02-24 00:27:41,592 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2024-02-01&to_date=2024-02-07&country=de&page=1707191520579552559
+2024-02-24 00:27:42,513 [INFO] Response: 200
+2024-02-24 00:27:42,515 [INFO] Gathering page 5 of 14
+2024-02-24 00:27:42,518 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2024-02-01&to_date=2024-02-07&country=de&page=1707146356686574860
+2024-02-24 00:27:43,694 [INFO] Response: 200
+2024-02-24 00:27:43,696 [INFO] Gathering page 6 of 14
+2024-02-24 00:27:43,698 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2024-02-01&to_date=2024-02-07&country=de&page=1707111074315501686

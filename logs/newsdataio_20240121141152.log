@@ -1,0 +1,73 @@
+2024-01-21 14:11:52,009 [INFO] Starting News Gatherer
+2024-01-21 14:11:52,009 [INFO] Collecting news content from 1 domains.
+2024-01-21 14:11:52,009 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-01-21 14:11:52,009 [INFO] Gathering news articles from yahoo from 2023-08-01 to 2023-08-15
+2024-01-21 14:11:52,009 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-08-01&to_date=2023-08-15&country=au
+2024-01-21 14:11:53,071 [INFO] Response: 200
+2024-01-21 14:11:53,072 [INFO] Gathering page 1 of 10
+2024-01-21 14:11:53,073 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-08-01&to_date=2023-08-15&country=au&page=1691977140585085676
+2024-01-21 14:11:53,968 [INFO] Response: 200
+2024-01-21 14:11:53,968 [INFO] Gathering page 2 of 10
+2024-01-21 14:11:53,969 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-08-01&to_date=2023-08-15&country=au&page=1691798562795719013
+2024-01-21 14:11:54,862 [INFO] Response: 200
+2024-01-21 14:11:54,862 [INFO] Gathering page 3 of 10
+2024-01-21 14:11:54,863 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-08-01&to_date=2023-08-15&country=au&page=1691660952284588108
+2024-01-21 14:11:55,718 [INFO] Response: 200
+2024-01-21 14:11:55,719 [INFO] Gathering page 4 of 10
+2024-01-21 14:11:55,720 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-08-01&to_date=2023-08-15&country=au&page=1691624941592205436
+2024-01-21 14:11:56,664 [INFO] Response: 200
+2024-01-21 14:11:56,665 [INFO] Gathering page 5 of 10
+2024-01-21 14:11:56,665 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-08-01&to_date=2023-08-15&country=au&page=1691545049456797206
+2024-01-21 14:11:57,931 [INFO] Response: 200
+2024-01-21 14:11:57,932 [INFO] Gathering page 6 of 10
+2024-01-21 14:11:57,933 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-08-01&to_date=2023-08-15&country=au&page=1691440399164003684
+2024-01-21 14:11:59,143 [INFO] Response: 200
+2024-01-21 14:11:59,144 [INFO] Gathering page 7 of 10
+2024-01-21 14:11:59,145 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-08-01&to_date=2023-08-15&country=au&page=1691198056754026802
+2024-01-21 14:12:00,539 [INFO] Response: 200
+2024-01-21 14:12:00,540 [INFO] Gathering page 8 of 10
+2024-01-21 14:12:00,541 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-08-01&to_date=2023-08-15&country=au&page=1691034435054224133
+2024-01-21 14:12:01,863 [INFO] Response: 200
+2024-01-21 14:12:01,863 [INFO] Gathering page 9 of 10
+2024-01-21 14:12:01,864 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-08-01&to_date=2023-08-15&country=au&page=1690939313199725945
+2024-01-21 14:12:03,349 [INFO] Response: 200
+2024-01-21 14:12:03,350 [INFO] Gathering page 10 of 10
+2024-01-21 14:12:03,350 [INFO] 
+Compiling 10 pages of results...
+2024-01-21 14:12:03,351 [INFO] All news articles gathered from yahoo from 2023-08-01 to 2023-08-15!
+2024-01-21 14:12:03,351 [INFO] Processing tables...
+2024-01-21 14:12:03,378 [INFO] Tables have been processed.
+2024-01-21 14:12:03,378 [INFO] 
+Pushing results from yahoo to Google BigQuery database...
+2024-01-21 14:12:05,494 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-01-21 14:12:05,960 [INFO] Table exists
+2024-01-21 14:12:12,437 [INFO] Loaded 83131 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-01-21 14:12:12,763 [INFO] Table exists
+2024-01-21 14:12:20,548 [INFO] Loaded 84362 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-01-21 14:12:20,905 [INFO] Table exists
+2024-01-21 14:12:25,714 [INFO] Loaded 195081 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-01-21 14:12:26,029 [INFO] Table exists
+2024-01-21 14:12:30,814 [INFO] Loaded 92823 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-01-21 14:12:30,815 [INFO] 
+Gather complete!

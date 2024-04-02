@@ -1,0 +1,28 @@
+2024-01-21 15:50:11,056 [INFO] Starting News Gatherer
+2024-01-21 15:50:11,056 [INFO] Collecting news content from 1 domains.
+2024-01-21 15:50:11,056 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-01-21 15:50:11,056 [INFO] Gathering news articles from crikey from 2023-12-20 to 2024-01-09
+2024-01-21 15:50:11,056 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=crikey&language=en&from_date=2023-12-20&to_date=2024-01-09&country=au
+2024-01-21 15:50:12,513 [INFO] Response: 200
+2024-01-21 15:50:12,514 [INFO] Gathering page 1 of 1
+2024-01-21 15:50:12,514 [INFO] 
+Compiling 1 pages of results...
+2024-01-21 15:50:12,515 [INFO] All news articles gathered from crikey from 2023-12-20 to 2024-01-09!
+2024-01-21 15:50:12,515 [INFO] Processing tables...
+2024-01-21 15:50:12,536 [INFO] Tables have been processed.
+2024-01-21 15:50:12,536 [INFO] 
+Pushing results from crikey to Google BigQuery database...
+2024-01-21 15:50:13,294 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-01-21 15:50:13,621 [INFO] Table exists
+2024-01-21 15:50:18,961 [INFO] Loaded 103879 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-01-21 15:50:19,285 [INFO] Table exists
+2024-01-21 15:50:24,695 [INFO] Loaded 105482 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-01-21 15:50:25,000 [INFO] Table exists
+2024-01-21 15:50:29,479 [INFO] Loaded 240034 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-01-21 15:50:29,812 [INFO] Table exists
+2024-01-21 15:50:34,688 [INFO] Loaded 114083 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-01-21 15:50:34,688 [INFO] 
+Gather complete!

@@ -1,0 +1,1117 @@
+2024-02-15 09:52:44,471 [INFO] Starting News Gatherer
+2024-02-15 09:52:44,471 [INFO] Collecting news content from 31 domains.
+2024-02-15 09:52:44,471 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-15 09:52:44,471 [INFO] Gathering news articles from 7news from 2024-02-10 to 2024-02-14
+2024-02-15 09:52:44,471 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=7news&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au
+2024-02-15 09:52:46,453 [INFO] Response: 200
+2024-02-15 09:52:46,454 [INFO] Gathering page 1 of 6
+2024-02-15 09:52:46,455 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=7news&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707869955910801819
+2024-02-15 09:52:47,979 [INFO] Response: 200
+2024-02-15 09:52:47,980 [INFO] Gathering page 2 of 6
+2024-02-15 09:52:47,982 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=7news&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707792577748331289
+2024-02-15 09:52:49,325 [INFO] Response: 200
+2024-02-15 09:52:49,326 [INFO] Gathering page 3 of 6
+2024-02-15 09:52:49,327 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=7news&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707730366422074028
+2024-02-15 09:52:50,696 [INFO] Response: 200
+2024-02-15 09:52:50,697 [INFO] Gathering page 4 of 6
+2024-02-15 09:52:50,698 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=7news&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707695595795511515
+2024-02-15 09:52:51,985 [INFO] Response: 200
+2024-02-15 09:52:51,986 [INFO] Gathering page 5 of 6
+2024-02-15 09:52:51,987 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=7news&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707599988999133065
+2024-02-15 09:52:53,115 [INFO] Response: 200
+2024-02-15 09:52:53,116 [INFO] Gathering page 6 of 6
+2024-02-15 09:52:53,117 [INFO] 
+Compiling 6 pages of results...
+2024-02-15 09:52:53,118 [INFO] All news articles gathered from 7news from 2024-02-10 to 2024-02-14!
+2024-02-15 09:52:53,118 [INFO] Processing tables...
+2024-02-15 09:52:53,166 [INFO] Tables have been processed.
+2024-02-15 09:52:53,167 [INFO] 
+Pushing results from 7news to Google BigQuery database...
+2024-02-15 09:52:54,090 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-15 09:52:54,417 [INFO] Table exists
+2024-02-15 09:53:10,831 [INFO] Loaded 131952 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-02-15 09:53:11,167 [INFO] Table exists
+2024-02-15 09:53:17,401 [INFO] Loaded 134125 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-02-15 09:53:17,735 [INFO] Table exists
+2024-02-15 09:53:23,295 [INFO] Loaded 301762 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-02-15 09:53:23,612 [INFO] Table exists
+2024-02-15 09:53:31,086 [INFO] Loaded 145059 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-02-15 09:53:31,087 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-15 09:53:31,087 [INFO] Gathering news articles from skynewsau from 2024-02-10 to 2024-02-14
+2024-02-15 09:53:31,088 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=skynewsau&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au
+2024-02-15 09:53:32,294 [INFO] Response: 200
+2024-02-15 09:53:32,295 [INFO] Gathering page 1 of 12
+2024-02-15 09:53:32,296 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=skynewsau&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707895887241881758
+2024-02-15 09:53:33,643 [INFO] Response: 200
+2024-02-15 09:53:33,645 [INFO] Gathering page 2 of 12
+2024-02-15 09:53:33,646 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=skynewsau&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707875060346121741
+2024-02-15 09:53:34,789 [INFO] Response: 200
+2024-02-15 09:53:34,791 [INFO] Gathering page 3 of 12
+2024-02-15 09:53:34,793 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=skynewsau&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707853261229644165
+2024-02-15 09:53:35,864 [INFO] Response: 200
+2024-02-15 09:53:35,865 [INFO] Gathering page 4 of 12
+2024-02-15 09:53:35,866 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=skynewsau&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707813466530581804
+2024-02-15 09:53:36,960 [INFO] Response: 200
+2024-02-15 09:53:36,961 [INFO] Gathering page 5 of 12
+2024-02-15 09:53:36,962 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=skynewsau&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707789381058682143
+2024-02-15 09:53:38,069 [INFO] Response: 200
+2024-02-15 09:53:38,071 [INFO] Gathering page 6 of 12
+2024-02-15 09:53:38,074 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=skynewsau&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707767956643171975
+2024-02-15 09:53:39,147 [INFO] Response: 200
+2024-02-15 09:53:39,148 [INFO] Gathering page 7 of 12
+2024-02-15 09:53:39,149 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=skynewsau&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707726546379540778
+2024-02-15 09:53:40,255 [INFO] Response: 200
+2024-02-15 09:53:40,258 [INFO] Gathering page 8 of 12
+2024-02-15 09:53:40,260 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=skynewsau&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707702997995506653
+2024-02-15 09:53:41,352 [INFO] Response: 200
+2024-02-15 09:53:41,352 [INFO] Gathering page 9 of 12
+2024-02-15 09:53:41,354 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=skynewsau&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707650084694077836
+2024-02-15 09:53:42,452 [INFO] Response: 200
+2024-02-15 09:53:42,453 [INFO] Gathering page 10 of 12
+2024-02-15 09:53:42,454 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=skynewsau&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707612934671958817
+2024-02-15 09:53:43,616 [INFO] Response: 200
+2024-02-15 09:53:43,617 [INFO] Gathering page 11 of 12
+2024-02-15 09:53:43,618 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=skynewsau&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707541473464102067
+2024-02-15 09:53:44,767 [INFO] Response: 200
+2024-02-15 09:53:44,769 [INFO] Gathering page 12 of 12
+2024-02-15 09:53:44,770 [INFO] 
+Compiling 12 pages of results...
+2024-02-15 09:53:44,772 [INFO] All news articles gathered from skynewsau from 2024-02-10 to 2024-02-14!
+2024-02-15 09:53:44,772 [INFO] Processing tables...
+2024-02-15 09:53:44,868 [INFO] Tables have been processed.
+2024-02-15 09:53:44,868 [INFO] 
+Pushing results from skynewsau to Google BigQuery database...
+2024-02-15 09:53:45,704 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-15 09:53:46,027 [INFO] Table exists
+2024-02-15 09:53:55,652 [INFO] Loaded 132522 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-02-15 09:53:55,987 [INFO] Table exists
+2024-02-15 09:54:01,465 [INFO] Loaded 134695 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-02-15 09:54:01,785 [INFO] Table exists
+2024-02-15 09:54:07,927 [INFO] Loaded 305733 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-02-15 09:54:08,228 [INFO] Table exists
+2024-02-15 09:54:13,525 [INFO] Loaded 145629 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-02-15 09:54:13,526 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-15 09:54:13,526 [INFO] Gathering news articles from sbs from 2024-02-10 to 2024-02-14
+2024-02-15 09:54:13,526 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=sbs&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au
+2024-02-15 09:54:14,939 [INFO] Response: 200
+2024-02-15 09:54:14,942 [INFO] Gathering page 1 of 2
+2024-02-15 09:54:14,943 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=sbs&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707594879586192508
+2024-02-15 09:54:15,780 [INFO] Response: 200
+2024-02-15 09:54:15,780 [INFO] Gathering page 2 of 2
+2024-02-15 09:54:15,782 [INFO] 
+Compiling 2 pages of results...
+2024-02-15 09:54:15,784 [INFO] All news articles gathered from sbs from 2024-02-10 to 2024-02-14!
+2024-02-15 09:54:15,784 [INFO] Processing tables...
+2024-02-15 09:54:15,812 [INFO] Tables have been processed.
+2024-02-15 09:54:15,812 [INFO] 
+Pushing results from sbs to Google BigQuery database...
+2024-02-15 09:54:16,586 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-15 09:54:16,908 [INFO] Table exists
+2024-02-15 09:54:22,802 [INFO] Loaded 132577 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-02-15 09:54:23,118 [INFO] Table exists
+2024-02-15 09:54:31,077 [INFO] Loaded 134750 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-02-15 09:54:31,413 [INFO] Table exists
+2024-02-15 09:54:38,605 [INFO] Loaded 305805 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-02-15 09:54:38,929 [INFO] Table exists
+2024-02-15 09:54:49,257 [INFO] Loaded 145684 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-02-15 09:54:49,258 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-15 09:54:49,258 [INFO] Gathering news articles from reneweconomy from 2024-02-10 to 2024-02-14
+2024-02-15 09:54:49,258 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=reneweconomy&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au
+2024-02-15 09:54:50,153 [INFO] Response: 200
+2024-02-15 09:54:50,154 [INFO] Gathering page 1 of 1
+2024-02-15 09:54:50,155 [INFO] 
+Compiling 1 pages of results...
+2024-02-15 09:54:50,155 [INFO] All news articles gathered from reneweconomy from 2024-02-10 to 2024-02-14!
+2024-02-15 09:54:50,155 [INFO] Processing tables...
+2024-02-15 09:54:50,179 [INFO] Tables have been processed.
+2024-02-15 09:54:50,179 [INFO] 
+Pushing results from reneweconomy to Google BigQuery database...
+2024-02-15 09:54:50,987 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-15 09:54:51,360 [INFO] Table exists
+2024-02-15 09:55:02,812 [INFO] Loaded 132599 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-02-15 09:55:03,160 [INFO] Table exists
+2024-02-15 09:55:11,343 [INFO] Loaded 134772 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-02-15 09:55:11,656 [INFO] Table exists
+2024-02-15 09:55:17,632 [INFO] Loaded 305897 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-02-15 09:55:17,966 [INFO] Table exists
+2024-02-15 09:55:22,750 [INFO] Loaded 145707 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-02-15 09:55:22,750 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-15 09:55:22,750 [INFO] Gathering news articles from womensagenda from 2024-02-10 to 2024-02-14
+2024-02-15 09:55:22,750 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=womensagenda&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au
+2024-02-15 09:55:24,099 [INFO] Response: 200
+2024-02-15 09:55:24,100 [INFO] Gathering page 1 of 1
+2024-02-15 09:55:24,101 [INFO] 
+Compiling 1 pages of results...
+2024-02-15 09:55:24,102 [INFO] All news articles gathered from womensagenda from 2024-02-10 to 2024-02-14!
+2024-02-15 09:55:24,102 [INFO] Processing tables...
+2024-02-15 09:55:24,126 [INFO] Tables have been processed.
+2024-02-15 09:55:24,126 [INFO] 
+Pushing results from womensagenda to Google BigQuery database...
+2024-02-15 09:55:24,888 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-15 09:55:25,242 [INFO] Table exists
+2024-02-15 09:55:30,831 [INFO] Loaded 132624 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-02-15 09:55:31,165 [INFO] Table exists
+2024-02-15 09:55:58,933 [INFO] Loaded 134797 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-02-15 09:55:59,264 [INFO] Table exists
+2024-02-15 09:56:07,859 [INFO] Loaded 306053 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-02-15 09:56:08,181 [INFO] Table exists
+2024-02-15 09:56:13,048 [INFO] Loaded 145732 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-02-15 09:56:13,049 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-15 09:56:13,049 [INFO] Gathering news articles from spectator from 2024-02-10 to 2024-02-14
+2024-02-15 09:56:13,049 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=spectator&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au
+2024-02-15 09:56:13,879 [INFO] Response: 200
+2024-02-15 09:56:13,880 [INFO] Gathering page 1 of 0
+2024-02-15 09:56:13,882 [INFO] No results for spectator during your specified timeframe!
+2024-02-15 09:56:13,882 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-15 09:56:13,882 [INFO] Gathering news articles from greenleft from 2024-02-10 to 2024-02-14
+2024-02-15 09:56:13,883 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=greenleft&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au
+2024-02-15 09:56:15,056 [INFO] Response: 200
+2024-02-15 09:56:15,057 [INFO] Gathering page 1 of 1
+2024-02-15 09:56:15,059 [INFO] 
+Compiling 1 pages of results...
+2024-02-15 09:56:15,060 [INFO] All news articles gathered from greenleft from 2024-02-10 to 2024-02-14!
+2024-02-15 09:56:15,060 [INFO] Processing tables...
+2024-02-15 09:56:15,086 [INFO] Tables have been processed.
+2024-02-15 09:56:15,086 [INFO] 
+Pushing results from greenleft to Google BigQuery database...
+2024-02-15 09:56:15,891 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-15 09:56:16,206 [INFO] Table exists
+2024-02-15 09:56:50,669 [INFO] Loaded 132640 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-02-15 09:56:51,024 [INFO] Table exists
+2024-02-15 09:56:57,239 [INFO] Loaded 134813 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-02-15 09:56:57,594 [INFO] Table exists
+2024-02-15 09:57:01,913 [INFO] Loaded 306069 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-02-15 09:57:02,244 [INFO] Table exists
+2024-02-15 09:57:16,014 [INFO] Loaded 145754 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-02-15 09:57:16,015 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-15 09:57:16,015 [INFO] Gathering news articles from rebelnews from 2024-02-10 to 2024-02-14
+2024-02-15 09:57:16,015 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=rebelnews&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au
+2024-02-15 09:57:16,825 [INFO] Response: 200
+2024-02-15 09:57:16,826 [INFO] Gathering page 1 of 0
+2024-02-15 09:57:16,828 [INFO] No results for rebelnews during your specified timeframe!
+2024-02-15 09:57:16,828 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-15 09:57:16,828 [INFO] Gathering news articles from quadrant from 2024-02-10 to 2024-02-14
+2024-02-15 09:57:16,828 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=quadrant&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au
+2024-02-15 09:57:17,708 [INFO] Response: 200
+2024-02-15 09:57:17,708 [INFO] Gathering page 1 of 1
+2024-02-15 09:57:17,709 [INFO] 
+Compiling 1 pages of results...
+2024-02-15 09:57:17,709 [INFO] All news articles gathered from quadrant from 2024-02-10 to 2024-02-14!
+2024-02-15 09:57:17,709 [INFO] Processing tables...
+2024-02-15 09:57:17,731 [INFO] Tables have been processed.
+2024-02-15 09:57:17,732 [INFO] 
+Pushing results from quadrant to Google BigQuery database...
+2024-02-15 09:57:18,588 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-15 09:57:18,925 [INFO] Table exists
+2024-02-15 09:57:25,101 [INFO] Loaded 132643 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-02-15 09:57:25,418 [INFO] Table exists
+2024-02-15 09:57:45,955 [INFO] Loaded 134816 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-02-15 09:57:46,283 [INFO] Table exists
+2024-02-15 09:57:52,540 [INFO] Loaded 306072 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-02-15 09:57:52,863 [INFO] Table exists
+2024-02-15 09:57:58,756 [INFO] Loaded 145757 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-02-15 09:57:58,756 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-15 09:57:58,756 [INFO] Gathering news articles from pedestrian from 2024-02-10 to 2024-02-14
+2024-02-15 09:57:58,756 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=pedestrian&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au
+2024-02-15 09:58:00,172 [INFO] Response: 200
+2024-02-15 09:58:00,173 [INFO] Gathering page 1 of 2
+2024-02-15 09:58:00,175 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=pedestrian&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707632309096934986
+2024-02-15 09:58:01,096 [INFO] Response: 200
+2024-02-15 09:58:01,096 [INFO] Gathering page 2 of 2
+2024-02-15 09:58:01,099 [INFO] 
+Compiling 2 pages of results...
+2024-02-15 09:58:01,100 [INFO] All news articles gathered from pedestrian from 2024-02-10 to 2024-02-14!
+2024-02-15 09:58:01,100 [INFO] Processing tables...
+2024-02-15 09:58:01,142 [INFO] Tables have been processed.
+2024-02-15 09:58:01,142 [INFO] 
+Pushing results from pedestrian to Google BigQuery database...
+2024-02-15 09:58:02,185 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-15 09:58:02,517 [INFO] Table exists
+2024-02-15 09:58:11,100 [INFO] Loaded 132700 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-02-15 09:58:11,457 [INFO] Table exists
+2024-02-15 09:58:19,303 [INFO] Loaded 134873 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-02-15 09:58:19,632 [INFO] Table exists
+2024-02-15 09:58:24,622 [INFO] Loaded 306256 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-02-15 09:58:24,949 [INFO] Table exists
+2024-02-15 09:58:30,542 [INFO] Loaded 145814 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-02-15 09:58:30,542 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-15 09:58:30,542 [INFO] Gathering news articles from michaelwest from 2024-02-10 to 2024-02-14
+2024-02-15 09:58:30,542 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=michaelwest&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au
+2024-02-15 09:58:31,975 [INFO] Response: 200
+2024-02-15 09:58:31,976 [INFO] Gathering page 1 of 2
+2024-02-15 09:58:31,978 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=michaelwest&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707708063203689811
+2024-02-15 09:58:33,052 [INFO] Response: 200
+2024-02-15 09:58:33,052 [INFO] Gathering page 2 of 2
+2024-02-15 09:58:33,053 [INFO] 
+Compiling 2 pages of results...
+2024-02-15 09:58:33,054 [INFO] All news articles gathered from michaelwest from 2024-02-10 to 2024-02-14!
+2024-02-15 09:58:33,054 [INFO] Processing tables...
+2024-02-15 09:58:33,085 [INFO] Tables have been processed.
+2024-02-15 09:58:33,085 [INFO] 
+Pushing results from michaelwest to Google BigQuery database...
+2024-02-15 09:58:33,790 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-15 09:58:34,123 [INFO] Table exists
+2024-02-15 09:58:39,846 [INFO] Loaded 132767 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-02-15 09:58:40,161 [INFO] Table exists
+2024-02-15 09:58:44,678 [INFO] Loaded 134940 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-02-15 09:58:45,007 [INFO] Table exists
+2024-02-15 09:58:51,855 [INFO] Loaded 306329 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-02-15 09:58:52,166 [INFO] Table exists
+2024-02-15 09:59:13,182 [INFO] Loaded 145882 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-02-15 09:59:13,182 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-15 09:59:13,182 [INFO] Gathering news articles from junkee from 2024-02-10 to 2024-02-14
+2024-02-15 09:59:13,182 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=junkee&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au
+2024-02-15 09:59:14,123 [INFO] Response: 200
+2024-02-15 09:59:14,124 [INFO] Gathering page 1 of 1
+2024-02-15 09:59:14,125 [INFO] 
+Compiling 1 pages of results...
+2024-02-15 09:59:14,125 [INFO] All news articles gathered from junkee from 2024-02-10 to 2024-02-14!
+2024-02-15 09:59:14,125 [INFO] Processing tables...
+2024-02-15 09:59:14,145 [INFO] Tables have been processed.
+2024-02-15 09:59:14,145 [INFO] 
+Pushing results from junkee to Google BigQuery database...
+2024-02-15 09:59:14,992 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-15 09:59:15,331 [INFO] Table exists
+2024-02-15 09:59:21,215 [INFO] Loaded 132770 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-02-15 09:59:21,541 [INFO] Table exists
+2024-02-15 09:59:26,454 [INFO] Loaded 134943 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-02-15 09:59:26,791 [INFO] Table exists
+2024-02-15 09:59:34,423 [INFO] Loaded 306350 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-02-15 09:59:34,768 [INFO] Table exists
+2024-02-15 09:59:42,008 [INFO] Loaded 145885 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-02-15 09:59:42,009 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-15 09:59:42,009 [INFO] Gathering news articles from dailymailuk from 2024-02-10 to 2024-02-14
+2024-02-15 09:59:42,009 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=dailymailuk&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au
+2024-02-15 09:59:43,433 [INFO] Response: 200
+2024-02-15 09:59:43,435 [INFO] Gathering page 1 of 1
+2024-02-15 09:59:43,436 [INFO] 
+Compiling 1 pages of results...
+2024-02-15 09:59:43,436 [INFO] All news articles gathered from dailymailuk from 2024-02-10 to 2024-02-14!
+2024-02-15 09:59:43,436 [INFO] Processing tables...
+2024-02-15 09:59:43,484 [INFO] Tables have been processed.
+2024-02-15 09:59:43,484 [INFO] 
+Pushing results from dailymailuk to Google BigQuery database...
+2024-02-15 09:59:44,287 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-15 09:59:44,632 [INFO] Table exists
+2024-02-15 10:00:02,584 [INFO] Loaded 132811 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-02-15 10:00:02,934 [INFO] Table exists
+2024-02-15 10:00:09,645 [INFO] Loaded 134984 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-02-15 10:00:09,955 [INFO] Table exists
+2024-02-15 10:00:15,305 [INFO] Loaded 306391 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-02-15 10:00:15,634 [INFO] Table exists
+2024-02-15 10:00:21,181 [INFO] Loaded 145926 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-02-15 10:00:21,181 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-15 10:00:21,181 [INFO] Gathering news articles from 6newsau from 2024-02-10 to 2024-02-14
+2024-02-15 10:00:21,181 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=6newsau&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au
+2024-02-15 10:00:35,259 [INFO] Response: 200
+2024-02-15 10:00:35,260 [INFO] Gathering page 1 of 1
+2024-02-15 10:00:35,262 [INFO] 
+Compiling 1 pages of results...
+2024-02-15 10:00:35,263 [INFO] All news articles gathered from 6newsau from 2024-02-10 to 2024-02-14!
+2024-02-15 10:00:35,264 [INFO] Processing tables...
+2024-02-15 10:00:35,290 [INFO] Tables have been processed.
+2024-02-15 10:00:35,290 [INFO] 
+Pushing results from 6newsau to Google BigQuery database...
+2024-02-15 10:00:36,088 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-15 10:00:36,415 [INFO] Table exists
+2024-02-15 10:00:41,417 [INFO] Loaded 132812 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-02-15 10:00:41,727 [INFO] Table exists
+2024-02-15 10:00:51,773 [INFO] Loaded 134985 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-02-15 10:00:52,145 [INFO] Table exists
+2024-02-15 10:00:58,458 [INFO] Loaded 306393 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-02-15 10:00:58,792 [INFO] Table exists
+2024-02-15 10:01:08,284 [INFO] Loaded 145927 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-02-15 10:01:08,284 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-15 10:01:08,284 [INFO] Gathering news articles from news from 2024-02-10 to 2024-02-14
+2024-02-15 10:01:08,284 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=news&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au
+2024-02-15 10:01:11,091 [INFO] Response: 200
+2024-02-15 10:01:11,098 [INFO] Gathering page 1 of 11
+2024-02-15 10:01:11,100 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=news&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707828317873722155
+2024-02-15 10:01:12,526 [INFO] Response: 200
+2024-02-15 10:01:12,527 [INFO] Gathering page 2 of 11
+2024-02-15 10:01:12,528 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=news&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707808245062606253
+2024-02-15 10:01:13,899 [INFO] Response: 200
+2024-02-15 10:01:13,900 [INFO] Gathering page 3 of 11
+2024-02-15 10:01:13,901 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=news&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707769351452763392
+2024-02-15 10:01:15,163 [INFO] Response: 200
+2024-02-15 10:01:15,163 [INFO] Gathering page 4 of 11
+2024-02-15 10:01:15,165 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=news&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707735600768234546
+2024-02-15 10:01:16,577 [INFO] Response: 200
+2024-02-15 10:01:16,579 [INFO] Gathering page 5 of 11
+2024-02-15 10:01:16,583 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=news&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707702060128944124
+2024-02-15 10:01:17,791 [INFO] Response: 200
+2024-02-15 10:01:17,793 [INFO] Gathering page 6 of 11
+2024-02-15 10:01:17,795 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=news&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707685380064704331
+2024-02-15 10:01:18,952 [INFO] Response: 200
+2024-02-15 10:01:18,953 [INFO] Gathering page 7 of 11
+2024-02-15 10:01:18,954 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=news&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707655020694392075
+2024-02-15 10:01:20,425 [INFO] Response: 200
+2024-02-15 10:01:20,427 [INFO] Gathering page 8 of 11
+2024-02-15 10:01:20,430 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=news&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707613200726910192
+2024-02-15 10:01:21,674 [INFO] Response: 200
+2024-02-15 10:01:21,674 [INFO] Gathering page 9 of 11
+2024-02-15 10:01:21,676 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=news&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707574390198954063
+2024-02-15 10:01:23,024 [INFO] Response: 200
+2024-02-15 10:01:23,027 [INFO] Gathering page 10 of 11
+2024-02-15 10:01:23,029 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=news&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707537130143012826
+2024-02-15 10:01:24,089 [INFO] Response: 200
+2024-02-15 10:01:24,089 [INFO] Gathering page 11 of 11
+2024-02-15 10:01:24,090 [INFO] 
+Compiling 11 pages of results...
+2024-02-15 10:01:24,091 [INFO] All news articles gathered from news from 2024-02-10 to 2024-02-14!
+2024-02-15 10:01:24,091 [INFO] Processing tables...
+2024-02-15 10:01:24,142 [INFO] Tables have been processed.
+2024-02-15 10:01:24,142 [INFO] 
+Pushing results from news to Google BigQuery database...
+2024-02-15 10:01:24,995 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-15 10:01:27,346 [INFO] Table exists
+2024-02-15 10:01:36,564 [INFO] Loaded 133327 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-02-15 10:01:39,106 [INFO] Table exists
+2024-02-15 10:02:11,513 [INFO] Loaded 135500 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-02-15 10:02:12,649 [INFO] Table exists
+2024-02-15 10:02:19,245 [INFO] Loaded 307497 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-02-15 10:02:20,753 [INFO] Table exists
+2024-02-15 10:02:26,529 [INFO] Loaded 146442 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-02-15 10:02:26,530 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-15 10:02:26,530 [INFO] Gathering news articles from heraldsun from 2024-02-10 to 2024-02-14
+2024-02-15 10:02:26,530 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=heraldsun&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au
+2024-02-15 10:02:27,986 [INFO] Response: 200
+2024-02-15 10:02:27,988 [INFO] Gathering page 1 of 16
+2024-02-15 10:02:27,990 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=heraldsun&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707845444073971120
+2024-02-15 10:02:29,225 [INFO] Response: 200
+2024-02-15 10:02:29,227 [INFO] Gathering page 2 of 16
+2024-02-15 10:02:29,229 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=heraldsun&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707829991301730388
+2024-02-15 10:02:30,336 [INFO] Response: 200
+2024-02-15 10:02:30,338 [INFO] Gathering page 3 of 16
+2024-02-15 10:02:30,341 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=heraldsun&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707819190879273363
+2024-02-15 10:02:31,413 [INFO] Response: 200
+2024-02-15 10:02:31,414 [INFO] Gathering page 4 of 16
+2024-02-15 10:02:31,415 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=heraldsun&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707803529986269729
+2024-02-15 10:02:32,503 [INFO] Response: 200
+2024-02-15 10:02:32,505 [INFO] Gathering page 5 of 16
+2024-02-15 10:02:32,507 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=heraldsun&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707763149015524914
+2024-02-15 10:02:33,924 [INFO] Response: 200
+2024-02-15 10:02:33,925 [INFO] Gathering page 6 of 16
+2024-02-15 10:02:33,928 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=heraldsun&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707755170375503037
+2024-02-15 10:02:35,089 [INFO] Response: 200
+2024-02-15 10:02:35,090 [INFO] Gathering page 7 of 16
+2024-02-15 10:02:35,091 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=heraldsun&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707730804277083543
+2024-02-15 10:02:36,268 [INFO] Response: 200
+2024-02-15 10:02:36,269 [INFO] Gathering page 8 of 16
+2024-02-15 10:02:36,272 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=heraldsun&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707696790586878290
+2024-02-15 10:02:37,362 [INFO] Response: 200
+2024-02-15 10:02:37,363 [INFO] Gathering page 9 of 16
+2024-02-15 10:02:37,366 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=heraldsun&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707689768151415332
+2024-02-15 10:02:39,465 [INFO] Response: 200
+2024-02-15 10:02:39,466 [INFO] Gathering page 10 of 16
+2024-02-15 10:02:39,467 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=heraldsun&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707664390309324959
+2024-02-15 10:02:40,331 [INFO] Response: 200
+2024-02-15 10:02:40,333 [INFO] Gathering page 11 of 16
+2024-02-15 10:02:40,335 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=heraldsun&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707651920499640083
+2024-02-15 10:02:41,412 [INFO] Response: 200
+2024-02-15 10:02:41,414 [INFO] Gathering page 12 of 16
+2024-02-15 10:02:41,416 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=heraldsun&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707624790439535355
+2024-02-15 10:02:42,279 [INFO] Response: 200
+2024-02-15 10:02:42,280 [INFO] Gathering page 13 of 16
+2024-02-15 10:02:42,281 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=heraldsun&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707611950012108556
+2024-02-15 10:02:43,349 [INFO] Response: 200
+2024-02-15 10:02:43,350 [INFO] Gathering page 14 of 16
+2024-02-15 10:02:43,351 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=heraldsun&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707595200634469143
+2024-02-15 10:02:44,611 [INFO] Response: 200
+2024-02-15 10:02:44,613 [INFO] Gathering page 15 of 16
+2024-02-15 10:02:44,616 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=heraldsun&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707526920909808592
+2024-02-15 10:02:45,445 [INFO] Response: 200
+2024-02-15 10:02:45,446 [INFO] Gathering page 16 of 16
+2024-02-15 10:02:45,447 [INFO] 
+Compiling 16 pages of results...
+2024-02-15 10:02:45,448 [INFO] All news articles gathered from heraldsun from 2024-02-10 to 2024-02-14!
+2024-02-15 10:02:45,448 [INFO] Processing tables...
+2024-02-15 10:02:45,498 [INFO] Tables have been processed.
+2024-02-15 10:02:45,499 [INFO] 
+Pushing results from heraldsun to Google BigQuery database...
+2024-02-15 10:02:46,310 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-15 10:02:46,651 [INFO] Table exists
+2024-02-15 10:02:54,402 [INFO] Loaded 134088 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-02-15 10:02:54,769 [INFO] Table exists
+2024-02-15 10:03:14,682 [INFO] Loaded 136355 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-02-15 10:03:15,018 [INFO] Table exists
+2024-02-15 10:03:21,087 [INFO] Loaded 308734 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-02-15 10:03:21,407 [INFO] Table exists
+2024-02-15 10:03:29,317 [INFO] Loaded 147203 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-02-15 10:03:29,318 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-15 10:03:29,318 [INFO] Gathering news articles from theaustralian from 2024-02-10 to 2024-02-14
+2024-02-15 10:03:29,318 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theaustralian&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au
+2024-02-15 10:03:30,785 [INFO] Response: 200
+2024-02-15 10:03:30,787 [INFO] Gathering page 1 of 4
+2024-02-15 10:03:30,789 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theaustralian&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707760800386921608
+2024-02-15 10:03:32,458 [INFO] Response: 200
+2024-02-15 10:03:32,459 [INFO] Gathering page 2 of 4
+2024-02-15 10:03:32,463 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theaustralian&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707730200473035389
+2024-02-15 10:03:33,621 [INFO] Response: 200
+2024-02-15 10:03:33,622 [INFO] Gathering page 3 of 4
+2024-02-15 10:03:33,623 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theaustralian&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707674400575256424
+2024-02-15 10:03:34,850 [INFO] Response: 200
+2024-02-15 10:03:34,850 [INFO] Gathering page 4 of 4
+2024-02-15 10:03:34,851 [INFO] 
+Compiling 4 pages of results...
+2024-02-15 10:03:34,852 [INFO] All news articles gathered from theaustralian from 2024-02-10 to 2024-02-14!
+2024-02-15 10:03:34,852 [INFO] Processing tables...
+2024-02-15 10:03:34,888 [INFO] Tables have been processed.
+2024-02-15 10:03:34,888 [INFO] 
+Pushing results from theaustralian to Google BigQuery database...
+2024-02-15 10:03:35,793 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-15 10:03:36,145 [INFO] Table exists
+2024-02-15 10:03:52,056 [INFO] Loaded 134282 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-02-15 10:03:52,424 [INFO] Table exists
+2024-02-15 10:03:56,864 [INFO] Loaded 136549 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-02-15 10:03:57,219 [INFO] Table exists
+2024-02-15 10:04:05,769 [INFO] Loaded 309144 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-02-15 10:04:06,172 [INFO] Table exists
+2024-02-15 10:04:28,132 [INFO] Loaded 147397 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-02-15 10:04:28,132 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-15 10:04:28,132 [INFO] Gathering news articles from thesaturdaypaper from 2024-02-10 to 2024-02-14
+2024-02-15 10:04:28,132 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thesaturdaypaper&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au
+2024-02-15 10:04:29,496 [INFO] Response: 200
+2024-02-15 10:04:29,496 [INFO] Gathering page 1 of 1
+2024-02-15 10:04:29,497 [INFO] 
+Compiling 1 pages of results...
+2024-02-15 10:04:29,498 [INFO] All news articles gathered from thesaturdaypaper from 2024-02-10 to 2024-02-14!
+2024-02-15 10:04:29,498 [INFO] Processing tables...
+2024-02-15 10:04:29,518 [INFO] Tables have been processed.
+2024-02-15 10:04:29,518 [INFO] 
+Pushing results from thesaturdaypaper to Google BigQuery database...
+2024-02-15 10:04:30,293 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-15 10:04:30,693 [INFO] Table exists
+2024-02-15 10:04:39,892 [INFO] Loaded 134286 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-02-15 10:04:40,289 [INFO] Table exists
+2024-02-15 10:08:06,439 [INFO] Loaded 136553 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-02-15 10:08:06,813 [INFO] Table exists
+2024-02-15 10:08:12,530 [INFO] Loaded 309148 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-02-15 10:08:12,923 [INFO] Table exists
+2024-02-15 10:08:17,816 [INFO] Loaded 147401 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-02-15 10:08:17,817 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-15 10:08:17,817 [INFO] Gathering news articles from theklaxon from 2024-02-10 to 2024-02-14
+2024-02-15 10:08:17,817 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theklaxon&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au
+2024-02-15 10:08:18,918 [INFO] Response: 200
+2024-02-15 10:08:18,918 [INFO] Gathering page 1 of 1
+2024-02-15 10:08:18,919 [INFO] 
+Compiling 1 pages of results...
+2024-02-15 10:08:18,919 [INFO] All news articles gathered from theklaxon from 2024-02-10 to 2024-02-14!
+2024-02-15 10:08:18,919 [INFO] Processing tables...
+2024-02-15 10:08:18,937 [INFO] Tables have been processed.
+2024-02-15 10:08:18,937 [INFO] 
+Pushing results from theklaxon to Google BigQuery database...
+2024-02-15 10:08:19,792 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-15 10:08:20,162 [INFO] Table exists
+2024-02-15 10:08:25,060 [INFO] Loaded 134288 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-02-15 10:08:25,393 [INFO] Table exists
+2024-02-15 10:08:29,685 [INFO] Loaded 136555 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-02-15 10:08:30,044 [INFO] Table exists
+2024-02-15 10:08:38,654 [INFO] Loaded 309171 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-02-15 10:08:38,982 [INFO] Table exists
+2024-02-15 10:08:43,718 [INFO] Loaded 147403 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-02-15 10:08:43,719 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-15 10:08:43,719 [INFO] Gathering news articles from redflag from 2024-02-10 to 2024-02-14
+2024-02-15 10:08:43,719 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=redflag&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au
+2024-02-15 10:08:44,746 [INFO] Response: 422
+2024-02-15 10:08:44,746 [INFO] Domain redflag does not exist in the NewsdataIO database. Moving to next keyword.
+2024-02-15 10:08:44,746 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-15 10:08:44,746 [INFO] Gathering news articles from yahoo from 2024-02-10 to 2024-02-14
+2024-02-15 10:08:44,747 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au
+2024-02-15 10:08:45,843 [INFO] Response: 200
+2024-02-15 10:08:45,844 [INFO] Gathering page 1 of 2
+2024-02-15 10:08:45,845 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707716833730474246
+2024-02-15 10:08:46,776 [INFO] Response: 200
+2024-02-15 10:08:46,777 [INFO] Gathering page 2 of 2
+2024-02-15 10:08:46,782 [INFO] 
+Compiling 2 pages of results...
+2024-02-15 10:08:46,783 [INFO] All news articles gathered from yahoo from 2024-02-10 to 2024-02-14!
+2024-02-15 10:08:46,783 [INFO] Processing tables...
+2024-02-15 10:08:46,815 [INFO] Tables have been processed.
+2024-02-15 10:08:46,816 [INFO] 
+Pushing results from yahoo to Google BigQuery database...
+2024-02-15 10:08:47,896 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-15 10:08:48,221 [INFO] Table exists
+2024-02-15 10:09:12,905 [INFO] Loaded 134386 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-02-15 10:09:13,251 [INFO] Table exists
+2024-02-15 10:09:20,726 [INFO] Loaded 136653 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-02-15 10:09:21,044 [INFO] Table exists
+2024-02-15 10:09:26,217 [INFO] Loaded 309269 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-02-15 10:09:26,551 [INFO] Table exists
+2024-02-15 10:09:34,598 [INFO] Loaded 147501 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-02-15 10:09:34,599 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-15 10:09:34,599 [INFO] Gathering news articles from abc_net from 2024-02-10 to 2024-02-14
+2024-02-15 10:09:34,599 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au
+2024-02-15 10:09:37,357 [INFO] Response: 200
+2024-02-15 10:09:37,358 [INFO] Gathering page 1 of 6
+2024-02-15 10:09:37,360 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707805330044199943
+2024-02-15 10:09:38,967 [INFO] Response: 200
+2024-02-15 10:09:38,968 [INFO] Gathering page 2 of 6
+2024-02-15 10:09:38,969 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707770478175389480
+2024-02-15 10:09:40,975 [INFO] Response: 200
+2024-02-15 10:09:40,978 [INFO] Gathering page 3 of 6
+2024-02-15 10:09:40,980 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707697404880238811
+2024-02-15 10:09:42,391 [INFO] Response: 200
+2024-02-15 10:09:42,395 [INFO] Gathering page 4 of 6
+2024-02-15 10:09:42,397 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707636731897375536
+2024-02-15 10:09:43,739 [INFO] Response: 200
+2024-02-15 10:09:43,740 [INFO] Gathering page 5 of 6
+2024-02-15 10:09:43,742 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707564970393068703
+2024-02-15 10:09:44,835 [INFO] Response: 200
+2024-02-15 10:09:44,836 [INFO] Gathering page 6 of 6
+2024-02-15 10:09:44,839 [INFO] 
+Compiling 6 pages of results...
+2024-02-15 10:09:44,842 [INFO] All news articles gathered from abc_net from 2024-02-10 to 2024-02-14!
+2024-02-15 10:09:44,842 [INFO] Processing tables...
+2024-02-15 10:09:44,907 [INFO] Tables have been processed.
+2024-02-15 10:09:44,907 [INFO] 
+Pushing results from abc_net to Google BigQuery database...
+2024-02-15 10:09:45,689 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-15 10:09:46,026 [INFO] Table exists
+2024-02-15 10:10:00,701 [INFO] Loaded 134658 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-02-15 10:10:01,040 [INFO] Table exists
+2024-02-15 10:10:45,955 [INFO] Loaded 136925 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-02-15 10:10:46,297 [INFO] Table exists
+2024-02-15 10:10:51,261 [INFO] Loaded 310258 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-02-15 10:10:51,570 [INFO] Table exists
+2024-02-15 10:10:59,610 [INFO] Loaded 147809 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-02-15 10:10:59,611 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-15 10:10:59,611 [INFO] Gathering news articles from canberratimes from 2024-02-10 to 2024-02-14
+2024-02-15 10:10:59,611 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=canberratimes&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au
+2024-02-15 10:11:01,556 [INFO] Response: 200
+2024-02-15 10:11:01,558 [INFO] Gathering page 1 of 2
+2024-02-15 10:11:01,559 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=canberratimes&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707589800153362339
+2024-02-15 10:11:02,442 [INFO] Response: 200
+2024-02-15 10:11:02,442 [INFO] Gathering page 2 of 2
+2024-02-15 10:11:02,443 [INFO] 
+Compiling 2 pages of results...
+2024-02-15 10:11:02,444 [INFO] All news articles gathered from canberratimes from 2024-02-10 to 2024-02-14!
+2024-02-15 10:11:02,444 [INFO] Processing tables...
+2024-02-15 10:11:02,465 [INFO] Tables have been processed.
+2024-02-15 10:11:02,465 [INFO] 
+Pushing results from canberratimes to Google BigQuery database...
+2024-02-15 10:11:03,298 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-15 10:11:03,617 [INFO] Table exists
+2024-02-15 10:11:09,488 [INFO] Loaded 134714 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-02-15 10:11:09,862 [INFO] Table exists
+2024-02-15 10:11:15,552 [INFO] Loaded 136981 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-02-15 10:11:15,869 [INFO] Table exists
+2024-02-15 10:11:38,180 [INFO] Loaded 310314 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-02-15 10:11:38,494 [INFO] Table exists
+2024-02-15 10:11:43,328 [INFO] Loaded 147868 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-02-15 10:11:43,328 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-15 10:11:43,328 [INFO] Gathering news articles from crikey from 2024-02-10 to 2024-02-14
+2024-02-15 10:11:43,328 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=crikey&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au
+2024-02-15 10:11:45,997 [INFO] Response: 200
+2024-02-15 10:11:45,998 [INFO] Gathering page 1 of 1
+2024-02-15 10:11:45,999 [INFO] 
+Compiling 1 pages of results...
+2024-02-15 10:11:46,000 [INFO] All news articles gathered from crikey from 2024-02-10 to 2024-02-14!
+2024-02-15 10:11:46,000 [INFO] Processing tables...
+2024-02-15 10:11:46,027 [INFO] Tables have been processed.
+2024-02-15 10:11:46,027 [INFO] 
+Pushing results from crikey to Google BigQuery database...
+2024-02-15 10:11:46,789 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-15 10:11:47,129 [INFO] Table exists
+2024-02-15 10:11:53,006 [INFO] Loaded 134736 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-02-15 10:11:53,332 [INFO] Table exists
+2024-02-15 10:11:58,157 [INFO] Loaded 137003 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-02-15 10:11:58,457 [INFO] Table exists
+2024-02-15 10:12:03,785 [INFO] Loaded 310561 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-02-15 10:12:04,125 [INFO] Table exists
+2024-02-15 10:12:09,798 [INFO] Loaded 147890 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-02-15 10:12:09,799 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-15 10:12:09,799 [INFO] Gathering news articles from theguardian from 2024-02-10 to 2024-02-14
+2024-02-15 10:12:09,799 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theguardian&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au
+2024-02-15 10:12:11,740 [INFO] Response: 200
+2024-02-15 10:12:11,743 [INFO] Gathering page 1 of 2
+2024-02-15 10:12:11,747 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theguardian&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707660015558066729
+2024-02-15 10:12:13,736 [INFO] Response: 200
+2024-02-15 10:12:13,739 [INFO] Gathering page 2 of 2
+2024-02-15 10:12:13,741 [INFO] 
+Compiling 2 pages of results...
+2024-02-15 10:12:13,742 [INFO] All news articles gathered from theguardian from 2024-02-10 to 2024-02-14!
+2024-02-15 10:12:13,743 [INFO] Processing tables...
+2024-02-15 10:12:13,790 [INFO] Tables have been processed.
+2024-02-15 10:12:13,790 [INFO] 
+Pushing results from theguardian to Google BigQuery database...
+2024-02-15 10:12:14,594 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-15 10:12:14,912 [INFO] Table exists
+2024-02-15 10:12:22,423 [INFO] Loaded 134823 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-02-15 10:12:22,722 [INFO] Table exists
+2024-02-15 10:12:27,189 [INFO] Loaded 137090 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-02-15 10:12:27,520 [INFO] Table exists
+2024-02-15 10:12:32,763 [INFO] Loaded 311025 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-02-15 10:12:33,070 [INFO] Table exists
+2024-02-15 10:12:39,094 [INFO] Loaded 147994 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-02-15 10:12:39,095 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-15 10:12:39,095 [INFO] Gathering news articles from independent_australia from 2024-02-10 to 2024-02-14
+2024-02-15 10:12:39,096 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=independent_australia&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au
+2024-02-15 10:12:40,320 [INFO] Response: 200
+2024-02-15 10:12:40,321 [INFO] Gathering page 1 of 1
+2024-02-15 10:12:40,324 [INFO] 
+Compiling 1 pages of results...
+2024-02-15 10:12:40,325 [INFO] All news articles gathered from independent_australia from 2024-02-10 to 2024-02-14!
+2024-02-15 10:12:40,325 [INFO] Processing tables...
+2024-02-15 10:12:40,350 [INFO] Tables have been processed.
+2024-02-15 10:12:40,350 [INFO] 
+Pushing results from independent_australia to Google BigQuery database...
+2024-02-15 10:12:41,097 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-15 10:12:41,443 [INFO] Table exists
+2024-02-15 10:12:46,284 [INFO] Loaded 134826 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-02-15 10:12:46,612 [INFO] Table exists
+2024-02-15 10:12:51,136 [INFO] Loaded 137093 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-02-15 10:12:51,482 [INFO] Table exists
+2024-02-15 10:12:58,162 [INFO] Loaded 311028 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-02-15 10:12:58,498 [INFO] Table exists
+2024-02-15 10:13:02,768 [INFO] Loaded 147997 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-02-15 10:13:02,768 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-15 10:13:02,768 [INFO] Gathering news articles from 9news_au from 2024-02-10 to 2024-02-14
+2024-02-15 10:13:02,768 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=9news_au&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au
+2024-02-15 10:13:04,587 [INFO] Response: 200
+2024-02-15 10:13:04,588 [INFO] Gathering page 1 of 2
+2024-02-15 10:13:04,589 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=9news_au&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707698053304843814
+2024-02-15 10:13:05,923 [INFO] Response: 200
+2024-02-15 10:13:05,924 [INFO] Gathering page 2 of 2
+2024-02-15 10:13:05,926 [INFO] 
+Compiling 2 pages of results...
+2024-02-15 10:13:05,927 [INFO] All news articles gathered from 9news_au from 2024-02-10 to 2024-02-14!
+2024-02-15 10:13:05,927 [INFO] Processing tables...
+2024-02-15 10:13:05,976 [INFO] Tables have been processed.
+2024-02-15 10:13:05,976 [INFO] 
+Pushing results from 9news_au to Google BigQuery database...
+2024-02-15 10:13:06,699 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-15 10:13:07,053 [INFO] Table exists
+2024-02-15 10:13:14,742 [INFO] Loaded 134905 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-02-15 10:13:15,037 [INFO] Table exists
+2024-02-15 10:13:19,836 [INFO] Loaded 137172 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-02-15 10:13:20,193 [INFO] Table exists
+2024-02-15 10:13:25,602 [INFO] Loaded 311107 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-02-15 10:13:25,991 [INFO] Table exists
+2024-02-15 10:13:30,687 [INFO] Loaded 148076 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-02-15 10:13:30,687 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-15 10:13:30,688 [INFO] Gathering news articles from theconversation from 2024-02-10 to 2024-02-14
+2024-02-15 10:13:30,688 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theconversation&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au
+2024-02-15 10:13:32,750 [INFO] Response: 200
+2024-02-15 10:13:32,752 [INFO] Gathering page 1 of 2
+2024-02-15 10:13:32,754 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theconversation&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707704777625610602
+2024-02-15 10:13:33,926 [INFO] Response: 200
+2024-02-15 10:13:33,927 [INFO] Gathering page 2 of 2
+2024-02-15 10:13:33,928 [INFO] 
+Compiling 2 pages of results...
+2024-02-15 10:13:33,929 [INFO] All news articles gathered from theconversation from 2024-02-10 to 2024-02-14!
+2024-02-15 10:13:33,929 [INFO] Processing tables...
+2024-02-15 10:13:33,966 [INFO] Tables have been processed.
+2024-02-15 10:13:33,966 [INFO] 
+Pushing results from theconversation to Google BigQuery database...
+2024-02-15 10:13:34,791 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-15 10:13:35,162 [INFO] Table exists
+2024-02-15 10:13:41,851 [INFO] Loaded 134971 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-02-15 10:13:42,180 [INFO] Table exists
+2024-02-15 10:13:49,455 [INFO] Loaded 137239 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-02-15 10:13:49,787 [INFO] Table exists
+2024-02-15 10:14:08,004 [INFO] Loaded 311173 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-02-15 10:14:08,315 [INFO] Table exists
+2024-02-15 10:14:13,806 [INFO] Loaded 148444 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-02-15 10:14:13,806 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-15 10:14:13,806 [INFO] Gathering news articles from thenewdaily from 2024-02-10 to 2024-02-14
+2024-02-15 10:14:13,806 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thenewdaily&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au
+2024-02-15 10:14:14,735 [INFO] Response: 200
+2024-02-15 10:14:14,735 [INFO] Gathering page 1 of 0
+2024-02-15 10:14:14,736 [INFO] No results for thenewdaily during your specified timeframe!
+2024-02-15 10:14:14,736 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-15 10:14:14,736 [INFO] Gathering news articles from smh from 2024-02-10 to 2024-02-14
+2024-02-15 10:14:14,736 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au
+2024-02-15 10:14:16,062 [INFO] Response: 200
+2024-02-15 10:14:16,064 [INFO] Gathering page 1 of 17
+2024-02-15 10:14:16,065 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707850053905605843
+2024-02-15 10:14:17,513 [INFO] Response: 200
+2024-02-15 10:14:17,514 [INFO] Gathering page 2 of 17
+2024-02-15 10:14:17,515 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707827490916447579
+2024-02-15 10:14:19,056 [INFO] Response: 200
+2024-02-15 10:14:19,058 [INFO] Gathering page 3 of 17
+2024-02-15 10:14:19,059 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707798600956136528
+2024-02-15 10:14:20,757 [INFO] Response: 200
+2024-02-15 10:14:20,758 [INFO] Gathering page 4 of 17
+2024-02-15 10:14:20,759 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707772858589584963
+2024-02-15 10:14:22,429 [INFO] Response: 200
+2024-02-15 10:14:22,431 [INFO] Gathering page 5 of 17
+2024-02-15 10:14:22,432 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707760800477280570
+2024-02-15 10:14:23,749 [INFO] Response: 200
+2024-02-15 10:14:23,750 [INFO] Gathering page 6 of 17
+2024-02-15 10:14:23,751 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707726762310225344
+2024-02-15 10:14:25,095 [INFO] Response: 200
+2024-02-15 10:14:25,097 [INFO] Gathering page 7 of 17
+2024-02-15 10:14:25,100 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707710458886157943
+2024-02-15 10:14:26,416 [INFO] Response: 200
+2024-02-15 10:14:26,419 [INFO] Gathering page 8 of 17
+2024-02-15 10:14:26,420 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707683864024468914
+2024-02-15 10:14:28,182 [INFO] Response: 200
+2024-02-15 10:14:28,183 [INFO] Gathering page 9 of 17
+2024-02-15 10:14:28,184 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707674400630932738
+2024-02-15 10:14:29,534 [INFO] Response: 200
+2024-02-15 10:14:29,534 [INFO] Gathering page 10 of 17
+2024-02-15 10:14:29,535 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707641100810725175
+2024-02-15 10:14:31,262 [INFO] Response: 200
+2024-02-15 10:14:31,263 [INFO] Gathering page 11 of 17
+2024-02-15 10:14:31,266 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707636098466039256
+2024-02-15 10:14:32,594 [INFO] Response: 200
+2024-02-15 10:14:32,596 [INFO] Gathering page 12 of 17
+2024-02-15 10:14:32,597 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707619465097250021
+2024-02-15 10:14:33,958 [INFO] Response: 200
+2024-02-15 10:14:33,958 [INFO] Gathering page 13 of 17
+2024-02-15 10:14:33,959 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707589800668678843
+2024-02-15 10:14:36,317 [INFO] Response: 200
+2024-02-15 10:14:36,319 [INFO] Gathering page 14 of 17
+2024-02-15 10:14:36,320 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707576603013328871
+2024-02-15 10:14:37,391 [INFO] Response: 200
+2024-02-15 10:14:37,392 [INFO] Gathering page 15 of 17
+2024-02-15 10:14:37,393 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707551471279085358
+2024-02-15 10:14:38,602 [INFO] Response: 200
+2024-02-15 10:14:38,603 [INFO] Gathering page 16 of 17
+2024-02-15 10:14:38,606 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707528934787451730
+2024-02-15 10:14:40,502 [INFO] Response: 200
+2024-02-15 10:14:40,503 [INFO] Gathering page 17 of 17
+2024-02-15 10:14:40,505 [INFO] 
+Compiling 17 pages of results...
+2024-02-15 10:14:40,507 [INFO] All news articles gathered from smh from 2024-02-10 to 2024-02-14!
+2024-02-15 10:14:40,507 [INFO] Processing tables...
+2024-02-15 10:14:40,641 [INFO] Tables have been processed.
+2024-02-15 10:14:40,641 [INFO] 
+Pushing results from smh to Google BigQuery database...
+2024-02-15 10:14:41,799 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-15 10:14:42,174 [INFO] Table exists
+2024-02-15 10:14:51,332 [INFO] Loaded 135792 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-02-15 10:14:51,737 [INFO] Table exists
+2024-02-15 10:14:59,669 [INFO] Loaded 138060 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-02-15 10:15:00,483 [INFO] Table exists
+2024-02-15 10:15:07,572 [INFO] Loaded 311994 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-02-15 10:15:07,942 [INFO] Table exists
+2024-02-15 10:15:13,154 [INFO] Loaded 149322 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-02-15 10:15:13,155 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-15 10:15:13,155 [INFO] Gathering news articles from thewest from 2024-02-10 to 2024-02-14
+2024-02-15 10:15:13,155 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au
+2024-02-15 10:15:15,170 [INFO] Response: 200
+2024-02-15 10:15:15,172 [INFO] Gathering page 1 of 14
+2024-02-15 10:15:15,175 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707844567923188277
+2024-02-15 10:15:16,639 [INFO] Response: 200
+2024-02-15 10:15:16,640 [INFO] Gathering page 2 of 14
+2024-02-15 10:15:16,641 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707807990277800081
+2024-02-15 10:15:17,798 [INFO] Response: 200
+2024-02-15 10:15:17,805 [INFO] Gathering page 3 of 14
+2024-02-15 10:15:17,807 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707796635584432662
+2024-02-15 10:15:18,948 [INFO] Response: 200
+2024-02-15 10:15:18,950 [INFO] Gathering page 4 of 14
+2024-02-15 10:15:18,952 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707784200300625525
+2024-02-15 10:15:20,400 [INFO] Response: 200
+2024-02-15 10:15:20,402 [INFO] Gathering page 5 of 14
+2024-02-15 10:15:20,405 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707760800971111593
+2024-02-15 10:15:21,566 [INFO] Response: 200
+2024-02-15 10:15:21,567 [INFO] Gathering page 6 of 14
+2024-02-15 10:15:21,568 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707730181895430914
+2024-02-15 10:15:22,653 [INFO] Response: 200
+2024-02-15 10:15:22,654 [INFO] Gathering page 7 of 14
+2024-02-15 10:15:22,655 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707714420582412068
+2024-02-15 10:15:24,697 [INFO] Response: 200
+2024-02-15 10:15:24,700 [INFO] Gathering page 8 of 14
+2024-02-15 10:15:24,702 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707705708178712393
+2024-02-15 10:15:26,006 [INFO] Response: 200
+2024-02-15 10:15:26,009 [INFO] Gathering page 9 of 14
+2024-02-15 10:15:26,012 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707675992137729546
+2024-02-15 10:15:27,173 [INFO] Response: 200
+2024-02-15 10:15:27,176 [INFO] Gathering page 10 of 14
+2024-02-15 10:15:27,178 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707644213911399603
+2024-02-15 10:15:28,288 [INFO] Response: 200
+2024-02-15 10:15:28,289 [INFO] Gathering page 11 of 14
+2024-02-15 10:15:28,290 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707618211173851488
+2024-02-15 10:15:29,818 [INFO] Response: 200
+2024-02-15 10:15:29,820 [INFO] Gathering page 12 of 14
+2024-02-15 10:15:29,821 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707588000618270075
+2024-02-15 10:15:30,938 [INFO] Response: 200
+2024-02-15 10:15:30,939 [INFO] Gathering page 13 of 14
+2024-02-15 10:15:30,940 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2024-02-10&to_date=2024-02-14&country=au&page=1707545760904737161
+2024-02-15 10:15:32,020 [INFO] Response: 200
+2024-02-15 10:15:32,022 [INFO] Gathering page 14 of 14
+2024-02-15 10:15:32,023 [INFO] 
+Compiling 14 pages of results...
+2024-02-15 10:15:32,025 [INFO] All news articles gathered from thewest from 2024-02-10 to 2024-02-14!
+2024-02-15 10:15:32,025 [INFO] Processing tables...
+2024-02-15 10:15:32,101 [INFO] Tables have been processed.
+2024-02-15 10:15:32,102 [INFO] 
+Pushing results from thewest to Google BigQuery database...
+2024-02-15 10:15:32,897 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-15 10:15:33,234 [INFO] Table exists
+2024-02-15 10:15:40,497 [INFO] Loaded 136486 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-02-15 10:15:40,859 [INFO] Table exists
+2024-02-15 10:15:45,569 [INFO] Loaded 138754 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-02-15 10:15:45,910 [INFO] Table exists
+2024-02-15 10:15:52,387 [INFO] Loaded 312688 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-02-15 10:15:52,795 [INFO] Table exists
+2024-02-15 10:15:58,000 [INFO] Loaded 150040 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-02-15 10:15:58,001 [INFO] 
+Gather complete!

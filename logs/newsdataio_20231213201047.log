@@ -1,0 +1,17 @@
+2023-12-13 20:10:47,206 [INFO] Starting News Gatherer
+2023-12-13 20:10:47,207 [INFO] Collecting news content from 31 domains.
+2023-12-13 20:10:47,207 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-12-13 20:10:47,207 [INFO] Gathering news articles from abc_net from 2023-11-01 to 2023-12-01
+2023-12-13 20:10:47,207 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-11-01&to_date=2023-12-01&country=au
+2023-12-13 20:10:48,919 [INFO] Response: 200
+2023-12-13 20:10:48,923 [INFO] Gathering page 1 of 38
+2023-12-13 20:10:48,925 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-11-01&to_date=2023-12-01&country=au&page=1701332789911790979
+2023-12-13 20:12:10,222 [INFO] Response: 500
+2023-12-13 20:12:10,223 [INFO] 'totalResults'
+2023-12-13 20:12:10,224 [INFO] 
+Gather complete!

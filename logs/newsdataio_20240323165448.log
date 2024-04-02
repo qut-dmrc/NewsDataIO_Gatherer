@@ -1,0 +1,2253 @@
+2024-03-23 16:54:48,810 [INFO] Starting News Gatherer
+2024-03-23 16:54:48,810 [INFO] Collecting news content from 1 domains.
+2024-03-23 16:54:48,810 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-23 16:54:48,810 [INFO] Gathering news articles from zeit from 2023-08-01 to 2024-03-22
+2024-03-23 16:54:48,810 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de
+2024-03-23 16:54:50,410 [INFO] Response: 200
+2024-03-23 16:54:50,421 [INFO] Gathering page 1 of 446
+2024-03-23 16:54:50,422 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1711056936119451071
+2024-03-23 16:54:51,253 [INFO] Response: 200
+2024-03-23 16:54:51,254 [INFO] Gathering page 2 of 446
+2024-03-23 16:54:52,262 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1711038080078035083
+2024-03-23 16:54:53,202 [INFO] Response: 200
+2024-03-23 16:54:53,203 [INFO] Gathering page 3 of 446
+2024-03-23 16:54:54,219 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1711028902881143352
+2024-03-23 16:54:55,878 [INFO] Response: 200
+2024-03-23 16:54:55,878 [INFO] Gathering page 4 of 446
+2024-03-23 16:54:56,889 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1711014096448826575
+2024-03-23 16:54:57,724 [INFO] Response: 200
+2024-03-23 16:54:57,726 [INFO] Gathering page 5 of 446
+2024-03-23 16:54:58,733 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710966946926561763
+2024-03-23 16:54:59,621 [INFO] Response: 200
+2024-03-23 16:54:59,623 [INFO] Gathering page 6 of 446
+2024-03-23 16:55:00,633 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710945308800617266
+2024-03-23 16:55:01,600 [INFO] Response: 200
+2024-03-23 16:55:01,600 [INFO] Gathering page 7 of 446
+2024-03-23 16:55:02,609 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710930029124957492
+2024-03-23 16:55:03,693 [INFO] Response: 200
+2024-03-23 16:55:03,693 [INFO] Gathering page 8 of 446
+2024-03-23 16:55:04,705 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710915665443817086
+2024-03-23 16:55:05,637 [INFO] Response: 200
+2024-03-23 16:55:05,638 [INFO] Gathering page 9 of 446
+2024-03-23 16:55:06,645 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710893552324451120
+2024-03-23 16:55:07,482 [INFO] Response: 200
+2024-03-23 16:55:07,482 [INFO] Gathering page 10 of 446
+2024-03-23 16:55:08,495 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710861124159753927
+2024-03-23 16:55:09,305 [INFO] Response: 200
+2024-03-23 16:55:09,306 [INFO] Gathering page 11 of 446
+2024-03-23 16:55:10,316 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710842351724479294
+2024-03-23 16:55:11,189 [INFO] Response: 200
+2024-03-23 16:55:11,191 [INFO] Gathering page 12 of 446
+2024-03-23 16:55:12,204 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710823847150678203
+2024-03-23 16:55:13,017 [INFO] Response: 200
+2024-03-23 16:55:13,017 [INFO] Gathering page 13 of 446
+2024-03-23 16:55:14,031 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710782993721644248
+2024-03-23 16:55:14,851 [INFO] Response: 200
+2024-03-23 16:55:14,852 [INFO] Gathering page 14 of 446
+2024-03-23 16:55:15,857 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710764808964835253
+2024-03-23 16:55:16,655 [INFO] Response: 200
+2024-03-23 16:55:16,657 [INFO] Gathering page 15 of 446
+2024-03-23 16:55:17,663 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710747188369757236
+2024-03-23 16:55:18,466 [INFO] Response: 200
+2024-03-23 16:55:18,466 [INFO] Gathering page 16 of 446
+2024-03-23 16:55:19,468 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710700342093373956
+2024-03-23 16:55:20,347 [INFO] Response: 200
+2024-03-23 16:55:20,350 [INFO] Gathering page 17 of 446
+2024-03-23 16:55:21,353 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710678655294901177
+2024-03-23 16:55:22,357 [INFO] Response: 200
+2024-03-23 16:55:22,358 [INFO] Gathering page 18 of 446
+2024-03-23 16:55:23,374 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710660362925547125
+2024-03-23 16:55:24,235 [INFO] Response: 200
+2024-03-23 16:55:24,236 [INFO] Gathering page 19 of 446
+2024-03-23 16:55:25,248 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710612251144404027
+2024-03-23 16:55:26,076 [INFO] Response: 200
+2024-03-23 16:55:26,077 [INFO] Gathering page 20 of 446
+2024-03-23 16:55:27,088 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710595706092905421
+2024-03-23 16:55:27,933 [INFO] Response: 200
+2024-03-23 16:55:27,934 [INFO] Gathering page 21 of 446
+2024-03-23 16:55:28,938 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710565719422537020
+2024-03-23 16:55:29,836 [INFO] Response: 200
+2024-03-23 16:55:29,836 [INFO] Gathering page 22 of 446
+2024-03-23 16:55:30,840 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710520066685666725
+2024-03-23 16:55:31,686 [INFO] Response: 200
+2024-03-23 16:55:31,687 [INFO] Gathering page 23 of 446
+2024-03-23 16:55:32,696 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710503296906670246
+2024-03-23 16:55:33,547 [INFO] Response: 200
+2024-03-23 16:55:33,547 [INFO] Gathering page 24 of 446
+2024-03-23 16:55:34,563 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710488551019058751
+2024-03-23 16:55:35,438 [INFO] Response: 200
+2024-03-23 16:55:35,439 [INFO] Gathering page 25 of 446
+2024-03-23 16:55:36,446 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710463497114269472
+2024-03-23 16:55:37,262 [INFO] Response: 200
+2024-03-23 16:55:37,263 [INFO] Gathering page 26 of 446
+2024-03-23 16:55:38,278 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710430603970211038
+2024-03-23 16:55:39,101 [INFO] Response: 200
+2024-03-23 16:55:39,103 [INFO] Gathering page 27 of 446
+2024-03-23 16:55:40,117 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710417373533492580
+2024-03-23 16:55:40,993 [INFO] Response: 200
+2024-03-23 16:55:40,994 [INFO] Gathering page 28 of 446
+2024-03-23 16:55:42,006 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710400932906959204
+2024-03-23 16:55:42,806 [INFO] Response: 200
+2024-03-23 16:55:42,807 [INFO] Gathering page 29 of 446
+2024-03-23 16:55:43,812 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710364749860674567
+2024-03-23 16:55:44,618 [INFO] Response: 200
+2024-03-23 16:55:44,619 [INFO] Gathering page 30 of 446
+2024-03-23 16:55:45,622 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710346500077050416
+2024-03-23 16:55:46,449 [INFO] Response: 200
+2024-03-23 16:55:46,450 [INFO] Gathering page 31 of 446
+2024-03-23 16:55:47,462 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710328837860735557
+2024-03-23 16:55:48,251 [INFO] Response: 200
+2024-03-23 16:55:48,251 [INFO] Gathering page 32 of 446
+2024-03-23 16:55:49,264 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710316972514040971
+2024-03-23 16:55:50,077 [INFO] Response: 200
+2024-03-23 16:55:50,079 [INFO] Gathering page 33 of 446
+2024-03-23 16:55:51,089 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710288509242085308
+2024-03-23 16:55:51,907 [INFO] Response: 200
+2024-03-23 16:55:51,908 [INFO] Gathering page 34 of 446
+2024-03-23 16:55:52,914 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710256399345696603
+2024-03-23 16:55:53,720 [INFO] Response: 200
+2024-03-23 16:55:53,720 [INFO] Gathering page 35 of 446
+2024-03-23 16:55:54,723 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710235384073747743
+2024-03-23 16:55:55,772 [INFO] Response: 200
+2024-03-23 16:55:55,773 [INFO] Gathering page 36 of 446
+2024-03-23 16:55:56,787 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710214060617396482
+2024-03-23 16:55:57,619 [INFO] Response: 200
+2024-03-23 16:55:57,621 [INFO] Gathering page 37 of 446
+2024-03-23 16:55:58,624 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710174126837341013
+2024-03-23 16:55:59,430 [INFO] Response: 200
+2024-03-23 16:55:59,432 [INFO] Gathering page 38 of 446
+2024-03-23 16:56:00,448 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710165425852032139
+2024-03-23 16:56:01,329 [INFO] Response: 200
+2024-03-23 16:56:01,329 [INFO] Gathering page 39 of 446
+2024-03-23 16:56:02,340 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710146739287819446
+2024-03-23 16:56:03,193 [INFO] Response: 200
+2024-03-23 16:56:03,194 [INFO] Gathering page 40 of 446
+2024-03-23 16:56:04,201 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710110877352959106
+2024-03-23 16:56:05,050 [INFO] Response: 200
+2024-03-23 16:56:05,050 [INFO] Gathering page 41 of 446
+2024-03-23 16:56:06,057 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710070886169435731
+2024-03-23 16:56:06,927 [INFO] Response: 200
+2024-03-23 16:56:06,928 [INFO] Gathering page 42 of 446
+2024-03-23 16:56:07,931 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710061606749794209
+2024-03-23 16:56:08,751 [INFO] Response: 200
+2024-03-23 16:56:08,751 [INFO] Gathering page 43 of 446
+2024-03-23 16:56:09,758 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1710046085799922054
+2024-03-23 16:56:11,191 [INFO] Response: 200
+2024-03-23 16:56:11,191 [INFO] Gathering page 44 of 446
+2024-03-23 16:56:12,206 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709994136918461365
+2024-03-23 16:56:13,021 [INFO] Response: 200
+2024-03-23 16:56:13,024 [INFO] Gathering page 45 of 446
+2024-03-23 16:56:14,037 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709976542003411263
+2024-03-23 16:56:14,872 [INFO] Response: 200
+2024-03-23 16:56:14,873 [INFO] Gathering page 46 of 446
+2024-03-23 16:56:15,884 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709963724472391755
+2024-03-23 16:56:16,714 [INFO] Response: 200
+2024-03-23 16:56:16,715 [INFO] Gathering page 47 of 446
+2024-03-23 16:56:17,723 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709878821332189652
+2024-03-23 16:56:18,707 [INFO] Response: 200
+2024-03-23 16:56:18,708 [INFO] Gathering page 48 of 446
+2024-03-23 16:56:19,716 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709845694605930798
+2024-03-23 16:56:20,534 [INFO] Response: 200
+2024-03-23 16:56:20,535 [INFO] Gathering page 49 of 446
+2024-03-23 16:56:21,537 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709825158393620292
+2024-03-23 16:56:22,340 [INFO] Response: 200
+2024-03-23 16:56:22,341 [INFO] Gathering page 50 of 446
+2024-03-23 16:56:23,353 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709810738503663997
+2024-03-23 16:56:24,154 [INFO] Response: 200
+2024-03-23 16:56:24,155 [INFO] Gathering page 51 of 446
+2024-03-23 16:56:25,158 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709791748597140910
+2024-03-23 16:56:26,022 [INFO] Response: 200
+2024-03-23 16:56:26,023 [INFO] Gathering page 52 of 446
+2024-03-23 16:56:27,034 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709762918088349228
+2024-03-23 16:56:27,922 [INFO] Response: 200
+2024-03-23 16:56:27,923 [INFO] Gathering page 53 of 446
+2024-03-23 16:56:28,929 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709743355630532929
+2024-03-23 16:56:29,770 [INFO] Response: 200
+2024-03-23 16:56:29,771 [INFO] Gathering page 54 of 446
+2024-03-23 16:56:30,778 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709731478770263713
+2024-03-23 16:56:31,599 [INFO] Response: 200
+2024-03-23 16:56:31,600 [INFO] Gathering page 55 of 446
+2024-03-23 16:56:32,603 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709720471504315887
+2024-03-23 16:56:33,511 [INFO] Response: 200
+2024-03-23 16:56:33,513 [INFO] Gathering page 56 of 446
+2024-03-23 16:56:34,518 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709700178102442375
+2024-03-23 16:56:35,348 [INFO] Response: 200
+2024-03-23 16:56:35,350 [INFO] Gathering page 57 of 446
+2024-03-23 16:56:36,365 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709659603660663399
+2024-03-23 16:56:37,190 [INFO] Response: 200
+2024-03-23 16:56:37,191 [INFO] Gathering page 58 of 446
+2024-03-23 16:56:38,194 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709637956019073580
+2024-03-23 16:56:39,067 [INFO] Response: 200
+2024-03-23 16:56:39,068 [INFO] Gathering page 59 of 446
+2024-03-23 16:56:40,072 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709619068022457429
+2024-03-23 16:56:40,874 [INFO] Response: 200
+2024-03-23 16:56:40,876 [INFO] Gathering page 60 of 446
+2024-03-23 16:56:41,892 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709580907183500249
+2024-03-23 16:56:42,719 [INFO] Response: 200
+2024-03-23 16:56:42,720 [INFO] Gathering page 61 of 446
+2024-03-23 16:56:43,731 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709566087799948445
+2024-03-23 16:56:44,559 [INFO] Response: 200
+2024-03-23 16:56:44,560 [INFO] Gathering page 62 of 446
+2024-03-23 16:56:45,566 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709555690649312275
+2024-03-23 16:56:46,396 [INFO] Response: 200
+2024-03-23 16:56:46,397 [INFO] Gathering page 63 of 446
+2024-03-23 16:56:47,416 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709533128805975096
+2024-03-23 16:56:48,290 [INFO] Response: 200
+2024-03-23 16:56:48,291 [INFO] Gathering page 64 of 446
+2024-03-23 16:56:49,303 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709495185754468809
+2024-03-23 16:56:50,140 [INFO] Response: 200
+2024-03-23 16:56:50,141 [INFO] Gathering page 65 of 446
+2024-03-23 16:56:51,143 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709469092257919495
+2024-03-23 16:56:51,952 [INFO] Response: 200
+2024-03-23 16:56:51,953 [INFO] Gathering page 66 of 446
+2024-03-23 16:56:52,959 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709440364852282315
+2024-03-23 16:56:53,767 [INFO] Response: 200
+2024-03-23 16:56:53,768 [INFO] Gathering page 67 of 446
+2024-03-23 16:56:54,773 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709395487269569342
+2024-03-23 16:56:55,648 [INFO] Response: 200
+2024-03-23 16:56:55,649 [INFO] Gathering page 68 of 446
+2024-03-23 16:56:56,660 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709368274143937460
+2024-03-23 16:56:57,481 [INFO] Response: 200
+2024-03-23 16:56:57,483 [INFO] Gathering page 69 of 446
+2024-03-23 16:56:58,492 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709327367495266770
+2024-03-23 16:56:59,355 [INFO] Response: 200
+2024-03-23 16:56:59,357 [INFO] Gathering page 70 of 446
+2024-03-23 16:57:00,372 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709304696265643820
+2024-03-23 16:57:01,297 [INFO] Response: 200
+2024-03-23 16:57:01,298 [INFO] Gathering page 71 of 446
+2024-03-23 16:57:02,303 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709290724237450344
+2024-03-23 16:57:03,103 [INFO] Response: 200
+2024-03-23 16:57:03,104 [INFO] Gathering page 72 of 446
+2024-03-23 16:57:04,108 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709280543427492621
+2024-03-23 16:57:05,092 [INFO] Response: 200
+2024-03-23 16:57:05,092 [INFO] Gathering page 73 of 446
+2024-03-23 16:57:06,105 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709263410371015606
+2024-03-23 16:57:06,909 [INFO] Response: 200
+2024-03-23 16:57:06,911 [INFO] Gathering page 74 of 446
+2024-03-23 16:57:07,921 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709228872076455079
+2024-03-23 16:57:08,764 [INFO] Response: 200
+2024-03-23 16:57:08,765 [INFO] Gathering page 75 of 446
+2024-03-23 16:57:09,783 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709214232890245184
+2024-03-23 16:57:10,671 [INFO] Response: 200
+2024-03-23 16:57:10,672 [INFO] Gathering page 76 of 446
+2024-03-23 16:57:11,677 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709199175088535713
+2024-03-23 16:57:12,487 [INFO] Response: 200
+2024-03-23 16:57:12,488 [INFO] Gathering page 77 of 446
+2024-03-23 16:57:13,493 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709180122562429748
+2024-03-23 16:57:14,311 [INFO] Response: 200
+2024-03-23 16:57:14,311 [INFO] Gathering page 78 of 446
+2024-03-23 16:57:15,323 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709134424322648458
+2024-03-23 16:57:16,193 [INFO] Response: 200
+2024-03-23 16:57:16,193 [INFO] Gathering page 79 of 446
+2024-03-23 16:57:17,202 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709108271813727469
+2024-03-23 16:57:18,031 [INFO] Response: 200
+2024-03-23 16:57:18,040 [INFO] Gathering page 80 of 446
+2024-03-23 16:57:19,049 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709096343420658912
+2024-03-23 16:57:19,880 [INFO] Response: 200
+2024-03-23 16:57:19,881 [INFO] Gathering page 81 of 446
+2024-03-23 16:57:20,889 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709060460462764404
+2024-03-23 16:57:21,739 [INFO] Response: 200
+2024-03-23 16:57:21,741 [INFO] Gathering page 82 of 446
+2024-03-23 16:57:22,754 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709043949870927079
+2024-03-23 16:57:23,562 [INFO] Response: 200
+2024-03-23 16:57:23,563 [INFO] Gathering page 83 of 446
+2024-03-23 16:57:24,572 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709028447332428166
+2024-03-23 16:57:25,475 [INFO] Response: 200
+2024-03-23 16:57:25,476 [INFO] Gathering page 84 of 446
+2024-03-23 16:57:26,481 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1709011503997427744
+2024-03-23 16:57:27,303 [INFO] Response: 200
+2024-03-23 16:57:27,304 [INFO] Gathering page 85 of 446
+2024-03-23 16:57:28,320 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708971709435759185
+2024-03-23 16:57:29,169 [INFO] Response: 200
+2024-03-23 16:57:29,170 [INFO] Gathering page 86 of 446
+2024-03-23 16:57:30,184 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708952744346676769
+2024-03-23 16:57:31,024 [INFO] Response: 200
+2024-03-23 16:57:31,025 [INFO] Gathering page 87 of 446
+2024-03-23 16:57:32,037 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708934969584407138
+2024-03-23 16:57:32,857 [INFO] Response: 200
+2024-03-23 16:57:32,858 [INFO] Gathering page 88 of 446
+2024-03-23 16:57:33,871 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708902921178290509
+2024-03-23 16:57:34,677 [INFO] Response: 200
+2024-03-23 16:57:34,677 [INFO] Gathering page 89 of 446
+2024-03-23 16:57:35,680 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708871761601139617
+2024-03-23 16:57:36,478 [INFO] Response: 200
+2024-03-23 16:57:36,478 [INFO] Gathering page 90 of 446
+2024-03-23 16:57:37,486 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708852083685079886
+2024-03-23 16:57:38,329 [INFO] Response: 200
+2024-03-23 16:57:38,330 [INFO] Gathering page 91 of 446
+2024-03-23 16:57:39,334 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708827472414389265
+2024-03-23 16:57:40,168 [INFO] Response: 200
+2024-03-23 16:57:40,169 [INFO] Gathering page 92 of 446
+2024-03-23 16:57:41,184 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708793323193992990
+2024-03-23 16:57:42,047 [INFO] Response: 200
+2024-03-23 16:57:42,048 [INFO] Gathering page 93 of 446
+2024-03-23 16:57:43,053 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708779152819942683
+2024-03-23 16:57:43,932 [INFO] Response: 200
+2024-03-23 16:57:43,932 [INFO] Gathering page 94 of 446
+2024-03-23 16:57:44,939 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708762316287742160
+2024-03-23 16:57:45,740 [INFO] Response: 200
+2024-03-23 16:57:45,741 [INFO] Gathering page 95 of 446
+2024-03-23 16:57:46,747 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708715356829201940
+2024-03-23 16:57:47,572 [INFO] Response: 200
+2024-03-23 16:57:47,573 [INFO] Gathering page 96 of 446
+2024-03-23 16:57:48,582 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708692320108089605
+2024-03-23 16:57:49,542 [INFO] Response: 200
+2024-03-23 16:57:49,544 [INFO] Gathering page 97 of 446
+2024-03-23 16:57:50,557 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708668207183949216
+2024-03-23 16:57:51,420 [INFO] Response: 200
+2024-03-23 16:57:51,422 [INFO] Gathering page 98 of 446
+2024-03-23 16:57:52,428 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708634534495142745
+2024-03-23 16:57:53,235 [INFO] Response: 200
+2024-03-23 16:57:53,235 [INFO] Gathering page 99 of 446
+2024-03-23 16:57:54,249 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708605328022112915
+2024-03-23 16:57:55,144 [INFO] Response: 200
+2024-03-23 16:57:55,144 [INFO] Gathering page 100 of 446
+2024-03-23 16:57:56,148 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708597136401111944
+2024-03-23 16:57:56,961 [INFO] Response: 200
+2024-03-23 16:57:56,962 [INFO] Gathering page 101 of 446
+2024-03-23 16:57:57,973 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708577988203959582
+2024-03-23 16:57:58,874 [INFO] Response: 200
+2024-03-23 16:57:58,874 [INFO] Gathering page 102 of 446
+2024-03-23 16:57:59,875 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708542639186318469
+2024-03-23 16:58:00,871 [INFO] Response: 200
+2024-03-23 16:58:00,872 [INFO] Gathering page 103 of 446
+2024-03-23 16:58:01,886 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708522724247488467
+2024-03-23 16:58:02,729 [INFO] Response: 200
+2024-03-23 16:58:02,729 [INFO] Gathering page 104 of 446
+2024-03-23 16:58:03,741 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708504187810506572
+2024-03-23 16:58:04,574 [INFO] Response: 200
+2024-03-23 16:58:04,576 [INFO] Gathering page 105 of 446
+2024-03-23 16:58:05,587 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708490261029843818
+2024-03-23 16:58:06,432 [INFO] Response: 200
+2024-03-23 16:58:06,434 [INFO] Gathering page 106 of 446
+2024-03-23 16:58:07,440 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708451218334499347
+2024-03-23 16:58:08,261 [INFO] Response: 200
+2024-03-23 16:58:08,262 [INFO] Gathering page 107 of 446
+2024-03-23 16:58:09,271 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708437518336434362
+2024-03-23 16:58:10,097 [INFO] Response: 200
+2024-03-23 16:58:10,098 [INFO] Gathering page 108 of 446
+2024-03-23 16:58:11,106 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708421091266454533
+2024-03-23 16:58:11,921 [INFO] Response: 200
+2024-03-23 16:58:11,922 [INFO] Gathering page 109 of 446
+2024-03-23 16:58:12,933 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708402576249651461
+2024-03-23 16:58:13,800 [INFO] Response: 200
+2024-03-23 16:58:13,802 [INFO] Gathering page 110 of 446
+2024-03-23 16:58:14,816 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708358737816881888
+2024-03-23 16:58:15,696 [INFO] Response: 200
+2024-03-23 16:58:15,697 [INFO] Gathering page 111 of 446
+2024-03-23 16:58:16,711 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708347158214372054
+2024-03-23 16:58:17,540 [INFO] Response: 200
+2024-03-23 16:58:17,542 [INFO] Gathering page 112 of 446
+2024-03-23 16:58:18,552 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708333702546689674
+2024-03-23 16:58:19,520 [INFO] Response: 200
+2024-03-23 16:58:19,521 [INFO] Gathering page 113 of 446
+2024-03-23 16:58:20,529 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708315867451954629
+2024-03-23 16:58:21,367 [INFO] Response: 200
+2024-03-23 16:58:21,367 [INFO] Gathering page 114 of 446
+2024-03-23 16:58:22,372 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708271466560025408
+2024-03-23 16:58:23,210 [INFO] Response: 200
+2024-03-23 16:58:23,211 [INFO] Gathering page 115 of 446
+2024-03-23 16:58:24,223 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708252474606450955
+2024-03-23 16:58:25,029 [INFO] Response: 200
+2024-03-23 16:58:25,030 [INFO] Gathering page 116 of 446
+2024-03-23 16:58:26,040 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708225998567448317
+2024-03-23 16:58:26,890 [INFO] Response: 200
+2024-03-23 16:58:26,892 [INFO] Gathering page 117 of 446
+2024-03-23 16:58:27,895 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708185546195679125
+2024-03-23 16:58:28,701 [INFO] Response: 200
+2024-03-23 16:58:28,703 [INFO] Gathering page 118 of 446
+2024-03-23 16:58:29,704 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708165113701711522
+2024-03-23 16:58:30,558 [INFO] Response: 200
+2024-03-23 16:58:30,559 [INFO] Gathering page 119 of 446
+2024-03-23 16:58:31,568 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708138041859752310
+2024-03-23 16:58:32,361 [INFO] Response: 200
+2024-03-23 16:58:32,363 [INFO] Gathering page 120 of 446
+2024-03-23 16:58:33,375 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708102282104358827
+2024-03-23 16:58:34,219 [INFO] Response: 200
+2024-03-23 16:58:34,219 [INFO] Gathering page 121 of 446
+2024-03-23 16:58:35,235 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708084428777625890
+2024-03-23 16:58:36,066 [INFO] Response: 200
+2024-03-23 16:58:36,067 [INFO] Gathering page 122 of 446
+2024-03-23 16:58:37,078 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708070225869490699
+2024-03-23 16:58:38,004 [INFO] Response: 200
+2024-03-23 16:58:38,005 [INFO] Gathering page 123 of 446
+2024-03-23 16:58:39,010 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708039606202449185
+2024-03-23 16:58:39,953 [INFO] Response: 200
+2024-03-23 16:58:39,955 [INFO] Gathering page 124 of 446
+2024-03-23 16:58:40,967 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1708014922772835479
+2024-03-23 16:58:41,797 [INFO] Response: 200
+2024-03-23 16:58:41,798 [INFO] Gathering page 125 of 446
+2024-03-23 16:58:42,804 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707997569562140555
+2024-03-23 16:58:43,611 [INFO] Response: 200
+2024-03-23 16:58:43,612 [INFO] Gathering page 126 of 446
+2024-03-23 16:58:44,621 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707976147646944446
+2024-03-23 16:58:45,453 [INFO] Response: 200
+2024-03-23 16:58:45,454 [INFO] Gathering page 127 of 446
+2024-03-23 16:58:46,466 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707939504641543282
+2024-03-23 16:58:47,299 [INFO] Response: 200
+2024-03-23 16:58:47,300 [INFO] Gathering page 128 of 446
+2024-03-23 16:58:48,309 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707925853342379366
+2024-03-23 16:58:49,123 [INFO] Response: 200
+2024-03-23 16:58:49,123 [INFO] Gathering page 129 of 446
+2024-03-23 16:58:50,127 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707918164201799874
+2024-03-23 16:58:51,006 [INFO] Response: 200
+2024-03-23 16:58:51,008 [INFO] Gathering page 130 of 446
+2024-03-23 16:58:52,021 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707897284935863416
+2024-03-23 16:58:52,821 [INFO] Response: 200
+2024-03-23 16:58:52,823 [INFO] Gathering page 131 of 446
+2024-03-23 16:58:53,827 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707880666387731034
+2024-03-23 16:58:54,643 [INFO] Response: 200
+2024-03-23 16:58:54,644 [INFO] Gathering page 132 of 446
+2024-03-23 16:58:55,659 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707845653259723140
+2024-03-23 16:58:56,495 [INFO] Response: 200
+2024-03-23 16:58:56,496 [INFO] Gathering page 133 of 446
+2024-03-23 16:58:57,511 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707829498698763476
+2024-03-23 16:58:58,394 [INFO] Response: 200
+2024-03-23 16:58:58,396 [INFO] Gathering page 134 of 446
+2024-03-23 16:58:59,399 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707817441759971455
+2024-03-23 16:59:00,216 [INFO] Response: 200
+2024-03-23 16:59:00,217 [INFO] Gathering page 135 of 446
+2024-03-23 16:59:01,225 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707800071399331668
+2024-03-23 16:59:02,305 [INFO] Response: 200
+2024-03-23 16:59:02,307 [INFO] Gathering page 136 of 446
+2024-03-23 16:59:03,321 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707755128108417103
+2024-03-23 16:59:04,163 [INFO] Response: 200
+2024-03-23 16:59:04,165 [INFO] Gathering page 137 of 446
+2024-03-23 16:59:05,169 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707736212221839016
+2024-03-23 16:59:06,009 [INFO] Response: 200
+2024-03-23 16:59:06,010 [INFO] Gathering page 138 of 446
+2024-03-23 16:59:07,026 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707723135882852819
+2024-03-23 16:59:07,836 [INFO] Response: 200
+2024-03-23 16:59:07,837 [INFO] Gathering page 139 of 446
+2024-03-23 16:59:08,847 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707690826847023513
+2024-03-23 16:59:09,691 [INFO] Response: 200
+2024-03-23 16:59:09,692 [INFO] Gathering page 140 of 446
+2024-03-23 16:59:10,698 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707662231086338655
+2024-03-23 16:59:12,381 [INFO] Response: 200
+2024-03-23 16:59:12,381 [INFO] Gathering page 141 of 446
+2024-03-23 16:59:13,393 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707638185433996876
+2024-03-23 16:59:14,274 [INFO] Response: 200
+2024-03-23 16:59:14,274 [INFO] Gathering page 142 of 446
+2024-03-23 16:59:15,278 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707589142073050172
+2024-03-23 16:59:16,089 [INFO] Response: 200
+2024-03-23 16:59:16,090 [INFO] Gathering page 143 of 446
+2024-03-23 16:59:17,091 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707570661348474894
+2024-03-23 16:59:17,886 [INFO] Response: 200
+2024-03-23 16:59:17,887 [INFO] Gathering page 144 of 446
+2024-03-23 16:59:18,889 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707548868038832216
+2024-03-23 16:59:19,726 [INFO] Response: 200
+2024-03-23 16:59:19,728 [INFO] Gathering page 145 of 446
+2024-03-23 16:59:20,729 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707503831922358997
+2024-03-23 16:59:21,536 [INFO] Response: 200
+2024-03-23 16:59:21,537 [INFO] Gathering page 146 of 446
+2024-03-23 16:59:22,541 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707485404615136724
+2024-03-23 16:59:23,354 [INFO] Response: 200
+2024-03-23 16:59:23,355 [INFO] Gathering page 147 of 446
+2024-03-23 16:59:24,361 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707466646929267295
+2024-03-23 16:59:25,218 [INFO] Response: 200
+2024-03-23 16:59:25,219 [INFO] Gathering page 148 of 446
+2024-03-23 16:59:26,221 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707453991307445190
+2024-03-23 16:59:27,085 [INFO] Response: 200
+2024-03-23 16:59:27,086 [INFO] Gathering page 149 of 446
+2024-03-23 16:59:28,090 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707418496226823053
+2024-03-23 16:59:28,954 [INFO] Response: 200
+2024-03-23 16:59:28,955 [INFO] Gathering page 150 of 446
+2024-03-23 16:59:29,959 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707395328581431314
+2024-03-23 16:59:30,805 [INFO] Response: 200
+2024-03-23 16:59:30,806 [INFO] Gathering page 151 of 446
+2024-03-23 16:59:31,820 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707382189558983411
+2024-03-23 16:59:32,639 [INFO] Response: 200
+2024-03-23 16:59:32,641 [INFO] Gathering page 152 of 446
+2024-03-23 16:59:33,658 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707357271875220394
+2024-03-23 16:59:34,519 [INFO] Response: 200
+2024-03-23 16:59:34,519 [INFO] Gathering page 153 of 446
+2024-03-23 16:59:35,523 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707322761442778179
+2024-03-23 16:59:36,358 [INFO] Response: 200
+2024-03-23 16:59:36,359 [INFO] Gathering page 154 of 446
+2024-03-23 16:59:37,364 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707306029986030121
+2024-03-23 16:59:38,185 [INFO] Response: 200
+2024-03-23 16:59:38,186 [INFO] Gathering page 155 of 446
+2024-03-23 16:59:39,192 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707296461279204250
+2024-03-23 16:59:39,991 [INFO] Response: 200
+2024-03-23 16:59:39,991 [INFO] Gathering page 156 of 446
+2024-03-23 16:59:40,998 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707267696538695251
+2024-03-23 16:59:41,835 [INFO] Response: 200
+2024-03-23 16:59:41,836 [INFO] Gathering page 157 of 446
+2024-03-23 16:59:42,849 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707239747155218774
+2024-03-23 16:59:43,715 [INFO] Response: 200
+2024-03-23 16:59:43,717 [INFO] Gathering page 158 of 446
+2024-03-23 16:59:44,725 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707225333474558901
+2024-03-23 16:59:45,570 [INFO] Response: 200
+2024-03-23 16:59:45,572 [INFO] Gathering page 159 of 446
+2024-03-23 16:59:46,583 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707209392349679701
+2024-03-23 16:59:47,429 [INFO] Response: 200
+2024-03-23 16:59:47,430 [INFO] Gathering page 160 of 446
+2024-03-23 16:59:48,445 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707193072488658066
+2024-03-23 16:59:49,244 [INFO] Response: 200
+2024-03-23 16:59:49,246 [INFO] Gathering page 161 of 446
+2024-03-23 16:59:50,261 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707149926579743985
+2024-03-23 16:59:51,059 [INFO] Response: 200
+2024-03-23 16:59:51,061 [INFO] Gathering page 162 of 446
+2024-03-23 16:59:52,074 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707134920712423453
+2024-03-23 16:59:52,925 [INFO] Response: 200
+2024-03-23 16:59:52,925 [INFO] Gathering page 163 of 446
+2024-03-23 16:59:53,930 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707118143635950594
+2024-03-23 16:59:54,886 [INFO] Response: 200
+2024-03-23 16:59:54,887 [INFO] Gathering page 164 of 446
+2024-03-23 16:59:55,896 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707073472373441549
+2024-03-23 16:59:56,695 [INFO] Response: 200
+2024-03-23 16:59:56,696 [INFO] Gathering page 165 of 446
+2024-03-23 16:59:57,697 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707054034791401581
+2024-03-23 16:59:58,566 [INFO] Response: 200
+2024-03-23 16:59:58,567 [INFO] Gathering page 166 of 446
+2024-03-23 16:59:59,582 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1707032408763293106
+2024-03-23 17:00:01,190 [INFO] Response: 200
+2024-03-23 17:00:01,191 [INFO] Gathering page 167 of 446
+2024-03-23 17:00:02,205 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706998868382042359
+2024-03-23 17:00:04,300 [INFO] Response: 200
+2024-03-23 17:00:04,301 [INFO] Gathering page 168 of 446
+2024-03-23 17:00:05,312 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706975769244699616
+2024-03-23 17:00:06,559 [INFO] Response: 200
+2024-03-23 17:00:06,560 [INFO] Gathering page 169 of 446
+2024-03-23 17:00:07,575 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706950152938635306
+2024-03-23 17:00:10,231 [INFO] Response: 200
+2024-03-23 17:00:10,232 [INFO] Gathering page 170 of 446
+2024-03-23 17:00:11,246 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706908599908788419
+2024-03-23 17:00:12,860 [INFO] Response: 200
+2024-03-23 17:00:12,861 [INFO] Gathering page 171 of 446
+2024-03-23 17:00:13,876 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706889708154159292
+2024-03-23 17:00:14,827 [INFO] Response: 200
+2024-03-23 17:00:14,828 [INFO] Gathering page 172 of 446
+2024-03-23 17:00:15,833 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706873675478837912
+2024-03-23 17:00:16,961 [INFO] Response: 200
+2024-03-23 17:00:16,962 [INFO] Gathering page 173 of 446
+2024-03-23 17:00:17,979 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706863208354530079
+2024-03-23 17:00:18,906 [INFO] Response: 200
+2024-03-23 17:00:18,906 [INFO] Gathering page 174 of 446
+2024-03-23 17:00:19,908 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706833764774987331
+2024-03-23 17:00:20,782 [INFO] Response: 200
+2024-03-23 17:00:20,784 [INFO] Gathering page 175 of 446
+2024-03-23 17:00:21,791 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706803281143015961
+2024-03-23 17:00:22,929 [INFO] Response: 200
+2024-03-23 17:00:22,931 [INFO] Gathering page 176 of 446
+2024-03-23 17:00:23,945 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706787863132896694
+2024-03-23 17:00:24,858 [INFO] Response: 200
+2024-03-23 17:00:24,858 [INFO] Gathering page 177 of 446
+2024-03-23 17:00:25,860 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706772197396204801
+2024-03-23 17:00:26,974 [INFO] Response: 200
+2024-03-23 17:00:26,974 [INFO] Gathering page 178 of 446
+2024-03-23 17:00:27,984 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706739260251007594
+2024-03-23 17:00:28,848 [INFO] Response: 200
+2024-03-23 17:00:28,849 [INFO] Gathering page 179 of 446
+2024-03-23 17:00:29,853 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706716764498791750
+2024-03-23 17:00:30,732 [INFO] Response: 200
+2024-03-23 17:00:30,733 [INFO] Gathering page 180 of 446
+2024-03-23 17:00:31,740 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706701722488661259
+2024-03-23 17:00:32,610 [INFO] Response: 200
+2024-03-23 17:00:32,612 [INFO] Gathering page 181 of 446
+2024-03-23 17:00:33,615 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706678389247573070
+2024-03-23 17:00:34,522 [INFO] Response: 200
+2024-03-23 17:00:34,523 [INFO] Gathering page 182 of 446
+2024-03-23 17:00:35,533 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706645160675404163
+2024-03-23 17:00:36,668 [INFO] Response: 200
+2024-03-23 17:00:36,669 [INFO] Gathering page 183 of 446
+2024-03-23 17:00:37,682 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706619719343726461
+2024-03-23 17:00:38,540 [INFO] Response: 200
+2024-03-23 17:00:38,540 [INFO] Gathering page 184 of 446
+2024-03-23 17:00:39,542 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706608271097655065
+2024-03-23 17:00:40,351 [INFO] Response: 200
+2024-03-23 17:00:40,352 [INFO] Gathering page 185 of 446
+2024-03-23 17:00:41,362 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706589658518862083
+2024-03-23 17:00:42,300 [INFO] Response: 200
+2024-03-23 17:00:42,302 [INFO] Gathering page 186 of 446
+2024-03-23 17:00:43,309 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706551608008583235
+2024-03-23 17:00:44,146 [INFO] Response: 200
+2024-03-23 17:00:44,147 [INFO] Gathering page 187 of 446
+2024-03-23 17:00:45,151 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706538518898135907
+2024-03-23 17:00:46,004 [INFO] Response: 200
+2024-03-23 17:00:46,005 [INFO] Gathering page 188 of 446
+2024-03-23 17:00:47,058 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706529682680491200
+2024-03-23 17:00:47,910 [INFO] Response: 200
+2024-03-23 17:00:47,910 [INFO] Gathering page 189 of 446
+2024-03-23 17:00:48,913 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706509100648509098
+2024-03-23 17:00:49,722 [INFO] Response: 200
+2024-03-23 17:00:49,722 [INFO] Gathering page 190 of 446
+2024-03-23 17:00:50,728 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706492797910775572
+2024-03-23 17:00:51,593 [INFO] Response: 200
+2024-03-23 17:00:51,593 [INFO] Gathering page 191 of 446
+2024-03-23 17:00:52,601 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706453642779856665
+2024-03-23 17:00:53,419 [INFO] Response: 200
+2024-03-23 17:00:53,421 [INFO] Gathering page 192 of 446
+2024-03-23 17:00:54,437 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706436288246283971
+2024-03-23 17:00:55,275 [INFO] Response: 200
+2024-03-23 17:00:55,276 [INFO] Gathering page 193 of 446
+2024-03-23 17:00:56,282 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706399886262160473
+2024-03-23 17:00:57,099 [INFO] Response: 200
+2024-03-23 17:00:57,100 [INFO] Gathering page 194 of 446
+2024-03-23 17:00:58,112 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706366561768696759
+2024-03-23 17:00:59,006 [INFO] Response: 200
+2024-03-23 17:00:59,007 [INFO] Gathering page 195 of 446
+2024-03-23 17:01:00,016 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706346436900248825
+2024-03-23 17:01:01,182 [INFO] Response: 200
+2024-03-23 17:01:01,183 [INFO] Gathering page 196 of 446
+2024-03-23 17:01:02,198 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706315687914469125
+2024-03-23 17:01:03,049 [INFO] Response: 200
+2024-03-23 17:01:03,049 [INFO] Gathering page 197 of 446
+2024-03-23 17:01:04,058 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706288297138118536
+2024-03-23 17:01:04,963 [INFO] Response: 200
+2024-03-23 17:01:04,964 [INFO] Gathering page 198 of 446
+2024-03-23 17:01:05,975 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706281700419183962
+2024-03-23 17:01:06,894 [INFO] Response: 200
+2024-03-23 17:01:06,894 [INFO] Gathering page 199 of 446
+2024-03-23 17:01:07,900 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706272385586427831
+2024-03-23 17:01:08,913 [INFO] Response: 200
+2024-03-23 17:01:08,915 [INFO] Gathering page 200 of 446
+2024-03-23 17:01:09,923 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706256333174990613
+2024-03-23 17:01:10,838 [INFO] Response: 200
+2024-03-23 17:01:10,839 [INFO] Gathering page 201 of 446
+2024-03-23 17:01:11,851 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706217257744258582
+2024-03-23 17:01:12,727 [INFO] Response: 200
+2024-03-23 17:01:12,727 [INFO] Gathering page 202 of 446
+2024-03-23 17:01:13,741 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706200009889058485
+2024-03-23 17:01:14,607 [INFO] Response: 200
+2024-03-23 17:01:14,607 [INFO] Gathering page 203 of 446
+2024-03-23 17:01:15,616 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706191131771973936
+2024-03-23 17:01:16,482 [INFO] Response: 200
+2024-03-23 17:01:16,483 [INFO] Gathering page 204 of 446
+2024-03-23 17:01:17,496 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706179876288842808
+2024-03-23 17:01:18,425 [INFO] Response: 200
+2024-03-23 17:01:18,426 [INFO] Gathering page 205 of 446
+2024-03-23 17:01:19,436 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706169579310350275
+2024-03-23 17:01:20,248 [INFO] Response: 200
+2024-03-23 17:01:20,248 [INFO] Gathering page 206 of 446
+2024-03-23 17:01:21,256 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706153891136068674
+2024-03-23 17:01:22,098 [INFO] Response: 200
+2024-03-23 17:01:22,100 [INFO] Gathering page 207 of 446
+2024-03-23 17:01:23,107 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706120807563388344
+2024-03-23 17:01:23,962 [INFO] Response: 200
+2024-03-23 17:01:23,963 [INFO] Gathering page 208 of 446
+2024-03-23 17:01:24,970 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706108163291123549
+2024-03-23 17:01:25,791 [INFO] Response: 200
+2024-03-23 17:01:25,792 [INFO] Gathering page 209 of 446
+2024-03-23 17:01:26,805 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706096712657807147
+2024-03-23 17:01:27,644 [INFO] Response: 200
+2024-03-23 17:01:27,646 [INFO] Gathering page 210 of 446
+2024-03-23 17:01:28,660 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706088721427810260
+2024-03-23 17:01:29,549 [INFO] Response: 200
+2024-03-23 17:01:29,549 [INFO] Gathering page 211 of 446
+2024-03-23 17:01:30,555 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706069997867301789
+2024-03-23 17:01:31,385 [INFO] Response: 200
+2024-03-23 17:01:31,385 [INFO] Gathering page 212 of 446
+2024-03-23 17:01:32,389 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706037804107495943
+2024-03-23 17:01:33,261 [INFO] Response: 200
+2024-03-23 17:01:33,262 [INFO] Gathering page 213 of 446
+2024-03-23 17:01:34,272 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706023191431950129
+2024-03-23 17:01:35,151 [INFO] Response: 200
+2024-03-23 17:01:35,153 [INFO] Gathering page 214 of 446
+2024-03-23 17:01:36,168 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1706007435183831798
+2024-03-23 17:01:36,983 [INFO] Response: 200
+2024-03-23 17:01:36,984 [INFO] Gathering page 215 of 446
+2024-03-23 17:01:37,986 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705984600241551952
+2024-03-23 17:01:38,815 [INFO] Response: 200
+2024-03-23 17:01:38,816 [INFO] Gathering page 216 of 446
+2024-03-23 17:01:39,825 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705942568825377053
+2024-03-23 17:01:40,655 [INFO] Response: 200
+2024-03-23 17:01:40,656 [INFO] Gathering page 217 of 446
+2024-03-23 17:01:41,673 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705932256783919429
+2024-03-23 17:01:42,520 [INFO] Response: 200
+2024-03-23 17:01:42,522 [INFO] Gathering page 218 of 446
+2024-03-23 17:01:43,530 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705923758231032131
+2024-03-23 17:01:44,346 [INFO] Response: 200
+2024-03-23 17:01:44,346 [INFO] Gathering page 219 of 446
+2024-03-23 17:01:45,354 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705900308371007574
+2024-03-23 17:01:46,183 [INFO] Response: 200
+2024-03-23 17:01:46,183 [INFO] Gathering page 220 of 446
+2024-03-23 17:01:47,192 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705862248847084069
+2024-03-23 17:01:48,031 [INFO] Response: 200
+2024-03-23 17:01:48,031 [INFO] Gathering page 221 of 446
+2024-03-23 17:01:49,043 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705847180049786144
+2024-03-23 17:01:49,921 [INFO] Response: 200
+2024-03-23 17:01:49,923 [INFO] Gathering page 222 of 446
+2024-03-23 17:01:50,939 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705832824941032824
+2024-03-23 17:01:51,822 [INFO] Response: 200
+2024-03-23 17:01:51,823 [INFO] Gathering page 223 of 446
+2024-03-23 17:01:52,841 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705823337034245189
+2024-03-23 17:01:53,710 [INFO] Response: 200
+2024-03-23 17:01:53,711 [INFO] Gathering page 224 of 446
+2024-03-23 17:01:54,713 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705776990569548472
+2024-03-23 17:01:55,558 [INFO] Response: 200
+2024-03-23 17:01:55,559 [INFO] Gathering page 225 of 446
+2024-03-23 17:01:56,564 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705754876339594968
+2024-03-23 17:01:57,379 [INFO] Response: 200
+2024-03-23 17:01:57,380 [INFO] Gathering page 226 of 446
+2024-03-23 17:01:58,385 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705731707775466450
+2024-03-23 17:01:59,255 [INFO] Response: 200
+2024-03-23 17:01:59,256 [INFO] Gathering page 227 of 446
+2024-03-23 17:02:00,270 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705690265632636309
+2024-03-23 17:02:01,169 [INFO] Response: 200
+2024-03-23 17:02:01,169 [INFO] Gathering page 228 of 446
+2024-03-23 17:02:02,181 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705666331380755869
+2024-03-23 17:02:03,025 [INFO] Response: 200
+2024-03-23 17:02:03,025 [INFO] Gathering page 229 of 446
+2024-03-23 17:02:04,032 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705651708304317315
+2024-03-23 17:02:04,876 [INFO] Response: 200
+2024-03-23 17:02:04,876 [INFO] Gathering page 230 of 446
+2024-03-23 17:02:05,882 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705638530629475513
+2024-03-23 17:02:06,691 [INFO] Response: 200
+2024-03-23 17:02:06,692 [INFO] Gathering page 231 of 446
+2024-03-23 17:02:07,701 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705599058440768937
+2024-03-23 17:02:08,530 [INFO] Response: 200
+2024-03-23 17:02:08,530 [INFO] Gathering page 232 of 446
+2024-03-23 17:02:09,538 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705583950044035942
+2024-03-23 17:02:10,393 [INFO] Response: 200
+2024-03-23 17:02:10,394 [INFO] Gathering page 233 of 446
+2024-03-23 17:02:11,403 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705573545102169725
+2024-03-23 17:02:12,247 [INFO] Response: 200
+2024-03-23 17:02:12,247 [INFO] Gathering page 234 of 446
+2024-03-23 17:02:13,255 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705555195039766674
+2024-03-23 17:02:14,073 [INFO] Response: 200
+2024-03-23 17:02:14,074 [INFO] Gathering page 235 of 446
+2024-03-23 17:02:15,082 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705523242843641160
+2024-03-23 17:02:15,985 [INFO] Response: 200
+2024-03-23 17:02:15,985 [INFO] Gathering page 236 of 446
+2024-03-23 17:02:16,991 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705506509335118420
+2024-03-23 17:02:18,281 [INFO] Response: 200
+2024-03-23 17:02:18,281 [INFO] Gathering page 237 of 446
+2024-03-23 17:02:19,290 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705496533891424831
+2024-03-23 17:02:20,166 [INFO] Response: 200
+2024-03-23 17:02:20,166 [INFO] Gathering page 238 of 446
+2024-03-23 17:02:21,173 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705478895585619575
+2024-03-23 17:02:21,976 [INFO] Response: 200
+2024-03-23 17:02:21,976 [INFO] Gathering page 239 of 446
+2024-03-23 17:02:22,985 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705467837564447353
+2024-03-23 17:02:23,814 [INFO] Response: 200
+2024-03-23 17:02:23,814 [INFO] Gathering page 240 of 446
+2024-03-23 17:02:24,828 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705427795176693123
+2024-03-23 17:02:25,648 [INFO] Response: 200
+2024-03-23 17:02:25,648 [INFO] Gathering page 241 of 446
+2024-03-23 17:02:26,658 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705409249195567131
+2024-03-23 17:02:27,458 [INFO] Response: 200
+2024-03-23 17:02:27,459 [INFO] Gathering page 242 of 446
+2024-03-23 17:02:28,464 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705395701591941585
+2024-03-23 17:02:29,271 [INFO] Response: 200
+2024-03-23 17:02:29,272 [INFO] Gathering page 243 of 446
+2024-03-23 17:02:30,279 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705377613537163606
+2024-03-23 17:02:31,133 [INFO] Response: 200
+2024-03-23 17:02:31,134 [INFO] Gathering page 244 of 446
+2024-03-23 17:02:32,141 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705335315601150520
+2024-03-23 17:02:32,944 [INFO] Response: 200
+2024-03-23 17:02:32,946 [INFO] Gathering page 245 of 446
+2024-03-23 17:02:33,956 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705320673995422450
+2024-03-23 17:02:34,785 [INFO] Response: 200
+2024-03-23 17:02:34,786 [INFO] Gathering page 246 of 446
+2024-03-23 17:02:35,796 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705308606221038278
+2024-03-23 17:02:36,700 [INFO] Response: 200
+2024-03-23 17:02:36,700 [INFO] Gathering page 247 of 446
+2024-03-23 17:02:37,706 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705288764702671006
+2024-03-23 17:02:38,533 [INFO] Response: 200
+2024-03-23 17:02:38,534 [INFO] Gathering page 248 of 446
+2024-03-23 17:02:39,536 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705244430968222416
+2024-03-23 17:02:40,345 [INFO] Response: 200
+2024-03-23 17:02:40,346 [INFO] Gathering page 249 of 446
+2024-03-23 17:02:41,348 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705223852665420405
+2024-03-23 17:02:42,170 [INFO] Response: 200
+2024-03-23 17:02:42,170 [INFO] Gathering page 250 of 446
+2024-03-23 17:02:43,177 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705163973332774563
+2024-03-23 17:02:43,989 [INFO] Response: 200
+2024-03-23 17:02:43,990 [INFO] Gathering page 251 of 446
+2024-03-23 17:02:44,998 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705148117155808056
+2024-03-23 17:02:45,823 [INFO] Response: 200
+2024-03-23 17:02:45,823 [INFO] Gathering page 252 of 446
+2024-03-23 17:02:46,834 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705129537874367941
+2024-03-23 17:02:47,644 [INFO] Response: 200
+2024-03-23 17:02:47,644 [INFO] Gathering page 253 of 446
+2024-03-23 17:02:48,650 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705078345327902126
+2024-03-23 17:02:49,506 [INFO] Response: 200
+2024-03-23 17:02:49,507 [INFO] Gathering page 254 of 446
+2024-03-23 17:02:50,519 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705057184913581028
+2024-03-23 17:02:51,342 [INFO] Response: 200
+2024-03-23 17:02:51,342 [INFO] Gathering page 255 of 446
+2024-03-23 17:02:52,351 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705041717118814080
+2024-03-23 17:02:53,158 [INFO] Response: 200
+2024-03-23 17:02:53,158 [INFO] Gathering page 256 of 446
+2024-03-23 17:02:54,161 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1705018435042960035
+2024-03-23 17:02:54,995 [INFO] Response: 200
+2024-03-23 17:02:54,996 [INFO] Gathering page 257 of 446
+2024-03-23 17:02:55,997 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1704989689931132982
+2024-03-23 17:02:56,820 [INFO] Response: 200
+2024-03-23 17:02:56,821 [INFO] Gathering page 258 of 446
+2024-03-23 17:02:57,824 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1704974849708614913
+2024-03-23 17:02:58,650 [INFO] Response: 200
+2024-03-23 17:02:58,650 [INFO] Gathering page 259 of 446
+2024-03-23 17:02:59,655 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1704958361307234229
+2024-03-23 17:03:00,744 [INFO] Response: 200
+2024-03-23 17:03:00,744 [INFO] Gathering page 260 of 446
+2024-03-23 17:03:01,750 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1704937016875691409
+2024-03-23 17:03:02,579 [INFO] Response: 200
+2024-03-23 17:03:02,580 [INFO] Gathering page 261 of 446
+2024-03-23 17:03:03,585 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1704900904909923238
+2024-03-23 17:03:04,432 [INFO] Response: 200
+2024-03-23 17:03:04,433 [INFO] Gathering page 262 of 446
+2024-03-23 17:03:05,444 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1704887810724435952
+2024-03-23 17:03:06,270 [INFO] Response: 200
+2024-03-23 17:03:06,271 [INFO] Gathering page 263 of 446
+2024-03-23 17:03:07,275 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1704867806277276673
+2024-03-23 17:03:08,087 [INFO] Response: 200
+2024-03-23 17:03:08,088 [INFO] Gathering page 264 of 446
+2024-03-23 17:03:09,093 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1704825468362200812
+2024-03-23 17:03:09,910 [INFO] Response: 200
+2024-03-23 17:03:09,910 [INFO] Gathering page 265 of 446
+2024-03-23 17:03:10,919 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1704798783641407092
+2024-03-23 17:03:11,729 [INFO] Response: 200
+2024-03-23 17:03:11,730 [INFO] Gathering page 266 of 446
+2024-03-23 17:03:12,741 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1704776493947385644
+2024-03-23 17:03:13,616 [INFO] Response: 200
+2024-03-23 17:03:13,617 [INFO] Gathering page 267 of 446
+2024-03-23 17:03:14,624 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1704735528366868515
+2024-03-23 17:03:15,440 [INFO] Response: 200
+2024-03-23 17:03:15,441 [INFO] Gathering page 268 of 446
+2024-03-23 17:03:16,451 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1704714686134052019
+2024-03-23 17:03:17,282 [INFO] Response: 200
+2024-03-23 17:03:17,283 [INFO] Gathering page 269 of 446
+2024-03-23 17:03:18,291 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1704685888514846074
+2024-03-23 17:03:19,118 [INFO] Response: 200
+2024-03-23 17:03:19,118 [INFO] Gathering page 270 of 446
+2024-03-23 17:03:20,123 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1704631928124028522
+2024-03-23 17:03:20,960 [INFO] Response: 200
+2024-03-23 17:03:20,960 [INFO] Gathering page 271 of 446
+2024-03-23 17:03:21,974 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1704614291518081862
+2024-03-23 17:03:22,807 [INFO] Response: 200
+2024-03-23 17:03:22,808 [INFO] Gathering page 272 of 446
+2024-03-23 17:03:23,815 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1704556960531805097
+2024-03-23 17:03:24,617 [INFO] Response: 200
+2024-03-23 17:03:24,618 [INFO] Gathering page 273 of 446
+2024-03-23 17:03:25,623 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1704540932175085484
+2024-03-23 17:03:26,444 [INFO] Response: 200
+2024-03-23 17:03:26,445 [INFO] Gathering page 274 of 446
+2024-03-23 17:03:27,452 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1704526429174467155
+2024-03-23 17:03:28,253 [INFO] Response: 200
+2024-03-23 17:03:28,255 [INFO] Gathering page 275 of 446
+2024-03-23 17:03:29,258 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1704474981992532600
+2024-03-23 17:03:30,115 [INFO] Response: 200
+2024-03-23 17:03:30,116 [INFO] Gathering page 276 of 446
+2024-03-23 17:03:31,129 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1704454215950674182
+2024-03-23 17:03:31,972 [INFO] Response: 200
+2024-03-23 17:03:31,972 [INFO] Gathering page 277 of 446
+2024-03-23 17:03:32,984 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1704432563613959063
+2024-03-23 17:03:33,824 [INFO] Response: 200
+2024-03-23 17:03:33,825 [INFO] Gathering page 278 of 446
+2024-03-23 17:03:34,835 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1704392475357698748
+2024-03-23 17:03:35,691 [INFO] Response: 200
+2024-03-23 17:03:35,692 [INFO] Gathering page 279 of 446
+2024-03-23 17:03:36,705 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1704377372719852664
+2024-03-23 17:03:37,526 [INFO] Response: 200
+2024-03-23 17:03:37,527 [INFO] Gathering page 280 of 446
+2024-03-23 17:03:38,542 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1704359601557973130
+2024-03-23 17:03:39,347 [INFO] Response: 200
+2024-03-23 17:03:39,348 [INFO] Gathering page 281 of 446
+2024-03-23 17:03:40,361 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1704323419404568037
+2024-03-23 17:03:41,301 [INFO] Response: 200
+2024-03-23 17:03:41,302 [INFO] Gathering page 282 of 446
+2024-03-23 17:03:42,306 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1704291791445329387
+2024-03-23 17:03:43,142 [INFO] Response: 200
+2024-03-23 17:03:43,143 [INFO] Gathering page 283 of 446
+2024-03-23 17:03:44,149 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1704269959621451132
+2024-03-23 17:03:45,011 [INFO] Response: 200
+2024-03-23 17:03:45,011 [INFO] Gathering page 284 of 446
+2024-03-23 17:03:46,017 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1704230507627951155
+2024-03-23 17:03:46,968 [INFO] Response: 200
+2024-03-23 17:03:46,969 [INFO] Gathering page 285 of 446
+2024-03-23 17:03:47,982 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1704204135503245132
+2024-03-23 17:03:48,831 [INFO] Response: 200
+2024-03-23 17:03:48,832 [INFO] Gathering page 286 of 446
+2024-03-23 17:03:49,836 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1704180236351403584
+2024-03-23 17:03:50,684 [INFO] Response: 200
+2024-03-23 17:03:50,684 [INFO] Gathering page 287 of 446
+2024-03-23 17:03:51,689 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1704143028371736658
+2024-03-23 17:03:52,488 [INFO] Response: 200
+2024-03-23 17:03:52,489 [INFO] Gathering page 288 of 446
+2024-03-23 17:03:53,492 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1704113181327315785
+2024-03-23 17:03:54,312 [INFO] Response: 200
+2024-03-23 17:03:54,313 [INFO] Gathering page 289 of 446
+2024-03-23 17:03:55,315 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1704099851193603763
+2024-03-23 17:03:56,155 [INFO] Response: 200
+2024-03-23 17:03:56,155 [INFO] Gathering page 290 of 446
+2024-03-23 17:03:57,169 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1704047086836589579
+2024-03-23 17:03:58,005 [INFO] Response: 200
+2024-03-23 17:03:58,005 [INFO] Gathering page 291 of 446
+2024-03-23 17:03:59,008 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1704011431710286605
+2024-03-23 17:03:59,865 [INFO] Response: 200
+2024-03-23 17:03:59,866 [INFO] Gathering page 292 of 446
+2024-03-23 17:04:00,874 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703957311948339647
+2024-03-23 17:04:01,751 [INFO] Response: 200
+2024-03-23 17:04:01,753 [INFO] Gathering page 293 of 446
+2024-03-23 17:04:02,768 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703938421344349415
+2024-03-23 17:04:03,599 [INFO] Response: 200
+2024-03-23 17:04:03,600 [INFO] Gathering page 294 of 446
+2024-03-23 17:04:04,612 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703917991775342419
+2024-03-23 17:04:05,449 [INFO] Response: 200
+2024-03-23 17:04:05,450 [INFO] Gathering page 295 of 446
+2024-03-23 17:04:06,464 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703862866984242070
+2024-03-23 17:04:07,291 [INFO] Response: 200
+2024-03-23 17:04:07,292 [INFO] Gathering page 296 of 446
+2024-03-23 17:04:08,302 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703845177998934508
+2024-03-23 17:04:09,153 [INFO] Response: 200
+2024-03-23 17:04:09,153 [INFO] Gathering page 297 of 446
+2024-03-23 17:04:10,168 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703823670879130840
+2024-03-23 17:04:11,125 [INFO] Response: 200
+2024-03-23 17:04:11,127 [INFO] Gathering page 298 of 446
+2024-03-23 17:04:12,145 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703779747654047474
+2024-03-23 17:04:13,212 [INFO] Response: 200
+2024-03-23 17:04:13,212 [INFO] Gathering page 299 of 446
+2024-03-23 17:04:14,213 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703760048471201720
+2024-03-23 17:04:15,072 [INFO] Response: 200
+2024-03-23 17:04:15,073 [INFO] Gathering page 300 of 446
+2024-03-23 17:04:16,078 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703747265576373373
+2024-03-23 17:04:16,899 [INFO] Response: 200
+2024-03-23 17:04:16,899 [INFO] Gathering page 301 of 446
+2024-03-23 17:04:17,915 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703736690260394377
+2024-03-23 17:04:18,726 [INFO] Response: 200
+2024-03-23 17:04:18,728 [INFO] Gathering page 302 of 446
+2024-03-23 17:04:19,739 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703699226998027066
+2024-03-23 17:04:20,546 [INFO] Response: 200
+2024-03-23 17:04:20,546 [INFO] Gathering page 303 of 446
+2024-03-23 17:04:21,551 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703678998356047784
+2024-03-23 17:04:22,413 [INFO] Response: 200
+2024-03-23 17:04:22,414 [INFO] Gathering page 304 of 446
+2024-03-23 17:04:23,419 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703659457554448831
+2024-03-23 17:04:24,222 [INFO] Response: 200
+2024-03-23 17:04:24,222 [INFO] Gathering page 305 of 446
+2024-03-23 17:04:25,224 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703617913879829238
+2024-03-23 17:04:26,051 [INFO] Response: 200
+2024-03-23 17:04:26,057 [INFO] Gathering page 306 of 446
+2024-03-23 17:04:27,069 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703590995342966181
+2024-03-23 17:04:27,869 [INFO] Response: 200
+2024-03-23 17:04:27,869 [INFO] Gathering page 307 of 446
+2024-03-23 17:04:28,878 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703582123808983127
+2024-03-23 17:04:29,733 [INFO] Response: 200
+2024-03-23 17:04:29,733 [INFO] Gathering page 308 of 446
+2024-03-23 17:04:30,735 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703551914272788325
+2024-03-23 17:04:31,538 [INFO] Response: 200
+2024-03-23 17:04:31,539 [INFO] Gathering page 309 of 446
+2024-03-23 17:04:32,553 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703500622168375169
+2024-03-23 17:04:33,370 [INFO] Response: 200
+2024-03-23 17:04:33,370 [INFO] Gathering page 310 of 446
+2024-03-23 17:04:34,386 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703482809870666267
+2024-03-23 17:04:35,217 [INFO] Response: 200
+2024-03-23 17:04:35,218 [INFO] Gathering page 311 of 446
+2024-03-23 17:04:36,227 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703421281004692524
+2024-03-23 17:04:37,110 [INFO] Response: 200
+2024-03-23 17:04:37,111 [INFO] Gathering page 312 of 446
+2024-03-23 17:04:38,117 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703410248455531787
+2024-03-23 17:04:38,937 [INFO] Response: 200
+2024-03-23 17:04:38,938 [INFO] Gathering page 313 of 446
+2024-03-23 17:04:39,949 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703363412468355777
+2024-03-23 17:04:40,754 [INFO] Response: 200
+2024-03-23 17:04:40,755 [INFO] Gathering page 314 of 446
+2024-03-23 17:04:41,759 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703331972811551601
+2024-03-23 17:04:42,794 [INFO] Response: 200
+2024-03-23 17:04:42,795 [INFO] Gathering page 315 of 446
+2024-03-23 17:04:43,810 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703317348073546845
+2024-03-23 17:04:44,620 [INFO] Response: 200
+2024-03-23 17:04:44,620 [INFO] Gathering page 316 of 446
+2024-03-23 17:04:45,623 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703275102243362379
+2024-03-23 17:04:46,465 [INFO] Response: 200
+2024-03-23 17:04:46,466 [INFO] Gathering page 317 of 446
+2024-03-23 17:04:47,470 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703253828823303339
+2024-03-23 17:04:48,263 [INFO] Response: 200
+2024-03-23 17:04:48,264 [INFO] Gathering page 318 of 446
+2024-03-23 17:04:49,275 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703241144352376319
+2024-03-23 17:04:50,091 [INFO] Response: 200
+2024-03-23 17:04:50,092 [INFO] Gathering page 319 of 446
+2024-03-23 17:04:51,108 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703185283762921251
+2024-03-23 17:04:51,969 [INFO] Response: 200
+2024-03-23 17:04:51,970 [INFO] Gathering page 320 of 446
+2024-03-23 17:04:52,984 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703170696547613027
+2024-03-23 17:04:53,822 [INFO] Response: 200
+2024-03-23 17:04:53,823 [INFO] Gathering page 321 of 446
+2024-03-23 17:04:54,832 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703153945439052869
+2024-03-23 17:04:55,687 [INFO] Response: 200
+2024-03-23 17:04:55,687 [INFO] Gathering page 322 of 446
+2024-03-23 17:04:56,693 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703141530477201926
+2024-03-23 17:04:57,530 [INFO] Response: 200
+2024-03-23 17:04:57,531 [INFO] Gathering page 323 of 446
+2024-03-23 17:04:58,545 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703123810563289819
+2024-03-23 17:04:59,416 [INFO] Response: 200
+2024-03-23 17:04:59,417 [INFO] Gathering page 324 of 446
+2024-03-23 17:05:00,426 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703092910405370575
+2024-03-23 17:05:01,309 [INFO] Response: 200
+2024-03-23 17:05:01,310 [INFO] Gathering page 325 of 446
+2024-03-23 17:05:02,324 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703074318761976951
+2024-03-23 17:05:03,192 [INFO] Response: 200
+2024-03-23 17:05:03,194 [INFO] Gathering page 326 of 446
+2024-03-23 17:05:04,210 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703065476743860100
+2024-03-23 17:05:05,159 [INFO] Response: 200
+2024-03-23 17:05:05,160 [INFO] Gathering page 327 of 446
+2024-03-23 17:05:06,167 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703050891066940564
+2024-03-23 17:05:07,666 [INFO] Response: 200
+2024-03-23 17:05:07,667 [INFO] Gathering page 328 of 446
+2024-03-23 17:05:08,669 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703022358237495279
+2024-03-23 17:05:09,717 [INFO] Response: 200
+2024-03-23 17:05:09,719 [INFO] Gathering page 329 of 446
+2024-03-23 17:05:10,721 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1703002667522908542
+2024-03-23 17:05:11,890 [INFO] Response: 200
+2024-03-23 17:05:11,890 [INFO] Gathering page 330 of 446
+2024-03-23 17:05:12,902 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702990006072536524
+2024-03-23 17:05:13,725 [INFO] Response: 200
+2024-03-23 17:05:13,727 [INFO] Gathering page 331 of 446
+2024-03-23 17:05:14,729 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702977398451647414
+2024-03-23 17:05:15,536 [INFO] Response: 200
+2024-03-23 17:05:15,537 [INFO] Gathering page 332 of 446
+2024-03-23 17:05:16,545 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702945026008062700
+2024-03-23 17:05:17,396 [INFO] Response: 200
+2024-03-23 17:05:17,396 [INFO] Gathering page 333 of 446
+2024-03-23 17:05:18,411 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702914861941546666
+2024-03-23 17:05:19,271 [INFO] Response: 200
+2024-03-23 17:05:19,272 [INFO] Gathering page 334 of 446
+2024-03-23 17:05:20,286 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702901918913590631
+2024-03-23 17:05:21,172 [INFO] Response: 200
+2024-03-23 17:05:21,173 [INFO] Gathering page 335 of 446
+2024-03-23 17:05:22,180 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702882755624261536
+2024-03-23 17:05:23,002 [INFO] Response: 200
+2024-03-23 17:05:23,003 [INFO] Gathering page 336 of 446
+2024-03-23 17:05:24,015 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702840072173468017
+2024-03-23 17:05:24,825 [INFO] Response: 200
+2024-03-23 17:05:24,825 [INFO] Gathering page 337 of 446
+2024-03-23 17:05:25,841 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702819859644302909
+2024-03-23 17:05:26,664 [INFO] Response: 200
+2024-03-23 17:05:26,665 [INFO] Gathering page 338 of 446
+2024-03-23 17:05:27,669 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702797075970385334
+2024-03-23 17:05:28,510 [INFO] Response: 200
+2024-03-23 17:05:28,511 [INFO] Gathering page 339 of 446
+2024-03-23 17:05:29,522 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702749958342377688
+2024-03-23 17:05:30,335 [INFO] Response: 200
+2024-03-23 17:05:30,335 [INFO] Gathering page 340 of 446
+2024-03-23 17:05:31,346 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702734869186280118
+2024-03-23 17:05:32,148 [INFO] Response: 200
+2024-03-23 17:05:32,149 [INFO] Gathering page 341 of 446
+2024-03-23 17:05:33,163 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702717134874714564
+2024-03-23 17:05:33,966 [INFO] Response: 200
+2024-03-23 17:05:33,967 [INFO] Gathering page 342 of 446
+2024-03-23 17:05:34,971 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702696238071272472
+2024-03-23 17:05:35,867 [INFO] Response: 200
+2024-03-23 17:05:35,869 [INFO] Gathering page 343 of 446
+2024-03-23 17:05:36,883 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702654753871357841
+2024-03-23 17:05:37,693 [INFO] Response: 200
+2024-03-23 17:05:37,694 [INFO] Gathering page 344 of 446
+2024-03-23 17:05:38,705 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702641452991853721
+2024-03-23 17:05:39,526 [INFO] Response: 200
+2024-03-23 17:05:39,526 [INFO] Gathering page 345 of 446
+2024-03-23 17:05:40,531 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702589158923516025
+2024-03-23 17:05:41,366 [INFO] Response: 200
+2024-03-23 17:05:41,368 [INFO] Gathering page 346 of 446
+2024-03-23 17:05:42,376 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702569495658712296
+2024-03-23 17:05:43,243 [INFO] Response: 200
+2024-03-23 17:05:43,244 [INFO] Gathering page 347 of 446
+2024-03-23 17:05:44,245 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702556706312898095
+2024-03-23 17:05:45,063 [INFO] Response: 200
+2024-03-23 17:05:45,064 [INFO] Gathering page 348 of 446
+2024-03-23 17:05:46,065 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702540999529219750
+2024-03-23 17:05:46,934 [INFO] Response: 200
+2024-03-23 17:05:46,936 [INFO] Gathering page 349 of 446
+2024-03-23 17:05:47,937 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702524106913573862
+2024-03-23 17:05:48,762 [INFO] Response: 200
+2024-03-23 17:05:48,763 [INFO] Gathering page 350 of 446
+2024-03-23 17:05:49,768 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702488374616684108
+2024-03-23 17:05:50,581 [INFO] Response: 200
+2024-03-23 17:05:50,582 [INFO] Gathering page 351 of 446
+2024-03-23 17:05:51,586 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702472685332482599
+2024-03-23 17:05:52,403 [INFO] Response: 200
+2024-03-23 17:05:52,404 [INFO] Gathering page 352 of 446
+2024-03-23 17:05:53,406 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702459150870808959
+2024-03-23 17:05:54,202 [INFO] Response: 200
+2024-03-23 17:05:54,203 [INFO] Gathering page 353 of 446
+2024-03-23 17:05:55,213 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702439169880420119
+2024-03-23 17:05:56,022 [INFO] Response: 200
+2024-03-23 17:05:56,024 [INFO] Gathering page 354 of 446
+2024-03-23 17:05:57,026 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702403706373477810
+2024-03-23 17:05:57,842 [INFO] Response: 200
+2024-03-23 17:05:57,843 [INFO] Gathering page 355 of 446
+2024-03-23 17:05:58,850 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702390488453234504
+2024-03-23 17:05:59,654 [INFO] Response: 200
+2024-03-23 17:05:59,654 [INFO] Gathering page 356 of 446
+2024-03-23 17:06:00,660 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702373318215347998
+2024-03-23 17:06:01,600 [INFO] Response: 200
+2024-03-23 17:06:01,601 [INFO] Gathering page 357 of 446
+2024-03-23 17:06:02,614 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702354472712180840
+2024-03-23 17:06:03,455 [INFO] Response: 200
+2024-03-23 17:06:03,456 [INFO] Gathering page 358 of 446
+2024-03-23 17:06:04,466 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702313951708363038
+2024-03-23 17:06:05,282 [INFO] Response: 200
+2024-03-23 17:06:05,283 [INFO] Gathering page 359 of 446
+2024-03-23 17:06:06,290 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702303704281355864
+2024-03-23 17:06:07,104 [INFO] Response: 200
+2024-03-23 17:06:07,105 [INFO] Gathering page 360 of 446
+2024-03-23 17:06:08,118 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702283043686574261
+2024-03-23 17:06:08,929 [INFO] Response: 200
+2024-03-23 17:06:08,929 [INFO] Gathering page 361 of 446
+2024-03-23 17:06:09,940 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702237362508592047
+2024-03-23 17:06:10,798 [INFO] Response: 200
+2024-03-23 17:06:10,799 [INFO] Gathering page 362 of 446
+2024-03-23 17:06:11,813 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702215133859039742
+2024-03-23 17:06:12,978 [INFO] Response: 200
+2024-03-23 17:06:12,979 [INFO] Gathering page 363 of 446
+2024-03-23 17:06:13,992 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702196786908530132
+2024-03-23 17:06:14,812 [INFO] Response: 200
+2024-03-23 17:06:14,814 [INFO] Gathering page 364 of 446
+2024-03-23 17:06:15,824 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702153330406152329
+2024-03-23 17:06:16,650 [INFO] Response: 200
+2024-03-23 17:06:16,650 [INFO] Gathering page 365 of 446
+2024-03-23 17:06:17,660 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702123183482105238
+2024-03-23 17:06:18,457 [INFO] Response: 200
+2024-03-23 17:06:18,457 [INFO] Gathering page 366 of 446
+2024-03-23 17:06:19,463 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702104843748432306
+2024-03-23 17:06:20,274 [INFO] Response: 200
+2024-03-23 17:06:20,275 [INFO] Gathering page 367 of 446
+2024-03-23 17:06:21,277 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702054906617068037
+2024-03-23 17:06:22,113 [INFO] Response: 200
+2024-03-23 17:06:22,114 [INFO] Gathering page 368 of 446
+2024-03-23 17:06:23,128 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702042412458009473
+2024-03-23 17:06:23,947 [INFO] Response: 200
+2024-03-23 17:06:23,948 [INFO] Gathering page 369 of 446
+2024-03-23 17:06:24,958 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1702031568127686601
+2024-03-23 17:06:25,828 [INFO] Response: 200
+2024-03-23 17:06:25,829 [INFO] Gathering page 370 of 446
+2024-03-23 17:06:26,844 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1701964453489263853
+2024-03-23 17:06:27,651 [INFO] Response: 200
+2024-03-23 17:06:27,652 [INFO] Gathering page 371 of 446
+2024-03-23 17:06:28,665 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1701945046143491510
+2024-03-23 17:06:29,500 [INFO] Response: 200
+2024-03-23 17:06:29,501 [INFO] Gathering page 372 of 446
+2024-03-23 17:06:30,502 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1701917017954501858
+2024-03-23 17:06:31,309 [INFO] Response: 200
+2024-03-23 17:06:31,310 [INFO] Gathering page 373 of 446
+2024-03-23 17:06:32,318 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1701883700481660134
+2024-03-23 17:06:33,173 [INFO] Response: 200
+2024-03-23 17:06:33,173 [INFO] Gathering page 374 of 446
+2024-03-23 17:06:34,186 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1701861347616129054
+2024-03-23 17:06:35,014 [INFO] Response: 200
+2024-03-23 17:06:35,014 [INFO] Gathering page 375 of 446
+2024-03-23 17:06:36,025 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1701842606013738130
+2024-03-23 17:06:36,908 [INFO] Response: 200
+2024-03-23 17:06:36,909 [INFO] Gathering page 376 of 446
+2024-03-23 17:06:37,925 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1701810568265146838
+2024-03-23 17:06:38,815 [INFO] Response: 200
+2024-03-23 17:06:38,816 [INFO] Gathering page 377 of 446
+2024-03-23 17:06:39,826 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1701784033931223283
+2024-03-23 17:06:40,901 [INFO] Response: 200
+2024-03-23 17:06:40,901 [INFO] Gathering page 378 of 446
+2024-03-23 17:06:41,913 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1701770969855400511
+2024-03-23 17:06:42,735 [INFO] Response: 200
+2024-03-23 17:06:42,736 [INFO] Gathering page 379 of 446
+2024-03-23 17:06:43,745 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1701745510218200874
+2024-03-23 17:06:44,577 [INFO] Response: 200
+2024-03-23 17:06:44,578 [INFO] Gathering page 380 of 446
+2024-03-23 17:06:45,589 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1701704759401353978
+2024-03-23 17:06:46,592 [INFO] Response: 200
+2024-03-23 17:06:46,593 [INFO] Gathering page 381 of 446
+2024-03-23 17:06:47,601 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1701685605118438054
+2024-03-23 17:06:48,484 [INFO] Response: 200
+2024-03-23 17:06:48,485 [INFO] Gathering page 382 of 446
+2024-03-23 17:06:49,500 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1701658841660771857
+2024-03-23 17:06:50,373 [INFO] Response: 200
+2024-03-23 17:06:50,373 [INFO] Gathering page 383 of 446
+2024-03-23 17:06:51,382 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1701605325011814719
+2024-03-23 17:06:52,174 [INFO] Response: 200
+2024-03-23 17:06:52,175 [INFO] Gathering page 384 of 446
+2024-03-23 17:06:53,189 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1701591498450295391
+2024-03-23 17:06:53,999 [INFO] Response: 200
+2024-03-23 17:06:54,000 [INFO] Gathering page 385 of 446
+2024-03-23 17:06:55,008 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1701538982964334084
+2024-03-23 17:06:55,802 [INFO] Response: 200
+2024-03-23 17:06:55,802 [INFO] Gathering page 386 of 446
+2024-03-23 17:06:56,815 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1701517664513607806
+2024-03-23 17:06:57,624 [INFO] Response: 200
+2024-03-23 17:06:57,625 [INFO] Gathering page 387 of 446
+2024-03-23 17:06:58,637 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1701506672205797564
+2024-03-23 17:06:59,471 [INFO] Response: 200
+2024-03-23 17:06:59,472 [INFO] Gathering page 388 of 446
+2024-03-23 17:07:00,483 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1701459636517199146
+2024-03-23 17:07:01,348 [INFO] Response: 200
+2024-03-23 17:07:01,348 [INFO] Gathering page 389 of 446
+2024-03-23 17:07:02,352 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1701441438602457356
+2024-03-23 17:07:03,161 [INFO] Response: 200
+2024-03-23 17:07:03,162 [INFO] Gathering page 390 of 446
+2024-03-23 17:07:04,170 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1701424854411019688
+2024-03-23 17:07:04,989 [INFO] Response: 200
+2024-03-23 17:07:04,990 [INFO] Gathering page 391 of 446
+2024-03-23 17:07:05,997 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1701370053978471758
+2024-03-23 17:07:06,859 [INFO] Response: 200
+2024-03-23 17:07:06,860 [INFO] Gathering page 392 of 446
+2024-03-23 17:07:07,864 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1701092816303772532
+2024-03-23 17:07:08,719 [INFO] Response: 200
+2024-03-23 17:07:08,720 [INFO] Gathering page 393 of 446
+2024-03-23 17:07:09,731 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1700824845013803440
+2024-03-23 17:07:10,639 [INFO] Response: 200
+2024-03-23 17:07:10,641 [INFO] Gathering page 394 of 446
+2024-03-23 17:07:11,644 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1700600310839600993
+2024-03-23 17:07:12,553 [INFO] Response: 200
+2024-03-23 17:07:12,553 [INFO] Gathering page 395 of 446
+2024-03-23 17:07:13,566 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1700473096645059333
+2024-03-23 17:07:14,426 [INFO] Response: 200
+2024-03-23 17:07:14,426 [INFO] Gathering page 396 of 446
+2024-03-23 17:07:15,434 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1700333713274318602
+2024-03-23 17:07:16,300 [INFO] Response: 200
+2024-03-23 17:07:16,300 [INFO] Gathering page 397 of 446
+2024-03-23 17:07:17,305 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1700131248426502451
+2024-03-23 17:07:18,193 [INFO] Response: 200
+2024-03-23 17:07:18,194 [INFO] Gathering page 398 of 446
+2024-03-23 17:07:19,202 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1699887359955715887
+2024-03-23 17:07:20,088 [INFO] Response: 200
+2024-03-23 17:07:20,090 [INFO] Gathering page 399 of 446
+2024-03-23 17:07:21,099 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1699626226314695909
+2024-03-23 17:07:21,970 [INFO] Response: 200
+2024-03-23 17:07:21,972 [INFO] Gathering page 400 of 446
+2024-03-23 17:07:22,983 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1699439943718100717
+2024-03-23 17:07:23,852 [INFO] Response: 200
+2024-03-23 17:07:23,852 [INFO] Gathering page 401 of 446
+2024-03-23 17:07:24,866 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1699169155641734658
+2024-03-23 17:07:25,733 [INFO] Response: 200
+2024-03-23 17:07:25,733 [INFO] Gathering page 402 of 446
+2024-03-23 17:07:26,747 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1698955066503745977
+2024-03-23 17:07:27,616 [INFO] Response: 200
+2024-03-23 17:07:27,616 [INFO] Gathering page 403 of 446
+2024-03-23 17:07:28,632 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1698714359218992524
+2024-03-23 17:07:29,493 [INFO] Response: 200
+2024-03-23 17:07:29,494 [INFO] Gathering page 404 of 446
+2024-03-23 17:07:30,499 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1698567684521228744
+2024-03-23 17:07:31,366 [INFO] Response: 200
+2024-03-23 17:07:31,367 [INFO] Gathering page 405 of 446
+2024-03-23 17:07:32,383 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1698223116759794565
+2024-03-23 17:07:33,245 [INFO] Response: 200
+2024-03-23 17:07:33,246 [INFO] Gathering page 406 of 446
+2024-03-23 17:07:34,246 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1697965267437793207
+2024-03-23 17:07:35,106 [INFO] Response: 200
+2024-03-23 17:07:35,108 [INFO] Gathering page 407 of 446
+2024-03-23 17:07:36,117 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1697745349779092113
+2024-03-23 17:07:36,938 [INFO] Response: 200
+2024-03-23 17:07:36,938 [INFO] Gathering page 408 of 446
+2024-03-23 17:07:37,952 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1697559634639766885
+2024-03-23 17:07:38,817 [INFO] Response: 200
+2024-03-23 17:07:38,818 [INFO] Gathering page 409 of 446
+2024-03-23 17:07:39,820 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1697353203721095367
+2024-03-23 17:07:40,679 [INFO] Response: 200
+2024-03-23 17:07:40,680 [INFO] Gathering page 410 of 446
+2024-03-23 17:07:41,688 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1697113055896124335
+2024-03-23 17:07:42,493 [INFO] Response: 200
+2024-03-23 17:07:42,494 [INFO] Gathering page 411 of 446
+2024-03-23 17:07:43,502 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1696931334639756632
+2024-03-23 17:07:44,317 [INFO] Response: 200
+2024-03-23 17:07:44,318 [INFO] Gathering page 412 of 446
+2024-03-23 17:07:45,328 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1696693394327771071
+2024-03-23 17:07:46,203 [INFO] Response: 200
+2024-03-23 17:07:46,204 [INFO] Gathering page 413 of 446
+2024-03-23 17:07:47,210 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1696576349479644332
+2024-03-23 17:07:48,069 [INFO] Response: 200
+2024-03-23 17:07:48,069 [INFO] Gathering page 414 of 446
+2024-03-23 17:07:49,077 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1696352273852136398
+2024-03-23 17:07:49,962 [INFO] Response: 200
+2024-03-23 17:07:49,963 [INFO] Gathering page 415 of 446
+2024-03-23 17:07:50,974 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1696226622053919825
+2024-03-23 17:07:51,834 [INFO] Response: 200
+2024-03-23 17:07:51,835 [INFO] Gathering page 416 of 446
+2024-03-23 17:07:52,850 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1696092373059721425
+2024-03-23 17:07:53,707 [INFO] Response: 200
+2024-03-23 17:07:53,708 [INFO] Gathering page 417 of 446
+2024-03-23 17:07:54,717 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1695970613199759051
+2024-03-23 17:07:55,523 [INFO] Response: 200
+2024-03-23 17:07:55,524 [INFO] Gathering page 418 of 446
+2024-03-23 17:07:56,531 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1695839805861293646
+2024-03-23 17:07:57,339 [INFO] Response: 200
+2024-03-23 17:07:57,340 [INFO] Gathering page 419 of 446
+2024-03-23 17:07:58,353 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1695640928345367274
+2024-03-23 17:07:59,160 [INFO] Response: 200
+2024-03-23 17:07:59,162 [INFO] Gathering page 420 of 446
+2024-03-23 17:08:00,175 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1695518804107443154
+2024-03-23 17:08:01,295 [INFO] Response: 200
+2024-03-23 17:08:01,295 [INFO] Gathering page 421 of 446
+2024-03-23 17:08:02,304 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1695389183475777477
+2024-03-23 17:08:03,162 [INFO] Response: 200
+2024-03-23 17:08:03,163 [INFO] Gathering page 422 of 446
+2024-03-23 17:08:04,172 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1695233847767219942
+2024-03-23 17:08:05,003 [INFO] Response: 200
+2024-03-23 17:08:05,004 [INFO] Gathering page 423 of 446
+2024-03-23 17:08:06,012 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1695174828924403128
+2024-03-23 17:08:06,869 [INFO] Response: 200
+2024-03-23 17:08:06,869 [INFO] Gathering page 424 of 446
+2024-03-23 17:08:07,885 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1694881886375754616
+2024-03-23 17:08:08,750 [INFO] Response: 200
+2024-03-23 17:08:08,750 [INFO] Gathering page 425 of 446
+2024-03-23 17:08:09,754 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1694703779026129861
+2024-03-23 17:08:10,609 [INFO] Response: 200
+2024-03-23 17:08:10,610 [INFO] Gathering page 426 of 446
+2024-03-23 17:08:11,613 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1694609520800974682
+2024-03-23 17:08:12,473 [INFO] Response: 200
+2024-03-23 17:08:12,473 [INFO] Gathering page 427 of 446
+2024-03-23 17:08:13,484 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1694426308950829519
+2024-03-23 17:08:14,290 [INFO] Response: 200
+2024-03-23 17:08:14,291 [INFO] Gathering page 428 of 446
+2024-03-23 17:08:15,304 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1694257439926904310
+2024-03-23 17:08:16,433 [INFO] Response: 200
+2024-03-23 17:08:16,434 [INFO] Gathering page 429 of 446
+2024-03-23 17:08:17,441 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1693991683303652667
+2024-03-23 17:08:18,302 [INFO] Response: 200
+2024-03-23 17:08:18,303 [INFO] Gathering page 430 of 446
+2024-03-23 17:08:19,307 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1693570144427747003
+2024-03-23 17:08:20,200 [INFO] Response: 200
+2024-03-23 17:08:20,201 [INFO] Gathering page 431 of 446
+2024-03-23 17:08:21,215 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1693472759320444135
+2024-03-23 17:08:22,023 [INFO] Response: 200
+2024-03-23 17:08:22,023 [INFO] Gathering page 432 of 446
+2024-03-23 17:08:23,029 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1693297212226219406
+2024-03-23 17:08:23,896 [INFO] Response: 200
+2024-03-23 17:08:23,896 [INFO] Gathering page 433 of 446
+2024-03-23 17:08:24,903 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1693170870243819773
+2024-03-23 17:08:25,719 [INFO] Response: 200
+2024-03-23 17:08:25,719 [INFO] Gathering page 434 of 446
+2024-03-23 17:08:26,723 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1693042813272208546
+2024-03-23 17:08:27,579 [INFO] Response: 200
+2024-03-23 17:08:27,579 [INFO] Gathering page 435 of 446
+2024-03-23 17:08:28,590 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1692796141039758887
+2024-03-23 17:08:29,475 [INFO] Response: 200
+2024-03-23 17:08:29,476 [INFO] Gathering page 436 of 446
+2024-03-23 17:08:30,484 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1692558095617034834
+2024-03-23 17:08:31,345 [INFO] Response: 200
+2024-03-23 17:08:31,346 [INFO] Gathering page 437 of 446
+2024-03-23 17:08:32,363 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1692292879559770124
+2024-03-23 17:08:33,232 [INFO] Response: 200
+2024-03-23 17:08:33,233 [INFO] Gathering page 438 of 446
+2024-03-23 17:08:34,248 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1692143128359737393
+2024-03-23 17:08:35,107 [INFO] Response: 200
+2024-03-23 17:08:35,108 [INFO] Gathering page 439 of 446
+2024-03-23 17:08:36,117 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1691936472191170300
+2024-03-23 17:08:36,970 [INFO] Response: 200
+2024-03-23 17:08:36,970 [INFO] Gathering page 440 of 446
+2024-03-23 17:08:37,985 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1691742097809799156
+2024-03-23 17:08:38,836 [INFO] Response: 200
+2024-03-23 17:08:38,836 [INFO] Gathering page 441 of 446
+2024-03-23 17:08:39,837 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1691563481539760450
+2024-03-23 17:08:40,642 [INFO] Response: 200
+2024-03-23 17:08:40,643 [INFO] Gathering page 442 of 446
+2024-03-23 17:08:41,650 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1691447134727768411
+2024-03-23 17:08:42,510 [INFO] Response: 200
+2024-03-23 17:08:42,511 [INFO] Gathering page 443 of 446
+2024-03-23 17:08:43,515 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1691262819423762410
+2024-03-23 17:08:44,381 [INFO] Response: 200
+2024-03-23 17:08:44,382 [INFO] Gathering page 444 of 446
+2024-03-23 17:08:45,384 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1691100185740946490
+2024-03-23 17:08:46,555 [INFO] Response: 200
+2024-03-23 17:08:46,556 [INFO] Gathering page 445 of 446
+2024-03-23 17:08:47,570 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=zeit&language=de&from_date=2023-08-01&to_date=2024-03-22&country=de&page=1690873176835921118
+2024-03-23 17:08:48,344 [INFO] Response: 200
+2024-03-23 17:08:48,345 [INFO] Gathering page 446 of 446
+2024-03-23 17:08:49,347 [INFO] 
+Compiling 446 pages of results...
+2024-03-23 17:08:49,371 [INFO] All news articles gathered from zeit from 2023-08-01 to 2024-03-22!
+2024-03-23 17:08:49,371 [INFO] Processing tables...
+2024-03-23 17:08:49,891 [INFO] Tables have been processed.
+2024-03-23 17:08:49,892 [INFO] 
+Pushing results from zeit to Google BigQuery database...
+2024-03-23 17:08:51,038 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-03-23 17:08:51,368 [INFO] Table exists
+2024-03-23 17:09:03,849 [INFO] Loaded 546808 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-03-23 17:09:04,208 [INFO] Table exists
+2024-03-23 17:09:11,937 [INFO] Loaded 549045 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-03-23 17:09:12,291 [INFO] Table exists
+2024-03-23 17:09:19,853 [INFO] Loaded 1714394 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-03-23 17:09:20,188 [INFO] Table exists
+2024-03-23 17:09:30,026 [INFO] Loaded 575016 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-03-23 17:09:30,026 [INFO] 
+Gather complete!

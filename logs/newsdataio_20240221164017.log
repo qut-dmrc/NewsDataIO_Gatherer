@@ -1,0 +1,2725 @@
+2024-02-21 16:40:17,016 [INFO] Starting News Gatherer
+2024-02-21 16:40:17,017 [INFO] Collecting news content from 39 domains.
+2024-02-21 16:40:17,017 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 16:40:17,017 [INFO] Gathering news articles from 3sat_de from 2023-08-01 to 2023-12-01
+2024-02-21 16:40:17,017 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=3sat_de&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de
+2024-02-21 16:40:18,504 [INFO] Response: 200
+2024-02-21 16:40:18,505 [INFO] Gathering page 1 of 1
+2024-02-21 16:40:18,506 [INFO] 
+Compiling 1 pages of results...
+2024-02-21 16:40:18,506 [INFO] All news articles gathered from 3sat_de from 2023-08-01 to 2023-12-01!
+2024-02-21 16:40:18,506 [INFO] Processing tables...
+2024-02-21 16:40:18,527 [INFO] Tables have been processed.
+2024-02-21 16:40:18,527 [INFO] 
+Pushing results from 3sat_de to Google BigQuery database...
+2024-02-21 16:40:19,535 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-21 16:40:19,884 [INFO] Table exists
+2024-02-21 16:40:28,381 [INFO] Loaded 428 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-02-21 16:40:28,740 [INFO] Table exists
+2024-02-21 16:40:35,856 [INFO] Loaded 428 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-02-21 16:40:36,234 [INFO] Table exists
+2024-02-21 16:41:50,233 [INFO] Loaded 526 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-02-21 16:41:50,564 [INFO] Table exists
+2024-02-21 16:42:19,974 [INFO] Loaded 434 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-02-21 16:42:19,974 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 16:42:19,974 [INFO] Gathering news articles from morgenpost from 2023-08-01 to 2023-12-01
+2024-02-21 16:42:19,975 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de
+2024-02-21 16:42:21,404 [INFO] Response: 200
+2024-02-21 16:42:21,405 [INFO] Gathering page 1 of 131
+2024-02-21 16:42:21,408 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1701354309448914591
+2024-02-21 16:42:22,371 [INFO] Response: 200
+2024-02-21 16:42:22,372 [INFO] Gathering page 2 of 131
+2024-02-21 16:42:22,375 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1701335401528844571
+2024-02-21 16:42:23,268 [INFO] Response: 200
+2024-02-21 16:42:23,270 [INFO] Gathering page 3 of 131
+2024-02-21 16:42:23,272 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1701277200703490005
+2024-02-21 16:42:24,150 [INFO] Response: 200
+2024-02-21 16:42:24,152 [INFO] Gathering page 4 of 131
+2024-02-21 16:42:24,154 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1701246521172586774
+2024-02-21 16:42:25,040 [INFO] Response: 200
+2024-02-21 16:42:25,041 [INFO] Gathering page 5 of 131
+2024-02-21 16:42:25,042 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1701191044865727327
+2024-02-21 16:42:25,968 [INFO] Response: 200
+2024-02-21 16:42:25,970 [INFO] Gathering page 6 of 131
+2024-02-21 16:42:25,972 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1701171565331114372
+2024-02-21 16:42:27,327 [INFO] Response: 200
+2024-02-21 16:42:27,329 [INFO] Gathering page 7 of 131
+2024-02-21 16:42:27,330 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1701092644407011633
+2024-02-21 16:42:28,871 [INFO] Response: 200
+2024-02-21 16:42:28,873 [INFO] Gathering page 8 of 131
+2024-02-21 16:42:28,875 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700940427255743045
+2024-02-21 16:42:30,432 [INFO] Response: 200
+2024-02-21 16:42:30,433 [INFO] Gathering page 9 of 131
+2024-02-21 16:42:30,434 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700863200348257243
+2024-02-21 16:42:31,797 [INFO] Response: 200
+2024-02-21 16:42:31,801 [INFO] Gathering page 10 of 131
+2024-02-21 16:42:31,802 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700795628982877220
+2024-02-21 16:42:33,104 [INFO] Response: 200
+2024-02-21 16:42:33,107 [INFO] Gathering page 11 of 131
+2024-02-21 16:42:33,109 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700734766275726300
+2024-02-21 16:42:34,469 [INFO] Response: 200
+2024-02-21 16:42:34,471 [INFO] Gathering page 12 of 131
+2024-02-21 16:42:34,472 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700677876222753028
+2024-02-21 16:42:35,790 [INFO] Response: 200
+2024-02-21 16:42:35,793 [INFO] Gathering page 13 of 131
+2024-02-21 16:42:35,794 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700668230958856368
+2024-02-21 16:42:37,136 [INFO] Response: 200
+2024-02-21 16:42:37,137 [INFO] Gathering page 14 of 131
+2024-02-21 16:42:37,139 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700582974559691544
+2024-02-21 16:42:38,434 [INFO] Response: 200
+2024-02-21 16:42:38,436 [INFO] Gathering page 15 of 131
+2024-02-21 16:42:38,438 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700491899871320944
+2024-02-21 16:42:39,987 [INFO] Response: 200
+2024-02-21 16:42:39,989 [INFO] Gathering page 16 of 131
+2024-02-21 16:42:39,990 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700410406659742084
+2024-02-21 16:42:41,315 [INFO] Response: 200
+2024-02-21 16:42:41,316 [INFO] Gathering page 17 of 131
+2024-02-21 16:42:41,318 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700323200959541868
+2024-02-21 16:42:42,673 [INFO] Response: 200
+2024-02-21 16:42:42,675 [INFO] Gathering page 18 of 131
+2024-02-21 16:42:42,676 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700231818575768739
+2024-02-21 16:42:44,011 [INFO] Response: 200
+2024-02-21 16:42:44,015 [INFO] Gathering page 19 of 131
+2024-02-21 16:42:44,018 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700172510920521815
+2024-02-21 16:42:45,567 [INFO] Response: 200
+2024-02-21 16:42:45,569 [INFO] Gathering page 20 of 131
+2024-02-21 16:42:45,570 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700123225067722579
+2024-02-21 16:42:47,106 [INFO] Response: 200
+2024-02-21 16:42:47,107 [INFO] Gathering page 21 of 131
+2024-02-21 16:42:47,109 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700056800499687582
+2024-02-21 16:42:48,428 [INFO] Response: 200
+2024-02-21 16:42:48,429 [INFO] Gathering page 22 of 131
+2024-02-21 16:42:48,430 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699972500751734110
+2024-02-21 16:42:49,932 [INFO] Response: 200
+2024-02-21 16:42:49,933 [INFO] Gathering page 23 of 131
+2024-02-21 16:42:49,934 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699943297547569637
+2024-02-21 16:42:51,252 [INFO] Response: 200
+2024-02-21 16:42:51,254 [INFO] Gathering page 24 of 131
+2024-02-21 16:42:51,254 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699885407754095548
+2024-02-21 16:42:52,815 [INFO] Response: 200
+2024-02-21 16:42:52,820 [INFO] Gathering page 25 of 131
+2024-02-21 16:42:52,822 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699784945539897350
+2024-02-21 16:42:54,352 [INFO] Response: 200
+2024-02-21 16:42:54,355 [INFO] Gathering page 26 of 131
+2024-02-21 16:42:54,356 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699652692936652267
+2024-02-21 16:42:55,691 [INFO] Response: 200
+2024-02-21 16:42:55,692 [INFO] Gathering page 27 of 131
+2024-02-21 16:42:55,694 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699566635515066941
+2024-02-21 16:42:56,988 [INFO] Response: 200
+2024-02-21 16:42:56,989 [INFO] Gathering page 28 of 131
+2024-02-21 16:42:56,989 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699509236221703779
+2024-02-21 16:42:58,589 [INFO] Response: 200
+2024-02-21 16:42:58,591 [INFO] Gathering page 29 of 131
+2024-02-21 16:42:58,592 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699426860925191161
+2024-02-21 16:42:59,988 [INFO] Response: 200
+2024-02-21 16:42:59,989 [INFO] Gathering page 30 of 131
+2024-02-21 16:42:59,990 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699356939575910402
+2024-02-21 16:43:01,383 [INFO] Response: 200
+2024-02-21 16:43:01,384 [INFO] Gathering page 31 of 131
+2024-02-21 16:43:01,387 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699253100063881056
+2024-02-21 16:43:03,074 [INFO] Response: 200
+2024-02-21 16:43:03,076 [INFO] Gathering page 32 of 131
+2024-02-21 16:43:03,077 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699040400759634075
+2024-02-21 16:43:04,735 [INFO] Response: 200
+2024-02-21 16:43:04,739 [INFO] Gathering page 33 of 131
+2024-02-21 16:43:04,740 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698941793163735034
+2024-02-21 16:43:06,311 [INFO] Response: 200
+2024-02-21 16:43:06,315 [INFO] Gathering page 34 of 131
+2024-02-21 16:43:06,319 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698787518299762169
+2024-02-21 16:43:07,883 [INFO] Response: 200
+2024-02-21 16:43:07,884 [INFO] Gathering page 35 of 131
+2024-02-21 16:43:07,886 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698672091161837188
+2024-02-21 16:43:09,434 [INFO] Response: 200
+2024-02-21 16:43:09,437 [INFO] Gathering page 36 of 131
+2024-02-21 16:43:09,438 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698564060771056683
+2024-02-21 16:43:10,966 [INFO] Response: 200
+2024-02-21 16:43:10,969 [INFO] Gathering page 37 of 131
+2024-02-21 16:43:10,970 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698418917098924919
+2024-02-21 16:43:12,535 [INFO] Response: 200
+2024-02-21 16:43:12,538 [INFO] Gathering page 38 of 131
+2024-02-21 16:43:12,540 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698328570971855258
+2024-02-21 16:43:14,080 [INFO] Response: 200
+2024-02-21 16:43:14,083 [INFO] Gathering page 39 of 131
+2024-02-21 16:43:14,086 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698243120943730720
+2024-02-21 16:43:15,641 [INFO] Response: 200
+2024-02-21 16:43:15,643 [INFO] Gathering page 40 of 131
+2024-02-21 16:43:15,644 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698139615881019003
+2024-02-21 16:43:16,972 [INFO] Response: 200
+2024-02-21 16:43:16,973 [INFO] Gathering page 41 of 131
+2024-02-21 16:43:16,975 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698087418800280154
+2024-02-21 16:43:18,285 [INFO] Response: 200
+2024-02-21 16:43:18,287 [INFO] Gathering page 42 of 131
+2024-02-21 16:43:18,288 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698002140556082617
+2024-02-21 16:43:19,821 [INFO] Response: 200
+2024-02-21 16:43:19,826 [INFO] Gathering page 43 of 131
+2024-02-21 16:43:19,827 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697947200623824506
+2024-02-21 16:43:21,357 [INFO] Response: 200
+2024-02-21 16:43:21,361 [INFO] Gathering page 44 of 131
+2024-02-21 16:43:21,364 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697835927571779947
+2024-02-21 16:43:22,694 [INFO] Response: 200
+2024-02-21 16:43:22,696 [INFO] Gathering page 45 of 131
+2024-02-21 16:43:22,697 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697774400351786968
+2024-02-21 16:43:24,014 [INFO] Response: 200
+2024-02-21 16:43:24,018 [INFO] Gathering page 46 of 131
+2024-02-21 16:43:24,020 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697715557930596105
+2024-02-21 16:43:25,568 [INFO] Response: 200
+2024-02-21 16:43:25,571 [INFO] Gathering page 47 of 131
+2024-02-21 16:43:25,574 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697637641225062053
+2024-02-21 16:43:26,910 [INFO] Response: 200
+2024-02-21 16:43:26,914 [INFO] Gathering page 48 of 131
+2024-02-21 16:43:26,916 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697595585439880031
+2024-02-21 16:43:28,842 [INFO] Response: 200
+2024-02-21 16:43:28,846 [INFO] Gathering page 49 of 131
+2024-02-21 16:43:28,847 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697544590255738277
+2024-02-21 16:43:30,156 [INFO] Response: 200
+2024-02-21 16:43:30,158 [INFO] Gathering page 50 of 131
+2024-02-21 16:43:30,160 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697454338344426207
+2024-02-21 16:43:31,548 [INFO] Response: 200
+2024-02-21 16:43:31,551 [INFO] Gathering page 51 of 131
+2024-02-21 16:43:31,553 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697360065481887960
+2024-02-21 16:43:32,911 [INFO] Response: 200
+2024-02-21 16:43:32,912 [INFO] Gathering page 52 of 131
+2024-02-21 16:43:32,913 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697250726820559861
+2024-02-21 16:43:34,227 [INFO] Response: 200
+2024-02-21 16:43:34,229 [INFO] Gathering page 53 of 131
+2024-02-21 16:43:34,230 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697133323415916622
+2024-02-21 16:43:35,582 [INFO] Response: 200
+2024-02-21 16:43:35,583 [INFO] Gathering page 54 of 131
+2024-02-21 16:43:35,585 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697022580571727346
+2024-02-21 16:43:36,932 [INFO] Response: 200
+2024-02-21 16:43:36,934 [INFO] Gathering page 55 of 131
+2024-02-21 16:43:36,935 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696933048148188757
+2024-02-21 16:43:38,455 [INFO] Response: 200
+2024-02-21 16:43:38,457 [INFO] Gathering page 56 of 131
+2024-02-21 16:43:38,458 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696862460883726657
+2024-02-21 16:43:39,793 [INFO] Response: 200
+2024-02-21 16:43:39,797 [INFO] Gathering page 57 of 131
+2024-02-21 16:43:39,798 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696750629810397200
+2024-02-21 16:43:41,100 [INFO] Response: 200
+2024-02-21 16:43:41,101 [INFO] Gathering page 58 of 131
+2024-02-21 16:43:41,103 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696658400297673927
+2024-02-21 16:43:42,430 [INFO] Response: 200
+2024-02-21 16:43:42,434 [INFO] Gathering page 59 of 131
+2024-02-21 16:43:42,437 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696564800003471585
+2024-02-21 16:43:43,799 [INFO] Response: 200
+2024-02-21 16:43:43,802 [INFO] Gathering page 60 of 131
+2024-02-21 16:43:43,805 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696506180584995117
+2024-02-21 16:43:45,178 [INFO] Response: 200
+2024-02-21 16:43:45,180 [INFO] Gathering page 61 of 131
+2024-02-21 16:43:45,183 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696446720023737834
+2024-02-21 16:43:46,490 [INFO] Response: 200
+2024-02-21 16:43:46,492 [INFO] Gathering page 62 of 131
+2024-02-21 16:43:46,493 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696346580247742954
+2024-02-21 16:43:47,801 [INFO] Response: 200
+2024-02-21 16:43:47,804 [INFO] Gathering page 63 of 131
+2024-02-21 16:43:47,807 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696250580557139698
+2024-02-21 16:43:49,138 [INFO] Response: 200
+2024-02-21 16:43:49,141 [INFO] Gathering page 64 of 131
+2024-02-21 16:43:49,144 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696162906686665421
+2024-02-21 16:43:50,708 [INFO] Response: 200
+2024-02-21 16:43:50,709 [INFO] Gathering page 65 of 131
+2024-02-21 16:43:50,709 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696071726127754511
+2024-02-21 16:43:52,652 [INFO] Response: 200
+2024-02-21 16:43:52,653 [INFO] Gathering page 66 of 131
+2024-02-21 16:43:52,653 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695988800247687138
+2024-02-21 16:43:53,985 [INFO] Response: 200
+2024-02-21 16:43:53,987 [INFO] Gathering page 67 of 131
+2024-02-21 16:43:53,990 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695914927128968676
+2024-02-21 16:43:55,366 [INFO] Response: 200
+2024-02-21 16:43:55,367 [INFO] Gathering page 68 of 131
+2024-02-21 16:43:55,368 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695891600936596892
+2024-02-21 16:43:56,670 [INFO] Response: 200
+2024-02-21 16:43:56,672 [INFO] Gathering page 69 of 131
+2024-02-21 16:43:56,672 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695830400427801221
+2024-02-21 16:43:58,061 [INFO] Response: 200
+2024-02-21 16:43:58,063 [INFO] Gathering page 70 of 131
+2024-02-21 16:43:58,065 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695804962465999655
+2024-02-21 16:43:59,397 [INFO] Response: 200
+2024-02-21 16:43:59,398 [INFO] Gathering page 71 of 131
+2024-02-21 16:43:59,399 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695736883694645738
+2024-02-21 16:44:00,765 [INFO] Response: 200
+2024-02-21 16:44:00,768 [INFO] Gathering page 72 of 131
+2024-02-21 16:44:00,770 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695727329627746038
+2024-02-21 16:44:02,233 [INFO] Response: 200
+2024-02-21 16:44:02,236 [INFO] Gathering page 73 of 131
+2024-02-21 16:44:02,239 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695625064650108056
+2024-02-21 16:44:03,654 [INFO] Response: 200
+2024-02-21 16:44:03,657 [INFO] Gathering page 74 of 131
+2024-02-21 16:44:03,660 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695483729784983141
+2024-02-21 16:44:05,239 [INFO] Response: 200
+2024-02-21 16:44:05,241 [INFO] Gathering page 75 of 131
+2024-02-21 16:44:05,242 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695406676657502283
+2024-02-21 16:44:06,615 [INFO] Response: 200
+2024-02-21 16:44:06,617 [INFO] Gathering page 76 of 131
+2024-02-21 16:44:06,618 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695310277490361200
+2024-02-21 16:44:08,001 [INFO] Response: 200
+2024-02-21 16:44:08,003 [INFO] Gathering page 77 of 131
+2024-02-21 16:44:08,004 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695234777893199865
+2024-02-21 16:44:09,541 [INFO] Response: 200
+2024-02-21 16:44:09,542 [INFO] Gathering page 78 of 131
+2024-02-21 16:44:09,543 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695180600055795486
+2024-02-21 16:44:10,857 [INFO] Response: 200
+2024-02-21 16:44:10,860 [INFO] Gathering page 79 of 131
+2024-02-21 16:44:10,862 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695133628719767994
+2024-02-21 16:44:12,155 [INFO] Response: 200
+2024-02-21 16:44:12,157 [INFO] Gathering page 80 of 131
+2024-02-21 16:44:12,160 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695090790772690318
+2024-02-21 16:44:13,477 [INFO] Response: 200
+2024-02-21 16:44:13,480 [INFO] Gathering page 81 of 131
+2024-02-21 16:44:13,481 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695036240881832483
+2024-02-21 16:44:14,824 [INFO] Response: 200
+2024-02-21 16:44:14,826 [INFO] Gathering page 82 of 131
+2024-02-21 16:44:14,827 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694878181762325950
+2024-02-21 16:44:16,552 [INFO] Response: 200
+2024-02-21 16:44:16,555 [INFO] Gathering page 83 of 131
+2024-02-21 16:44:16,558 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694846856000922793
+2024-02-21 16:44:17,879 [INFO] Response: 200
+2024-02-21 16:44:17,880 [INFO] Gathering page 84 of 131
+2024-02-21 16:44:17,881 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694702687875694800
+2024-02-21 16:44:19,196 [INFO] Response: 200
+2024-02-21 16:44:19,197 [INFO] Gathering page 85 of 131
+2024-02-21 16:44:19,198 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694614612299787845
+2024-02-21 16:44:20,534 [INFO] Response: 200
+2024-02-21 16:44:20,537 [INFO] Gathering page 86 of 131
+2024-02-21 16:44:20,539 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694537702602728862
+2024-02-21 16:44:21,848 [INFO] Response: 200
+2024-02-21 16:44:21,851 [INFO] Gathering page 87 of 131
+2024-02-21 16:44:21,853 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694520000939612271
+2024-02-21 16:44:23,184 [INFO] Response: 200
+2024-02-21 16:44:23,185 [INFO] Gathering page 88 of 131
+2024-02-21 16:44:23,186 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694449090961962500
+2024-02-21 16:44:24,486 [INFO] Response: 200
+2024-02-21 16:44:24,488 [INFO] Gathering page 89 of 131
+2024-02-21 16:44:24,492 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694272743771744585
+2024-02-21 16:44:25,818 [INFO] Response: 200
+2024-02-21 16:44:25,819 [INFO] Gathering page 90 of 131
+2024-02-21 16:44:25,820 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694164140119800620
+2024-02-21 16:44:27,141 [INFO] Response: 200
+2024-02-21 16:44:27,144 [INFO] Gathering page 91 of 131
+2024-02-21 16:44:27,145 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694087651286256949
+2024-02-21 16:44:28,558 [INFO] Response: 200
+2024-02-21 16:44:28,561 [INFO] Gathering page 92 of 131
+2024-02-21 16:44:28,563 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694011263716516158
+2024-02-21 16:44:29,893 [INFO] Response: 200
+2024-02-21 16:44:29,894 [INFO] Gathering page 93 of 131
+2024-02-21 16:44:29,895 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693883983335437822
+2024-02-21 16:44:31,180 [INFO] Response: 200
+2024-02-21 16:44:31,181 [INFO] Gathering page 94 of 131
+2024-02-21 16:44:31,182 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693823845916753268
+2024-02-21 16:44:32,484 [INFO] Response: 200
+2024-02-21 16:44:32,486 [INFO] Gathering page 95 of 131
+2024-02-21 16:44:32,486 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693666144179762205
+2024-02-21 16:44:33,857 [INFO] Response: 200
+2024-02-21 16:44:33,860 [INFO] Gathering page 96 of 131
+2024-02-21 16:44:33,862 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693583951311713217
+2024-02-21 16:44:35,273 [INFO] Response: 200
+2024-02-21 16:44:35,274 [INFO] Gathering page 97 of 131
+2024-02-21 16:44:35,275 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693504800391747485
+2024-02-21 16:44:36,600 [INFO] Response: 200
+2024-02-21 16:44:36,604 [INFO] Gathering page 98 of 131
+2024-02-21 16:44:36,606 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693434471608234255
+2024-02-21 16:44:37,943 [INFO] Response: 200
+2024-02-21 16:44:37,944 [INFO] Gathering page 99 of 131
+2024-02-21 16:44:37,945 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693375468763731147
+2024-02-21 16:44:39,265 [INFO] Response: 200
+2024-02-21 16:44:39,268 [INFO] Gathering page 100 of 131
+2024-02-21 16:44:39,270 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693308820175731129
+2024-02-21 16:44:40,608 [INFO] Response: 200
+2024-02-21 16:44:40,610 [INFO] Gathering page 101 of 131
+2024-02-21 16:44:40,610 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693236663924434692
+2024-02-21 16:44:42,144 [INFO] Response: 200
+2024-02-21 16:44:42,147 [INFO] Gathering page 102 of 131
+2024-02-21 16:44:42,150 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693215094919782810
+2024-02-21 16:44:43,502 [INFO] Response: 200
+2024-02-21 16:44:43,503 [INFO] Gathering page 103 of 131
+2024-02-21 16:44:43,504 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693129320447725264
+2024-02-21 16:44:44,848 [INFO] Response: 200
+2024-02-21 16:44:44,849 [INFO] Gathering page 104 of 131
+2024-02-21 16:44:44,849 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693032401039769841
+2024-02-21 16:44:46,170 [INFO] Response: 200
+2024-02-21 16:44:46,173 [INFO] Gathering page 105 of 131
+2024-02-21 16:44:46,174 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692966376494364376
+2024-02-21 16:44:47,460 [INFO] Response: 200
+2024-02-21 16:44:47,461 [INFO] Gathering page 106 of 131
+2024-02-21 16:44:47,462 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692880005290216395
+2024-02-21 16:44:48,790 [INFO] Response: 200
+2024-02-21 16:44:48,791 [INFO] Gathering page 107 of 131
+2024-02-21 16:44:48,792 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692849122440789331
+2024-02-21 16:44:50,128 [INFO] Response: 200
+2024-02-21 16:44:50,131 [INFO] Gathering page 108 of 131
+2024-02-21 16:44:50,133 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692793306645149540
+2024-02-21 16:44:51,459 [INFO] Response: 200
+2024-02-21 16:44:51,460 [INFO] Gathering page 109 of 131
+2024-02-21 16:44:51,461 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692764801899741312
+2024-02-21 16:44:52,783 [INFO] Response: 200
+2024-02-21 16:44:52,785 [INFO] Gathering page 110 of 131
+2024-02-21 16:44:52,787 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692719100965349467
+2024-02-21 16:44:54,150 [INFO] Response: 200
+2024-02-21 16:44:54,151 [INFO] Gathering page 111 of 131
+2024-02-21 16:44:54,152 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692698407816780544
+2024-02-21 16:44:55,465 [INFO] Response: 200
+2024-02-21 16:44:55,468 [INFO] Gathering page 112 of 131
+2024-02-21 16:44:55,471 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692675068747474383
+2024-02-21 16:44:56,819 [INFO] Response: 200
+2024-02-21 16:44:56,821 [INFO] Gathering page 113 of 131
+2024-02-21 16:44:56,822 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692626880229123079
+2024-02-21 16:44:58,158 [INFO] Response: 200
+2024-02-21 16:44:58,161 [INFO] Gathering page 114 of 131
+2024-02-21 16:44:58,164 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692604164467330536
+2024-02-21 16:44:59,496 [INFO] Response: 200
+2024-02-21 16:44:59,499 [INFO] Gathering page 115 of 131
+2024-02-21 16:44:59,500 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692546026992148062
+2024-02-21 16:45:00,908 [INFO] Response: 200
+2024-02-21 16:45:00,909 [INFO] Gathering page 116 of 131
+2024-02-21 16:45:00,910 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692514818851775437
+2024-02-21 16:45:02,269 [INFO] Response: 200
+2024-02-21 16:45:02,271 [INFO] Gathering page 117 of 131
+2024-02-21 16:45:02,272 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692442509126954096
+2024-02-21 16:45:03,858 [INFO] Response: 200
+2024-02-21 16:45:03,861 [INFO] Gathering page 118 of 131
+2024-02-21 16:45:03,864 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692392088487748420
+2024-02-21 16:45:05,186 [INFO] Response: 200
+2024-02-21 16:45:05,186 [INFO] Gathering page 119 of 131
+2024-02-21 16:45:05,188 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692355349058510843
+2024-02-21 16:45:06,820 [INFO] Response: 200
+2024-02-21 16:45:06,823 [INFO] Gathering page 120 of 131
+2024-02-21 16:45:06,824 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692283511093756228
+2024-02-21 16:45:08,174 [INFO] Response: 200
+2024-02-21 16:45:08,176 [INFO] Gathering page 121 of 131
+2024-02-21 16:45:08,177 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692250530848687865
+2024-02-21 16:45:09,486 [INFO] Response: 200
+2024-02-21 16:45:09,488 [INFO] Gathering page 122 of 131
+2024-02-21 16:45:09,490 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692198000679706775
+2024-02-21 16:45:10,819 [INFO] Response: 200
+2024-02-21 16:45:10,822 [INFO] Gathering page 123 of 131
+2024-02-21 16:45:10,822 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692156987868607895
+2024-02-21 16:45:12,153 [INFO] Response: 200
+2024-02-21 16:45:12,154 [INFO] Gathering page 124 of 131
+2024-02-21 16:45:12,155 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692102248075713725
+2024-02-21 16:45:13,461 [INFO] Response: 200
+2024-02-21 16:45:13,463 [INFO] Gathering page 125 of 131
+2024-02-21 16:45:13,464 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692076106035816266
+2024-02-21 16:45:14,925 [INFO] Response: 200
+2024-02-21 16:45:14,928 [INFO] Gathering page 126 of 131
+2024-02-21 16:45:14,930 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692015827795257717
+2024-02-21 16:45:16,343 [INFO] Response: 200
+2024-02-21 16:45:16,344 [INFO] Gathering page 127 of 131
+2024-02-21 16:45:16,344 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691969985243732194
+2024-02-21 16:45:17,630 [INFO] Response: 200
+2024-02-21 16:45:17,632 [INFO] Gathering page 128 of 131
+2024-02-21 16:45:17,633 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691828103918732093
+2024-02-21 16:45:18,974 [INFO] Response: 200
+2024-02-21 16:45:18,975 [INFO] Gathering page 129 of 131
+2024-02-21 16:45:18,975 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691667674262160977
+2024-02-21 16:45:20,292 [INFO] Response: 200
+2024-02-21 16:45:20,293 [INFO] Gathering page 130 of 131
+2024-02-21 16:45:20,294 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691498652519838767
+2024-02-21 16:45:21,615 [INFO] Response: 200
+2024-02-21 16:45:21,617 [INFO] Gathering page 131 of 131
+2024-02-21 16:45:21,618 [INFO] 
+Compiling 131 pages of results...
+2024-02-21 16:45:21,628 [INFO] All news articles gathered from morgenpost from 2023-08-01 to 2023-12-01!
+2024-02-21 16:45:21,628 [INFO] Processing tables...
+2024-02-21 16:45:22,478 [INFO] Tables have been processed.
+2024-02-21 16:45:22,478 [INFO] 
+Pushing results from morgenpost to Google BigQuery database...
+2024-02-21 16:45:23,635 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-21 16:45:23,985 [INFO] Table exists
+2024-02-21 16:45:46,177 [INFO] Loaded 6978 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-02-21 16:45:46,511 [INFO] Table exists
+2024-02-21 16:45:52,151 [INFO] Loaded 6978 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-02-21 16:45:52,479 [INFO] Table exists
+2024-02-21 16:45:59,593 [INFO] Loaded 7076 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-02-21 16:45:59,954 [INFO] Table exists
+2024-02-21 16:46:11,650 [INFO] Loaded 7489 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-02-21 16:46:11,652 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 16:46:11,652 [INFO] Gathering news articles from arte from 2023-08-01 to 2023-12-01
+2024-02-21 16:46:11,653 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=arte&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de
+2024-02-21 16:46:12,472 [INFO] Response: 200
+2024-02-21 16:46:12,472 [INFO] Gathering page 1 of 0
+2024-02-21 16:46:12,473 [INFO] No results for arte during your specified timeframe!
+2024-02-21 16:46:12,473 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 16:46:12,473 [INFO] Gathering news articles from bild from 2023-08-01 to 2023-12-01
+2024-02-21 16:46:12,473 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de
+2024-02-21 16:46:13,921 [INFO] Response: 200
+2024-02-21 16:46:13,922 [INFO] Gathering page 1 of 218
+2024-02-21 16:46:13,922 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1701364726140233931
+2024-02-21 16:46:15,302 [INFO] Response: 200
+2024-02-21 16:46:15,303 [INFO] Gathering page 2 of 218
+2024-02-21 16:46:15,303 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1701347999692359631
+2024-02-21 16:46:16,631 [INFO] Response: 200
+2024-02-21 16:46:16,633 [INFO] Gathering page 3 of 218
+2024-02-21 16:46:16,641 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1701327633112062700
+2024-02-21 16:46:18,012 [INFO] Response: 200
+2024-02-21 16:46:18,014 [INFO] Gathering page 4 of 218
+2024-02-21 16:46:18,017 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1701275550271504750
+2024-02-21 16:46:19,094 [INFO] Response: 200
+2024-02-21 16:46:19,095 [INFO] Gathering page 5 of 218
+2024-02-21 16:46:19,096 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1701265110008246519
+2024-02-21 16:46:20,494 [INFO] Response: 200
+2024-02-21 16:46:20,495 [INFO] Gathering page 6 of 218
+2024-02-21 16:46:20,495 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1701237616595935993
+2024-02-21 16:46:21,812 [INFO] Response: 200
+2024-02-21 16:46:21,814 [INFO] Gathering page 7 of 218
+2024-02-21 16:46:21,814 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1701188893722954178
+2024-02-21 16:46:23,161 [INFO] Response: 200
+2024-02-21 16:46:23,164 [INFO] Gathering page 8 of 218
+2024-02-21 16:46:23,165 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1701176043433795369
+2024-02-21 16:46:24,520 [INFO] Response: 200
+2024-02-21 16:46:24,522 [INFO] Gathering page 9 of 218
+2024-02-21 16:46:24,522 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1701108621111564754
+2024-02-21 16:46:25,864 [INFO] Response: 200
+2024-02-21 16:46:25,866 [INFO] Gathering page 10 of 218
+2024-02-21 16:46:25,869 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1701074169291901012
+2024-02-21 16:46:27,157 [INFO] Response: 200
+2024-02-21 16:46:27,158 [INFO] Gathering page 11 of 218
+2024-02-21 16:46:27,159 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700987544368370328
+2024-02-21 16:46:28,252 [INFO] Response: 200
+2024-02-21 16:46:28,253 [INFO] Gathering page 12 of 218
+2024-02-21 16:46:28,255 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700928136079864964
+2024-02-21 16:46:29,340 [INFO] Response: 200
+2024-02-21 16:46:29,341 [INFO] Gathering page 13 of 218
+2024-02-21 16:46:29,342 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700892467558576578
+2024-02-21 16:46:30,417 [INFO] Response: 200
+2024-02-21 16:46:30,418 [INFO] Gathering page 14 of 218
+2024-02-21 16:46:30,419 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700839667091721732
+2024-02-21 16:46:31,511 [INFO] Response: 200
+2024-02-21 16:46:31,512 [INFO] Gathering page 15 of 218
+2024-02-21 16:46:31,513 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700757877490524535
+2024-02-21 16:46:32,597 [INFO] Response: 200
+2024-02-21 16:46:32,597 [INFO] Gathering page 16 of 218
+2024-02-21 16:46:32,598 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700725062779758204
+2024-02-21 16:46:33,763 [INFO] Response: 200
+2024-02-21 16:46:33,764 [INFO] Gathering page 17 of 218
+2024-02-21 16:46:33,765 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700663433631127506
+2024-02-21 16:46:34,884 [INFO] Response: 200
+2024-02-21 16:46:34,886 [INFO] Gathering page 18 of 218
+2024-02-21 16:46:34,887 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700642804307723449
+2024-02-21 16:46:36,058 [INFO] Response: 200
+2024-02-21 16:46:36,059 [INFO] Gathering page 19 of 218
+2024-02-21 16:46:36,061 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700595585670482621
+2024-02-21 16:46:37,148 [INFO] Response: 200
+2024-02-21 16:46:37,149 [INFO] Gathering page 20 of 218
+2024-02-21 16:46:37,150 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700571466719303588
+2024-02-21 16:46:38,253 [INFO] Response: 200
+2024-02-21 16:46:38,255 [INFO] Gathering page 21 of 218
+2024-02-21 16:46:38,256 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700429431701839615
+2024-02-21 16:46:39,350 [INFO] Response: 200
+2024-02-21 16:46:39,351 [INFO] Gathering page 22 of 218
+2024-02-21 16:46:39,352 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700397712847907804
+2024-02-21 16:46:40,449 [INFO] Response: 200
+2024-02-21 16:46:40,450 [INFO] Gathering page 23 of 218
+2024-02-21 16:46:40,451 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700309824039478056
+2024-02-21 16:46:41,601 [INFO] Response: 200
+2024-02-21 16:46:41,603 [INFO] Gathering page 24 of 218
+2024-02-21 16:46:41,606 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700252149295062983
+2024-02-21 16:46:42,469 [INFO] Response: 200
+2024-02-21 16:46:42,470 [INFO] Gathering page 25 of 218
+2024-02-21 16:46:42,471 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700231739016633965
+2024-02-21 16:46:43,573 [INFO] Response: 200
+2024-02-21 16:46:43,575 [INFO] Gathering page 26 of 218
+2024-02-21 16:46:43,577 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700152579374174940
+2024-02-21 16:46:44,443 [INFO] Response: 200
+2024-02-21 16:46:44,445 [INFO] Gathering page 27 of 218
+2024-02-21 16:46:44,447 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700075915855734504
+2024-02-21 16:46:45,566 [INFO] Response: 200
+2024-02-21 16:46:45,568 [INFO] Gathering page 28 of 218
+2024-02-21 16:46:45,570 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700057720144428650
+2024-02-21 16:46:46,703 [INFO] Response: 200
+2024-02-21 16:46:46,705 [INFO] Gathering page 29 of 218
+2024-02-21 16:46:46,706 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700034695605722135
+2024-02-21 16:46:47,782 [INFO] Response: 200
+2024-02-21 16:46:47,782 [INFO] Gathering page 30 of 218
+2024-02-21 16:46:47,783 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699914319091447872
+2024-02-21 16:46:48,900 [INFO] Response: 200
+2024-02-21 16:46:48,900 [INFO] Gathering page 31 of 218
+2024-02-21 16:46:48,902 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699854755444528344
+2024-02-21 16:46:49,778 [INFO] Response: 200
+2024-02-21 16:46:49,779 [INFO] Gathering page 32 of 218
+2024-02-21 16:46:49,780 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699809408623808188
+2024-02-21 16:46:50,838 [INFO] Response: 200
+2024-02-21 16:46:50,840 [INFO] Gathering page 33 of 218
+2024-02-21 16:46:50,844 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699724319003738985
+2024-02-21 16:46:51,905 [INFO] Response: 200
+2024-02-21 16:46:51,905 [INFO] Gathering page 34 of 218
+2024-02-21 16:46:51,906 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699643798799737579
+2024-02-21 16:46:52,988 [INFO] Response: 200
+2024-02-21 16:46:52,988 [INFO] Gathering page 35 of 218
+2024-02-21 16:46:52,989 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699602597711677034
+2024-02-21 16:46:54,089 [INFO] Response: 200
+2024-02-21 16:46:54,090 [INFO] Gathering page 36 of 218
+2024-02-21 16:46:54,091 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699547215779017908
+2024-02-21 16:46:54,961 [INFO] Response: 200
+2024-02-21 16:46:54,962 [INFO] Gathering page 37 of 218
+2024-02-21 16:46:54,963 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699365731421228392
+2024-02-21 16:46:56,051 [INFO] Response: 200
+2024-02-21 16:46:56,053 [INFO] Gathering page 38 of 218
+2024-02-21 16:46:56,055 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699299267571724235
+2024-02-21 16:46:57,217 [INFO] Response: 200
+2024-02-21 16:46:57,217 [INFO] Gathering page 39 of 218
+2024-02-21 16:46:57,218 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699263832990187913
+2024-02-21 16:46:58,310 [INFO] Response: 200
+2024-02-21 16:46:58,312 [INFO] Gathering page 40 of 218
+2024-02-21 16:46:58,313 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699171531943585335
+2024-02-21 16:46:59,228 [INFO] Response: 200
+2024-02-21 16:46:59,229 [INFO] Gathering page 41 of 218
+2024-02-21 16:46:59,230 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699118568011122874
+2024-02-21 16:47:00,373 [INFO] Response: 200
+2024-02-21 16:47:00,375 [INFO] Gathering page 42 of 218
+2024-02-21 16:47:00,377 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699088871355967067
+2024-02-21 16:47:01,357 [INFO] Response: 200
+2024-02-21 16:47:01,359 [INFO] Gathering page 43 of 218
+2024-02-21 16:47:01,361 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699028616056542948
+2024-02-21 16:47:02,474 [INFO] Response: 200
+2024-02-21 16:47:02,476 [INFO] Gathering page 44 of 218
+2024-02-21 16:47:02,478 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698995592933301623
+2024-02-21 16:47:03,596 [INFO] Response: 200
+2024-02-21 16:47:03,597 [INFO] Gathering page 45 of 218
+2024-02-21 16:47:03,598 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698933514460304071
+2024-02-21 16:47:04,792 [INFO] Response: 200
+2024-02-21 16:47:04,794 [INFO] Gathering page 46 of 218
+2024-02-21 16:47:04,794 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698880362416492463
+2024-02-21 16:47:06,366 [INFO] Response: 200
+2024-02-21 16:47:06,367 [INFO] Gathering page 47 of 218
+2024-02-21 16:47:06,368 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698788499127746706
+2024-02-21 16:47:07,456 [INFO] Response: 200
+2024-02-21 16:47:07,458 [INFO] Gathering page 48 of 218
+2024-02-21 16:47:07,461 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698761937119728411
+2024-02-21 16:47:08,529 [INFO] Response: 200
+2024-02-21 16:47:08,531 [INFO] Gathering page 49 of 218
+2024-02-21 16:47:08,533 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698736036011964418
+2024-02-21 16:47:09,608 [INFO] Response: 200
+2024-02-21 16:47:09,611 [INFO] Gathering page 50 of 218
+2024-02-21 16:47:09,614 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698684733362971815
+2024-02-21 16:47:10,737 [INFO] Response: 200
+2024-02-21 16:47:10,739 [INFO] Gathering page 51 of 218
+2024-02-21 16:47:10,742 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698672392716640611
+2024-02-21 16:47:11,618 [INFO] Response: 200
+2024-02-21 16:47:11,618 [INFO] Gathering page 52 of 218
+2024-02-21 16:47:11,619 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698635220303763453
+2024-02-21 16:47:12,485 [INFO] Response: 200
+2024-02-21 16:47:12,486 [INFO] Gathering page 53 of 218
+2024-02-21 16:47:12,489 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698564695261119426
+2024-02-21 16:47:13,364 [INFO] Response: 200
+2024-02-21 16:47:13,365 [INFO] Gathering page 54 of 218
+2024-02-21 16:47:13,368 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698496162134236054
+2024-02-21 16:47:14,245 [INFO] Response: 200
+2024-02-21 16:47:14,245 [INFO] Gathering page 55 of 218
+2024-02-21 16:47:14,246 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698472777568530284
+2024-02-21 16:47:15,341 [INFO] Response: 200
+2024-02-21 16:47:15,342 [INFO] Gathering page 56 of 218
+2024-02-21 16:47:15,343 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698420849573101659
+2024-02-21 16:47:16,483 [INFO] Response: 200
+2024-02-21 16:47:16,485 [INFO] Gathering page 57 of 218
+2024-02-21 16:47:16,487 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698400959728477971
+2024-02-21 16:47:17,632 [INFO] Response: 200
+2024-02-21 16:47:17,634 [INFO] Gathering page 58 of 218
+2024-02-21 16:47:17,636 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698329836895749180
+2024-02-21 16:47:18,725 [INFO] Response: 200
+2024-02-21 16:47:18,727 [INFO] Gathering page 59 of 218
+2024-02-21 16:47:18,730 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698248370882645178
+2024-02-21 16:47:19,624 [INFO] Response: 200
+2024-02-21 16:47:19,626 [INFO] Gathering page 60 of 218
+2024-02-21 16:47:19,629 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698163932110509972
+2024-02-21 16:47:20,721 [INFO] Response: 200
+2024-02-21 16:47:20,721 [INFO] Gathering page 61 of 218
+2024-02-21 16:47:20,722 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698093260403695194
+2024-02-21 16:47:21,830 [INFO] Response: 200
+2024-02-21 16:47:21,832 [INFO] Gathering page 62 of 218
+2024-02-21 16:47:21,834 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698046358699890457
+2024-02-21 16:47:22,935 [INFO] Response: 200
+2024-02-21 16:47:22,936 [INFO] Gathering page 63 of 218
+2024-02-21 16:47:22,937 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697988419307362375
+2024-02-21 16:47:24,012 [INFO] Response: 200
+2024-02-21 16:47:24,013 [INFO] Gathering page 64 of 218
+2024-02-21 16:47:24,015 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697974836972634948
+2024-02-21 16:47:25,092 [INFO] Response: 200
+2024-02-21 16:47:25,094 [INFO] Gathering page 65 of 218
+2024-02-21 16:47:25,097 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697955384303475529
+2024-02-21 16:47:26,234 [INFO] Response: 200
+2024-02-21 16:47:26,235 [INFO] Gathering page 66 of 218
+2024-02-21 16:47:26,236 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697898939259719766
+2024-02-21 16:47:27,101 [INFO] Response: 200
+2024-02-21 16:47:27,101 [INFO] Gathering page 67 of 218
+2024-02-21 16:47:27,102 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697869028003725942
+2024-02-21 16:47:27,968 [INFO] Response: 200
+2024-02-21 16:47:27,969 [INFO] Gathering page 68 of 218
+2024-02-21 16:47:27,970 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697804050743189789
+2024-02-21 16:47:28,834 [INFO] Response: 200
+2024-02-21 16:47:28,835 [INFO] Gathering page 69 of 218
+2024-02-21 16:47:28,836 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697721878617177476
+2024-02-21 16:47:29,920 [INFO] Response: 200
+2024-02-21 16:47:29,921 [INFO] Gathering page 70 of 218
+2024-02-21 16:47:29,922 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697684356543764349
+2024-02-21 16:47:30,969 [INFO] Response: 200
+2024-02-21 16:47:30,970 [INFO] Gathering page 71 of 218
+2024-02-21 16:47:30,971 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697644011922928132
+2024-02-21 16:47:31,857 [INFO] Response: 200
+2024-02-21 16:47:31,857 [INFO] Gathering page 72 of 218
+2024-02-21 16:47:31,858 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697631342715729157
+2024-02-21 16:47:32,992 [INFO] Response: 200
+2024-02-21 16:47:32,993 [INFO] Gathering page 73 of 218
+2024-02-21 16:47:32,994 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697585864816356979
+2024-02-21 16:47:34,072 [INFO] Response: 200
+2024-02-21 16:47:34,073 [INFO] Gathering page 74 of 218
+2024-02-21 16:47:34,075 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697558171315748126
+2024-02-21 16:47:35,154 [INFO] Response: 200
+2024-02-21 16:47:35,154 [INFO] Gathering page 75 of 218
+2024-02-21 16:47:35,156 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697546339016737218
+2024-02-21 16:47:36,344 [INFO] Response: 200
+2024-02-21 16:47:36,345 [INFO] Gathering page 76 of 218
+2024-02-21 16:47:36,347 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697526161240535058
+2024-02-21 16:47:37,215 [INFO] Response: 200
+2024-02-21 16:47:37,217 [INFO] Gathering page 77 of 218
+2024-02-21 16:47:37,220 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697471633959195751
+2024-02-21 16:47:38,304 [INFO] Response: 200
+2024-02-21 16:47:38,307 [INFO] Gathering page 78 of 218
+2024-02-21 16:47:38,310 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697399579395673434
+2024-02-21 16:47:39,447 [INFO] Response: 200
+2024-02-21 16:47:39,448 [INFO] Gathering page 79 of 218
+2024-02-21 16:47:39,449 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697379331863886017
+2024-02-21 16:47:40,544 [INFO] Response: 200
+2024-02-21 16:47:40,544 [INFO] Gathering page 80 of 218
+2024-02-21 16:47:40,545 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697362913551749609
+2024-02-21 16:47:41,618 [INFO] Response: 200
+2024-02-21 16:47:41,619 [INFO] Gathering page 81 of 218
+2024-02-21 16:47:41,620 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697313996408608546
+2024-02-21 16:47:42,685 [INFO] Response: 200
+2024-02-21 16:47:42,686 [INFO] Gathering page 82 of 218
+2024-02-21 16:47:42,687 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697285560850140336
+2024-02-21 16:47:43,770 [INFO] Response: 200
+2024-02-21 16:47:43,770 [INFO] Gathering page 83 of 218
+2024-02-21 16:47:43,771 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697229843939757230
+2024-02-21 16:47:44,870 [INFO] Response: 200
+2024-02-21 16:47:44,870 [INFO] Gathering page 84 of 218
+2024-02-21 16:47:44,871 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697196880523839826
+2024-02-21 16:47:46,024 [INFO] Response: 200
+2024-02-21 16:47:46,026 [INFO] Gathering page 85 of 218
+2024-02-21 16:47:46,029 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697141008847874733
+2024-02-21 16:47:47,119 [INFO] Response: 200
+2024-02-21 16:47:47,120 [INFO] Gathering page 86 of 218
+2024-02-21 16:47:47,121 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697120040564374825
+2024-02-21 16:47:48,248 [INFO] Response: 200
+2024-02-21 16:47:48,249 [INFO] Gathering page 87 of 218
+2024-02-21 16:47:48,250 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697091413355727656
+2024-02-21 16:47:49,106 [INFO] Response: 200
+2024-02-21 16:47:49,108 [INFO] Gathering page 88 of 218
+2024-02-21 16:47:49,110 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697036455642032774
+2024-02-21 16:47:49,976 [INFO] Response: 200
+2024-02-21 16:47:49,976 [INFO] Gathering page 89 of 218
+2024-02-21 16:47:49,977 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697011330439038136
+2024-02-21 16:47:51,667 [INFO] Response: 200
+2024-02-21 16:47:51,668 [INFO] Gathering page 90 of 218
+2024-02-21 16:47:51,670 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696951869979727513
+2024-02-21 16:47:53,446 [INFO] Response: 200
+2024-02-21 16:47:53,446 [INFO] Gathering page 91 of 218
+2024-02-21 16:47:53,447 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696881859114313329
+2024-02-21 16:47:54,924 [INFO] Response: 200
+2024-02-21 16:47:54,926 [INFO] Gathering page 92 of 218
+2024-02-21 16:47:54,926 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696859913385983957
+2024-02-21 16:47:56,005 [INFO] Response: 200
+2024-02-21 16:47:56,007 [INFO] Gathering page 93 of 218
+2024-02-21 16:47:56,009 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696825886643197539
+2024-02-21 16:47:56,874 [INFO] Response: 200
+2024-02-21 16:47:56,875 [INFO] Gathering page 94 of 218
+2024-02-21 16:47:56,876 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696776105615767842
+2024-02-21 16:47:57,744 [INFO] Response: 200
+2024-02-21 16:47:57,745 [INFO] Gathering page 95 of 218
+2024-02-21 16:47:57,745 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696700720389307822
+2024-02-21 16:47:58,857 [INFO] Response: 200
+2024-02-21 16:47:58,859 [INFO] Gathering page 96 of 218
+2024-02-21 16:47:58,862 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696622878456600040
+2024-02-21 16:47:59,980 [INFO] Response: 200
+2024-02-21 16:47:59,982 [INFO] Gathering page 97 of 218
+2024-02-21 16:47:59,985 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696589348275764382
+2024-02-21 16:48:01,132 [INFO] Response: 200
+2024-02-21 16:48:01,133 [INFO] Gathering page 98 of 218
+2024-02-21 16:48:01,133 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696535384459001737
+2024-02-21 16:48:02,305 [INFO] Response: 200
+2024-02-21 16:48:02,307 [INFO] Gathering page 99 of 218
+2024-02-21 16:48:02,308 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696514636915756032
+2024-02-21 16:48:03,501 [INFO] Response: 200
+2024-02-21 16:48:03,503 [INFO] Gathering page 100 of 218
+2024-02-21 16:48:03,506 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696498105187960666
+2024-02-21 16:48:04,772 [INFO] Response: 200
+2024-02-21 16:48:04,773 [INFO] Gathering page 101 of 218
+2024-02-21 16:48:04,774 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696436751499715664
+2024-02-21 16:48:05,890 [INFO] Response: 200
+2024-02-21 16:48:05,890 [INFO] Gathering page 102 of 218
+2024-02-21 16:48:05,891 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696365400291725511
+2024-02-21 16:48:06,991 [INFO] Response: 200
+2024-02-21 16:48:06,993 [INFO] Gathering page 103 of 218
+2024-02-21 16:48:06,995 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696345663175740202
+2024-02-21 16:48:08,119 [INFO] Response: 200
+2024-02-21 16:48:08,119 [INFO] Gathering page 104 of 218
+2024-02-21 16:48:08,120 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696329881180179865
+2024-02-21 16:48:09,205 [INFO] Response: 200
+2024-02-21 16:48:09,205 [INFO] Gathering page 105 of 218
+2024-02-21 16:48:09,206 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696273059979733311
+2024-02-21 16:48:10,378 [INFO] Response: 200
+2024-02-21 16:48:10,378 [INFO] Gathering page 106 of 218
+2024-02-21 16:48:10,381 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696250339092213288
+2024-02-21 16:48:11,533 [INFO] Response: 200
+2024-02-21 16:48:11,535 [INFO] Gathering page 107 of 218
+2024-02-21 16:48:11,538 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696227171865332546
+2024-02-21 16:48:12,656 [INFO] Response: 200
+2024-02-21 16:48:12,658 [INFO] Gathering page 108 of 218
+2024-02-21 16:48:12,661 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696171893413065884
+2024-02-21 16:48:13,823 [INFO] Response: 200
+2024-02-21 16:48:13,823 [INFO] Gathering page 109 of 218
+2024-02-21 16:48:13,824 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696078587555752210
+2024-02-21 16:48:14,695 [INFO] Response: 200
+2024-02-21 16:48:14,696 [INFO] Gathering page 110 of 218
+2024-02-21 16:48:14,697 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696022475231734675
+2024-02-21 16:48:15,785 [INFO] Response: 200
+2024-02-21 16:48:15,786 [INFO] Gathering page 111 of 218
+2024-02-21 16:48:15,788 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696001182304981870
+2024-02-21 16:48:16,869 [INFO] Response: 200
+2024-02-21 16:48:16,871 [INFO] Gathering page 112 of 218
+2024-02-21 16:48:16,875 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695967084756821019
+2024-02-21 16:48:17,945 [INFO] Response: 200
+2024-02-21 16:48:17,946 [INFO] Gathering page 113 of 218
+2024-02-21 16:48:17,947 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695914052719743273
+2024-02-21 16:48:19,014 [INFO] Response: 200
+2024-02-21 16:48:19,015 [INFO] Gathering page 114 of 218
+2024-02-21 16:48:19,015 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695901579791831946
+2024-02-21 16:48:19,874 [INFO] Response: 200
+2024-02-21 16:48:19,874 [INFO] Gathering page 115 of 218
+2024-02-21 16:48:19,875 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695759476616717953
+2024-02-21 16:48:20,944 [INFO] Response: 200
+2024-02-21 16:48:20,945 [INFO] Gathering page 116 of 218
+2024-02-21 16:48:20,948 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695656331487749337
+2024-02-21 16:48:21,817 [INFO] Response: 200
+2024-02-21 16:48:21,818 [INFO] Gathering page 117 of 218
+2024-02-21 16:48:21,819 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695644882874634243
+2024-02-21 16:48:22,684 [INFO] Response: 200
+2024-02-21 16:48:22,685 [INFO] Gathering page 118 of 218
+2024-02-21 16:48:22,686 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695625076207732738
+2024-02-21 16:48:23,795 [INFO] Response: 200
+2024-02-21 16:48:23,797 [INFO] Gathering page 119 of 218
+2024-02-21 16:48:23,799 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695546594855851869
+2024-02-21 16:48:24,884 [INFO] Response: 200
+2024-02-21 16:48:24,886 [INFO] Gathering page 120 of 218
+2024-02-21 16:48:24,887 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695482612765212875
+2024-02-21 16:48:25,965 [INFO] Response: 200
+2024-02-21 16:48:25,966 [INFO] Gathering page 121 of 218
+2024-02-21 16:48:25,967 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695453455169557425
+2024-02-21 16:48:27,053 [INFO] Response: 200
+2024-02-21 16:48:27,055 [INFO] Gathering page 122 of 218
+2024-02-21 16:48:27,058 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695383595340923563
+2024-02-21 16:48:28,125 [INFO] Response: 200
+2024-02-21 16:48:28,127 [INFO] Gathering page 123 of 218
+2024-02-21 16:48:28,127 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695321948881411090
+2024-02-21 16:48:29,201 [INFO] Response: 200
+2024-02-21 16:48:29,203 [INFO] Gathering page 124 of 218
+2024-02-21 16:48:29,204 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695242519615813201
+2024-02-21 16:48:30,314 [INFO] Response: 200
+2024-02-21 16:48:30,315 [INFO] Gathering page 125 of 218
+2024-02-21 16:48:30,318 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695157637439746014
+2024-02-21 16:48:31,199 [INFO] Response: 200
+2024-02-21 16:48:31,200 [INFO] Gathering page 126 of 218
+2024-02-21 16:48:31,203 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695137154508194168
+2024-02-21 16:48:32,290 [INFO] Response: 200
+2024-02-21 16:48:32,290 [INFO] Gathering page 127 of 218
+2024-02-21 16:48:32,291 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695123048118093938
+2024-02-21 16:48:33,369 [INFO] Response: 200
+2024-02-21 16:48:33,370 [INFO] Gathering page 128 of 218
+2024-02-21 16:48:33,371 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695067278199728543
+2024-02-21 16:48:34,436 [INFO] Response: 200
+2024-02-21 16:48:34,437 [INFO] Gathering page 129 of 218
+2024-02-21 16:48:34,439 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695051824303837848
+2024-02-21 16:48:35,784 [INFO] Response: 200
+2024-02-21 16:48:35,786 [INFO] Gathering page 130 of 218
+2024-02-21 16:48:35,788 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695032037983830949
+2024-02-21 16:48:36,890 [INFO] Response: 200
+2024-02-21 16:48:36,891 [INFO] Gathering page 131 of 218
+2024-02-21 16:48:36,892 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694959351122632674
+2024-02-21 16:48:38,031 [INFO] Response: 200
+2024-02-21 16:48:38,032 [INFO] Gathering page 132 of 218
+2024-02-21 16:48:38,034 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694941505899435674
+2024-02-21 16:48:39,134 [INFO] Response: 200
+2024-02-21 16:48:39,135 [INFO] Gathering page 133 of 218
+2024-02-21 16:48:39,136 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694881859706608473
+2024-02-21 16:48:40,205 [INFO] Response: 200
+2024-02-21 16:48:40,207 [INFO] Gathering page 134 of 218
+2024-02-21 16:48:40,210 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694854848199805531
+2024-02-21 16:48:41,293 [INFO] Response: 200
+2024-02-21 16:48:41,294 [INFO] Gathering page 135 of 218
+2024-02-21 16:48:41,295 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694786202387801336
+2024-02-21 16:48:42,362 [INFO] Response: 200
+2024-02-21 16:48:42,363 [INFO] Gathering page 136 of 218
+2024-02-21 16:48:42,364 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694761211030871636
+2024-02-21 16:48:43,418 [INFO] Response: 200
+2024-02-21 16:48:43,420 [INFO] Gathering page 137 of 218
+2024-02-21 16:48:43,421 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694705245440556046
+2024-02-21 16:48:44,464 [INFO] Response: 200
+2024-02-21 16:48:44,464 [INFO] Gathering page 138 of 218
+2024-02-21 16:48:44,465 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694618922251703711
+2024-02-21 16:48:45,547 [INFO] Response: 200
+2024-02-21 16:48:45,548 [INFO] Gathering page 139 of 218
+2024-02-21 16:48:45,549 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694594489471766076
+2024-02-21 16:48:46,614 [INFO] Response: 200
+2024-02-21 16:48:46,614 [INFO] Gathering page 140 of 218
+2024-02-21 16:48:46,615 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694516542340017249
+2024-02-21 16:48:47,812 [INFO] Response: 200
+2024-02-21 16:48:47,814 [INFO] Gathering page 141 of 218
+2024-02-21 16:48:47,815 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694462265055525671
+2024-02-21 16:48:48,881 [INFO] Response: 200
+2024-02-21 16:48:48,882 [INFO] Gathering page 142 of 218
+2024-02-21 16:48:48,883 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694382063183750534
+2024-02-21 16:48:50,238 [INFO] Response: 200
+2024-02-21 16:48:50,241 [INFO] Gathering page 143 of 218
+2024-02-21 16:48:50,244 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694355781632092359
+2024-02-21 16:48:51,578 [INFO] Response: 200
+2024-02-21 16:48:51,579 [INFO] Gathering page 144 of 218
+2024-02-21 16:48:51,580 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694331723074834833
+2024-02-21 16:48:52,684 [INFO] Response: 200
+2024-02-21 16:48:52,686 [INFO] Gathering page 145 of 218
+2024-02-21 16:48:52,689 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694269111532355137
+2024-02-21 16:48:53,932 [INFO] Response: 200
+2024-02-21 16:48:53,934 [INFO] Gathering page 146 of 218
+2024-02-21 16:48:53,935 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694203802167078516
+2024-02-21 16:48:55,008 [INFO] Response: 200
+2024-02-21 16:48:55,010 [INFO] Gathering page 147 of 218
+2024-02-21 16:48:55,012 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694176321111789116
+2024-02-21 16:48:56,098 [INFO] Response: 200
+2024-02-21 16:48:56,101 [INFO] Gathering page 148 of 218
+2024-02-21 16:48:56,103 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694144119631193776
+2024-02-21 16:48:57,385 [INFO] Response: 200
+2024-02-21 16:48:57,386 [INFO] Gathering page 149 of 218
+2024-02-21 16:48:57,387 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694098633759850083
+2024-02-21 16:48:58,484 [INFO] Response: 200
+2024-02-21 16:48:58,485 [INFO] Gathering page 150 of 218
+2024-02-21 16:48:58,486 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694072701164558359
+2024-02-21 16:48:59,789 [INFO] Response: 200
+2024-02-21 16:48:59,790 [INFO] Gathering page 151 of 218
+2024-02-21 16:48:59,791 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694019298077876723
+2024-02-21 16:49:01,323 [INFO] Response: 200
+2024-02-21 16:49:01,325 [INFO] Gathering page 152 of 218
+2024-02-21 16:49:01,328 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693944253791752188
+2024-02-21 16:49:02,768 [INFO] Response: 200
+2024-02-21 16:49:02,771 [INFO] Gathering page 153 of 218
+2024-02-21 16:49:02,774 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693855652879195214
+2024-02-21 16:49:03,865 [INFO] Response: 200
+2024-02-21 16:49:03,867 [INFO] Gathering page 154 of 218
+2024-02-21 16:49:03,870 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693834176327426827
+2024-02-21 16:49:04,995 [INFO] Response: 200
+2024-02-21 16:49:04,996 [INFO] Gathering page 155 of 218
+2024-02-21 16:49:04,997 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693814421687732726
+2024-02-21 16:49:06,307 [INFO] Response: 200
+2024-02-21 16:49:06,308 [INFO] Gathering page 156 of 218
+2024-02-21 16:49:06,308 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693755049963768266
+2024-02-21 16:49:07,413 [INFO] Response: 200
+2024-02-21 16:49:07,415 [INFO] Gathering page 157 of 218
+2024-02-21 16:49:07,418 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693738267167795760
+2024-02-21 16:49:08,739 [INFO] Response: 200
+2024-02-21 16:49:08,740 [INFO] Gathering page 158 of 218
+2024-02-21 16:49:08,741 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693669608635827971
+2024-02-21 16:49:10,060 [INFO] Response: 200
+2024-02-21 16:49:10,063 [INFO] Gathering page 159 of 218
+2024-02-21 16:49:10,066 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693594805743061346
+2024-02-21 16:49:11,168 [INFO] Response: 200
+2024-02-21 16:49:11,172 [INFO] Gathering page 160 of 218
+2024-02-21 16:49:11,175 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693580521758512363
+2024-02-21 16:49:12,308 [INFO] Response: 200
+2024-02-21 16:49:12,309 [INFO] Gathering page 161 of 218
+2024-02-21 16:49:12,310 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693563308920223793
+2024-02-21 16:49:13,404 [INFO] Response: 200
+2024-02-21 16:49:13,406 [INFO] Gathering page 162 of 218
+2024-02-21 16:49:13,407 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693502424839727490
+2024-02-21 16:49:14,520 [INFO] Response: 200
+2024-02-21 16:49:14,522 [INFO] Gathering page 163 of 218
+2024-02-21 16:49:14,523 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693481426491723458
+2024-02-21 16:49:15,935 [INFO] Response: 200
+2024-02-21 16:49:15,938 [INFO] Gathering page 164 of 218
+2024-02-21 16:49:15,940 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693409977047035989
+2024-02-21 16:49:17,254 [INFO] Response: 200
+2024-02-21 16:49:17,255 [INFO] Gathering page 165 of 218
+2024-02-21 16:49:17,256 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693348663020693978
+2024-02-21 16:49:18,751 [INFO] Response: 200
+2024-02-21 16:49:18,751 [INFO] Gathering page 166 of 218
+2024-02-21 16:49:18,752 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693321546915731463
+2024-02-21 16:49:19,851 [INFO] Response: 200
+2024-02-21 16:49:19,853 [INFO] Gathering page 167 of 218
+2024-02-21 16:49:19,856 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693307143547720317
+2024-02-21 16:49:21,190 [INFO] Response: 200
+2024-02-21 16:49:21,192 [INFO] Gathering page 168 of 218
+2024-02-21 16:49:21,194 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693251813382384510
+2024-02-21 16:49:22,520 [INFO] Response: 200
+2024-02-21 16:49:22,521 [INFO] Gathering page 169 of 218
+2024-02-21 16:49:22,521 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693226528953223567
+2024-02-21 16:49:23,821 [INFO] Response: 200
+2024-02-21 16:49:23,824 [INFO] Gathering page 170 of 218
+2024-02-21 16:49:23,826 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693167413083867718
+2024-02-21 16:49:25,156 [INFO] Response: 200
+2024-02-21 16:49:25,157 [INFO] Gathering page 171 of 218
+2024-02-21 16:49:25,158 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693149100265826803
+2024-02-21 16:49:26,520 [INFO] Response: 200
+2024-02-21 16:49:26,523 [INFO] Gathering page 172 of 218
+2024-02-21 16:49:26,526 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693067459803735853
+2024-02-21 16:49:27,849 [INFO] Response: 200
+2024-02-21 16:49:27,850 [INFO] Gathering page 173 of 218
+2024-02-21 16:49:27,851 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693033427051762499
+2024-02-21 16:49:29,149 [INFO] Response: 200
+2024-02-21 16:49:29,152 [INFO] Gathering page 174 of 218
+2024-02-21 16:49:29,156 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692978861691762268
+2024-02-21 16:49:30,446 [INFO] Response: 200
+2024-02-21 16:49:30,450 [INFO] Gathering page 175 of 218
+2024-02-21 16:49:30,453 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692935820163707846
+2024-02-21 16:49:31,784 [INFO] Response: 200
+2024-02-21 16:49:31,785 [INFO] Gathering page 176 of 218
+2024-02-21 16:49:31,786 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692890237296633863
+2024-02-21 16:49:33,087 [INFO] Response: 200
+2024-02-21 16:49:33,090 [INFO] Gathering page 177 of 218
+2024-02-21 16:49:33,092 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692874865267754490
+2024-02-21 16:49:34,158 [INFO] Response: 200
+2024-02-21 16:49:34,158 [INFO] Gathering page 178 of 218
+2024-02-21 16:49:34,159 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692809954549209163
+2024-02-21 16:49:35,285 [INFO] Response: 200
+2024-02-21 16:49:35,286 [INFO] Gathering page 179 of 218
+2024-02-21 16:49:35,287 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692780621219759641
+2024-02-21 16:49:36,599 [INFO] Response: 200
+2024-02-21 16:49:36,601 [INFO] Gathering page 180 of 218
+2024-02-21 16:49:36,604 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692735440023729679
+2024-02-21 16:49:37,898 [INFO] Response: 200
+2024-02-21 16:49:37,899 [INFO] Gathering page 181 of 218
+2024-02-21 16:49:37,900 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692705166994302131
+2024-02-21 16:49:38,988 [INFO] Response: 200
+2024-02-21 16:49:38,989 [INFO] Gathering page 182 of 218
+2024-02-21 16:49:38,989 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692596491348489590
+2024-02-21 16:49:40,369 [INFO] Response: 200
+2024-02-21 16:49:40,372 [INFO] Gathering page 183 of 218
+2024-02-21 16:49:40,374 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692480683380182653
+2024-02-21 16:49:41,734 [INFO] Response: 200
+2024-02-21 16:49:41,736 [INFO] Gathering page 184 of 218
+2024-02-21 16:49:41,740 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692436461959751600
+2024-02-21 16:49:43,055 [INFO] Response: 200
+2024-02-21 16:49:43,058 [INFO] Gathering page 185 of 218
+2024-02-21 16:49:43,060 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692354607822439740
+2024-02-21 16:49:44,188 [INFO] Response: 200
+2024-02-21 16:49:44,190 [INFO] Gathering page 186 of 218
+2024-02-21 16:49:44,192 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692292412571731794
+2024-02-21 16:49:45,074 [INFO] Response: 200
+2024-02-21 16:49:45,076 [INFO] Gathering page 187 of 218
+2024-02-21 16:49:45,078 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692278129423726054
+2024-02-21 16:49:46,227 [INFO] Response: 200
+2024-02-21 16:49:46,229 [INFO] Gathering page 188 of 218
+2024-02-21 16:49:46,232 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692218312572588933
+2024-02-21 16:49:47,318 [INFO] Response: 200
+2024-02-21 16:49:47,321 [INFO] Gathering page 189 of 218
+2024-02-21 16:49:47,323 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692197175431730703
+2024-02-21 16:49:48,420 [INFO] Response: 200
+2024-02-21 16:49:48,422 [INFO] Gathering page 190 of 218
+2024-02-21 16:49:48,424 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692175319035730699
+2024-02-21 16:49:49,720 [INFO] Response: 200
+2024-02-21 16:49:49,722 [INFO] Gathering page 191 of 218
+2024-02-21 16:49:49,723 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692122279216326641
+2024-02-21 16:49:51,018 [INFO] Response: 200
+2024-02-21 16:49:51,019 [INFO] Gathering page 192 of 218
+2024-02-21 16:49:51,019 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691961529702067635
+2024-02-21 16:49:52,297 [INFO] Response: 200
+2024-02-21 16:49:52,298 [INFO] Gathering page 193 of 218
+2024-02-21 16:49:52,299 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691938305466245862
+2024-02-21 16:49:53,657 [INFO] Response: 200
+2024-02-21 16:49:53,658 [INFO] Gathering page 194 of 218
+2024-02-21 16:49:53,659 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691872073835712821
+2024-02-21 16:49:54,959 [INFO] Response: 200
+2024-02-21 16:49:54,961 [INFO] Gathering page 195 of 218
+2024-02-21 16:49:54,963 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691780649385687176
+2024-02-21 16:49:56,308 [INFO] Response: 200
+2024-02-21 16:49:56,309 [INFO] Gathering page 196 of 218
+2024-02-21 16:49:56,310 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691758899319805458
+2024-02-21 16:49:57,589 [INFO] Response: 200
+2024-02-21 16:49:57,592 [INFO] Gathering page 197 of 218
+2024-02-21 16:49:57,593 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691740457998907835
+2024-02-21 16:49:58,874 [INFO] Response: 200
+2024-02-21 16:49:58,876 [INFO] Gathering page 198 of 218
+2024-02-21 16:49:58,878 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691685474652821642
+2024-02-21 16:50:00,193 [INFO] Response: 200
+2024-02-21 16:50:00,194 [INFO] Gathering page 199 of 218
+2024-02-21 16:50:00,195 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691671642795007516
+2024-02-21 16:50:01,622 [INFO] Response: 200
+2024-02-21 16:50:01,624 [INFO] Gathering page 200 of 218
+2024-02-21 16:50:01,626 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691652300227707219
+2024-02-21 16:50:03,093 [INFO] Response: 200
+2024-02-21 16:50:03,096 [INFO] Gathering page 201 of 218
+2024-02-21 16:50:03,097 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691594125763613307
+2024-02-21 16:50:04,568 [INFO] Response: 200
+2024-02-21 16:50:04,571 [INFO] Gathering page 202 of 218
+2024-02-21 16:50:04,571 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691555422580791354
+2024-02-21 16:50:06,140 [INFO] Response: 200
+2024-02-21 16:50:06,143 [INFO] Gathering page 203 of 218
+2024-02-21 16:50:06,146 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691506518066511116
+2024-02-21 16:50:07,564 [INFO] Response: 200
+2024-02-21 16:50:07,565 [INFO] Gathering page 204 of 218
+2024-02-21 16:50:07,567 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691483746215276531
+2024-02-21 16:50:09,416 [INFO] Response: 200
+2024-02-21 16:50:09,419 [INFO] Gathering page 205 of 218
+2024-02-21 16:50:09,421 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691427866391240244
+2024-02-21 16:50:10,735 [INFO] Response: 200
+2024-02-21 16:50:10,737 [INFO] Gathering page 206 of 218
+2024-02-21 16:50:10,737 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691354575743756201
+2024-02-21 16:50:12,040 [INFO] Response: 200
+2024-02-21 16:50:12,042 [INFO] Gathering page 207 of 218
+2024-02-21 16:50:12,043 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691331795547788258
+2024-02-21 16:50:13,360 [INFO] Response: 200
+2024-02-21 16:50:13,362 [INFO] Gathering page 208 of 218
+2024-02-21 16:50:13,362 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691311124717980997
+2024-02-21 16:50:14,685 [INFO] Response: 200
+2024-02-21 16:50:14,687 [INFO] Gathering page 209 of 218
+2024-02-21 16:50:14,689 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691255077354645567
+2024-02-21 16:50:16,113 [INFO] Response: 200
+2024-02-21 16:50:16,115 [INFO] Gathering page 210 of 218
+2024-02-21 16:50:16,118 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691220778334176309
+2024-02-21 16:50:17,469 [INFO] Response: 200
+2024-02-21 16:50:17,470 [INFO] Gathering page 211 of 218
+2024-02-21 16:50:17,471 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691163456626594895
+2024-02-21 16:50:18,823 [INFO] Response: 200
+2024-02-21 16:50:18,826 [INFO] Gathering page 212 of 218
+2024-02-21 16:50:18,829 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691136629612724051
+2024-02-21 16:50:20,170 [INFO] Response: 200
+2024-02-21 16:50:20,172 [INFO] Gathering page 213 of 218
+2024-02-21 16:50:20,173 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691080647579150625
+2024-02-21 16:50:21,503 [INFO] Response: 200
+2024-02-21 16:50:21,505 [INFO] Gathering page 214 of 218
+2024-02-21 16:50:21,508 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691006985237420425
+2024-02-21 16:50:22,842 [INFO] Response: 200
+2024-02-21 16:50:22,845 [INFO] Gathering page 215 of 218
+2024-02-21 16:50:22,848 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1690968597147380736
+2024-02-21 16:50:24,154 [INFO] Response: 200
+2024-02-21 16:50:24,157 [INFO] Gathering page 216 of 218
+2024-02-21 16:50:24,158 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1690903853943779643
+2024-02-21 16:50:25,543 [INFO] Response: 200
+2024-02-21 16:50:25,544 [INFO] Gathering page 217 of 218
+2024-02-21 16:50:25,547 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1690883211639748022
+2024-02-21 16:50:26,618 [INFO] Response: 200
+2024-02-21 16:50:26,619 [INFO] Gathering page 218 of 218
+2024-02-21 16:50:26,622 [INFO] 
+Compiling 218 pages of results...
+2024-02-21 16:50:26,642 [INFO] All news articles gathered from bild from 2023-08-01 to 2023-12-01!
+2024-02-21 16:50:26,642 [INFO] Processing tables...
+2024-02-21 16:50:27,355 [INFO] Tables have been processed.
+2024-02-21 16:50:27,356 [INFO] 
+Pushing results from bild to Google BigQuery database...
+2024-02-21 16:50:28,534 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-21 16:50:28,850 [INFO] Table exists
+2024-02-21 16:50:44,332 [INFO] Loaded 17846 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-02-21 16:50:44,709 [INFO] Table exists
+2024-02-21 16:50:50,966 [INFO] Loaded 17846 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-02-21 16:50:51,330 [INFO] Table exists
+2024-02-21 16:50:58,737 [INFO] Loaded 105440 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-02-21 16:50:59,073 [INFO] Table exists
+2024-02-21 16:51:06,886 [INFO] Loaded 18357 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-02-21 16:51:06,891 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 16:51:06,892 [INFO] Gathering news articles from bildblog from 2023-08-01 to 2023-12-01
+2024-02-21 16:51:06,892 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bildblog&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de
+2024-02-21 16:51:07,704 [INFO] Response: 200
+2024-02-21 16:51:07,704 [INFO] Gathering page 1 of 0
+2024-02-21 16:51:07,706 [INFO] No results for bildblog during your specified timeframe!
+2024-02-21 16:51:07,706 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 16:51:07,706 [INFO] Gathering news articles from freitag from 2023-08-01 to 2023-12-01
+2024-02-21 16:51:07,707 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=freitag&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de
+2024-02-21 16:51:09,192 [INFO] Response: 200
+2024-02-21 16:51:09,195 [INFO] Gathering page 1 of 14
+2024-02-21 16:51:09,197 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=freitag&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700756400315784201
+2024-02-21 16:51:10,542 [INFO] Response: 200
+2024-02-21 16:51:10,543 [INFO] Gathering page 2 of 14
+2024-02-21 16:51:10,544 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=freitag&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700067600736196339
+2024-02-21 16:51:11,860 [INFO] Response: 200
+2024-02-21 16:51:11,861 [INFO] Gathering page 3 of 14
+2024-02-21 16:51:11,862 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=freitag&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699373100055737840
+2024-02-21 16:51:13,208 [INFO] Response: 200
+2024-02-21 16:51:13,209 [INFO] Gathering page 4 of 14
+2024-02-21 16:51:13,212 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=freitag&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698634800891964923
+2024-02-21 16:51:14,543 [INFO] Response: 200
+2024-02-21 16:51:14,544 [INFO] Gathering page 5 of 14
+2024-02-21 16:51:14,545 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=freitag&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697803200131723790
+2024-02-21 16:51:15,864 [INFO] Response: 200
+2024-02-21 16:51:15,865 [INFO] Gathering page 6 of 14
+2024-02-21 16:51:15,865 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=freitag&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697198400599753862
+2024-02-21 16:51:17,660 [INFO] Response: 200
+2024-02-21 16:51:17,661 [INFO] Gathering page 7 of 14
+2024-02-21 16:51:17,663 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=freitag&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696492800751752587
+2024-02-21 16:51:19,003 [INFO] Response: 200
+2024-02-21 16:51:19,006 [INFO] Gathering page 8 of 14
+2024-02-21 16:51:19,008 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=freitag&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695822300819067787
+2024-02-21 16:51:20,341 [INFO] Response: 200
+2024-02-21 16:51:20,342 [INFO] Gathering page 9 of 14
+2024-02-21 16:51:20,344 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=freitag&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695200100911756924
+2024-02-21 16:51:21,966 [INFO] Response: 200
+2024-02-21 16:51:21,968 [INFO] Gathering page 10 of 14
+2024-02-21 16:51:21,969 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=freitag&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694433600750410892
+2024-02-21 16:51:23,587 [INFO] Response: 200
+2024-02-21 16:51:23,590 [INFO] Gathering page 11 of 14
+2024-02-21 16:51:23,591 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=freitag&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693706400726365208
+2024-02-21 16:51:25,213 [INFO] Response: 200
+2024-02-21 16:51:25,219 [INFO] Gathering page 12 of 14
+2024-02-21 16:51:25,221 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=freitag&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692792000918352908
+2024-02-21 16:51:26,835 [INFO] Response: 200
+2024-02-21 16:51:26,840 [INFO] Gathering page 13 of 14
+2024-02-21 16:51:26,842 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=freitag&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691760600999727162
+2024-02-21 16:51:28,354 [INFO] Response: 200
+2024-02-21 16:51:28,355 [INFO] Gathering page 14 of 14
+2024-02-21 16:51:28,357 [INFO] 
+Compiling 14 pages of results...
+2024-02-21 16:51:28,360 [INFO] All news articles gathered from freitag from 2023-08-01 to 2023-12-01!
+2024-02-21 16:51:28,360 [INFO] Processing tables...
+2024-02-21 16:51:28,460 [INFO] Tables have been processed.
+2024-02-21 16:51:28,460 [INFO] 
+Pushing results from freitag to Google BigQuery database...
+2024-02-21 16:51:29,236 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-21 16:51:29,568 [INFO] Table exists
+2024-02-21 16:51:37,554 [INFO] Loaded 18534 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-02-21 16:51:37,901 [INFO] Table exists
+2024-02-21 16:52:04,766 [INFO] Loaded 18534 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-02-21 16:52:05,168 [INFO] Table exists
+2024-02-21 16:52:11,143 [INFO] Loaded 106128 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-02-21 16:52:11,484 [INFO] Table exists
+2024-02-21 16:52:16,353 [INFO] Loaded 19070 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-02-21 16:52:16,354 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 16:52:16,354 [INFO] Gathering news articles from derwesten from 2023-08-01 to 2023-12-01
+2024-02-21 16:52:16,355 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de
+2024-02-21 16:52:17,732 [INFO] Response: 200
+2024-02-21 16:52:17,734 [INFO] Gathering page 1 of 139
+2024-02-21 16:52:17,736 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1701379149567736598
+2024-02-21 16:52:19,053 [INFO] Response: 200
+2024-02-21 16:52:19,054 [INFO] Gathering page 2 of 139
+2024-02-21 16:52:19,055 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1701352752282381401
+2024-02-21 16:52:20,441 [INFO] Response: 200
+2024-02-21 16:52:20,442 [INFO] Gathering page 3 of 139
+2024-02-21 16:52:20,443 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1701323949857334409
+2024-02-21 16:52:21,788 [INFO] Response: 200
+2024-02-21 16:52:21,790 [INFO] Gathering page 4 of 139
+2024-02-21 16:52:21,791 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1701289641338806647
+2024-02-21 16:52:23,133 [INFO] Response: 200
+2024-02-21 16:52:23,136 [INFO] Gathering page 5 of 139
+2024-02-21 16:52:23,137 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1701264009455172898
+2024-02-21 16:52:24,455 [INFO] Response: 200
+2024-02-21 16:52:24,457 [INFO] Gathering page 6 of 139
+2024-02-21 16:52:24,460 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1701238167620258043
+2024-02-21 16:52:25,802 [INFO] Response: 200
+2024-02-21 16:52:25,802 [INFO] Gathering page 7 of 139
+2024-02-21 16:52:25,803 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1701187149788389997
+2024-02-21 16:52:26,670 [INFO] Response: 200
+2024-02-21 16:52:26,672 [INFO] Gathering page 8 of 139
+2024-02-21 16:52:26,675 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1701087037463818323
+2024-02-21 16:52:27,553 [INFO] Response: 200
+2024-02-21 16:52:27,553 [INFO] Gathering page 9 of 139
+2024-02-21 16:52:27,554 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1701019028815401382
+2024-02-21 16:52:28,412 [INFO] Response: 200
+2024-02-21 16:52:28,414 [INFO] Gathering page 10 of 139
+2024-02-21 16:52:28,417 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700942477175725824
+2024-02-21 16:52:29,287 [INFO] Response: 200
+2024-02-21 16:52:29,288 [INFO] Gathering page 11 of 139
+2024-02-21 16:52:29,289 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700855149699749445
+2024-02-21 16:52:30,155 [INFO] Response: 200
+2024-02-21 16:52:30,157 [INFO] Gathering page 12 of 139
+2024-02-21 16:52:30,157 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700812747476653703
+2024-02-21 16:52:31,012 [INFO] Response: 200
+2024-02-21 16:52:31,013 [INFO] Gathering page 13 of 139
+2024-02-21 16:52:31,016 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700745867015768810
+2024-02-21 16:52:32,102 [INFO] Response: 200
+2024-02-21 16:52:32,103 [INFO] Gathering page 14 of 139
+2024-02-21 16:52:32,106 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700685559373735812
+2024-02-21 16:52:32,992 [INFO] Response: 200
+2024-02-21 16:52:32,993 [INFO] Gathering page 15 of 139
+2024-02-21 16:52:32,995 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700607796395763678
+2024-02-21 16:52:33,918 [INFO] Response: 200
+2024-02-21 16:52:33,919 [INFO] Gathering page 16 of 139
+2024-02-21 16:52:33,921 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700565547118632630
+2024-02-21 16:52:34,854 [INFO] Response: 200
+2024-02-21 16:52:34,855 [INFO] Gathering page 17 of 139
+2024-02-21 16:52:34,858 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700496022415823007
+2024-02-21 16:52:35,846 [INFO] Response: 200
+2024-02-21 16:52:35,848 [INFO] Gathering page 18 of 139
+2024-02-21 16:52:35,851 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700429630795149247
+2024-02-21 16:52:36,975 [INFO] Response: 200
+2024-02-21 16:52:36,975 [INFO] Gathering page 19 of 139
+2024-02-21 16:52:36,976 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700334932383714349
+2024-02-21 16:52:37,858 [INFO] Response: 200
+2024-02-21 16:52:37,859 [INFO] Gathering page 20 of 139
+2024-02-21 16:52:37,918 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700299919787614055
+2024-02-21 16:52:38,779 [INFO] Response: 200
+2024-02-21 16:52:38,781 [INFO] Gathering page 21 of 139
+2024-02-21 16:52:38,783 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700226782008072004
+2024-02-21 16:52:39,659 [INFO] Response: 200
+2024-02-21 16:52:39,661 [INFO] Gathering page 22 of 139
+2024-02-21 16:52:39,663 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700078799915753573
+2024-02-21 16:52:40,530 [INFO] Response: 200
+2024-02-21 16:52:40,531 [INFO] Gathering page 23 of 139
+2024-02-21 16:52:40,534 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700046929355780412
+2024-02-21 16:52:41,893 [INFO] Response: 200
+2024-02-21 16:52:41,894 [INFO] Gathering page 24 of 139
+2024-02-21 16:52:41,895 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699986950527754787
+2024-02-21 16:52:43,181 [INFO] Response: 200
+2024-02-21 16:52:43,182 [INFO] Gathering page 25 of 139
+2024-02-21 16:52:43,184 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699912304867851102
+2024-02-21 16:52:44,279 [INFO] Response: 200
+2024-02-21 16:52:44,281 [INFO] Gathering page 26 of 139
+2024-02-21 16:52:44,283 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699857017947429740
+2024-02-21 16:52:45,377 [INFO] Response: 200
+2024-02-21 16:52:45,379 [INFO] Gathering page 27 of 139
+2024-02-21 16:52:45,382 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699740616738498620
+2024-02-21 16:52:46,239 [INFO] Response: 200
+2024-02-21 16:52:46,240 [INFO] Gathering page 28 of 139
+2024-02-21 16:52:46,241 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699707596207743700
+2024-02-21 16:52:47,098 [INFO] Response: 200
+2024-02-21 16:52:47,099 [INFO] Gathering page 29 of 139
+2024-02-21 16:52:47,102 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699634748155644382
+2024-02-21 16:52:47,976 [INFO] Response: 200
+2024-02-21 16:52:47,976 [INFO] Gathering page 30 of 139
+2024-02-21 16:52:47,978 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699566315611706047
+2024-02-21 16:52:48,854 [INFO] Response: 200
+2024-02-21 16:52:48,855 [INFO] Gathering page 31 of 139
+2024-02-21 16:52:48,856 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699548350998737106
+2024-02-21 16:52:49,734 [INFO] Response: 200
+2024-02-21 16:52:49,735 [INFO] Gathering page 32 of 139
+2024-02-21 16:52:49,737 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699480824603755920
+2024-02-21 16:52:50,605 [INFO] Response: 200
+2024-02-21 16:52:50,606 [INFO] Gathering page 33 of 139
+2024-02-21 16:52:50,609 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699446566787999205
+2024-02-21 16:52:51,480 [INFO] Response: 200
+2024-02-21 16:52:51,482 [INFO] Gathering page 34 of 139
+2024-02-21 16:52:51,484 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699385846195024686
+2024-02-21 16:52:52,553 [INFO] Response: 200
+2024-02-21 16:52:52,555 [INFO] Gathering page 35 of 139
+2024-02-21 16:52:52,558 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699342665011266820
+2024-02-21 16:52:53,427 [INFO] Response: 200
+2024-02-21 16:52:53,427 [INFO] Gathering page 36 of 139
+2024-02-21 16:52:53,428 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699285499772724798
+2024-02-21 16:52:54,290 [INFO] Response: 200
+2024-02-21 16:52:54,291 [INFO] Gathering page 37 of 139
+2024-02-21 16:52:54,292 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699248654094071080
+2024-02-21 16:52:55,231 [INFO] Response: 200
+2024-02-21 16:52:55,233 [INFO] Gathering page 38 of 139
+2024-02-21 16:52:55,236 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699117828706994703
+2024-02-21 16:52:56,102 [INFO] Response: 200
+2024-02-21 16:52:56,103 [INFO] Gathering page 39 of 139
+2024-02-21 16:52:56,106 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699029586760440987
+2024-02-21 16:52:57,225 [INFO] Response: 200
+2024-02-21 16:52:57,226 [INFO] Gathering page 40 of 139
+2024-02-21 16:52:57,226 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698958845154778448
+2024-02-21 16:52:58,125 [INFO] Response: 200
+2024-02-21 16:52:58,126 [INFO] Gathering page 41 of 139
+2024-02-21 16:52:58,126 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698906441066442030
+2024-02-21 16:52:59,230 [INFO] Response: 200
+2024-02-21 16:52:59,231 [INFO] Gathering page 42 of 139
+2024-02-21 16:52:59,233 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698853767535382847
+2024-02-21 16:53:00,101 [INFO] Response: 200
+2024-02-21 16:53:00,101 [INFO] Gathering page 43 of 139
+2024-02-21 16:53:00,103 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698777084138332330
+2024-02-21 16:53:01,257 [INFO] Response: 200
+2024-02-21 16:53:01,257 [INFO] Gathering page 44 of 139
+2024-02-21 16:53:01,258 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698738205359881333
+2024-02-21 16:53:02,368 [INFO] Response: 200
+2024-02-21 16:53:02,371 [INFO] Gathering page 45 of 139
+2024-02-21 16:53:02,374 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698679788861530171
+2024-02-21 16:53:03,348 [INFO] Response: 200
+2024-02-21 16:53:03,350 [INFO] Gathering page 46 of 139
+2024-02-21 16:53:03,351 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698603594750572873
+2024-02-21 16:53:04,254 [INFO] Response: 200
+2024-02-21 16:53:04,256 [INFO] Gathering page 47 of 139
+2024-02-21 16:53:04,258 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698512616111312643
+2024-02-21 16:53:05,420 [INFO] Response: 200
+2024-02-21 16:53:05,422 [INFO] Gathering page 48 of 139
+2024-02-21 16:53:05,425 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698475347547716691
+2024-02-21 16:53:06,311 [INFO] Response: 200
+2024-02-21 16:53:06,312 [INFO] Gathering page 49 of 139
+2024-02-21 16:53:06,313 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698420947298432344
+2024-02-21 16:53:07,207 [INFO] Response: 200
+2024-02-21 16:53:07,207 [INFO] Gathering page 50 of 139
+2024-02-21 16:53:07,208 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698384136115729160
+2024-02-21 16:53:08,068 [INFO] Response: 200
+2024-02-21 16:53:08,069 [INFO] Gathering page 51 of 139
+2024-02-21 16:53:08,069 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698340734379775443
+2024-02-21 16:53:09,144 [INFO] Response: 200
+2024-02-21 16:53:09,145 [INFO] Gathering page 52 of 139
+2024-02-21 16:53:09,145 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698227638967708292
+2024-02-21 16:53:10,214 [INFO] Response: 200
+2024-02-21 16:53:10,215 [INFO] Gathering page 53 of 139
+2024-02-21 16:53:10,217 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698149301263003335
+2024-02-21 16:53:11,281 [INFO] Response: 200
+2024-02-21 16:53:11,284 [INFO] Gathering page 54 of 139
+2024-02-21 16:53:11,286 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698079045575723419
+2024-02-21 16:53:12,148 [INFO] Response: 200
+2024-02-21 16:53:12,149 [INFO] Gathering page 55 of 139
+2024-02-21 16:53:12,151 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697999880875604472
+2024-02-21 16:53:13,018 [INFO] Response: 200
+2024-02-21 16:53:13,019 [INFO] Gathering page 56 of 139
+2024-02-21 16:53:13,022 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697968097582450950
+2024-02-21 16:53:13,874 [INFO] Response: 200
+2024-02-21 16:53:13,876 [INFO] Gathering page 57 of 139
+2024-02-21 16:53:13,877 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697901768842926389
+2024-02-21 16:53:14,965 [INFO] Response: 200
+2024-02-21 16:53:14,967 [INFO] Gathering page 58 of 139
+2024-02-21 16:53:14,969 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697810422091907878
+2024-02-21 16:53:15,833 [INFO] Response: 200
+2024-02-21 16:53:15,833 [INFO] Gathering page 59 of 139
+2024-02-21 16:53:15,834 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697718712038972495
+2024-02-21 16:53:16,725 [INFO] Response: 200
+2024-02-21 16:53:16,726 [INFO] Gathering page 60 of 139
+2024-02-21 16:53:16,727 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697656128187737320
+2024-02-21 16:53:17,587 [INFO] Response: 200
+2024-02-21 16:53:17,589 [INFO] Gathering page 61 of 139
+2024-02-21 16:53:17,591 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697618971503723280
+2024-02-21 16:53:18,469 [INFO] Response: 200
+2024-02-21 16:53:18,471 [INFO] Gathering page 62 of 139
+2024-02-21 16:53:18,473 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697552904454615545
+2024-02-21 16:53:19,376 [INFO] Response: 200
+2024-02-21 16:53:19,377 [INFO] Gathering page 63 of 139
+2024-02-21 16:53:19,380 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697520636616922025
+2024-02-21 16:53:20,247 [INFO] Response: 200
+2024-02-21 16:53:20,247 [INFO] Gathering page 64 of 139
+2024-02-21 16:53:20,249 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697400065541350261
+2024-02-21 16:53:21,314 [INFO] Response: 200
+2024-02-21 16:53:21,316 [INFO] Gathering page 65 of 139
+2024-02-21 16:53:21,318 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697355308603709212
+2024-02-21 16:53:26,826 [INFO] Response: 200
+2024-02-21 16:53:26,827 [INFO] Gathering page 66 of 139
+2024-02-21 16:53:26,830 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697292678995764618
+2024-02-21 16:53:30,454 [INFO] Response: 200
+2024-02-21 16:53:30,455 [INFO] Gathering page 67 of 139
+2024-02-21 16:53:30,458 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697217810303037260
+2024-02-21 16:53:31,370 [INFO] Response: 200
+2024-02-21 16:53:31,372 [INFO] Gathering page 68 of 139
+2024-02-21 16:53:31,373 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697170652647592359
+2024-02-21 16:53:32,543 [INFO] Response: 200
+2024-02-21 16:53:32,545 [INFO] Gathering page 69 of 139
+2024-02-21 16:53:32,548 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697129113187781899
+2024-02-21 16:53:33,667 [INFO] Response: 200
+2024-02-21 16:53:33,667 [INFO] Gathering page 70 of 139
+2024-02-21 16:53:33,668 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696829573508772548
+2024-02-21 16:53:34,838 [INFO] Response: 200
+2024-02-21 16:53:34,839 [INFO] Gathering page 71 of 139
+2024-02-21 16:53:34,840 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696707351495037059
+2024-02-21 16:53:35,749 [INFO] Response: 200
+2024-02-21 16:53:35,750 [INFO] Gathering page 72 of 139
+2024-02-21 16:53:35,754 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696657160598941952
+2024-02-21 16:53:36,634 [INFO] Response: 200
+2024-02-21 16:53:36,635 [INFO] Gathering page 73 of 139
+2024-02-21 16:53:36,636 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696592216649760353
+2024-02-21 16:53:37,521 [INFO] Response: 200
+2024-02-21 16:53:37,523 [INFO] Gathering page 74 of 139
+2024-02-21 16:53:37,525 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696528359508633718
+2024-02-21 16:53:38,719 [INFO] Response: 200
+2024-02-21 16:53:38,720 [INFO] Gathering page 75 of 139
+2024-02-21 16:53:38,722 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696395803027754273
+2024-02-21 16:53:39,642 [INFO] Response: 200
+2024-02-21 16:53:39,644 [INFO] Gathering page 76 of 139
+2024-02-21 16:53:39,646 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696323463855240508
+2024-02-21 16:53:40,526 [INFO] Response: 200
+2024-02-21 16:53:40,527 [INFO] Gathering page 77 of 139
+2024-02-21 16:53:40,528 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696244093711773011
+2024-02-21 16:53:41,620 [INFO] Response: 200
+2024-02-21 16:53:41,622 [INFO] Gathering page 78 of 139
+2024-02-21 16:53:41,624 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696164302575733227
+2024-02-21 16:53:42,501 [INFO] Response: 200
+2024-02-21 16:53:42,502 [INFO] Gathering page 79 of 139
+2024-02-21 16:53:42,503 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696088399783271353
+2024-02-21 16:53:43,399 [INFO] Response: 200
+2024-02-21 16:53:43,400 [INFO] Gathering page 80 of 139
+2024-02-21 16:53:43,402 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695999515259983366
+2024-02-21 16:53:44,272 [INFO] Response: 200
+2024-02-21 16:53:44,274 [INFO] Gathering page 81 of 139
+2024-02-21 16:53:44,276 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695920003256396439
+2024-02-21 16:53:45,404 [INFO] Response: 200
+2024-02-21 16:53:45,405 [INFO] Gathering page 82 of 139
+2024-02-21 16:53:45,408 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695875429180435957
+2024-02-21 16:53:46,493 [INFO] Response: 200
+2024-02-21 16:53:46,495 [INFO] Gathering page 83 of 139
+2024-02-21 16:53:46,497 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695807069419729785
+2024-02-21 16:53:47,565 [INFO] Response: 200
+2024-02-21 16:53:47,567 [INFO] Gathering page 84 of 139
+2024-02-21 16:53:47,570 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695740860839985510
+2024-02-21 16:53:48,640 [INFO] Response: 200
+2024-02-21 16:53:48,642 [INFO] Gathering page 85 of 139
+2024-02-21 16:53:48,644 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695713809859803323
+2024-02-21 16:53:49,724 [INFO] Response: 200
+2024-02-21 16:53:49,725 [INFO] Gathering page 86 of 139
+2024-02-21 16:53:49,726 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695658054891787639
+2024-02-21 16:53:50,845 [INFO] Response: 200
+2024-02-21 16:53:50,847 [INFO] Gathering page 87 of 139
+2024-02-21 16:53:50,848 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695583589861391706
+2024-02-21 16:53:51,718 [INFO] Response: 200
+2024-02-21 16:53:51,719 [INFO] Gathering page 88 of 139
+2024-02-21 16:53:51,719 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695498402244835255
+2024-02-21 16:53:52,593 [INFO] Response: 200
+2024-02-21 16:53:52,594 [INFO] Gathering page 89 of 139
+2024-02-21 16:53:52,597 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695411084575757386
+2024-02-21 16:53:53,460 [INFO] Response: 200
+2024-02-21 16:53:53,461 [INFO] Gathering page 90 of 139
+2024-02-21 16:53:53,464 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695373340575931451
+2024-02-21 16:53:54,399 [INFO] Response: 200
+2024-02-21 16:53:54,400 [INFO] Gathering page 91 of 139
+2024-02-21 16:53:54,401 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695274048070792511
+2024-02-21 16:53:55,280 [INFO] Response: 200
+2024-02-21 16:53:55,281 [INFO] Gathering page 92 of 139
+2024-02-21 16:53:55,282 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695135628174241462
+2024-02-21 16:53:56,391 [INFO] Response: 200
+2024-02-21 16:53:56,392 [INFO] Gathering page 93 of 139
+2024-02-21 16:53:56,395 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695096271117730637
+2024-02-21 16:53:57,485 [INFO] Response: 200
+2024-02-21 16:53:57,487 [INFO] Gathering page 94 of 139
+2024-02-21 16:53:57,490 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695046805864713820
+2024-02-21 16:53:58,391 [INFO] Response: 200
+2024-02-21 16:53:58,393 [INFO] Gathering page 95 of 139
+2024-02-21 16:53:58,396 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694966425789618660
+2024-02-21 16:53:59,267 [INFO] Response: 200
+2024-02-21 16:53:59,267 [INFO] Gathering page 96 of 139
+2024-02-21 16:53:59,268 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694882526663676842
+2024-02-21 16:54:00,374 [INFO] Response: 200
+2024-02-21 16:54:00,376 [INFO] Gathering page 97 of 139
+2024-02-21 16:54:00,379 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694800863571509589
+2024-02-21 16:54:01,618 [INFO] Response: 200
+2024-02-21 16:54:01,620 [INFO] Gathering page 98 of 139
+2024-02-21 16:54:01,621 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694712460987726205
+2024-02-21 16:54:03,644 [INFO] Response: 200
+2024-02-21 16:54:03,645 [INFO] Gathering page 99 of 139
+2024-02-21 16:54:03,648 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694628604075984105
+2024-02-21 16:54:04,781 [INFO] Response: 200
+2024-02-21 16:54:04,783 [INFO] Gathering page 100 of 139
+2024-02-21 16:54:04,786 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694539916824917965
+2024-02-21 16:54:05,899 [INFO] Response: 200
+2024-02-21 16:54:05,902 [INFO] Gathering page 101 of 139
+2024-02-21 16:54:05,904 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694409475323736309
+2024-02-21 16:54:07,023 [INFO] Response: 200
+2024-02-21 16:54:07,025 [INFO] Gathering page 102 of 139
+2024-02-21 16:54:07,028 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694327225422461955
+2024-02-21 16:54:08,156 [INFO] Response: 200
+2024-02-21 16:54:08,156 [INFO] Gathering page 103 of 139
+2024-02-21 16:54:08,157 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694206619723936739
+2024-02-21 16:54:09,539 [INFO] Response: 200
+2024-02-21 16:54:09,541 [INFO] Gathering page 104 of 139
+2024-02-21 16:54:09,543 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694109477591772221
+2024-02-21 16:54:10,670 [INFO] Response: 200
+2024-02-21 16:54:10,672 [INFO] Gathering page 105 of 139
+2024-02-21 16:54:10,673 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694017470822788571
+2024-02-21 16:54:12,342 [INFO] Response: 200
+2024-02-21 16:54:12,344 [INFO] Gathering page 106 of 139
+2024-02-21 16:54:12,347 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693930895287742994
+2024-02-21 16:54:13,402 [INFO] Response: 200
+2024-02-21 16:54:13,403 [INFO] Gathering page 107 of 139
+2024-02-21 16:54:13,404 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693857515514913315
+2024-02-21 16:54:14,797 [INFO] Response: 200
+2024-02-21 16:54:14,799 [INFO] Gathering page 108 of 139
+2024-02-21 16:54:14,802 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693667034075745336
+2024-02-21 16:54:16,134 [INFO] Response: 200
+2024-02-21 16:54:16,135 [INFO] Gathering page 109 of 139
+2024-02-21 16:54:16,136 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693507404884060545
+2024-02-21 16:54:17,336 [INFO] Response: 200
+2024-02-21 16:54:17,339 [INFO] Gathering page 110 of 139
+2024-02-21 16:54:17,342 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693428853354171883
+2024-02-21 16:54:18,458 [INFO] Response: 200
+2024-02-21 16:54:18,460 [INFO] Gathering page 111 of 139
+2024-02-21 16:54:18,462 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693341658499873329
+2024-02-21 16:54:19,839 [INFO] Response: 200
+2024-02-21 16:54:19,841 [INFO] Gathering page 112 of 139
+2024-02-21 16:54:19,842 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693242674859765772
+2024-02-21 16:54:21,158 [INFO] Response: 200
+2024-02-21 16:54:21,160 [INFO] Gathering page 113 of 139
+2024-02-21 16:54:21,163 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693195718739463995
+2024-02-21 16:54:22,496 [INFO] Response: 200
+2024-02-21 16:54:22,499 [INFO] Gathering page 114 of 139
+2024-02-21 16:54:22,501 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693121804579786444
+2024-02-21 16:54:23,817 [INFO] Response: 200
+2024-02-21 16:54:23,817 [INFO] Gathering page 115 of 139
+2024-02-21 16:54:23,818 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692992627632616666
+2024-02-21 16:54:25,134 [INFO] Response: 200
+2024-02-21 16:54:25,135 [INFO] Gathering page 116 of 139
+2024-02-21 16:54:25,135 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692891499772504028
+2024-02-21 16:54:26,247 [INFO] Response: 200
+2024-02-21 16:54:26,249 [INFO] Gathering page 117 of 139
+2024-02-21 16:54:26,252 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692799332847704178
+2024-02-21 16:54:27,827 [INFO] Response: 200
+2024-02-21 16:54:27,829 [INFO] Gathering page 118 of 139
+2024-02-21 16:54:27,831 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692727107839938498
+2024-02-21 16:54:29,175 [INFO] Response: 200
+2024-02-21 16:54:29,176 [INFO] Gathering page 119 of 139
+2024-02-21 16:54:29,176 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692654425687740149
+2024-02-21 16:54:30,488 [INFO] Response: 200
+2024-02-21 16:54:30,489 [INFO] Gathering page 120 of 139
+2024-02-21 16:54:30,490 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692616818183719135
+2024-02-21 16:54:31,801 [INFO] Response: 200
+2024-02-21 16:54:31,803 [INFO] Gathering page 121 of 139
+2024-02-21 16:54:31,804 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692477848228966826
+2024-02-21 16:54:33,175 [INFO] Response: 200
+2024-02-21 16:54:33,176 [INFO] Gathering page 122 of 139
+2024-02-21 16:54:33,177 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692390598883740554
+2024-02-21 16:54:34,244 [INFO] Response: 200
+2024-02-21 16:54:34,246 [INFO] Gathering page 123 of 139
+2024-02-21 16:54:34,248 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692331969735751833
+2024-02-21 16:54:35,617 [INFO] Response: 200
+2024-02-21 16:54:35,619 [INFO] Gathering page 124 of 139
+2024-02-21 16:54:35,622 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692122202143835305
+2024-02-21 16:54:36,941 [INFO] Response: 200
+2024-02-21 16:54:36,943 [INFO] Gathering page 125 of 139
+2024-02-21 16:54:36,945 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692080469415727656
+2024-02-21 16:54:38,230 [INFO] Response: 200
+2024-02-21 16:54:38,232 [INFO] Gathering page 126 of 139
+2024-02-21 16:54:38,235 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1692004893245922089
+2024-02-21 16:54:39,548 [INFO] Response: 200
+2024-02-21 16:54:39,551 [INFO] Gathering page 127 of 139
+2024-02-21 16:54:39,553 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691869232047723559
+2024-02-21 16:54:40,842 [INFO] Response: 200
+2024-02-21 16:54:40,845 [INFO] Gathering page 128 of 139
+2024-02-21 16:54:40,847 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691820052812739939
+2024-02-21 16:54:42,175 [INFO] Response: 200
+2024-02-21 16:54:42,177 [INFO] Gathering page 129 of 139
+2024-02-21 16:54:42,180 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691752321948820726
+2024-02-21 16:54:43,522 [INFO] Response: 200
+2024-02-21 16:54:43,522 [INFO] Gathering page 130 of 139
+2024-02-21 16:54:43,523 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691528196589737741
+2024-02-21 16:54:44,823 [INFO] Response: 200
+2024-02-21 16:54:44,824 [INFO] Gathering page 131 of 139
+2024-02-21 16:54:44,824 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691480142303744402
+2024-02-21 16:54:46,483 [INFO] Response: 200
+2024-02-21 16:54:46,485 [INFO] Gathering page 132 of 139
+2024-02-21 16:54:46,486 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691410622607475759
+2024-02-21 16:54:47,798 [INFO] Response: 200
+2024-02-21 16:54:47,799 [INFO] Gathering page 133 of 139
+2024-02-21 16:54:47,799 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691269414434121912
+2024-02-21 16:54:49,139 [INFO] Response: 200
+2024-02-21 16:54:49,140 [INFO] Gathering page 134 of 139
+2024-02-21 16:54:49,140 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691233167239748341
+2024-02-21 16:54:50,502 [INFO] Response: 200
+2024-02-21 16:54:50,504 [INFO] Gathering page 135 of 139
+2024-02-21 16:54:50,505 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691094933991837130
+2024-02-21 16:54:51,828 [INFO] Response: 200
+2024-02-21 16:54:51,831 [INFO] Gathering page 136 of 139
+2024-02-21 16:54:51,833 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1691007438895784747
+2024-02-21 16:54:53,121 [INFO] Response: 200
+2024-02-21 16:54:53,123 [INFO] Gathering page 137 of 139
+2024-02-21 16:54:53,124 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1690967564315146157
+2024-02-21 16:54:54,433 [INFO] Response: 200
+2024-02-21 16:54:54,435 [INFO] Gathering page 138 of 139
+2024-02-21 16:54:54,437 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1690902607942486069
+2024-02-21 16:54:55,555 [INFO] Response: 200
+2024-02-21 16:54:55,556 [INFO] Gathering page 139 of 139
+2024-02-21 16:54:55,558 [INFO] 
+Compiling 139 pages of results...
+2024-02-21 16:54:55,568 [INFO] All news articles gathered from derwesten from 2023-08-01 to 2023-12-01!
+2024-02-21 16:54:55,568 [INFO] Processing tables...
+2024-02-21 16:54:55,875 [INFO] Tables have been processed.
+2024-02-21 16:54:55,875 [INFO] 
+Pushing results from derwesten to Google BigQuery database...
+2024-02-21 16:54:56,633 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-21 16:54:57,106 [INFO] Table exists
+2024-02-21 16:55:09,582 [INFO] Loaded 25460 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de
+2024-02-21 16:55:09,928 [INFO] Table exists
+2024-02-21 16:55:15,118 [INFO] Loaded 25460 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_categories
+2024-02-21 16:55:15,453 [INFO] Table exists
+2024-02-21 16:55:21,294 [INFO] Loaded 119307 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_keywords
+2024-02-21 16:55:21,650 [INFO] Table exists
+2024-02-21 16:55:27,449 [INFO] Loaded 25996 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_de_creators
+2024-02-21 16:55:27,451 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 16:55:27,452 [INFO] Gathering news articles from dw from 2023-08-01 to 2023-12-01
+2024-02-21 16:55:27,452 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=dw&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de
+2024-02-21 16:55:29,029 [INFO] Response: 200
+2024-02-21 16:55:29,031 [INFO] Gathering page 1 of 24
+2024-02-21 16:55:29,031 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=dw&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1701106380653731678
+2024-02-21 16:55:30,357 [INFO] Response: 200
+2024-02-21 16:55:30,358 [INFO] Gathering page 2 of 24
+2024-02-21 16:55:30,359 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=dw&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700494980568014499
+2024-02-21 16:55:31,442 [INFO] Response: 200
+2024-02-21 16:55:31,443 [INFO] Gathering page 3 of 24
+2024-02-21 16:55:31,444 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=dw&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1700039820315201808
+2024-02-21 16:55:32,326 [INFO] Response: 200
+2024-02-21 16:55:32,327 [INFO] Gathering page 4 of 24
+2024-02-21 16:55:32,335 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=dw&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1699457040986160978
+2024-02-21 16:55:33,201 [INFO] Response: 200
+2024-02-21 16:55:33,203 [INFO] Gathering page 5 of 24
+2024-02-21 16:55:33,206 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=dw&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698969600315700737
+2024-02-21 16:55:34,333 [INFO] Response: 200
+2024-02-21 16:55:34,334 [INFO] Gathering page 6 of 24
+2024-02-21 16:55:34,335 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=dw&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1698259980434262645
+2024-02-21 16:55:35,539 [INFO] Response: 200
+2024-02-21 16:55:35,539 [INFO] Gathering page 7 of 24
+2024-02-21 16:55:35,540 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=dw&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697798100836684435
+2024-02-21 16:55:36,414 [INFO] Response: 200
+2024-02-21 16:55:36,415 [INFO] Gathering page 8 of 24
+2024-02-21 16:55:36,415 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=dw&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1697190660077743927
+2024-02-21 16:55:37,295 [INFO] Response: 200
+2024-02-21 16:55:37,296 [INFO] Gathering page 9 of 24
+2024-02-21 16:55:37,297 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=dw&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696638480696083402
+2024-02-21 16:55:38,159 [INFO] Response: 200
+2024-02-21 16:55:38,161 [INFO] Gathering page 10 of 24
+2024-02-21 16:55:38,163 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=dw&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1696208400636917705
+2024-02-21 16:55:39,045 [INFO] Response: 200
+2024-02-21 16:55:39,046 [INFO] Gathering page 11 of 24
+2024-02-21 16:55:39,048 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=dw&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695738660671699422
+2024-02-21 16:55:39,982 [INFO] Response: 200
+2024-02-21 16:55:39,983 [INFO] Gathering page 12 of 24
+2024-02-21 16:55:39,986 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=dw&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1695298980959563988
+2024-02-21 16:55:40,846 [INFO] Response: 200
+2024-02-21 16:55:40,848 [INFO] Gathering page 13 of 24
+2024-02-21 16:55:40,851 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=dw&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694861100207071752
+2024-02-21 16:55:41,712 [INFO] Response: 200
+2024-02-21 16:55:41,713 [INFO] Gathering page 14 of 24
+2024-02-21 16:55:41,716 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=dw&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694509140610063613
+2024-02-21 16:55:42,636 [INFO] Response: 200
+2024-02-21 16:55:42,638 [INFO] Gathering page 15 of 24
+2024-02-21 16:55:42,641 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=dw&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1694109720408764789
+2024-02-21 16:55:43,588 [INFO] Response: 200
+2024-02-21 16:55:43,590 [INFO] Gathering page 16 of 24
+2024-02-21 16:55:43,593 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=dw&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693735740270796482
+2024-02-21 16:55:44,513 [INFO] Response: 200
+2024-02-21 16:55:44,514 [INFO] Gathering page 17 of 24
+2024-02-21 16:55:44,517 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=dw&language=de&from_date=2023-08-01&to_date=2023-12-01&country=de&page=1693313040484513340
+2024-02-21 16:55:45,173 [INFO] Response: 429
+2024-02-21 16:55:45,173 [INFO] 'totalResults'
+2024-02-21 16:55:45,174 [INFO] 
+Gather complete!

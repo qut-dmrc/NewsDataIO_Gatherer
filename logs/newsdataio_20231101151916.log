@@ -1,0 +1,997 @@
+2023-11-01 15:19:16,343 [INFO] Starting News Gatherer
+2023-11-01 15:19:16,344 [INFO] Collecting news content from 31 domains.
+2023-11-01 15:19:16,344 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-11-01 15:19:16,344 [INFO] Gathering news articles from abc_net from 2023-09-01 to 2023-10-01
+2023-11-01 15:19:16,344 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au
+2023-11-01 15:19:18,223 [INFO] Response: 200
+2023-11-01 15:19:18,224 [INFO] Gathering page 1 of 8
+2023-11-01 15:19:18,227 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695803470394564487
+2023-11-01 15:19:21,091 [INFO] Response: 200
+2023-11-01 15:19:21,092 [INFO] Gathering page 2 of 8
+2023-11-01 15:19:21,093 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695427484605290203
+2023-11-01 15:19:22,210 [INFO] Response: 200
+2023-11-01 15:19:22,210 [INFO] Gathering page 3 of 8
+2023-11-01 15:19:22,211 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695120997711886264
+2023-11-01 15:19:23,546 [INFO] Response: 200
+2023-11-01 15:19:23,546 [INFO] Gathering page 4 of 8
+2023-11-01 15:19:23,547 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694812747241912832
+2023-11-01 15:19:25,671 [INFO] Response: 200
+2023-11-01 15:19:25,672 [INFO] Gathering page 5 of 8
+2023-11-01 15:19:25,673 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694464096673275905
+2023-11-01 15:19:26,983 [INFO] Response: 200
+2023-11-01 15:19:26,983 [INFO] Gathering page 6 of 8
+2023-11-01 15:19:26,984 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694161810038984152
+2023-11-01 15:19:28,108 [INFO] Response: 200
+2023-11-01 15:19:28,109 [INFO] Gathering page 7 of 8
+2023-11-01 15:19:28,109 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1693783023997978228
+2023-11-01 15:19:30,718 [INFO] Response: 200
+2023-11-01 15:19:30,718 [INFO] Gathering page 8 of 8
+2023-11-01 15:19:30,719 [INFO] 
+Compiling 8 pages of results...
+2023-11-01 15:19:30,730 [INFO] All news articles gathered from abc_net from 2023-09-01 to 2023-10-01!
+2023-11-01 15:19:30,730 [INFO] Processing tables...
+2023-11-01 15:19:30,779 [INFO] Tables have been processed.
+2023-11-01 15:19:30,779 [INFO] 
+Pushing results from abc_net to Google BigQuery database...
+2023-11-01 15:19:32,018 [INFO] Dataset dmrc-data.newsdataio already exists
+2023-11-01 15:19:32,772 [INFO] Created table dmrc-data.newsdataio.newsdata_oct2023_au
+2023-11-01 15:19:42,393 [INFO] Loaded 378 rows and 12 columns to dmrc-data.newsdataio.newsdata_oct2023_au
+2023-11-01 15:19:43,118 [INFO] Created table dmrc-data.newsdataio.newsdata_oct2023_au_categories
+2023-11-01 15:19:47,780 [INFO] Loaded 378 rows and 2 columns to dmrc-data.newsdataio.newsdata_oct2023_au_categories
+2023-11-01 15:19:48,586 [INFO] Created table dmrc-data.newsdataio.newsdata_oct2023_au_keywords
+2023-11-01 15:19:56,099 [INFO] Loaded 1150 rows and 2 columns to dmrc-data.newsdataio.newsdata_oct2023_au_keywords
+2023-11-01 15:19:56,813 [INFO] Created table dmrc-data.newsdataio.newsdata_oct2023_au_creators
+2023-11-01 15:20:05,004 [INFO] Loaded 418 rows and 2 columns to dmrc-data.newsdataio.newsdata_oct2023_au_creators
+2023-11-01 15:20:05,004 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-11-01 15:20:05,004 [INFO] Gathering news articles from canberratimes from 2023-09-01 to 2023-10-01
+2023-11-01 15:20:05,004 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=canberratimes&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au
+2023-11-01 15:20:06,377 [INFO] Response: 200
+2023-11-01 15:20:06,378 [INFO] Gathering page 1 of 5
+2023-11-01 15:20:06,379 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=canberratimes&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695243600467833662
+2023-11-01 15:20:07,669 [INFO] Response: 200
+2023-11-01 15:20:07,670 [INFO] Gathering page 2 of 5
+2023-11-01 15:20:07,670 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=canberratimes&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694734800743786250
+2023-11-01 15:20:08,750 [INFO] Response: 200
+2023-11-01 15:20:08,750 [INFO] Gathering page 3 of 5
+2023-11-01 15:20:08,751 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=canberratimes&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694287800927912412
+2023-11-01 15:20:10,086 [INFO] Response: 200
+2023-11-01 15:20:10,087 [INFO] Gathering page 4 of 5
+2023-11-01 15:20:10,088 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=canberratimes&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1693600200411739665
+2023-11-01 15:20:11,204 [INFO] Response: 200
+2023-11-01 15:20:11,204 [INFO] Gathering page 5 of 5
+2023-11-01 15:20:11,205 [INFO] 
+Compiling 5 pages of results...
+2023-11-01 15:20:11,205 [INFO] All news articles gathered from canberratimes from 2023-09-01 to 2023-10-01!
+2023-11-01 15:20:11,205 [INFO] Processing tables...
+2023-11-01 15:20:11,232 [INFO] Tables have been processed.
+2023-11-01 15:20:11,232 [INFO] 
+Pushing results from canberratimes to Google BigQuery database...
+2023-11-01 15:20:12,015 [INFO] Dataset dmrc-data.newsdataio already exists
+2023-11-01 15:20:12,350 [INFO] Table exists
+2023-11-01 15:20:18,064 [INFO] Loaded 591 rows and 12 columns to dmrc-data.newsdataio.newsdata_oct2023_au
+2023-11-01 15:20:18,520 [INFO] Table exists
+2023-11-01 15:20:26,695 [INFO] Loaded 591 rows and 2 columns to dmrc-data.newsdataio.newsdata_oct2023_au_categories
+2023-11-01 15:20:27,043 [INFO] Table exists
+2023-11-01 15:20:31,743 [INFO] Loaded 1363 rows and 2 columns to dmrc-data.newsdataio.newsdata_oct2023_au_keywords
+2023-11-01 15:20:32,056 [INFO] Table exists
+2023-11-01 15:20:36,427 [INFO] Loaded 639 rows and 2 columns to dmrc-data.newsdataio.newsdata_oct2023_au_creators
+2023-11-01 15:20:36,427 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-11-01 15:20:36,427 [INFO] Gathering news articles from crikey from 2023-09-01 to 2023-10-01
+2023-11-01 15:20:36,427 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=crikey&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au
+2023-11-01 15:20:37,910 [INFO] Response: 200
+2023-11-01 15:20:37,911 [INFO] Gathering page 1 of 4
+2023-11-01 15:20:37,913 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=crikey&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695260994779780269
+2023-11-01 15:20:39,112 [INFO] Response: 200
+2023-11-01 15:20:39,113 [INFO] Gathering page 2 of 4
+2023-11-01 15:20:39,116 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=crikey&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694569793155856542
+2023-11-01 15:20:40,425 [INFO] Response: 200
+2023-11-01 15:20:40,426 [INFO] Gathering page 3 of 4
+2023-11-01 15:20:40,426 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=crikey&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1693877388146354353
+2023-11-01 15:20:41,451 [INFO] Response: 200
+2023-11-01 15:20:41,451 [INFO] Gathering page 4 of 4
+2023-11-01 15:20:41,452 [INFO] 
+Compiling 4 pages of results...
+2023-11-01 15:20:41,452 [INFO] All news articles gathered from crikey from 2023-09-01 to 2023-10-01!
+2023-11-01 15:20:41,452 [INFO] Processing tables...
+2023-11-01 15:20:41,479 [INFO] Tables have been processed.
+2023-11-01 15:20:41,479 [INFO] 
+Pushing results from crikey to Google BigQuery database...
+2023-11-01 15:20:42,322 [INFO] Dataset dmrc-data.newsdataio already exists
+2023-11-01 15:20:42,651 [INFO] Table exists
+2023-11-01 15:20:48,139 [INFO] Loaded 756 rows and 12 columns to dmrc-data.newsdataio.newsdata_oct2023_au
+2023-11-01 15:20:48,487 [INFO] Table exists
+2023-11-01 15:20:53,460 [INFO] Loaded 760 rows and 2 columns to dmrc-data.newsdataio.newsdata_oct2023_au_categories
+2023-11-01 15:20:53,795 [INFO] Table exists
+2023-11-01 15:20:59,462 [INFO] Loaded 3184 rows and 2 columns to dmrc-data.newsdataio.newsdata_oct2023_au_keywords
+2023-11-01 15:20:59,809 [INFO] Table exists
+2023-11-01 15:21:07,570 [INFO] Loaded 804 rows and 2 columns to dmrc-data.newsdataio.newsdata_oct2023_au_creators
+2023-11-01 15:21:07,571 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-11-01 15:21:07,571 [INFO] Gathering news articles from theguardian from 2023-09-01 to 2023-10-01
+2023-11-01 15:21:07,571 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theguardian&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au
+2023-11-01 15:21:10,989 [INFO] Response: 200
+2023-11-01 15:21:10,990 [INFO] Gathering page 1 of 12
+2023-11-01 15:21:10,990 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theguardian&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695725126085546970
+2023-11-01 15:21:12,684 [INFO] Response: 200
+2023-11-01 15:21:12,685 [INFO] Gathering page 2 of 12
+2023-11-01 15:21:12,689 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theguardian&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695308407567780355
+2023-11-01 15:21:14,070 [INFO] Response: 200
+2023-11-01 15:21:14,071 [INFO] Gathering page 3 of 12
+2023-11-01 15:21:14,071 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theguardian&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695150727923755594
+2023-11-01 15:21:15,157 [INFO] Response: 200
+2023-11-01 15:21:15,158 [INFO] Gathering page 4 of 12
+2023-11-01 15:21:15,158 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theguardian&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694962802843030874
+2023-11-01 15:21:16,768 [INFO] Response: 200
+2023-11-01 15:21:16,769 [INFO] Gathering page 5 of 12
+2023-11-01 15:21:16,770 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theguardian&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694703618751739781
+2023-11-01 15:21:18,782 [INFO] Response: 200
+2023-11-01 15:21:18,782 [INFO] Gathering page 6 of 12
+2023-11-01 15:21:18,783 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theguardian&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694520029498970218
+2023-11-01 15:21:20,774 [INFO] Response: 200
+2023-11-01 15:21:20,775 [INFO] Gathering page 7 of 12
+2023-11-01 15:21:20,776 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theguardian&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694290532595748398
+2023-11-01 15:21:22,691 [INFO] Response: 200
+2023-11-01 15:21:22,692 [INFO] Gathering page 8 of 12
+2023-11-01 15:21:22,693 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theguardian&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694150008455769567
+2023-11-01 15:21:24,382 [INFO] Response: 200
+2023-11-01 15:21:24,383 [INFO] Gathering page 9 of 12
+2023-11-01 15:21:24,384 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theguardian&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694012402971265195
+2023-11-01 15:21:26,244 [INFO] Response: 200
+2023-11-01 15:21:26,245 [INFO] Gathering page 10 of 12
+2023-11-01 15:21:26,246 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theguardian&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1693841871828223105
+2023-11-01 15:21:28,283 [INFO] Response: 200
+2023-11-01 15:21:28,284 [INFO] Gathering page 11 of 12
+2023-11-01 15:21:28,285 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theguardian&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1693724406960511588
+2023-11-01 15:21:29,711 [INFO] Response: 200
+2023-11-01 15:21:29,712 [INFO] Gathering page 12 of 12
+2023-11-01 15:21:29,712 [INFO] 
+Compiling 12 pages of results...
+2023-11-01 15:21:29,713 [INFO] All news articles gathered from theguardian from 2023-09-01 to 2023-10-01!
+2023-11-01 15:21:29,713 [INFO] Processing tables...
+2023-11-01 15:21:29,778 [INFO] Tables have been processed.
+2023-11-01 15:21:29,778 [INFO] 
+Pushing results from theguardian to Google BigQuery database...
+2023-11-01 15:21:30,620 [INFO] Dataset dmrc-data.newsdataio already exists
+2023-11-01 15:21:30,951 [INFO] Table exists
+2023-11-01 15:21:37,732 [INFO] Loaded 1338 rows and 12 columns to dmrc-data.newsdataio.newsdata_oct2023_au
+2023-11-01 15:21:38,062 [INFO] Table exists
+2023-11-01 15:21:44,393 [INFO] Loaded 1342 rows and 2 columns to dmrc-data.newsdataio.newsdata_oct2023_au_categories
+2023-11-01 15:21:44,712 [INFO] Table exists
+2023-11-01 15:21:52,235 [INFO] Loaded 6637 rows and 2 columns to dmrc-data.newsdataio.newsdata_oct2023_au_keywords
+2023-11-01 15:21:52,564 [INFO] Table exists
+2023-11-01 15:21:56,847 [INFO] Loaded 1459 rows and 2 columns to dmrc-data.newsdataio.newsdata_oct2023_au_creators
+2023-11-01 15:21:56,848 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-11-01 15:21:56,848 [INFO] Gathering news articles from independent_australia from 2023-09-01 to 2023-10-01
+2023-11-01 15:21:56,848 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=independent_australia&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au
+2023-11-01 15:21:58,504 [INFO] Response: 200
+2023-11-01 15:21:58,505 [INFO] Gathering page 1 of 2
+2023-11-01 15:21:58,505 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=independent_australia&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1693864800422626753
+2023-11-01 15:21:59,376 [INFO] Response: 200
+2023-11-01 15:21:59,377 [INFO] Gathering page 2 of 2
+2023-11-01 15:21:59,378 [INFO] 
+Compiling 2 pages of results...
+2023-11-01 15:21:59,378 [INFO] All news articles gathered from independent_australia from 2023-09-01 to 2023-10-01!
+2023-11-01 15:21:59,379 [INFO] Processing tables...
+2023-11-01 15:21:59,395 [INFO] Tables have been processed.
+2023-11-01 15:21:59,395 [INFO] 
+Pushing results from independent_australia to Google BigQuery database...
+2023-11-01 15:22:00,221 [INFO] Dataset dmrc-data.newsdataio already exists
+2023-11-01 15:22:00,554 [INFO] Table exists
+2023-11-01 15:22:06,563 [INFO] Loaded 1390 rows and 12 columns to dmrc-data.newsdataio.newsdata_oct2023_au
+2023-11-01 15:22:06,889 [INFO] Table exists
+2023-11-01 15:22:11,354 [INFO] Loaded 1394 rows and 2 columns to dmrc-data.newsdataio.newsdata_oct2023_au_categories
+2023-11-01 15:22:11,698 [INFO] Table exists
+2023-11-01 15:22:18,852 [INFO] Loaded 6689 rows and 2 columns to dmrc-data.newsdataio.newsdata_oct2023_au_keywords
+2023-11-01 15:22:19,186 [INFO] Table exists
+2023-11-01 15:22:23,375 [INFO] Loaded 1511 rows and 2 columns to dmrc-data.newsdataio.newsdata_oct2023_au_creators
+2023-11-01 15:22:23,375 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-11-01 15:22:23,375 [INFO] Gathering news articles from 9news_au from 2023-09-01 to 2023-10-01
+2023-11-01 15:22:23,375 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=9news_au&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au
+2023-11-01 15:22:24,961 [INFO] Response: 200
+2023-11-01 15:22:24,961 [INFO] Gathering page 1 of 7
+2023-11-01 15:22:24,962 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=9news_au&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695713041191796421
+2023-11-01 15:22:26,546 [INFO] Response: 200
+2023-11-01 15:22:26,547 [INFO] Gathering page 2 of 7
+2023-11-01 15:22:26,547 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=9news_au&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695289427326585151
+2023-11-01 15:22:27,906 [INFO] Response: 200
+2023-11-01 15:22:27,906 [INFO] Gathering page 3 of 7
+2023-11-01 15:22:27,907 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=9news_au&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695002301395169754
+2023-11-01 15:22:29,239 [INFO] Response: 200
+2023-11-01 15:22:29,240 [INFO] Gathering page 4 of 7
+2023-11-01 15:22:29,241 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=9news_au&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694578764551737117
+2023-11-01 15:22:30,559 [INFO] Response: 200
+2023-11-01 15:22:30,560 [INFO] Gathering page 5 of 7
+2023-11-01 15:22:30,560 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=9news_au&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694139610500865264
+2023-11-01 15:22:31,963 [INFO] Response: 200
+2023-11-01 15:22:31,964 [INFO] Gathering page 6 of 7
+2023-11-01 15:22:31,965 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=9news_au&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1693793025799788372
+2023-11-01 15:22:33,298 [INFO] Response: 200
+2023-11-01 15:22:33,299 [INFO] Gathering page 7 of 7
+2023-11-01 15:22:33,300 [INFO] 
+Compiling 7 pages of results...
+2023-11-01 15:22:33,300 [INFO] All news articles gathered from 9news_au from 2023-09-01 to 2023-10-01!
+2023-11-01 15:22:33,300 [INFO] Processing tables...
+2023-11-01 15:22:33,337 [INFO] Tables have been processed.
+2023-11-01 15:22:33,337 [INFO] 
+Pushing results from 9news_au to Google BigQuery database...
+2023-11-01 15:22:34,219 [INFO] Dataset dmrc-data.newsdataio already exists
+2023-11-01 15:22:34,530 [INFO] Table exists
+2023-11-01 15:22:40,707 [INFO] Loaded 1726 rows and 12 columns to dmrc-data.newsdataio.newsdata_oct2023_au
+2023-11-01 15:22:41,045 [INFO] Table exists
+2023-11-01 15:22:45,841 [INFO] Loaded 1730 rows and 2 columns to dmrc-data.newsdataio.newsdata_oct2023_au_categories
+2023-11-01 15:22:46,166 [INFO] Table exists
+2023-11-01 15:22:51,060 [INFO] Loaded 7025 rows and 2 columns to dmrc-data.newsdataio.newsdata_oct2023_au_keywords
+2023-11-01 15:22:51,416 [INFO] Table exists
+2023-11-01 15:22:56,071 [INFO] Loaded 1847 rows and 2 columns to dmrc-data.newsdataio.newsdata_oct2023_au_creators
+2023-11-01 15:22:56,072 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-11-01 15:22:56,072 [INFO] Gathering news articles from theconversation from 2023-09-01 to 2023-10-01
+2023-11-01 15:22:56,072 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theconversation&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au
+2023-11-01 15:22:59,591 [INFO] Response: 200
+2023-11-01 15:22:59,592 [INFO] Gathering page 1 of 3
+2023-11-01 15:22:59,593 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theconversation&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695154122527994231
+2023-11-01 15:23:02,126 [INFO] Response: 200
+2023-11-01 15:23:02,127 [INFO] Gathering page 2 of 3
+2023-11-01 15:23:02,128 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theconversation&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694376366182987581
+2023-11-01 15:23:04,033 [INFO] Response: 200
+2023-11-01 15:23:04,034 [INFO] Gathering page 3 of 3
+2023-11-01 15:23:04,035 [INFO] 
+Compiling 3 pages of results...
+2023-11-01 15:23:04,037 [INFO] All news articles gathered from theconversation from 2023-09-01 to 2023-10-01!
+2023-11-01 15:23:04,037 [INFO] Processing tables...
+2023-11-01 15:23:04,069 [INFO] Tables have been processed.
+2023-11-01 15:23:04,069 [INFO] 
+Pushing results from theconversation to Google BigQuery database...
+2023-11-01 15:23:04,935 [INFO] Dataset dmrc-data.newsdataio already exists
+2023-11-01 15:23:05,264 [INFO] Table exists
+2023-11-01 15:23:13,553 [INFO] Loaded 1873 rows and 12 columns to dmrc-data.newsdataio.newsdata_oct2023_au
+2023-11-01 15:23:13,890 [INFO] Table exists
+2023-11-01 15:23:18,194 [INFO] Loaded 1915 rows and 2 columns to dmrc-data.newsdataio.newsdata_oct2023_au_categories
+2023-11-01 15:23:18,527 [INFO] Table exists
+2023-11-01 15:23:22,877 [INFO] Loaded 7172 rows and 2 columns to dmrc-data.newsdataio.newsdata_oct2023_au_keywords
+2023-11-01 15:23:23,211 [INFO] Table exists
+2023-11-01 15:23:33,631 [INFO] Loaded 2397 rows and 2 columns to dmrc-data.newsdataio.newsdata_oct2023_au_creators
+2023-11-01 15:23:33,632 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-11-01 15:23:33,632 [INFO] Gathering news articles from thenewdaily from 2023-09-01 to 2023-10-01
+2023-11-01 15:23:33,632 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thenewdaily&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au
+2023-11-01 15:23:35,241 [INFO] Response: 200
+2023-11-01 15:23:35,242 [INFO] Gathering page 1 of 10
+2023-11-01 15:23:35,243 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thenewdaily&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695902412278657685
+2023-11-01 15:23:36,685 [INFO] Response: 200
+2023-11-01 15:23:36,685 [INFO] Gathering page 2 of 10
+2023-11-01 15:23:36,690 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thenewdaily&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695585656119765810
+2023-11-01 15:23:38,047 [INFO] Response: 200
+2023-11-01 15:23:38,050 [INFO] Gathering page 3 of 10
+2023-11-01 15:23:38,051 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thenewdaily&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695341531507766100
+2023-11-01 15:23:39,743 [INFO] Response: 200
+2023-11-01 15:23:39,745 [INFO] Gathering page 4 of 10
+2023-11-01 15:23:39,746 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thenewdaily&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694955776991430945
+2023-11-01 15:23:41,086 [INFO] Response: 200
+2023-11-01 15:23:41,087 [INFO] Gathering page 5 of 10
+2023-11-01 15:23:41,087 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thenewdaily&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694611353031220962
+2023-11-01 15:23:42,444 [INFO] Response: 200
+2023-11-01 15:23:42,445 [INFO] Gathering page 6 of 10
+2023-11-01 15:23:42,445 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thenewdaily&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694260848750382910
+2023-11-01 15:23:45,227 [INFO] Response: 200
+2023-11-01 15:23:45,228 [INFO] Gathering page 7 of 10
+2023-11-01 15:23:45,229 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thenewdaily&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694007112389124066
+2023-11-01 15:23:47,175 [INFO] Response: 200
+2023-11-01 15:23:47,177 [INFO] Gathering page 8 of 10
+2023-11-01 15:23:47,178 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thenewdaily&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1693857653388725827
+2023-11-01 15:23:49,171 [INFO] Response: 200
+2023-11-01 15:23:49,172 [INFO] Gathering page 9 of 10
+2023-11-01 15:23:49,172 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thenewdaily&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1693568900771695555
+2023-11-01 15:23:49,952 [INFO] Response: 200
+2023-11-01 15:23:49,952 [INFO] Gathering page 10 of 10
+2023-11-01 15:23:49,952 [INFO] 
+Compiling 10 pages of results...
+2023-11-01 15:23:49,953 [INFO] All news articles gathered from thenewdaily from 2023-09-01 to 2023-10-01!
+2023-11-01 15:23:49,953 [INFO] Processing tables...
+2023-11-01 15:23:50,013 [INFO] Tables have been processed.
+2023-11-01 15:23:50,013 [INFO] 
+Pushing results from thenewdaily to Google BigQuery database...
+2023-11-01 15:23:50,919 [INFO] Dataset dmrc-data.newsdataio already exists
+2023-11-01 15:23:51,289 [INFO] Table exists
+2023-11-01 15:23:57,276 [INFO] Loaded 2324 rows and 12 columns to dmrc-data.newsdataio.newsdata_oct2023_au
+2023-11-01 15:23:57,591 [INFO] Table exists
+2023-11-01 15:24:02,496 [INFO] Loaded 2366 rows and 2 columns to dmrc-data.newsdataio.newsdata_oct2023_au_categories
+2023-11-01 15:24:02,829 [INFO] Table exists
+2023-11-01 15:24:09,692 [INFO] Loaded 8980 rows and 2 columns to dmrc-data.newsdataio.newsdata_oct2023_au_keywords
+2023-11-01 15:24:10,026 [INFO] Table exists
+2023-11-01 15:24:17,397 [INFO] Loaded 2886 rows and 2 columns to dmrc-data.newsdataio.newsdata_oct2023_au_creators
+2023-11-01 15:24:17,398 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-11-01 15:24:17,398 [INFO] Gathering news articles from smh from 2023-09-01 to 2023-10-01
+2023-11-01 15:24:17,398 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au
+2023-11-01 15:24:19,348 [INFO] Response: 200
+2023-11-01 15:24:19,350 [INFO] Gathering page 1 of 30
+2023-11-01 15:24:19,350 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695957300389245053
+2023-11-01 15:24:20,229 [INFO] Response: 200
+2023-11-01 15:24:20,229 [INFO] Gathering page 2 of 30
+2023-11-01 15:24:20,230 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695798994499481657
+2023-11-01 15:24:21,281 [INFO] Response: 200
+2023-11-01 15:24:21,282 [INFO] Gathering page 3 of 30
+2023-11-01 15:24:21,283 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695701641471828235
+2023-11-01 15:24:22,595 [INFO] Response: 200
+2023-11-01 15:24:22,596 [INFO] Gathering page 4 of 30
+2023-11-01 15:24:22,598 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695610108369925862
+2023-11-01 15:24:24,610 [INFO] Response: 200
+2023-11-01 15:24:24,611 [INFO] Gathering page 5 of 30
+2023-11-01 15:24:24,611 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695544817212237664
+2023-11-01 15:24:25,683 [INFO] Response: 200
+2023-11-01 15:24:25,684 [INFO] Gathering page 6 of 30
+2023-11-01 15:24:25,684 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695495600607240302
+2023-11-01 15:24:26,562 [INFO] Response: 200
+2023-11-01 15:24:26,562 [INFO] Gathering page 7 of 30
+2023-11-01 15:24:26,563 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695416666108009128
+2023-11-01 15:24:27,461 [INFO] Response: 200
+2023-11-01 15:24:27,462 [INFO] Gathering page 8 of 30
+2023-11-01 15:24:27,463 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695346449764085251
+2023-11-01 15:24:28,545 [INFO] Response: 200
+2023-11-01 15:24:28,545 [INFO] Gathering page 9 of 30
+2023-11-01 15:24:28,546 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695293299713663490
+2023-11-01 15:24:29,422 [INFO] Response: 200
+2023-11-01 15:24:29,422 [INFO] Gathering page 10 of 30
+2023-11-01 15:24:29,423 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695253484874332570
+2023-11-01 15:24:30,274 [INFO] Response: 200
+2023-11-01 15:24:30,274 [INFO] Gathering page 11 of 30
+2023-11-01 15:24:30,275 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695189607335692981
+2023-11-01 15:24:31,156 [INFO] Response: 200
+2023-11-01 15:24:31,156 [INFO] Gathering page 12 of 30
+2023-11-01 15:24:31,157 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695067493087886442
+2023-11-01 15:24:33,124 [INFO] Response: 200
+2023-11-01 15:24:33,125 [INFO] Gathering page 13 of 30
+2023-11-01 15:24:33,126 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694875881463751812
+2023-11-01 15:24:33,995 [INFO] Response: 200
+2023-11-01 15:24:33,995 [INFO] Gathering page 14 of 30
+2023-11-01 15:24:33,995 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694786400027006320
+2023-11-01 15:24:34,875 [INFO] Response: 200
+2023-11-01 15:24:34,875 [INFO] Gathering page 15 of 30
+2023-11-01 15:24:34,876 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694684700496658263
+2023-11-01 15:24:35,734 [INFO] Response: 200
+2023-11-01 15:24:35,734 [INFO] Gathering page 16 of 30
+2023-11-01 15:24:35,735 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694583007763801806
+2023-11-01 15:24:36,784 [INFO] Response: 200
+2023-11-01 15:24:36,785 [INFO] Gathering page 17 of 30
+2023-11-01 15:24:36,786 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694518746364571720
+2023-11-01 15:24:37,652 [INFO] Response: 200
+2023-11-01 15:24:37,652 [INFO] Gathering page 18 of 30
+2023-11-01 15:24:37,653 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694427318235754723
+2023-11-01 15:24:38,722 [INFO] Response: 200
+2023-11-01 15:24:38,723 [INFO] Gathering page 19 of 30
+2023-11-01 15:24:38,724 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694383376907788914
+2023-11-01 15:24:39,822 [INFO] Response: 200
+2023-11-01 15:24:39,822 [INFO] Gathering page 20 of 30
+2023-11-01 15:24:39,823 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694319568904672682
+2023-11-01 15:24:41,099 [INFO] Response: 200
+2023-11-01 15:24:41,099 [INFO] Gathering page 21 of 30
+2023-11-01 15:24:41,100 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694224123833139081
+2023-11-01 15:24:42,385 [INFO] Response: 200
+2023-11-01 15:24:42,385 [INFO] Gathering page 22 of 30
+2023-11-01 15:24:42,386 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694165415519092180
+2023-11-01 15:24:43,694 [INFO] Response: 200
+2023-11-01 15:24:43,694 [INFO] Gathering page 23 of 30
+2023-11-01 15:24:43,695 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694051160922944325
+2023-11-01 15:24:44,986 [INFO] Response: 200
+2023-11-01 15:24:44,986 [INFO] Gathering page 24 of 30
+2023-11-01 15:24:44,988 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1693902609440428600
+2023-11-01 15:24:46,044 [INFO] Response: 200
+2023-11-01 15:24:46,045 [INFO] Gathering page 25 of 30
+2023-11-01 15:24:46,045 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1693807234353315413
+2023-11-01 15:24:47,308 [INFO] Response: 200
+2023-11-01 15:24:47,309 [INFO] Gathering page 26 of 30
+2023-11-01 15:24:47,309 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1693738084942611245
+2023-11-01 15:24:48,658 [INFO] Response: 200
+2023-11-01 15:24:48,658 [INFO] Gathering page 27 of 30
+2023-11-01 15:24:48,658 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1693683000139736124
+2023-11-01 15:24:49,989 [INFO] Response: 200
+2023-11-01 15:24:49,990 [INFO] Gathering page 28 of 30
+2023-11-01 15:24:49,990 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1693620719267317003
+2023-11-01 15:24:51,070 [INFO] Response: 200
+2023-11-01 15:24:51,071 [INFO] Gathering page 29 of 30
+2023-11-01 15:24:51,071 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1693570911077398063
+2023-11-01 15:24:52,166 [INFO] Response: 200
+2023-11-01 15:24:52,166 [INFO] Gathering page 30 of 30
+2023-11-01 15:24:52,167 [INFO] 
+Compiling 30 pages of results...
+2023-11-01 15:24:52,169 [INFO] All news articles gathered from smh from 2023-09-01 to 2023-10-01!
+2023-11-01 15:24:52,169 [INFO] Processing tables...
+2023-11-01 15:24:52,242 [INFO] Tables have been processed.
+2023-11-01 15:24:52,242 [INFO] 
+Pushing results from smh to Google BigQuery database...
+2023-11-01 15:24:53,415 [INFO] Dataset dmrc-data.newsdataio already exists
+2023-11-01 15:24:53,759 [INFO] Table exists
+2023-11-01 15:25:02,794 [INFO] Loaded 3807 rows and 12 columns to dmrc-data.newsdataio.newsdata_oct2023_au
+2023-11-01 15:25:03,153 [INFO] Table exists
+2023-11-01 15:25:07,867 [INFO] Loaded 3849 rows and 2 columns to dmrc-data.newsdataio.newsdata_oct2023_au_categories
+2023-11-01 15:25:08,193 [INFO] Table exists
+2023-11-01 15:25:16,182 [INFO] Loaded 10463 rows and 2 columns to dmrc-data.newsdataio.newsdata_oct2023_au_keywords
+2023-11-01 15:25:16,507 [INFO] Table exists
+2023-11-01 15:25:21,918 [INFO] Loaded 4485 rows and 2 columns to dmrc-data.newsdataio.newsdata_oct2023_au_creators
+2023-11-01 15:25:21,918 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-11-01 15:25:21,918 [INFO] Gathering news articles from thewest from 2023-09-01 to 2023-10-01
+2023-11-01 15:25:21,918 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au
+2023-11-01 15:25:23,119 [INFO] Response: 200
+2023-11-01 15:25:23,119 [INFO] Gathering page 1 of 64
+2023-11-01 15:25:23,120 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1696087645670509595
+2023-11-01 15:25:25,103 [INFO] Response: 200
+2023-11-01 15:25:25,103 [INFO] Gathering page 2 of 64
+2023-11-01 15:25:25,104 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1696056677995759838
+2023-11-01 15:25:25,973 [INFO] Response: 200
+2023-11-01 15:25:25,974 [INFO] Gathering page 3 of 64
+2023-11-01 15:25:25,976 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1696033320915731127
+2023-11-01 15:25:26,855 [INFO] Response: 200
+2023-11-01 15:25:26,856 [INFO] Gathering page 4 of 64
+2023-11-01 15:25:26,856 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695954390311743453
+2023-11-01 15:25:27,735 [INFO] Response: 200
+2023-11-01 15:25:27,735 [INFO] Gathering page 5 of 64
+2023-11-01 15:25:27,738 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695924000131362278
+2023-11-01 15:25:28,618 [INFO] Response: 200
+2023-11-01 15:25:28,618 [INFO] Gathering page 6 of 64
+2023-11-01 15:25:28,619 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695884184271931190
+2023-11-01 15:25:29,497 [INFO] Response: 200
+2023-11-01 15:25:29,497 [INFO] Gathering page 7 of 64
+2023-11-01 15:25:29,498 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695866376687853581
+2023-11-01 15:25:30,376 [INFO] Response: 200
+2023-11-01 15:25:30,376 [INFO] Gathering page 8 of 64
+2023-11-01 15:25:30,377 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695812400871869138
+2023-11-01 15:25:31,429 [INFO] Response: 200
+2023-11-01 15:25:31,430 [INFO] Gathering page 9 of 64
+2023-11-01 15:25:31,432 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695773359307877708
+2023-11-01 15:25:33,924 [INFO] Response: 200
+2023-11-01 15:25:33,925 [INFO] Gathering page 10 of 64
+2023-11-01 15:25:33,925 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695722542759615990
+2023-11-01 15:25:34,806 [INFO] Response: 200
+2023-11-01 15:25:34,807 [INFO] Gathering page 11 of 64
+2023-11-01 15:25:34,808 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695693615410831011
+2023-11-01 15:25:35,890 [INFO] Response: 200
+2023-11-01 15:25:35,890 [INFO] Gathering page 12 of 64
+2023-11-01 15:25:35,891 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695609838947759943
+2023-11-01 15:25:36,769 [INFO] Response: 200
+2023-11-01 15:25:36,769 [INFO] Gathering page 13 of 64
+2023-11-01 15:25:36,770 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695547819743835996
+2023-11-01 15:25:37,648 [INFO] Response: 200
+2023-11-01 15:25:37,648 [INFO] Gathering page 14 of 64
+2023-11-01 15:25:37,649 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695516903919428057
+2023-11-01 15:25:38,518 [INFO] Response: 200
+2023-11-01 15:25:38,518 [INFO] Gathering page 15 of 64
+2023-11-01 15:25:38,519 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695456691718874843
+2023-11-01 15:25:39,386 [INFO] Response: 200
+2023-11-01 15:25:39,386 [INFO] Gathering page 16 of 64
+2023-11-01 15:25:39,387 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695405600667776074
+2023-11-01 15:25:40,257 [INFO] Response: 200
+2023-11-01 15:25:40,258 [INFO] Gathering page 17 of 64
+2023-11-01 15:25:40,259 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695333738079756395
+2023-11-01 15:25:41,126 [INFO] Response: 200
+2023-11-01 15:25:41,126 [INFO] Gathering page 18 of 64
+2023-11-01 15:25:41,127 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695290728795792990
+2023-11-01 15:25:41,997 [INFO] Response: 200
+2023-11-01 15:25:41,997 [INFO] Gathering page 19 of 64
+2023-11-01 15:25:41,998 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695264737249191807
+2023-11-01 15:25:42,877 [INFO] Response: 200
+2023-11-01 15:25:42,877 [INFO] Gathering page 20 of 64
+2023-11-01 15:25:42,878 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695232800169660371
+2023-11-01 15:25:43,744 [INFO] Response: 200
+2023-11-01 15:25:43,744 [INFO] Gathering page 21 of 64
+2023-11-01 15:25:43,745 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695184073121950490
+2023-11-01 15:25:44,797 [INFO] Response: 200
+2023-11-01 15:25:44,798 [INFO] Gathering page 22 of 64
+2023-11-01 15:25:44,798 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695118302406736023
+2023-11-01 15:25:45,667 [INFO] Response: 200
+2023-11-01 15:25:45,667 [INFO] Gathering page 23 of 64
+2023-11-01 15:25:45,668 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695089613007475743
+2023-11-01 15:25:46,572 [INFO] Response: 200
+2023-11-01 15:25:46,572 [INFO] Gathering page 24 of 64
+2023-11-01 15:25:46,573 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695072522974251120
+2023-11-01 15:25:47,649 [INFO] Response: 200
+2023-11-01 15:25:47,651 [INFO] Gathering page 25 of 64
+2023-11-01 15:25:47,652 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695002005428841666
+2023-11-01 15:25:48,773 [INFO] Response: 200
+2023-11-01 15:25:48,774 [INFO] Gathering page 26 of 64
+2023-11-01 15:25:48,775 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694937600808878266
+2023-11-01 15:25:49,823 [INFO] Response: 200
+2023-11-01 15:25:49,824 [INFO] Gathering page 27 of 64
+2023-11-01 15:25:49,824 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694856373699375713
+2023-11-01 15:25:50,881 [INFO] Response: 200
+2023-11-01 15:25:50,882 [INFO] Gathering page 28 of 64
+2023-11-01 15:25:50,882 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694833017592809763
+2023-11-01 15:25:51,989 [INFO] Response: 200
+2023-11-01 15:25:51,989 [INFO] Gathering page 29 of 64
+2023-11-01 15:25:51,990 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694811796067785689
+2023-11-01 15:25:52,860 [INFO] Response: 200
+2023-11-01 15:25:52,860 [INFO] Gathering page 30 of 64
+2023-11-01 15:25:52,861 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694800800327763025
+2023-11-01 15:25:53,740 [INFO] Response: 200
+2023-11-01 15:25:53,740 [INFO] Gathering page 31 of 64
+2023-11-01 15:25:53,741 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694732102586249020
+2023-11-01 15:25:54,791 [INFO] Response: 200
+2023-11-01 15:25:54,791 [INFO] Gathering page 32 of 64
+2023-11-01 15:25:54,792 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694692927210356443
+2023-11-01 15:25:55,910 [INFO] Response: 200
+2023-11-01 15:25:55,910 [INFO] Gathering page 33 of 64
+2023-11-01 15:25:55,911 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694677708375264831
+2023-11-01 15:25:57,003 [INFO] Response: 200
+2023-11-01 15:25:57,004 [INFO] Gathering page 34 of 64
+2023-11-01 15:25:57,004 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694665797390987794
+2023-11-01 15:25:57,874 [INFO] Response: 200
+2023-11-01 15:25:57,874 [INFO] Gathering page 35 of 64
+2023-11-01 15:25:57,875 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694659046223823926
+2023-11-01 15:25:58,974 [INFO] Response: 200
+2023-11-01 15:25:58,974 [INFO] Gathering page 36 of 64
+2023-11-01 15:25:58,975 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694615949998496696
+2023-11-01 15:26:00,075 [INFO] Response: 200
+2023-11-01 15:26:00,075 [INFO] Gathering page 37 of 64
+2023-11-01 15:26:00,077 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694580460523773051
+2023-11-01 15:26:01,201 [INFO] Response: 200
+2023-11-01 15:26:01,202 [INFO] Gathering page 38 of 64
+2023-11-01 15:26:01,203 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694518235828287779
+2023-11-01 15:26:02,304 [INFO] Response: 200
+2023-11-01 15:26:02,304 [INFO] Gathering page 39 of 64
+2023-11-01 15:26:02,305 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694487215318225520
+2023-11-01 15:26:03,400 [INFO] Response: 200
+2023-11-01 15:26:03,400 [INFO] Gathering page 40 of 64
+2023-11-01 15:26:03,401 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694457912487829675
+2023-11-01 15:26:04,492 [INFO] Response: 200
+2023-11-01 15:26:04,493 [INFO] Gathering page 41 of 64
+2023-11-01 15:26:04,493 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694422470424356201
+2023-11-01 15:26:05,648 [INFO] Response: 200
+2023-11-01 15:26:05,649 [INFO] Gathering page 42 of 64
+2023-11-01 15:26:05,651 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694403753483722236
+2023-11-01 15:26:06,723 [INFO] Response: 200
+2023-11-01 15:26:06,724 [INFO] Gathering page 43 of 64
+2023-11-01 15:26:06,725 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694368857628759534
+2023-11-01 15:26:07,600 [INFO] Response: 200
+2023-11-01 15:26:07,600 [INFO] Gathering page 44 of 64
+2023-11-01 15:26:07,601 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694318061450297739
+2023-11-01 15:26:08,670 [INFO] Response: 200
+2023-11-01 15:26:08,670 [INFO] Gathering page 45 of 64
+2023-11-01 15:26:08,671 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694255643451087575
+2023-11-01 15:26:09,747 [INFO] Response: 200
+2023-11-01 15:26:09,747 [INFO] Gathering page 46 of 64
+2023-11-01 15:26:09,748 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694221830109708179
+2023-11-01 15:26:10,839 [INFO] Response: 200
+2023-11-01 15:26:10,840 [INFO] Gathering page 47 of 64
+2023-11-01 15:26:10,841 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694184291531754970
+2023-11-01 15:26:11,898 [INFO] Response: 200
+2023-11-01 15:26:11,900 [INFO] Gathering page 48 of 64
+2023-11-01 15:26:11,902 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694137754855719955
+2023-11-01 15:26:12,952 [INFO] Response: 200
+2023-11-01 15:26:12,952 [INFO] Gathering page 49 of 64
+2023-11-01 15:26:12,953 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694130627660484827
+2023-11-01 15:26:14,013 [INFO] Response: 200
+2023-11-01 15:26:14,013 [INFO] Gathering page 50 of 64
+2023-11-01 15:26:14,014 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694082600454787771
+2023-11-01 15:26:14,881 [INFO] Response: 200
+2023-11-01 15:26:14,881 [INFO] Gathering page 51 of 64
+2023-11-01 15:26:14,883 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694014002379780810
+2023-11-01 15:26:15,961 [INFO] Response: 200
+2023-11-01 15:26:15,962 [INFO] Gathering page 52 of 64
+2023-11-01 15:26:15,963 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1693987429987641367
+2023-11-01 15:26:17,028 [INFO] Response: 200
+2023-11-01 15:26:17,028 [INFO] Gathering page 53 of 64
+2023-11-01 15:26:17,029 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1693981943083726176
+2023-11-01 15:26:18,069 [INFO] Response: 200
+2023-11-01 15:26:18,070 [INFO] Gathering page 54 of 64
+2023-11-01 15:26:18,072 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1693899644796323125
+2023-11-01 15:26:19,218 [INFO] Response: 200
+2023-11-01 15:26:19,220 [INFO] Gathering page 55 of 64
+2023-11-01 15:26:19,222 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1693882715183578605
+2023-11-01 15:26:20,340 [INFO] Response: 200
+2023-11-01 15:26:20,340 [INFO] Gathering page 56 of 64
+2023-11-01 15:26:20,341 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1693850400403468249
+2023-11-01 15:26:21,444 [INFO] Response: 200
+2023-11-01 15:26:21,445 [INFO] Gathering page 57 of 64
+2023-11-01 15:26:21,446 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1693797823015764558
+2023-11-01 15:26:22,543 [INFO] Response: 200
+2023-11-01 15:26:22,545 [INFO] Gathering page 58 of 64
+2023-11-01 15:26:22,547 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1693774781854178555
+2023-11-01 15:26:23,762 [INFO] Response: 200
+2023-11-01 15:26:23,763 [INFO] Gathering page 59 of 64
+2023-11-01 15:26:23,764 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1693732800747627075
+2023-11-01 15:26:24,947 [INFO] Response: 200
+2023-11-01 15:26:24,947 [INFO] Gathering page 60 of 64
+2023-11-01 15:26:24,948 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1693677600475764963
+2023-11-01 15:26:26,021 [INFO] Response: 200
+2023-11-01 15:26:26,022 [INFO] Gathering page 61 of 64
+2023-11-01 15:26:26,023 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1693631726202086542
+2023-11-01 15:26:27,080 [INFO] Response: 200
+2023-11-01 15:26:27,081 [INFO] Gathering page 62 of 64
+2023-11-01 15:26:27,082 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1693538640959364141
+2023-11-01 15:26:28,205 [INFO] Response: 200
+2023-11-01 15:26:28,205 [INFO] Gathering page 63 of 64
+2023-11-01 15:26:28,206 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1693529117163709961
+2023-11-01 15:26:29,138 [INFO] Response: 200
+2023-11-01 15:26:29,139 [INFO] Gathering page 64 of 64
+2023-11-01 15:26:29,139 [INFO] 
+Compiling 64 pages of results...
+2023-11-01 15:26:29,142 [INFO] All news articles gathered from thewest from 2023-09-01 to 2023-10-01!
+2023-11-01 15:26:29,142 [INFO] Processing tables...
+2023-11-01 15:26:29,269 [INFO] Tables have been processed.
+2023-11-01 15:26:29,269 [INFO] 
+Pushing results from thewest to Google BigQuery database...
+2023-11-01 15:26:30,130 [INFO] Dataset dmrc-data.newsdataio already exists
+2023-11-01 15:26:30,458 [INFO] Table exists
+2023-11-01 15:26:36,690 [INFO] Loaded 6967 rows and 12 columns to dmrc-data.newsdataio.newsdata_oct2023_au
+2023-11-01 15:26:36,993 [INFO] Table exists
+2023-11-01 15:26:41,600 [INFO] Loaded 7009 rows and 2 columns to dmrc-data.newsdataio.newsdata_oct2023_au_categories
+2023-11-01 15:26:41,917 [INFO] Table exists
+2023-11-01 15:26:46,497 [INFO] Loaded 13623 rows and 2 columns to dmrc-data.newsdataio.newsdata_oct2023_au_keywords
+2023-11-01 15:26:46,846 [INFO] Table exists
+2023-11-01 15:26:51,697 [INFO] Loaded 7843 rows and 2 columns to dmrc-data.newsdataio.newsdata_oct2023_au_creators
+2023-11-01 15:26:51,699 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-11-01 15:26:51,699 [INFO] Gathering news articles from yahoo from 2023-09-01 to 2023-10-01
+2023-11-01 15:26:51,699 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au
+2023-11-01 15:26:53,885 [INFO] Response: 200
+2023-11-01 15:26:53,885 [INFO] Gathering page 1 of 23
+2023-11-01 15:26:53,886 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695968287539765865
+2023-11-01 15:26:54,781 [INFO] Response: 200
+2023-11-01 15:26:54,781 [INFO] Gathering page 2 of 23
+2023-11-01 15:26:54,782 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695885529508392775
+2023-11-01 15:26:55,627 [INFO] Response: 200
+2023-11-01 15:26:55,627 [INFO] Gathering page 3 of 23
+2023-11-01 15:26:55,628 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695779663743883970
+2023-11-01 15:26:56,545 [INFO] Response: 200
+2023-11-01 15:26:56,545 [INFO] Gathering page 4 of 23
+2023-11-01 15:26:56,546 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695706896731907791
+2023-11-01 15:26:58,040 [INFO] Response: 200
+2023-11-01 15:26:58,040 [INFO] Gathering page 5 of 23
+2023-11-01 15:26:58,041 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695616270295839514
+2023-11-01 15:26:58,874 [INFO] Response: 200
+2023-11-01 15:26:58,874 [INFO] Gathering page 6 of 23
+2023-11-01 15:26:58,875 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695429343690727133
+2023-11-01 15:26:59,717 [INFO] Response: 200
+2023-11-01 15:26:59,717 [INFO] Gathering page 7 of 23
+2023-11-01 15:26:59,718 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695346784820291476
+2023-11-01 15:27:00,635 [INFO] Response: 200
+2023-11-01 15:27:00,635 [INFO] Gathering page 8 of 23
+2023-11-01 15:27:00,636 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695272061201356746
+2023-11-01 15:27:01,545 [INFO] Response: 200
+2023-11-01 15:27:01,546 [INFO] Gathering page 9 of 23
+2023-11-01 15:27:01,546 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695179983659749248
+2023-11-01 15:27:02,377 [INFO] Response: 200
+2023-11-01 15:27:02,377 [INFO] Gathering page 10 of 23
+2023-11-01 15:27:02,378 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695099635567781739
+2023-11-01 15:27:03,206 [INFO] Response: 200
+2023-11-01 15:27:03,206 [INFO] Gathering page 11 of 23
+2023-11-01 15:27:03,207 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695009209119294249
+2023-11-01 15:27:04,047 [INFO] Response: 200
+2023-11-01 15:27:04,048 [INFO] Gathering page 12 of 23
+2023-11-01 15:27:04,050 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694764716369609910
+2023-11-01 15:27:04,873 [INFO] Response: 200
+2023-11-01 15:27:04,873 [INFO] Gathering page 13 of 23
+2023-11-01 15:27:04,874 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694729045337934136
+2023-11-01 15:27:05,732 [INFO] Response: 200
+2023-11-01 15:27:05,733 [INFO] Gathering page 14 of 23
+2023-11-01 15:27:05,734 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1694649418171733159
+2023-11-01 15:27:06,407 [INFO] Response: 429
+2023-11-01 15:27:06,407 [INFO] 'totalResults'
+2023-11-01 15:27:06,407 [INFO] 
+Gather complete!

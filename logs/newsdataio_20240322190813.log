@@ -1,0 +1,176 @@
+2024-03-22 19:08:13,659 [INFO] Starting News Gatherer
+2024-03-22 19:08:13,659 [INFO] Collecting news content from 38 domains.
+2024-03-22 19:08:13,659 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-22 19:08:13,660 [INFO] Gathering news articles from 3sat_de from 2024-02-19 to 2024-03-26
+2024-03-22 19:08:13,660 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=3sat_de&language=de&from_date=2024-02-19&to_date=2024-03-26&country=de
+2024-03-22 19:08:14,344 [INFO] Response: 422
+2024-03-22 19:08:14,344 [INFO] Domain 3sat_de does not exist in the NewsdataIO database. Moving to next keyword.
+2024-03-22 19:08:14,344 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-22 19:08:14,344 [INFO] Gathering news articles from morgenpost from 2024-02-19 to 2024-03-26
+2024-03-22 19:08:14,345 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=morgenpost&language=de&from_date=2024-02-19&to_date=2024-03-26&country=de
+2024-03-22 19:08:15,015 [INFO] Response: 422
+2024-03-22 19:08:15,016 [INFO] Domain morgenpost does not exist in the NewsdataIO database. Moving to next keyword.
+2024-03-22 19:08:15,016 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-22 19:08:15,016 [INFO] Gathering news articles from arte from 2024-02-19 to 2024-03-26
+2024-03-22 19:08:15,016 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=arte&language=de&from_date=2024-02-19&to_date=2024-03-26&country=de
+2024-03-22 19:08:15,692 [INFO] Response: 422
+2024-03-22 19:08:15,692 [INFO] Domain arte does not exist in the NewsdataIO database. Moving to next keyword.
+2024-03-22 19:08:15,692 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-22 19:08:15,692 [INFO] Gathering news articles from bild from 2024-02-19 to 2024-03-26
+2024-03-22 19:08:15,693 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bild&language=de&from_date=2024-02-19&to_date=2024-03-26&country=de
+2024-03-22 19:08:16,375 [INFO] Response: 422
+2024-03-22 19:08:16,375 [INFO] Domain bild does not exist in the NewsdataIO database. Moving to next keyword.
+2024-03-22 19:08:16,375 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-22 19:08:16,375 [INFO] Gathering news articles from bildblog from 2024-02-19 to 2024-03-26
+2024-03-22 19:08:16,375 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=bildblog&language=de&from_date=2024-02-19&to_date=2024-03-26&country=de
+2024-03-22 19:08:17,047 [INFO] Response: 422
+2024-03-22 19:08:17,048 [INFO] Domain bildblog does not exist in the NewsdataIO database. Moving to next keyword.
+2024-03-22 19:08:17,048 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-22 19:08:17,048 [INFO] Gathering news articles from freitag from 2024-02-19 to 2024-03-26
+2024-03-22 19:08:17,048 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=freitag&language=de&from_date=2024-02-19&to_date=2024-03-26&country=de
+2024-03-22 19:08:17,725 [INFO] Response: 422
+2024-03-22 19:08:17,726 [INFO] Domain freitag does not exist in the NewsdataIO database. Moving to next keyword.
+2024-03-22 19:08:17,726 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-22 19:08:17,726 [INFO] Gathering news articles from derwesten from 2024-02-19 to 2024-03-26
+2024-03-22 19:08:17,726 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=derwesten&language=de&from_date=2024-02-19&to_date=2024-03-26&country=de
+2024-03-22 19:08:18,396 [INFO] Response: 422
+2024-03-22 19:08:18,396 [INFO] Domain derwesten does not exist in the NewsdataIO database. Moving to next keyword.
+2024-03-22 19:08:18,396 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-22 19:08:18,396 [INFO] Gathering news articles from dw from 2024-02-19 to 2024-03-26
+2024-03-22 19:08:18,396 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=dw&language=de&from_date=2024-02-19&to_date=2024-03-26&country=de
+2024-03-22 19:08:19,076 [INFO] Response: 422
+2024-03-22 19:08:19,076 [INFO] Domain dw does not exist in the NewsdataIO database. Moving to next keyword.
+2024-03-22 19:08:19,077 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-22 19:08:19,077 [INFO] Gathering news articles from deutschlandfunk from 2024-02-19 to 2024-03-26
+2024-03-22 19:08:19,077 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=deutschlandfunk&language=de&from_date=2024-02-19&to_date=2024-03-26&country=de
+2024-03-22 19:08:19,742 [INFO] Response: 422
+2024-03-22 19:08:19,742 [INFO] Domain deutschlandfunk does not exist in the NewsdataIO database. Moving to next keyword.
+2024-03-22 19:08:19,742 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-22 19:08:19,742 [INFO] Gathering news articles from achgut from 2024-02-19 to 2024-03-26
+2024-03-22 19:08:19,742 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=achgut&language=de&from_date=2024-02-19&to_date=2024-03-26&country=de
+2024-03-22 19:08:20,415 [INFO] Response: 422
+2024-03-22 19:08:20,415 [INFO] Domain achgut does not exist in the NewsdataIO database. Moving to next keyword.
+2024-03-22 19:08:20,415 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-22 19:08:20,415 [INFO] Gathering news articles from dietagespost from 2024-02-19 to 2024-03-26
+2024-03-22 19:08:20,415 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=dietagespost&language=de&from_date=2024-02-19&to_date=2024-03-26&country=de
+2024-03-22 19:08:21,066 [INFO] Response: 429
+2024-03-22 19:08:21,066 [INFO] Bad response: 429
+2024-03-22 19:08:21,066 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-22 19:08:21,067 [INFO] Gathering news articles from faz from 2024-02-19 to 2024-03-26
+2024-03-22 19:08:21,067 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=faz&language=de&from_date=2024-02-19&to_date=2024-03-26&country=de
+2024-03-22 19:08:21,748 [INFO] Response: 422
+2024-03-22 19:08:21,748 [INFO] Domain faz does not exist in the NewsdataIO database. Moving to next keyword.
+2024-03-22 19:08:21,748 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-22 19:08:21,748 [INFO] Gathering news articles from focus from 2024-02-19 to 2024-03-26
+2024-03-22 19:08:21,749 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=focus&language=de&from_date=2024-02-19&to_date=2024-03-26&country=de
+2024-03-22 19:08:22,430 [INFO] Response: 422
+2024-03-22 19:08:22,430 [INFO] Domain focus does not exist in the NewsdataIO database. Moving to next keyword.
+2024-03-22 19:08:22,430 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-22 19:08:22,431 [INFO] Gathering news articles from abendblatt from 2024-02-19 to 2024-03-26
+2024-03-22 19:08:22,431 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abendblatt&language=de&from_date=2024-02-19&to_date=2024-03-26&country=de
+2024-03-22 19:08:23,106 [INFO] Response: 422
+2024-03-22 19:08:23,107 [INFO] Domain abendblatt does not exist in the NewsdataIO database. Moving to next keyword.
+2024-03-22 19:08:23,107 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-22 19:08:23,107 [INFO] Gathering news articles from gmx from 2024-02-19 to 2024-03-26
+2024-03-22 19:08:23,107 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=gmx&language=de&from_date=2024-02-19&to_date=2024-03-26&country=de
+2024-03-22 19:08:23,774 [INFO] Response: 422
+2024-03-22 19:08:23,774 [INFO] Domain gmx does not exist in the NewsdataIO database. Moving to next keyword.
+2024-03-22 19:08:23,774 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-22 19:08:23,774 [INFO] Gathering news articles from handelsblatt from 2024-02-19 to 2024-03-26
+2024-03-22 19:08:23,775 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=handelsblatt&language=de&from_date=2024-02-19&to_date=2024-03-26&country=de
+2024-03-22 19:08:24,454 [INFO] Response: 422
+2024-03-22 19:08:24,455 [INFO] Domain handelsblatt does not exist in the NewsdataIO database. Moving to next keyword.
+2024-03-22 19:08:24,455 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-22 19:08:24,455 [INFO] Gathering news articles from haz from 2024-02-19 to 2024-03-26
+2024-03-22 19:08:24,455 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=haz&language=de&from_date=2024-02-19&to_date=2024-03-26&country=de
+2024-03-22 19:08:25,127 [INFO] Response: 422
+2024-03-22 19:08:25,127 [INFO] Domain haz does not exist in the NewsdataIO database. Moving to next keyword.
+2024-03-22 19:08:25,127 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-22 19:08:25,127 [INFO] Gathering news articles from heise from 2024-02-19 to 2024-03-26
+2024-03-22 19:08:25,127 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=heise&language=de&from_date=2024-02-19&to_date=2024-03-26&country=de
+2024-03-22 19:08:25,803 [INFO] Response: 422
+2024-03-22 19:08:25,803 [INFO] Domain heise does not exist in the NewsdataIO database. Moving to next keyword.
+2024-03-22 19:08:25,803 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-22 19:08:25,803 [INFO] Gathering news articles from jungewelt from 2024-02-19 to 2024-03-26
+2024-03-22 19:08:25,803 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=jungewelt&language=de&from_date=2024-02-19&to_date=2024-03-26&country=de
+2024-03-22 19:08:26,475 [INFO] Response: 422
+2024-03-22 19:08:26,476 [INFO] Domain jungewelt does not exist in the NewsdataIO database. Moving to next keyword.
+2024-03-22 19:08:26,476 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-22 19:08:26,476 [INFO] Gathering news articles from lvz from 2024-02-19 to 2024-03-26
+2024-03-22 19:08:26,476 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=lvz&language=de&from_date=2024-02-19&to_date=2024-03-26&country=de
+2024-03-22 19:08:27,143 [INFO] Response: 422
+2024-03-22 19:08:27,143 [INFO] Domain lvz does not exist in the NewsdataIO database. Moving to next keyword.
+2024-03-22 19:08:27,143 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-22 19:08:27,144 [INFO] Gathering news articles from netzpolitik from 2024-02-19 to 2024-03-26
+2024-03-22 19:08:27,144 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=netzpolitik&language=de&from_date=2024-02-19&to_date=2024-03-26&country=de
+2024-03-22 19:08:27,815 [INFO] Response: 422
+2024-03-22 19:08:27,815 [INFO] Domain netzpolitik does not exist in the NewsdataIO database. Moving to next keyword.
+2024-03-22 19:08:27,815 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-22 19:08:27,815 [INFO] Gathering news articles from n-tv from 2024-02-19 to 2024-03-26
+2024-03-22 19:08:27,815 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=n-tv&language=de&from_date=2024-02-19&to_date=2024-03-26&country=de

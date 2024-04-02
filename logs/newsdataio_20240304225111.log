@@ -1,0 +1,33 @@
+2024-03-04 22:51:11,133 [INFO] Starting News Gatherer
+2024-03-04 22:51:11,134 [INFO] Collecting news content from 1 domains.
+2024-03-04 22:51:11,134 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-04 22:51:11,134 [INFO] Gathering news articles from thenewdaily from 2023-10-17 to 2024-02-20
+2024-03-04 22:51:11,134 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thenewdaily&language=en&from_date=2023-10-17&to_date=2024-02-20&country=au
+2024-03-04 22:51:13,097 [INFO] Response: 200
+2024-03-04 22:51:13,099 [INFO] Gathering page 1 of 2
+2024-03-04 22:51:13,103 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thenewdaily&language=en&from_date=2023-10-17&to_date=2024-02-20&country=au&page=1697762853915846539
+2024-03-04 22:51:14,265 [INFO] Response: 200
+2024-03-04 22:51:14,266 [INFO] Gathering page 2 of 2
+2024-03-04 22:51:14,268 [INFO] 
+Compiling 2 pages of results...
+2024-03-04 22:51:14,269 [INFO] All news articles gathered from thenewdaily from 2023-10-17 to 2024-02-20!
+2024-03-04 22:51:14,269 [INFO] Processing tables...
+2024-03-04 22:51:14,331 [INFO] Tables have been processed.
+2024-03-04 22:51:14,331 [INFO] 
+Pushing results from thenewdaily to Google BigQuery database...
+2024-03-04 22:51:15,764 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-03-04 22:51:16,197 [INFO] Table exists
+2024-03-04 22:51:40,834 [INFO] Loaded 174835 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-03-04 22:51:41,217 [INFO] Table exists
+2024-03-04 22:51:48,861 [INFO] Loaded 198644 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-03-04 22:51:49,213 [INFO] Table exists
+2024-03-04 22:52:17,418 [INFO] Loaded 395948 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-03-04 22:52:17,794 [INFO] Table exists
+2024-03-04 22:52:27,885 [INFO] Loaded 212799 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-03-04 22:52:27,886 [INFO] 
+Gather complete!

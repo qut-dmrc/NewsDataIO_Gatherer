@@ -1,0 +1,44 @@
+2023-07-23 19:05:53,372 [INFO] Starting News Gatherer
+2023-07-23 19:05:53,373 [INFO] Collecting news content from 31 domains.
+2023-07-23 19:05:53,373 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-23 19:05:53,374 [INFO] Gathering news articles from abc_net from 2022-09-01 to 2022-10-01
+2023-07-23 19:05:53,374 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=abc_net&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-23 19:05:54,428 [INFO] Response: 200
+2023-07-23 19:05:54,429 [INFO] Gathering page 1 of 7
+2023-07-23 19:05:54,437 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=abc_net&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au&page=16642412609f22f0dfe866703882379353ca2ea1a4
+2023-07-23 19:05:55,587 [INFO] Response: 200
+2023-07-23 19:05:55,588 [INFO] Gathering page 2 of 7
+2023-07-23 19:05:55,590 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=abc_net&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au&page=166388948848de3065962dbe83c27317e21a62b258
+2023-07-23 19:05:56,713 [INFO] Response: 200
+2023-07-23 19:05:56,715 [INFO] Gathering page 3 of 7
+2023-07-23 19:05:56,719 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=abc_net&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au&page=1663473256b8113dd41f540b0e2e2d42908ad90ad4
+2023-07-23 19:05:57,768 [INFO] Response: 200
+2023-07-23 19:05:57,769 [INFO] Gathering page 4 of 7
+2023-07-23 19:05:57,774 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=abc_net&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au&page=1663007472db1bd2fb0919b472e41b4d0f2505dc62
+2023-07-23 19:05:58,856 [INFO] Response: 200
+2023-07-23 19:05:58,857 [INFO] Gathering page 5 of 7
+2023-07-23 19:05:58,859 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=abc_net&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au&page=16625809144f508f56ee8f34a6b3fb51c00c42a89d
+2023-07-23 19:05:59,989 [INFO] Response: 200
+2023-07-23 19:05:59,991 [INFO] Gathering page 6 of 7
+2023-07-23 19:05:59,995 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=abc_net&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au&page=1662240768cdbf28987e8305554a028cda7e77a6a4
+2023-07-23 19:06:00,806 [INFO] Response: 200
+2023-07-23 19:06:00,808 [INFO] Gathering page 7 of 7
+2023-07-23 19:06:00,813 [INFO] 
+Compiling 7 pages of results...
+2023-07-23 19:06:00,817 [INFO] All news articles gathered from abc_net from 2022-09-01 to 2022-10-01!
+2023-07-23 19:06:00,817 [INFO] Processing tables...

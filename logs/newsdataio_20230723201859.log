@@ -1,0 +1,54 @@
+2023-07-23 20:18:59,075 [INFO] Starting News Gatherer
+2023-07-23 20:18:59,075 [INFO] Collecting news content from 31 domains.
+2023-07-23 20:18:59,075 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-23 20:18:59,075 [INFO] Gathering news articles from abc_net from 2022-09-01 to 2022-10-01
+2023-07-23 20:18:59,075 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=abc_net&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-23 20:19:00,356 [INFO] Response: 200
+2023-07-23 20:19:00,357 [INFO] Gathering page 1 of 7
+2023-07-23 20:19:00,361 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=abc_net&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au&page=16642412609f22f0dfe866703882379353ca2ea1a4
+2023-07-23 20:19:01,509 [INFO] Response: 200
+2023-07-23 20:19:01,510 [INFO] Gathering page 2 of 7
+2023-07-23 20:19:01,511 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=abc_net&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au&page=166388948848de3065962dbe83c27317e21a62b258
+2023-07-23 20:19:02,820 [INFO] Response: 200
+2023-07-23 20:19:02,821 [INFO] Gathering page 3 of 7
+2023-07-23 20:19:02,822 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=abc_net&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au&page=1663473256b8113dd41f540b0e2e2d42908ad90ad4
+2023-07-23 20:19:04,072 [INFO] Response: 200
+2023-07-23 20:19:04,073 [INFO] Gathering page 4 of 7
+2023-07-23 20:19:04,075 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=abc_net&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au&page=1663007472db1bd2fb0919b472e41b4d0f2505dc62
+2023-07-23 20:19:05,280 [INFO] Response: 200
+2023-07-23 20:19:05,281 [INFO] Gathering page 5 of 7
+2023-07-23 20:19:05,283 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=abc_net&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au&page=16625809144f508f56ee8f34a6b3fb51c00c42a89d
+2023-07-23 20:19:06,498 [INFO] Response: 200
+2023-07-23 20:19:06,500 [INFO] Gathering page 6 of 7
+2023-07-23 20:19:06,502 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=abc_net&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au&page=1662240768cdbf28987e8305554a028cda7e77a6a4
+2023-07-23 20:19:07,280 [INFO] Response: 200
+2023-07-23 20:19:07,280 [INFO] Gathering page 7 of 7
+2023-07-23 20:19:07,281 [INFO] 
+Compiling 7 pages of results...
+2023-07-23 20:19:07,282 [INFO] All news articles gathered from abc_net from 2022-09-01 to 2022-10-01!
+2023-07-23 20:19:07,282 [INFO] Processing tables...
+2023-07-23 20:19:07,552 [INFO] Tables have been processed.
+2023-07-23 20:19:07,552 [INFO] 
+Pushing results from abc_net to Google BigQuery database...
+2023-07-23 20:19:08,932 [INFO] Dataset dmrc-data.newsdataio already exists
+2023-07-23 20:19:09,254 [INFO] Table exists
+2023-07-23 20:19:16,978 [INFO] Loaded 632 rows and 11 columns to dmrc-data.newsdataio.newsdata_sep2022_au
+2023-07-23 20:19:17,295 [INFO] Table exists
+2023-07-23 20:19:18,820 [INFO] 400 POST https://bigquery.googleapis.com/upload/bigquery/v2/projects/dmrc-data/jobs?uploadType=resumable: Provided Schema does not match Table dmrc-data:newsdataio.newsdata_sep2022_au_categories. Cannot add fields (field: category)
+2023-07-23 20:19:18,821 [INFO] 
+Gather complete!

@@ -1,0 +1,2037 @@
+2024-01-21 13:09:04,556 [INFO] Starting News Gatherer
+2024-01-21 13:09:04,556 [INFO] Collecting news content from 31 domains.
+2024-01-21 13:09:04,556 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-01-21 13:09:04,556 [INFO] Gathering news articles from abc_net from 2023-12-10 to 2024-01-20
+2024-01-21 13:09:04,557 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au
+2024-01-21 13:09:07,054 [INFO] Response: 200
+2024-01-21 13:09:07,058 [INFO] Gathering page 1 of 50
+2024-01-21 13:09:07,062 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705643218761612339
+2024-01-21 13:09:08,503 [INFO] Response: 200
+2024-01-21 13:09:08,505 [INFO] Gathering page 2 of 50
+2024-01-21 13:09:08,506 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705606550972962756
+2024-01-21 13:09:09,888 [INFO] Response: 200
+2024-01-21 13:09:09,889 [INFO] Gathering page 3 of 50
+2024-01-21 13:09:09,891 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705535004902459804
+2024-01-21 13:09:11,219 [INFO] Response: 200
+2024-01-21 13:09:11,221 [INFO] Gathering page 4 of 50
+2024-01-21 13:09:11,222 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705459343276118583
+2024-01-21 13:09:12,793 [INFO] Response: 200
+2024-01-21 13:09:12,794 [INFO] Gathering page 5 of 50
+2024-01-21 13:09:12,794 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705429079294528882
+2024-01-21 13:09:14,327 [INFO] Response: 200
+2024-01-21 13:09:14,329 [INFO] Gathering page 6 of 50
+2024-01-21 13:09:14,330 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705356365663290011
+2024-01-21 13:09:15,740 [INFO] Response: 200
+2024-01-21 13:09:15,742 [INFO] Gathering page 7 of 50
+2024-01-21 13:09:15,744 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705289861755633566
+2024-01-21 13:09:17,103 [INFO] Response: 200
+2024-01-21 13:09:17,104 [INFO] Gathering page 8 of 50
+2024-01-21 13:09:17,105 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705224512449877280
+2024-01-21 13:09:18,413 [INFO] Response: 200
+2024-01-21 13:09:18,415 [INFO] Gathering page 9 of 50
+2024-01-21 13:09:18,416 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705131642882475965
+2024-01-21 13:09:19,819 [INFO] Response: 200
+2024-01-21 13:09:19,820 [INFO] Gathering page 10 of 50
+2024-01-21 13:09:19,821 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705036570749755853
+2024-01-21 13:09:21,222 [INFO] Response: 200
+2024-01-21 13:09:21,223 [INFO] Gathering page 11 of 50
+2024-01-21 13:09:21,224 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704958380665806243
+2024-01-21 13:09:22,737 [INFO] Response: 200
+2024-01-21 13:09:22,740 [INFO] Gathering page 12 of 50
+2024-01-21 13:09:22,742 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704916705811928589
+2024-01-21 13:09:24,071 [INFO] Response: 200
+2024-01-21 13:09:24,074 [INFO] Gathering page 13 of 50
+2024-01-21 13:09:24,077 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704841959984001172
+2024-01-21 13:09:25,428 [INFO] Response: 200
+2024-01-21 13:09:25,430 [INFO] Gathering page 14 of 50
+2024-01-21 13:09:25,432 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704780138171614661
+2024-01-21 13:09:26,849 [INFO] Response: 200
+2024-01-21 13:09:26,852 [INFO] Gathering page 15 of 50
+2024-01-21 13:09:26,853 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704707960109341271
+2024-01-21 13:09:28,175 [INFO] Response: 200
+2024-01-21 13:09:28,176 [INFO] Gathering page 16 of 50
+2024-01-21 13:09:28,177 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704619365559268650
+2024-01-21 13:09:29,502 [INFO] Response: 200
+2024-01-21 13:09:29,503 [INFO] Gathering page 17 of 50
+2024-01-21 13:09:29,504 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704527884696926744
+2024-01-21 13:09:30,970 [INFO] Response: 200
+2024-01-21 13:09:30,972 [INFO] Gathering page 18 of 50
+2024-01-21 13:09:30,974 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704439744762512759
+2024-01-21 13:09:32,370 [INFO] Response: 200
+2024-01-21 13:09:32,372 [INFO] Gathering page 19 of 50
+2024-01-21 13:09:32,373 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704392010629961962
+2024-01-21 13:09:33,700 [INFO] Response: 200
+2024-01-21 13:09:33,702 [INFO] Gathering page 20 of 50
+2024-01-21 13:09:33,703 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704312000014822364
+2024-01-21 13:09:35,305 [INFO] Response: 200
+2024-01-21 13:09:35,306 [INFO] Gathering page 21 of 50
+2024-01-21 13:09:35,307 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704228584397621941
+2024-01-21 13:09:36,633 [INFO] Response: 200
+2024-01-21 13:09:36,634 [INFO] Gathering page 22 of 50
+2024-01-21 13:09:36,635 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704145626527131979
+2024-01-21 13:09:37,972 [INFO] Response: 200
+2024-01-21 13:09:37,973 [INFO] Gathering page 23 of 50
+2024-01-21 13:09:37,976 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704053600375016581
+2024-01-21 13:09:39,310 [INFO] Response: 200
+2024-01-21 13:09:39,314 [INFO] Gathering page 24 of 50
+2024-01-21 13:09:39,316 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703908666958230063
+2024-01-21 13:09:40,675 [INFO] Response: 200
+2024-01-21 13:09:40,678 [INFO] Gathering page 25 of 50
+2024-01-21 13:09:40,678 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703819559680857835
+2024-01-21 13:09:42,026 [INFO] Response: 200
+2024-01-21 13:09:42,027 [INFO] Gathering page 26 of 50
+2024-01-21 13:09:42,028 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703739364331433769
+2024-01-21 13:09:43,384 [INFO] Response: 200
+2024-01-21 13:09:43,388 [INFO] Gathering page 27 of 50
+2024-01-21 13:09:43,390 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703663563441951302
+2024-01-21 13:09:44,724 [INFO] Response: 200
+2024-01-21 13:09:44,725 [INFO] Gathering page 28 of 50
+2024-01-21 13:09:44,726 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703615049225657565
+2024-01-21 13:09:46,324 [INFO] Response: 200
+2024-01-21 13:09:46,325 [INFO] Gathering page 29 of 50
+2024-01-21 13:09:46,326 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703464234481174995
+2024-01-21 13:09:47,892 [INFO] Response: 200
+2024-01-21 13:09:47,894 [INFO] Gathering page 30 of 50
+2024-01-21 13:09:47,895 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703347529348327353
+2024-01-21 13:09:49,237 [INFO] Response: 200
+2024-01-21 13:09:49,241 [INFO] Gathering page 31 of 50
+2024-01-21 13:09:49,244 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703271123288290495
+2024-01-21 13:09:50,562 [INFO] Response: 200
+2024-01-21 13:09:50,565 [INFO] Gathering page 32 of 50
+2024-01-21 13:09:50,567 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703192480275134208
+2024-01-21 13:09:51,905 [INFO] Response: 200
+2024-01-21 13:09:51,907 [INFO] Gathering page 33 of 50
+2024-01-21 13:09:51,910 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703127863932153434
+2024-01-21 13:09:53,283 [INFO] Response: 200
+2024-01-21 13:09:53,285 [INFO] Gathering page 34 of 50
+2024-01-21 13:09:53,286 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703098947915295969
+2024-01-21 13:09:54,640 [INFO] Response: 200
+2024-01-21 13:09:54,642 [INFO] Gathering page 35 of 50
+2024-01-21 13:09:54,644 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703028807948070507
+2024-01-21 13:09:55,981 [INFO] Response: 200
+2024-01-21 13:09:55,982 [INFO] Gathering page 36 of 50
+2024-01-21 13:09:55,983 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702961494677171415
+2024-01-21 13:09:57,295 [INFO] Response: 200
+2024-01-21 13:09:57,298 [INFO] Gathering page 37 of 50
+2024-01-21 13:09:57,299 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702925969605820566
+2024-01-21 13:09:58,779 [INFO] Response: 200
+2024-01-21 13:09:58,780 [INFO] Gathering page 38 of 50
+2024-01-21 13:09:58,782 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702855119549994895
+2024-01-21 13:10:00,172 [INFO] Response: 200
+2024-01-21 13:10:00,175 [INFO] Gathering page 39 of 50
+2024-01-21 13:10:00,177 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702777162056053176
+2024-01-21 13:10:01,586 [INFO] Response: 200
+2024-01-21 13:10:01,587 [INFO] Gathering page 40 of 50
+2024-01-21 13:10:01,589 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702688373975247203
+2024-01-21 13:10:03,046 [INFO] Response: 200
+2024-01-21 13:10:03,048 [INFO] Gathering page 41 of 50
+2024-01-21 13:10:03,048 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702610453458902358
+2024-01-21 13:10:04,458 [INFO] Response: 200
+2024-01-21 13:10:04,460 [INFO] Gathering page 42 of 50
+2024-01-21 13:10:04,462 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702579583396976849
+2024-01-21 13:10:05,879 [INFO] Response: 200
+2024-01-21 13:10:05,882 [INFO] Gathering page 43 of 50
+2024-01-21 13:10:05,884 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702512790612223716
+2024-01-21 13:10:07,270 [INFO] Response: 200
+2024-01-21 13:10:07,271 [INFO] Gathering page 44 of 50
+2024-01-21 13:10:07,272 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702452779148191098
+2024-01-21 13:10:08,775 [INFO] Response: 200
+2024-01-21 13:10:08,777 [INFO] Gathering page 45 of 50
+2024-01-21 13:10:08,777 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702415178554887775
+2024-01-21 13:10:10,118 [INFO] Response: 200
+2024-01-21 13:10:10,121 [INFO] Gathering page 46 of 50
+2024-01-21 13:10:10,122 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702359758081500406
+2024-01-21 13:10:11,475 [INFO] Response: 200
+2024-01-21 13:10:11,476 [INFO] Gathering page 47 of 50
+2024-01-21 13:10:11,477 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702323001976801817
+2024-01-21 13:10:12,838 [INFO] Response: 200
+2024-01-21 13:10:12,841 [INFO] Gathering page 48 of 50
+2024-01-21 13:10:12,843 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702259238802707657
+2024-01-21 13:10:14,285 [INFO] Response: 200
+2024-01-21 13:10:14,288 [INFO] Gathering page 49 of 50
+2024-01-21 13:10:14,290 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702178476634014010
+2024-01-21 13:10:15,468 [INFO] Response: 200
+2024-01-21 13:10:15,470 [INFO] Gathering page 50 of 50
+2024-01-21 13:10:15,472 [INFO] 
+Compiling 50 pages of results...
+2024-01-21 13:10:15,481 [INFO] All news articles gathered from abc_net from 2023-12-10 to 2024-01-20!
+2024-01-21 13:10:15,482 [INFO] Processing tables...
+2024-01-21 13:10:15,779 [INFO] Tables have been processed.
+2024-01-21 13:10:15,779 [INFO] 
+Pushing results from abc_net to Google BigQuery database...
+2024-01-21 13:10:16,696 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-01-21 13:10:17,030 [INFO] Table exists
+2024-01-21 13:10:29,756 [INFO] Loaded 51781 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-01-21 13:10:30,105 [INFO] Table exists
+2024-01-21 13:10:38,263 [INFO] Loaded 52363 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-01-21 13:10:38,598 [INFO] Table exists
+2024-01-21 13:10:46,510 [INFO] Loaded 128014 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-01-21 13:10:46,850 [INFO] Table exists
+2024-01-21 13:10:57,169 [INFO] Loaded 58777 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-01-21 13:10:57,170 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-01-21 13:10:57,171 [INFO] Gathering news articles from canberratimes from 2023-12-10 to 2024-01-20
+2024-01-21 13:10:57,171 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=canberratimes&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au
+2024-01-21 13:10:58,987 [INFO] Response: 200
+2024-01-21 13:10:58,989 [INFO] Gathering page 1 of 12
+2024-01-21 13:10:58,990 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=canberratimes&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705528620707795381
+2024-01-21 13:11:00,386 [INFO] Response: 200
+2024-01-21 13:11:00,387 [INFO] Gathering page 2 of 12
+2024-01-21 13:11:00,388 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=canberratimes&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705257000127443443
+2024-01-21 13:11:01,917 [INFO] Response: 200
+2024-01-21 13:11:01,921 [INFO] Gathering page 3 of 12
+2024-01-21 13:11:01,922 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=canberratimes&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704934800432697194
+2024-01-21 13:11:03,444 [INFO] Response: 200
+2024-01-21 13:11:03,446 [INFO] Gathering page 4 of 12
+2024-01-21 13:11:03,449 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=canberratimes&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704565800899020612
+2024-01-21 13:11:05,043 [INFO] Response: 200
+2024-01-21 13:11:05,046 [INFO] Gathering page 5 of 12
+2024-01-21 13:11:05,049 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=canberratimes&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704314692498019541
+2024-01-21 13:11:06,723 [INFO] Response: 200
+2024-01-21 13:11:06,727 [INFO] Gathering page 6 of 12
+2024-01-21 13:11:06,730 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=canberratimes&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703961000219656445
+2024-01-21 13:11:08,170 [INFO] Response: 200
+2024-01-21 13:11:08,171 [INFO] Gathering page 7 of 12
+2024-01-21 13:11:08,172 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=canberratimes&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703566155996416935
+2024-01-21 13:11:09,617 [INFO] Response: 200
+2024-01-21 13:11:09,620 [INFO] Gathering page 8 of 12
+2024-01-21 13:11:09,623 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=canberratimes&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703134140671132320
+2024-01-21 13:11:11,039 [INFO] Response: 200
+2024-01-21 13:11:11,041 [INFO] Gathering page 9 of 12
+2024-01-21 13:11:11,043 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=canberratimes&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702874760755961280
+2024-01-21 13:11:12,444 [INFO] Response: 200
+2024-01-21 13:11:12,448 [INFO] Gathering page 10 of 12
+2024-01-21 13:11:12,450 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=canberratimes&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702602000828421856
+2024-01-21 13:11:13,862 [INFO] Response: 200
+2024-01-21 13:11:13,866 [INFO] Gathering page 11 of 12
+2024-01-21 13:11:13,868 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=canberratimes&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702347300864725275
+2024-01-21 13:11:15,060 [INFO] Response: 200
+2024-01-21 13:11:15,060 [INFO] Gathering page 12 of 12
+2024-01-21 13:11:15,061 [INFO] 
+Compiling 12 pages of results...
+2024-01-21 13:11:15,066 [INFO] All news articles gathered from canberratimes from 2023-12-10 to 2024-01-20!
+2024-01-21 13:11:15,066 [INFO] Processing tables...
+2024-01-21 13:11:15,182 [INFO] Tables have been processed.
+2024-01-21 13:11:15,182 [INFO] 
+Pushing results from canberratimes to Google BigQuery database...
+2024-01-21 13:11:15,995 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-01-21 13:11:16,343 [INFO] Table exists
+2024-01-21 13:11:23,052 [INFO] Loaded 52356 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-01-21 13:11:23,391 [INFO] Table exists
+2024-01-21 13:11:29,798 [INFO] Loaded 52938 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-01-21 13:11:30,156 [INFO] Table exists
+2024-01-21 13:11:35,350 [INFO] Loaded 128589 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-01-21 13:11:35,714 [INFO] Table exists
+2024-01-21 13:11:42,453 [INFO] Loaded 59368 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-01-21 13:11:42,455 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-01-21 13:11:42,456 [INFO] Gathering news articles from crikey from 2023-12-10 to 2024-01-20
+2024-01-21 13:11:42,456 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=crikey&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au
+2024-01-21 13:11:44,150 [INFO] Response: 200
+2024-01-21 13:11:44,153 [INFO] Gathering page 1 of 4
+2024-01-21 13:11:44,155 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=crikey&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704926740535896584
+2024-01-21 13:11:45,727 [INFO] Response: 200
+2024-01-21 13:11:45,730 [INFO] Gathering page 2 of 4
+2024-01-21 13:11:45,733 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=crikey&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702861051783879904
+2024-01-21 13:11:47,335 [INFO] Response: 200
+2024-01-21 13:11:47,338 [INFO] Gathering page 3 of 4
+2024-01-21 13:11:47,341 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=crikey&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702253343034634231
+2024-01-21 13:11:48,199 [INFO] Response: 200
+2024-01-21 13:11:48,200 [INFO] Gathering page 4 of 4
+2024-01-21 13:11:48,202 [INFO] 
+Compiling 4 pages of results...
+2024-01-21 13:11:48,203 [INFO] All news articles gathered from crikey from 2023-12-10 to 2024-01-20!
+2024-01-21 13:11:48,203 [INFO] Processing tables...
+2024-01-21 13:11:48,267 [INFO] Tables have been processed.
+2024-01-21 13:11:48,267 [INFO] 
+Pushing results from crikey to Google BigQuery database...
+2024-01-21 13:11:49,095 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-01-21 13:11:49,448 [INFO] Table exists
+2024-01-21 13:11:55,792 [INFO] Loaded 52509 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-01-21 13:11:56,122 [INFO] Table exists
+2024-01-21 13:12:03,127 [INFO] Loaded 53093 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-01-21 13:12:03,468 [INFO] Table exists
+2024-01-21 13:12:08,804 [INFO] Loaded 130242 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-01-21 13:12:09,330 [INFO] Table exists
+2024-01-21 13:12:16,865 [INFO] Loaded 59521 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-01-21 13:12:16,865 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-01-21 13:12:16,865 [INFO] Gathering news articles from theguardian from 2023-12-10 to 2024-01-20
+2024-01-21 13:12:16,866 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theguardian&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au
+2024-01-21 13:12:18,595 [INFO] Response: 200
+2024-01-21 13:12:18,599 [INFO] Gathering page 1 of 13
+2024-01-21 13:12:18,600 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theguardian&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705537050389833392
+2024-01-21 13:12:20,260 [INFO] Response: 200
+2024-01-21 13:12:20,264 [INFO] Gathering page 2 of 13
+2024-01-21 13:12:20,267 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theguardian&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705316018818484993
+2024-01-21 13:12:21,832 [INFO] Response: 200
+2024-01-21 13:12:21,836 [INFO] Gathering page 3 of 13
+2024-01-21 13:12:21,836 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theguardian&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704999096898021657
+2024-01-21 13:12:23,481 [INFO] Response: 200
+2024-01-21 13:12:23,484 [INFO] Gathering page 4 of 13
+2024-01-21 13:12:23,486 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theguardian&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704808803727130877
+2024-01-21 13:12:25,059 [INFO] Response: 200
+2024-01-21 13:12:25,062 [INFO] Gathering page 5 of 13
+2024-01-21 13:12:25,065 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theguardian&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704463226179492849
+2024-01-21 13:12:26,674 [INFO] Response: 200
+2024-01-21 13:12:26,676 [INFO] Gathering page 6 of 13
+2024-01-21 13:12:26,677 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theguardian&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704232383289185674
+2024-01-21 13:12:28,286 [INFO] Response: 200
+2024-01-21 13:12:28,290 [INFO] Gathering page 7 of 13
+2024-01-21 13:12:28,293 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theguardian&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704006247788450299
+2024-01-21 13:12:29,881 [INFO] Response: 200
+2024-01-21 13:12:29,885 [INFO] Gathering page 8 of 13
+2024-01-21 13:12:29,887 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theguardian&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703667601588077493
+2024-01-21 13:12:31,462 [INFO] Response: 200
+2024-01-21 13:12:31,467 [INFO] Gathering page 9 of 13
+2024-01-21 13:12:31,470 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theguardian&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703247197426618669
+2024-01-21 13:12:33,060 [INFO] Response: 200
+2024-01-21 13:12:33,062 [INFO] Gathering page 10 of 13
+2024-01-21 13:12:33,063 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theguardian&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702994445171931187
+2024-01-21 13:12:34,667 [INFO] Response: 200
+2024-01-21 13:12:34,668 [INFO] Gathering page 11 of 13
+2024-01-21 13:12:34,670 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theguardian&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702648829505896719
+2024-01-21 13:12:36,341 [INFO] Response: 200
+2024-01-21 13:12:36,346 [INFO] Gathering page 12 of 13
+2024-01-21 13:12:36,347 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theguardian&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702364401054143583
+2024-01-21 13:12:37,792 [INFO] Response: 200
+2024-01-21 13:12:37,795 [INFO] Gathering page 13 of 13
+2024-01-21 13:12:37,797 [INFO] 
+Compiling 13 pages of results...
+2024-01-21 13:12:37,800 [INFO] All news articles gathered from theguardian from 2023-12-10 to 2024-01-20!
+2024-01-21 13:12:37,800 [INFO] Processing tables...
+2024-01-21 13:12:37,930 [INFO] Tables have been processed.
+2024-01-21 13:12:37,930 [INFO] 
+Pushing results from theguardian to Google BigQuery database...
+2024-01-21 13:12:38,692 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-01-21 13:12:39,004 [INFO] Table exists
+2024-01-21 13:12:46,906 [INFO] Loaded 53155 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-01-21 13:12:47,246 [INFO] Table exists
+2024-01-21 13:12:52,980 [INFO] Loaded 53739 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-01-21 13:12:53,334 [INFO] Table exists
+2024-01-21 13:12:58,632 [INFO] Loaded 134085 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-01-21 13:12:58,948 [INFO] Table exists
+2024-01-21 13:13:04,481 [INFO] Loaded 60279 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-01-21 13:13:04,482 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-01-21 13:13:04,482 [INFO] Gathering news articles from independent_australia from 2023-12-10 to 2024-01-20
+2024-01-21 13:13:04,482 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=independent_australia&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au
+2024-01-21 13:13:05,928 [INFO] Response: 200
+2024-01-21 13:13:05,931 [INFO] Gathering page 1 of 1
+2024-01-21 13:13:05,934 [INFO] 
+Compiling 1 pages of results...
+2024-01-21 13:13:05,935 [INFO] All news articles gathered from independent_australia from 2023-12-10 to 2024-01-20!
+2024-01-21 13:13:05,935 [INFO] Processing tables...
+2024-01-21 13:13:05,952 [INFO] Tables have been processed.
+2024-01-21 13:13:05,952 [INFO] 
+Pushing results from independent_australia to Google BigQuery database...
+2024-01-21 13:13:06,695 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-01-21 13:13:07,028 [INFO] Table exists
+2024-01-21 13:13:13,028 [INFO] Loaded 53175 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-01-21 13:13:13,353 [INFO] Table exists
+2024-01-21 13:13:17,847 [INFO] Loaded 53759 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-01-21 13:13:18,178 [INFO] Table exists
+2024-01-21 13:13:23,316 [INFO] Loaded 134105 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-01-21 13:13:23,621 [INFO] Table exists
+2024-01-21 13:13:28,635 [INFO] Loaded 60302 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-01-21 13:13:28,635 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-01-21 13:13:28,636 [INFO] Gathering news articles from 9news_au from 2023-12-10 to 2024-01-20
+2024-01-21 13:13:28,636 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=9news_au&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au
+2024-01-21 13:13:30,048 [INFO] Response: 200
+2024-01-21 13:13:30,049 [INFO] Gathering page 1 of 13
+2024-01-21 13:13:30,050 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=9news_au&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705543959698252397
+2024-01-21 13:13:31,452 [INFO] Response: 200
+2024-01-21 13:13:31,453 [INFO] Gathering page 2 of 13
+2024-01-21 13:13:31,454 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=9news_au&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705409042224582143
+2024-01-21 13:13:32,941 [INFO] Response: 200
+2024-01-21 13:13:32,944 [INFO] Gathering page 3 of 13
+2024-01-21 13:13:32,946 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=9news_au&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705199328835489251
+2024-01-21 13:13:34,317 [INFO] Response: 200
+2024-01-21 13:13:34,319 [INFO] Gathering page 4 of 13
+2024-01-21 13:13:34,322 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=9news_au&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704953574487463197
+2024-01-21 13:13:35,711 [INFO] Response: 200
+2024-01-21 13:13:35,714 [INFO] Gathering page 5 of 13
+2024-01-21 13:13:35,716 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=9news_au&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704800941580689624
+2024-01-21 13:13:37,109 [INFO] Response: 200
+2024-01-21 13:13:37,112 [INFO] Gathering page 6 of 13
+2024-01-21 13:13:37,113 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=9news_au&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704602100128696429
+2024-01-21 13:13:38,480 [INFO] Response: 200
+2024-01-21 13:13:38,483 [INFO] Gathering page 7 of 13
+2024-01-21 13:13:38,484 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=9news_au&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704332824968693754
+2024-01-21 13:13:39,907 [INFO] Response: 200
+2024-01-21 13:13:39,908 [INFO] Gathering page 8 of 13
+2024-01-21 13:13:39,909 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=9news_au&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704070622170478816
+2024-01-21 13:13:41,260 [INFO] Response: 200
+2024-01-21 13:13:41,263 [INFO] Gathering page 9 of 13
+2024-01-21 13:13:41,266 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=9news_au&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703782833600285219
+2024-01-21 13:13:42,631 [INFO] Response: 200
+2024-01-21 13:13:42,633 [INFO] Gathering page 10 of 13
+2024-01-21 13:13:42,636 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=9news_au&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703413846205964517
+2024-01-21 13:13:43,997 [INFO] Response: 200
+2024-01-21 13:13:43,998 [INFO] Gathering page 11 of 13
+2024-01-21 13:13:43,999 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=9news_au&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703038617936189239
+2024-01-21 13:13:45,427 [INFO] Response: 200
+2024-01-21 13:13:45,427 [INFO] Gathering page 12 of 13
+2024-01-21 13:13:45,428 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=9news_au&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702516983654860206
+2024-01-21 13:13:46,768 [INFO] Response: 200
+2024-01-21 13:13:46,770 [INFO] Gathering page 13 of 13
+2024-01-21 13:13:46,773 [INFO] 
+Compiling 13 pages of results...
+2024-01-21 13:13:46,775 [INFO] All news articles gathered from 9news_au from 2023-12-10 to 2024-01-20!
+2024-01-21 13:13:46,775 [INFO] Processing tables...
+2024-01-21 13:13:46,843 [INFO] Tables have been processed.
+2024-01-21 13:13:46,843 [INFO] 
+Pushing results from 9news_au to Google BigQuery database...
+2024-01-21 13:13:47,908 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-01-21 13:13:48,253 [INFO] Table exists
+2024-01-21 13:13:58,296 [INFO] Loaded 53821 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-01-21 13:13:58,629 [INFO] Table exists
+2024-01-21 13:14:03,845 [INFO] Loaded 54405 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-01-21 13:14:04,175 [INFO] Table exists
+2024-01-21 13:14:09,386 [INFO] Loaded 134751 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-01-21 13:14:09,714 [INFO] Table exists
+2024-01-21 13:14:14,395 [INFO] Loaded 60948 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-01-21 13:14:14,395 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-01-21 13:14:14,396 [INFO] Gathering news articles from theconversation from 2023-12-10 to 2024-01-20
+2024-01-21 13:14:14,396 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theconversation&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au
+2024-01-21 13:14:16,082 [INFO] Response: 200
+2024-01-21 13:14:16,084 [INFO] Gathering page 1 of 7
+2024-01-21 13:14:16,086 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theconversation&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705518476436082780
+2024-01-21 13:14:17,672 [INFO] Response: 200
+2024-01-21 13:14:17,675 [INFO] Gathering page 2 of 7
+2024-01-21 13:14:17,678 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theconversation&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705259084767034334
+2024-01-21 13:14:19,315 [INFO] Response: 200
+2024-01-21 13:14:19,318 [INFO] Gathering page 3 of 7
+2024-01-21 13:14:19,354 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theconversation&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704313618060223104
+2024-01-21 13:14:20,970 [INFO] Response: 200
+2024-01-21 13:14:20,974 [INFO] Gathering page 4 of 7
+2024-01-21 13:14:20,976 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theconversation&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703118473879185586
+2024-01-21 13:14:22,559 [INFO] Response: 200
+2024-01-21 13:14:22,563 [INFO] Gathering page 5 of 7
+2024-01-21 13:14:22,566 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theconversation&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702597230100172618
+2024-01-21 13:14:24,250 [INFO] Response: 200
+2024-01-21 13:14:24,252 [INFO] Gathering page 6 of 7
+2024-01-21 13:14:24,252 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=theconversation&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702321310247578248
+2024-01-21 13:14:25,558 [INFO] Response: 200
+2024-01-21 13:14:25,558 [INFO] Gathering page 7 of 7
+2024-01-21 13:14:25,559 [INFO] 
+Compiling 7 pages of results...
+2024-01-21 13:14:25,562 [INFO] All news articles gathered from theconversation from 2023-12-10 to 2024-01-20!
+2024-01-21 13:14:25,562 [INFO] Processing tables...
+2024-01-21 13:14:25,643 [INFO] Tables have been processed.
+2024-01-21 13:14:25,643 [INFO] 
+Pushing results from theconversation to Google BigQuery database...
+2024-01-21 13:14:26,595 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-01-21 13:14:26,895 [INFO] Table exists
+2024-01-21 13:14:35,714 [INFO] Loaded 54139 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-01-21 13:14:36,042 [INFO] Table exists
+2024-01-21 13:14:41,388 [INFO] Loaded 54753 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-01-21 13:14:41,743 [INFO] Table exists
+2024-01-21 13:14:46,590 [INFO] Loaded 135069 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-01-21 13:14:46,916 [INFO] Table exists
+2024-01-21 13:14:53,676 [INFO] Loaded 62781 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-01-21 13:14:53,676 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-01-21 13:14:53,677 [INFO] Gathering news articles from thenewdaily from 2023-12-10 to 2024-01-20
+2024-01-21 13:14:53,677 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thenewdaily&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au
+2024-01-21 13:14:54,490 [INFO] Response: 200
+2024-01-21 13:14:54,491 [INFO] Gathering page 1 of 0
+2024-01-21 13:14:54,492 [INFO] No results for thenewdaily during your specified timeframe!
+2024-01-21 13:14:54,493 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-01-21 13:14:54,493 [INFO] Gathering news articles from smh from 2023-12-10 to 2024-01-20
+2024-01-21 13:14:54,493 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au
+2024-01-21 13:14:55,979 [INFO] Response: 200
+2024-01-21 13:14:55,987 [INFO] Gathering page 1 of 127
+2024-01-21 13:14:55,989 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705699648862313401
+2024-01-21 13:14:57,409 [INFO] Response: 200
+2024-01-21 13:14:57,412 [INFO] Gathering page 2 of 127
+2024-01-21 13:14:57,414 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705687200470043629
+2024-01-21 13:14:58,882 [INFO] Response: 200
+2024-01-21 13:14:58,885 [INFO] Gathering page 3 of 127
+2024-01-21 13:14:58,887 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705658452429847845
+2024-01-21 13:15:00,289 [INFO] Response: 200
+2024-01-21 13:15:00,290 [INFO] Gathering page 4 of 127
+2024-01-21 13:15:00,291 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705639925799998097
+2024-01-21 13:15:01,768 [INFO] Response: 200
+2024-01-21 13:15:01,770 [INFO] Gathering page 5 of 127
+2024-01-21 13:15:01,772 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705622400932291034
+2024-01-21 13:15:03,549 [INFO] Response: 200
+2024-01-21 13:15:03,552 [INFO] Gathering page 6 of 127
+2024-01-21 13:15:03,554 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705602270805514655
+2024-01-21 13:15:05,350 [INFO] Response: 200
+2024-01-21 13:15:05,351 [INFO] Gathering page 7 of 127
+2024-01-21 13:15:05,352 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705569745970364754
+2024-01-21 13:15:06,676 [INFO] Response: 200
+2024-01-21 13:15:06,678 [INFO] Gathering page 8 of 127
+2024-01-21 13:15:06,679 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705554378988074175
+2024-01-21 13:15:08,031 [INFO] Response: 200
+2024-01-21 13:15:08,034 [INFO] Gathering page 9 of 127
+2024-01-21 13:15:08,036 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705540970622353374
+2024-01-21 13:15:09,248 [INFO] Response: 200
+2024-01-21 13:15:09,250 [INFO] Gathering page 10 of 127
+2024-01-21 13:15:09,251 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705517524009765119
+2024-01-21 13:15:10,837 [INFO] Response: 200
+2024-01-21 13:15:10,841 [INFO] Gathering page 11 of 127
+2024-01-21 13:15:10,845 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705514400211891656
+2024-01-21 13:15:12,000 [INFO] Response: 200
+2024-01-21 13:15:12,002 [INFO] Gathering page 12 of 127
+2024-01-21 13:15:12,004 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705478083022058614
+2024-01-21 13:15:13,404 [INFO] Response: 200
+2024-01-21 13:15:13,407 [INFO] Gathering page 13 of 127
+2024-01-21 13:15:13,408 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705452939616467504
+2024-01-21 13:15:14,806 [INFO] Response: 200
+2024-01-21 13:15:14,807 [INFO] Gathering page 14 of 127
+2024-01-21 13:15:14,808 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705431679443687197
+2024-01-21 13:15:16,207 [INFO] Response: 200
+2024-01-21 13:15:16,210 [INFO] Gathering page 15 of 127
+2024-01-21 13:15:16,212 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705428000071889225
+2024-01-21 13:15:17,511 [INFO] Response: 200
+2024-01-21 13:15:17,513 [INFO] Gathering page 16 of 127
+2024-01-21 13:15:17,515 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705393969043809517
+2024-01-21 13:15:18,933 [INFO] Response: 200
+2024-01-21 13:15:18,936 [INFO] Gathering page 17 of 127
+2024-01-21 13:15:18,938 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705373986844833142
+2024-01-21 13:15:20,059 [INFO] Response: 200
+2024-01-21 13:15:20,060 [INFO] Gathering page 18 of 127
+2024-01-21 13:15:20,061 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705345374077741993
+2024-01-21 13:15:21,463 [INFO] Response: 200
+2024-01-21 13:15:21,464 [INFO] Gathering page 19 of 127
+2024-01-21 13:15:21,465 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705330660801228147
+2024-01-21 13:15:22,587 [INFO] Response: 200
+2024-01-21 13:15:22,589 [INFO] Gathering page 20 of 127
+2024-01-21 13:15:22,592 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705302924898032980
+2024-01-21 13:15:23,691 [INFO] Response: 200
+2024-01-21 13:15:23,693 [INFO] Gathering page 21 of 127
+2024-01-21 13:15:23,696 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705288666506435933
+2024-01-21 13:15:25,071 [INFO] Response: 200
+2024-01-21 13:15:25,074 [INFO] Gathering page 22 of 127
+2024-01-21 13:15:25,076 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705262435730531344
+2024-01-21 13:15:26,502 [INFO] Response: 200
+2024-01-21 13:15:26,505 [INFO] Gathering page 23 of 127
+2024-01-21 13:15:26,508 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705216046215421262
+2024-01-21 13:15:27,896 [INFO] Response: 200
+2024-01-21 13:15:27,898 [INFO] Gathering page 24 of 127
+2024-01-21 13:15:27,901 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705168980568599059
+2024-01-21 13:15:29,304 [INFO] Response: 200
+2024-01-21 13:15:29,305 [INFO] Gathering page 25 of 127
+2024-01-21 13:15:29,306 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705134918536460630
+2024-01-21 13:15:30,694 [INFO] Response: 200
+2024-01-21 13:15:30,695 [INFO] Gathering page 26 of 127
+2024-01-21 13:15:30,697 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705104189012716885
+2024-01-21 13:15:32,286 [INFO] Response: 200
+2024-01-21 13:15:32,289 [INFO] Gathering page 27 of 127
+2024-01-21 13:15:32,291 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705082400250342136
+2024-01-21 13:15:33,635 [INFO] Response: 200
+2024-01-21 13:15:33,638 [INFO] Gathering page 28 of 127
+2024-01-21 13:15:33,641 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705043937842722040
+2024-01-21 13:15:35,012 [INFO] Response: 200
+2024-01-21 13:15:35,015 [INFO] Gathering page 29 of 127
+2024-01-21 13:15:35,017 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705024907928501485
+2024-01-21 13:15:36,480 [INFO] Response: 200
+2024-01-21 13:15:36,483 [INFO] Gathering page 30 of 127
+2024-01-21 13:15:36,486 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705000160220450252
+2024-01-21 13:15:37,845 [INFO] Response: 200
+2024-01-21 13:15:37,846 [INFO] Gathering page 31 of 127
+2024-01-21 13:15:37,847 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704974978825834186
+2024-01-21 13:15:39,226 [INFO] Response: 200
+2024-01-21 13:15:39,227 [INFO] Gathering page 32 of 127
+2024-01-21 13:15:39,228 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704956400207465171
+2024-01-21 13:15:40,572 [INFO] Response: 200
+2024-01-21 13:15:40,575 [INFO] Gathering page 33 of 127
+2024-01-21 13:15:40,577 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704933600316192369
+2024-01-21 13:15:41,675 [INFO] Response: 200
+2024-01-21 13:15:41,676 [INFO] Gathering page 34 of 127
+2024-01-21 13:15:41,677 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704911400108742681
+2024-01-21 13:15:43,032 [INFO] Response: 200
+2024-01-21 13:15:43,033 [INFO] Gathering page 35 of 127
+2024-01-21 13:15:43,033 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704876900196729023
+2024-01-21 13:15:44,348 [INFO] Response: 200
+2024-01-21 13:15:44,349 [INFO] Gathering page 36 of 127
+2024-01-21 13:15:44,350 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704850312635577092
+2024-01-21 13:15:45,699 [INFO] Response: 200
+2024-01-21 13:15:45,701 [INFO] Gathering page 37 of 127
+2024-01-21 13:15:45,702 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704825000953463351
+2024-01-21 13:15:47,108 [INFO] Response: 200
+2024-01-21 13:15:47,111 [INFO] Gathering page 38 of 127
+2024-01-21 13:15:47,112 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704789596176627058
+2024-01-21 13:15:48,426 [INFO] Response: 200
+2024-01-21 13:15:48,428 [INFO] Gathering page 39 of 127
+2024-01-21 13:15:48,429 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704775551729919186
+2024-01-21 13:15:49,760 [INFO] Response: 200
+2024-01-21 13:15:49,762 [INFO] Gathering page 40 of 127
+2024-01-21 13:15:49,763 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704744007669479701
+2024-01-21 13:15:51,150 [INFO] Response: 200
+2024-01-21 13:15:51,151 [INFO] Gathering page 41 of 127
+2024-01-21 13:15:51,152 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704715771478141504
+2024-01-21 13:15:52,546 [INFO] Response: 200
+2024-01-21 13:15:52,547 [INFO] Gathering page 42 of 127
+2024-01-21 13:15:52,548 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704690000670936919
+2024-01-21 13:15:53,916 [INFO] Response: 200
+2024-01-21 13:15:53,917 [INFO] Gathering page 43 of 127
+2024-01-21 13:15:53,918 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704664423643826883
+2024-01-21 13:15:55,235 [INFO] Response: 200
+2024-01-21 13:15:55,236 [INFO] Gathering page 44 of 127
+2024-01-21 13:15:55,238 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704650143761890473
+2024-01-21 13:15:56,348 [INFO] Response: 200
+2024-01-21 13:15:56,349 [INFO] Gathering page 45 of 127
+2024-01-21 13:15:56,350 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704616710713885042
+2024-01-21 13:15:57,705 [INFO] Response: 200
+2024-01-21 13:15:57,707 [INFO] Gathering page 46 of 127
+2024-01-21 13:15:57,708 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704595447584462449
+2024-01-21 13:15:59,034 [INFO] Response: 200
+2024-01-21 13:15:59,036 [INFO] Gathering page 47 of 127
+2024-01-21 13:15:59,037 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704562943487582056
+2024-01-21 13:16:00,184 [INFO] Response: 200
+2024-01-21 13:16:00,184 [INFO] Gathering page 48 of 127
+2024-01-21 13:16:00,185 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704528243983497507
+2024-01-21 13:16:01,602 [INFO] Response: 200
+2024-01-21 13:16:01,604 [INFO] Gathering page 49 of 127
+2024-01-21 13:16:01,607 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704496236357607274
+2024-01-21 13:16:03,305 [INFO] Response: 200
+2024-01-21 13:16:03,307 [INFO] Gathering page 50 of 127
+2024-01-21 13:16:03,308 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704465004597859115
+2024-01-21 13:16:04,437 [INFO] Response: 200
+2024-01-21 13:16:04,438 [INFO] Gathering page 51 of 127
+2024-01-21 13:16:04,439 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704444535186457259
+2024-01-21 13:16:05,809 [INFO] Response: 200
+2024-01-21 13:16:05,810 [INFO] Gathering page 52 of 127
+2024-01-21 13:16:05,812 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704412755926541586
+2024-01-21 13:16:07,228 [INFO] Response: 200
+2024-01-21 13:16:07,229 [INFO] Gathering page 53 of 127
+2024-01-21 13:16:07,230 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704391200462048063
+2024-01-21 13:16:08,562 [INFO] Response: 200
+2024-01-21 13:16:08,563 [INFO] Gathering page 54 of 127
+2024-01-21 13:16:08,565 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704355388759693653
+2024-01-21 13:16:09,938 [INFO] Response: 200
+2024-01-21 13:16:09,940 [INFO] Gathering page 55 of 127
+2024-01-21 13:16:09,942 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704325871698743590
+2024-01-21 13:16:11,329 [INFO] Response: 200
+2024-01-21 13:16:11,330 [INFO] Gathering page 56 of 127
+2024-01-21 13:16:11,331 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704304800133960798
+2024-01-21 13:16:12,487 [INFO] Response: 200
+2024-01-21 13:16:12,489 [INFO] Gathering page 57 of 127
+2024-01-21 13:16:12,492 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704270480285564146
+2024-01-21 13:16:13,825 [INFO] Response: 200
+2024-01-21 13:16:13,826 [INFO] Gathering page 58 of 127
+2024-01-21 13:16:13,828 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704240843300068840
+2024-01-21 13:16:15,192 [INFO] Response: 200
+2024-01-21 13:16:15,194 [INFO] Gathering page 59 of 127
+2024-01-21 13:16:15,197 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704219101622257542
+2024-01-21 13:16:16,600 [INFO] Response: 200
+2024-01-21 13:16:16,602 [INFO] Gathering page 60 of 127
+2024-01-21 13:16:16,603 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704183900576132808
+2024-01-21 13:16:17,965 [INFO] Response: 200
+2024-01-21 13:16:17,965 [INFO] Gathering page 61 of 127
+2024-01-21 13:16:17,966 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704159120222558418
+2024-01-21 13:16:19,149 [INFO] Response: 200
+2024-01-21 13:16:19,151 [INFO] Gathering page 62 of 127
+2024-01-21 13:16:19,151 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704138460527107694
+2024-01-21 13:16:20,552 [INFO] Response: 200
+2024-01-21 13:16:20,553 [INFO] Gathering page 63 of 127
+2024-01-21 13:16:20,554 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704110355910597842
+2024-01-21 13:16:21,705 [INFO] Response: 200
+2024-01-21 13:16:21,705 [INFO] Gathering page 64 of 127
+2024-01-21 13:16:21,706 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704090790767272345
+2024-01-21 13:16:23,003 [INFO] Response: 200
+2024-01-21 13:16:23,004 [INFO] Gathering page 65 of 127
+2024-01-21 13:16:23,005 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704069000855078509
+2024-01-21 13:16:24,369 [INFO] Response: 200
+2024-01-21 13:16:24,370 [INFO] Gathering page 66 of 127
+2024-01-21 13:16:24,371 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704045600571737913
+2024-01-21 13:16:25,725 [INFO] Response: 200
+2024-01-21 13:16:25,726 [INFO] Gathering page 67 of 127
+2024-01-21 13:16:25,727 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704004863402677448
+2024-01-21 13:16:27,048 [INFO] Response: 200
+2024-01-21 13:16:27,049 [INFO] Gathering page 68 of 127
+2024-01-21 13:16:27,050 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703967809845540951
+2024-01-21 13:16:28,378 [INFO] Response: 200
+2024-01-21 13:16:28,380 [INFO] Gathering page 69 of 127
+2024-01-21 13:16:28,381 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703928119911870336
+2024-01-21 13:16:29,712 [INFO] Response: 200
+2024-01-21 13:16:29,714 [INFO] Gathering page 70 of 127
+2024-01-21 13:16:29,715 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703908078689893107
+2024-01-21 13:16:31,036 [INFO] Response: 200
+2024-01-21 13:16:31,038 [INFO] Gathering page 71 of 127
+2024-01-21 13:16:31,041 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703872800711409670
+2024-01-21 13:16:32,403 [INFO] Response: 200
+2024-01-21 13:16:32,405 [INFO] Gathering page 72 of 127
+2024-01-21 13:16:32,407 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703840591195336164
+2024-01-21 13:16:33,831 [INFO] Response: 200
+2024-01-21 13:16:33,832 [INFO] Gathering page 73 of 127
+2024-01-21 13:16:33,835 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703791912213364194
+2024-01-21 13:16:35,286 [INFO] Response: 200
+2024-01-21 13:16:35,288 [INFO] Gathering page 74 of 127
+2024-01-21 13:16:35,289 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703754632151727886
+2024-01-21 13:16:36,708 [INFO] Response: 200
+2024-01-21 13:16:36,709 [INFO] Gathering page 75 of 127
+2024-01-21 13:16:36,710 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703721229363575026
+2024-01-21 13:16:38,052 [INFO] Response: 200
+2024-01-21 13:16:38,053 [INFO] Gathering page 76 of 127
+2024-01-21 13:16:38,055 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703700000254048676
+2024-01-21 13:16:39,394 [INFO] Response: 200
+2024-01-21 13:16:39,395 [INFO] Gathering page 77 of 127
+2024-01-21 13:16:39,397 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703661862238854959
+2024-01-21 13:16:40,737 [INFO] Response: 200
+2024-01-21 13:16:40,739 [INFO] Gathering page 78 of 127
+2024-01-21 13:16:40,740 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703616000288918921
+2024-01-21 13:16:42,131 [INFO] Response: 200
+2024-01-21 13:16:42,133 [INFO] Gathering page 79 of 127
+2024-01-21 13:16:42,135 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703564023592075697
+2024-01-21 13:16:43,476 [INFO] Response: 200
+2024-01-21 13:16:43,478 [INFO] Gathering page 80 of 127
+2024-01-21 13:16:43,482 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703527200416426715
+2024-01-21 13:16:44,847 [INFO] Response: 200
+2024-01-21 13:16:44,849 [INFO] Gathering page 81 of 127
+2024-01-21 13:16:44,850 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703479500034496130
+2024-01-21 13:16:46,187 [INFO] Response: 200
+2024-01-21 13:16:46,188 [INFO] Gathering page 82 of 127
+2024-01-21 13:16:46,189 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703404082717381622
+2024-01-21 13:16:47,535 [INFO] Response: 200
+2024-01-21 13:16:47,538 [INFO] Gathering page 83 of 127
+2024-01-21 13:16:47,540 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703369034681409014
+2024-01-21 13:16:48,891 [INFO] Response: 200
+2024-01-21 13:16:48,892 [INFO] Gathering page 84 of 127
+2024-01-21 13:16:48,893 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703319747715804475
+2024-01-21 13:16:50,263 [INFO] Response: 200
+2024-01-21 13:16:50,264 [INFO] Gathering page 85 of 127
+2024-01-21 13:16:50,266 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703278800083796877
+2024-01-21 13:16:51,868 [INFO] Response: 200
+2024-01-21 13:16:51,870 [INFO] Gathering page 86 of 127
+2024-01-21 13:16:51,871 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703242229044995422
+2024-01-21 13:16:53,190 [INFO] Response: 200
+2024-01-21 13:16:53,191 [INFO] Gathering page 87 of 127
+2024-01-21 13:16:53,192 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703220994127839346
+2024-01-21 13:16:54,579 [INFO] Response: 200
+2024-01-21 13:16:54,583 [INFO] Gathering page 88 of 127
+2024-01-21 13:16:54,585 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703202173214458099
+2024-01-21 13:16:55,915 [INFO] Response: 200
+2024-01-21 13:16:55,916 [INFO] Gathering page 89 of 127
+2024-01-21 13:16:55,917 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703181600055992899
+2024-01-21 13:16:57,317 [INFO] Response: 200
+2024-01-21 13:16:57,318 [INFO] Gathering page 90 of 127
+2024-01-21 13:16:57,320 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703139365665541322
+2024-01-21 13:16:58,746 [INFO] Response: 200
+2024-01-21 13:16:58,748 [INFO] Gathering page 91 of 127
+2024-01-21 13:16:58,749 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703121627828379507
+2024-01-21 13:16:59,922 [INFO] Response: 200
+2024-01-21 13:16:59,924 [INFO] Gathering page 92 of 127
+2024-01-21 13:16:59,925 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703099816976817042
+2024-01-21 13:17:01,471 [INFO] Response: 200
+2024-01-21 13:17:01,472 [INFO] Gathering page 93 of 127
+2024-01-21 13:17:01,474 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703071644053824828
+2024-01-21 13:17:02,919 [INFO] Response: 200
+2024-01-21 13:17:02,920 [INFO] Gathering page 94 of 127
+2024-01-21 13:17:02,921 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703052000698211040
+2024-01-21 13:17:04,267 [INFO] Response: 200
+2024-01-21 13:17:04,268 [INFO] Gathering page 95 of 127
+2024-01-21 13:17:04,269 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703032325223947241
+2024-01-21 13:17:05,624 [INFO] Response: 200
+2024-01-21 13:17:05,625 [INFO] Gathering page 96 of 127
+2024-01-21 13:17:05,626 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703008800300475069
+2024-01-21 13:17:06,936 [INFO] Response: 200
+2024-01-21 13:17:06,939 [INFO] Gathering page 97 of 127
+2024-01-21 13:17:06,941 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702960764480036186
+2024-01-21 13:17:08,288 [INFO] Response: 200
+2024-01-21 13:17:08,290 [INFO] Gathering page 98 of 127
+2024-01-21 13:17:08,292 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702945038566729343
+2024-01-21 13:17:09,659 [INFO] Response: 200
+2024-01-21 13:17:09,660 [INFO] Gathering page 99 of 127
+2024-01-21 13:17:09,661 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702922400383145392
+2024-01-21 13:17:10,982 [INFO] Response: 200
+2024-01-21 13:17:10,984 [INFO] Gathering page 100 of 127
+2024-01-21 13:17:10,985 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702886542044436913
+2024-01-21 13:17:12,274 [INFO] Response: 200
+2024-01-21 13:17:12,275 [INFO] Gathering page 101 of 127
+2024-01-21 13:17:12,276 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702873241856243071
+2024-01-21 13:17:13,586 [INFO] Response: 200
+2024-01-21 13:17:13,587 [INFO] Gathering page 102 of 127
+2024-01-21 13:17:13,588 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702852169072958287
+2024-01-21 13:17:14,993 [INFO] Response: 200
+2024-01-21 13:17:14,997 [INFO] Gathering page 103 of 127
+2024-01-21 13:17:14,999 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702836000189937038
+2024-01-21 13:17:16,356 [INFO] Response: 200
+2024-01-21 13:17:16,357 [INFO] Gathering page 104 of 127
+2024-01-21 13:17:16,358 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702796400856660706
+2024-01-21 13:17:17,769 [INFO] Response: 200
+2024-01-21 13:17:17,770 [INFO] Gathering page 105 of 127
+2024-01-21 13:17:17,772 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702759143830860002
+2024-01-21 13:17:19,154 [INFO] Response: 200
+2024-01-21 13:17:19,155 [INFO] Gathering page 106 of 127
+2024-01-21 13:17:19,157 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702713600854793104
+2024-01-21 13:17:20,495 [INFO] Response: 200
+2024-01-21 13:17:20,496 [INFO] Gathering page 107 of 127
+2024-01-21 13:17:20,497 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702672694519564392
+2024-01-21 13:17:22,062 [INFO] Response: 200
+2024-01-21 13:17:22,064 [INFO] Gathering page 108 of 127
+2024-01-21 13:17:22,065 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702639379297458344
+2024-01-21 13:17:23,403 [INFO] Response: 200
+2024-01-21 13:17:23,404 [INFO] Gathering page 109 of 127
+2024-01-21 13:17:23,405 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702616733913296628
+2024-01-21 13:17:24,762 [INFO] Response: 200
+2024-01-21 13:17:24,762 [INFO] Gathering page 110 of 127
+2024-01-21 13:17:24,763 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702584526224234121
+2024-01-21 13:17:26,300 [INFO] Response: 200
+2024-01-21 13:17:26,301 [INFO] Gathering page 111 of 127
+2024-01-21 13:17:26,302 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702576800020681678
+2024-01-21 13:17:27,602 [INFO] Response: 200
+2024-01-21 13:17:27,603 [INFO] Gathering page 112 of 127
+2024-01-21 13:17:27,604 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702538895888085978
+2024-01-21 13:17:28,934 [INFO] Response: 200
+2024-01-21 13:17:28,935 [INFO] Gathering page 113 of 127
+2024-01-21 13:17:28,936 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702522987766080484
+2024-01-21 13:17:30,284 [INFO] Response: 200
+2024-01-21 13:17:30,286 [INFO] Gathering page 114 of 127
+2024-01-21 13:17:30,288 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702492200015512902
+2024-01-21 13:17:31,631 [INFO] Response: 200
+2024-01-21 13:17:31,632 [INFO] Gathering page 115 of 127
+2024-01-21 13:17:31,634 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702452829834234621
+2024-01-21 13:17:32,954 [INFO] Response: 200
+2024-01-21 13:17:32,957 [INFO] Gathering page 116 of 127
+2024-01-21 13:17:32,960 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702437158399508815
+2024-01-21 13:17:34,280 [INFO] Response: 200
+2024-01-21 13:17:34,282 [INFO] Gathering page 117 of 127
+2024-01-21 13:17:34,283 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702415778332655401
+2024-01-21 13:17:35,620 [INFO] Response: 200
+2024-01-21 13:17:35,623 [INFO] Gathering page 118 of 127
+2024-01-21 13:17:35,625 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702385940132834870
+2024-01-21 13:17:37,006 [INFO] Response: 200
+2024-01-21 13:17:37,007 [INFO] Gathering page 119 of 127
+2024-01-21 13:17:37,007 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702359226726378983
+2024-01-21 13:17:38,345 [INFO] Response: 200
+2024-01-21 13:17:38,347 [INFO] Gathering page 120 of 127
+2024-01-21 13:17:38,348 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702342415272347286
+2024-01-21 13:17:39,740 [INFO] Response: 200
+2024-01-21 13:17:39,742 [INFO] Gathering page 121 of 127
+2024-01-21 13:17:39,744 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702318337095487666
+2024-01-21 13:17:41,142 [INFO] Response: 200
+2024-01-21 13:17:41,144 [INFO] Gathering page 122 of 127
+2024-01-21 13:17:41,147 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702284300536971744
+2024-01-21 13:17:42,452 [INFO] Response: 200
+2024-01-21 13:17:42,453 [INFO] Gathering page 123 of 127
+2024-01-21 13:17:42,454 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702260851976341117
+2024-01-21 13:17:43,808 [INFO] Response: 200
+2024-01-21 13:17:43,811 [INFO] Gathering page 124 of 127
+2024-01-21 13:17:43,813 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702235706241543870
+2024-01-21 13:17:45,151 [INFO] Response: 200
+2024-01-21 13:17:45,153 [INFO] Gathering page 125 of 127
+2024-01-21 13:17:45,155 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702198438552870692
+2024-01-21 13:17:46,585 [INFO] Response: 200
+2024-01-21 13:17:46,586 [INFO] Gathering page 126 of 127
+2024-01-21 13:17:46,586 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=smh&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702175028420593155
+2024-01-21 13:17:47,661 [INFO] Response: 200
+2024-01-21 13:17:47,663 [INFO] Gathering page 127 of 127
+2024-01-21 13:17:47,665 [INFO] 
+Compiling 127 pages of results...
+2024-01-21 13:17:47,679 [INFO] All news articles gathered from smh from 2023-12-10 to 2024-01-20!
+2024-01-21 13:17:47,680 [INFO] Processing tables...
+2024-01-21 13:17:48,399 [INFO] Tables have been processed.
+2024-01-21 13:17:48,399 [INFO] 
+Pushing results from smh to Google BigQuery database...
+2024-01-21 13:17:49,197 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-01-21 13:17:49,509 [INFO] Table exists
+2024-01-21 13:18:11,060 [INFO] Loaded 60456 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-01-21 13:18:11,389 [INFO] Table exists
+2024-01-21 13:18:18,699 [INFO] Loaded 61070 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-01-21 13:18:19,007 [INFO] Table exists
+2024-01-21 13:18:24,233 [INFO] Loaded 141386 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-01-21 13:18:24,601 [INFO] Table exists
+2024-01-21 13:18:29,778 [INFO] Loaded 69555 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-01-21 13:18:29,780 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-01-21 13:18:29,780 [INFO] Gathering news articles from thewest from 2023-12-10 to 2024-01-20
+2024-01-21 13:18:29,780 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au
+2024-01-21 13:18:31,331 [INFO] Response: 200
+2024-01-21 13:18:31,332 [INFO] Gathering page 1 of 132
+2024-01-21 13:18:31,333 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705694634410556619
+2024-01-21 13:18:32,725 [INFO] Response: 200
+2024-01-21 13:18:32,725 [INFO] Gathering page 2 of 132
+2024-01-21 13:18:32,726 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705672157383744073
+2024-01-21 13:18:33,839 [INFO] Response: 200
+2024-01-21 13:18:33,847 [INFO] Gathering page 3 of 132
+2024-01-21 13:18:33,851 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705647422058752933
+2024-01-21 13:18:35,001 [INFO] Response: 200
+2024-01-21 13:18:35,002 [INFO] Gathering page 4 of 132
+2024-01-21 13:18:35,003 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705634066835288312
+2024-01-21 13:18:36,492 [INFO] Response: 200
+2024-01-21 13:18:36,493 [INFO] Gathering page 5 of 132
+2024-01-21 13:18:36,494 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705623484581221579
+2024-01-21 13:18:37,600 [INFO] Response: 200
+2024-01-21 13:18:37,601 [INFO] Gathering page 6 of 132
+2024-01-21 13:18:37,602 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705600800411644357
+2024-01-21 13:18:38,905 [INFO] Response: 200
+2024-01-21 13:18:38,907 [INFO] Gathering page 7 of 132
+2024-01-21 13:18:38,910 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705563978286463334
+2024-01-21 13:18:40,228 [INFO] Response: 200
+2024-01-21 13:18:40,230 [INFO] Gathering page 8 of 132
+2024-01-21 13:18:40,233 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705553272764571640
+2024-01-21 13:18:41,331 [INFO] Response: 200
+2024-01-21 13:18:41,333 [INFO] Gathering page 9 of 132
+2024-01-21 13:18:41,335 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705537275689398105
+2024-01-21 13:18:42,453 [INFO] Response: 200
+2024-01-21 13:18:42,454 [INFO] Gathering page 10 of 132
+2024-01-21 13:18:42,455 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705514400763701123
+2024-01-21 13:18:43,590 [INFO] Response: 200
+2024-01-21 13:18:43,592 [INFO] Gathering page 11 of 132
+2024-01-21 13:18:43,594 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705479529119171005
+2024-01-21 13:18:44,717 [INFO] Response: 200
+2024-01-21 13:18:44,718 [INFO] Gathering page 12 of 132
+2024-01-21 13:18:44,719 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705464494373664732
+2024-01-21 13:18:45,850 [INFO] Response: 200
+2024-01-21 13:18:45,851 [INFO] Gathering page 13 of 132
+2024-01-21 13:18:45,852 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705453477224049211
+2024-01-21 13:18:46,992 [INFO] Response: 200
+2024-01-21 13:18:46,995 [INFO] Gathering page 14 of 132
+2024-01-21 13:18:46,997 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705428000143066363
+2024-01-21 13:18:48,122 [INFO] Response: 200
+2024-01-21 13:18:48,124 [INFO] Gathering page 15 of 132
+2024-01-21 13:18:48,126 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705395471583344828
+2024-01-21 13:18:49,243 [INFO] Response: 200
+2024-01-21 13:18:49,244 [INFO] Gathering page 16 of 132
+2024-01-21 13:18:49,245 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705378161591849537
+2024-01-21 13:18:50,328 [INFO] Response: 200
+2024-01-21 13:18:50,329 [INFO] Gathering page 17 of 132
+2024-01-21 13:18:50,329 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705362600977052167
+2024-01-21 13:18:51,440 [INFO] Response: 200
+2024-01-21 13:18:51,441 [INFO] Gathering page 18 of 132
+2024-01-21 13:18:51,442 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705336663280718523
+2024-01-21 13:18:52,524 [INFO] Response: 200
+2024-01-21 13:18:52,524 [INFO] Gathering page 19 of 132
+2024-01-21 13:18:52,525 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705301627253880132
+2024-01-21 13:18:53,656 [INFO] Response: 200
+2024-01-21 13:18:53,658 [INFO] Gathering page 20 of 132
+2024-01-21 13:18:53,660 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705282866998216944
+2024-01-21 13:18:55,066 [INFO] Response: 200
+2024-01-21 13:18:55,067 [INFO] Gathering page 21 of 132
+2024-01-21 13:18:55,068 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705258937744031676
+2024-01-21 13:18:56,315 [INFO] Response: 200
+2024-01-21 13:18:56,316 [INFO] Gathering page 22 of 132
+2024-01-21 13:18:56,317 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705232673797629996
+2024-01-21 13:18:57,487 [INFO] Response: 200
+2024-01-21 13:18:57,489 [INFO] Gathering page 23 of 132
+2024-01-21 13:18:57,492 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705204084036886995
+2024-01-21 13:18:58,653 [INFO] Response: 200
+2024-01-21 13:18:58,655 [INFO] Gathering page 24 of 132
+2024-01-21 13:18:58,657 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705174861501493776
+2024-01-21 13:19:00,025 [INFO] Response: 200
+2024-01-21 13:19:00,026 [INFO] Gathering page 25 of 132
+2024-01-21 13:19:00,027 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705137408413888484
+2024-01-21 13:19:01,761 [INFO] Response: 200
+2024-01-21 13:19:01,763 [INFO] Gathering page 26 of 132
+2024-01-21 13:19:01,766 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705105091115465621
+2024-01-21 13:19:03,235 [INFO] Response: 200
+2024-01-21 13:19:03,236 [INFO] Gathering page 27 of 132
+2024-01-21 13:19:03,237 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705077258480661358
+2024-01-21 13:19:04,380 [INFO] Response: 200
+2024-01-21 13:19:04,382 [INFO] Gathering page 28 of 132
+2024-01-21 13:19:04,383 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705043299213789776
+2024-01-21 13:19:05,515 [INFO] Response: 200
+2024-01-21 13:19:05,515 [INFO] Gathering page 29 of 132
+2024-01-21 13:19:05,517 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705035345394812467
+2024-01-21 13:19:06,898 [INFO] Response: 200
+2024-01-21 13:19:06,899 [INFO] Gathering page 30 of 132
+2024-01-21 13:19:06,901 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705014912979065233
+2024-01-21 13:19:08,021 [INFO] Response: 200
+2024-01-21 13:19:08,022 [INFO] Gathering page 31 of 132
+2024-01-21 13:19:08,023 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704978000888802366
+2024-01-21 13:19:09,254 [INFO] Response: 200
+2024-01-21 13:19:09,254 [INFO] Gathering page 32 of 132
+2024-01-21 13:19:09,255 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704952631895184210
+2024-01-21 13:19:10,408 [INFO] Response: 200
+2024-01-21 13:19:10,409 [INFO] Gathering page 33 of 132
+2024-01-21 13:19:10,410 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704933745451251780
+2024-01-21 13:19:11,513 [INFO] Response: 200
+2024-01-21 13:19:11,515 [INFO] Gathering page 34 of 132
+2024-01-21 13:19:11,518 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704909600336020205
+2024-01-21 13:19:12,613 [INFO] Response: 200
+2024-01-21 13:19:12,615 [INFO] Gathering page 35 of 132
+2024-01-21 13:19:12,617 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704873102178161111
+2024-01-21 13:19:13,738 [INFO] Response: 200
+2024-01-21 13:19:13,740 [INFO] Gathering page 36 of 132
+2024-01-21 13:19:13,743 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704856465226824243
+2024-01-21 13:19:14,857 [INFO] Response: 200
+2024-01-21 13:19:14,858 [INFO] Gathering page 37 of 132
+2024-01-21 13:19:14,860 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704837600951623245
+2024-01-21 13:19:15,954 [INFO] Response: 200
+2024-01-21 13:19:15,955 [INFO] Gathering page 38 of 132
+2024-01-21 13:19:15,957 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704823200304029876
+2024-01-21 13:19:17,096 [INFO] Response: 200
+2024-01-21 13:19:17,097 [INFO] Gathering page 39 of 132
+2024-01-21 13:19:17,099 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704787387796595744
+2024-01-21 13:19:18,280 [INFO] Response: 200
+2024-01-21 13:19:18,281 [INFO] Gathering page 40 of 132
+2024-01-21 13:19:18,284 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704768839849549556
+2024-01-21 13:19:19,451 [INFO] Response: 200
+2024-01-21 13:19:19,452 [INFO] Gathering page 41 of 132
+2024-01-21 13:19:19,453 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704736800935368907
+2024-01-21 13:19:20,785 [INFO] Response: 200
+2024-01-21 13:19:20,786 [INFO] Gathering page 42 of 132
+2024-01-21 13:19:20,787 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704701345917913466
+2024-01-21 13:19:22,099 [INFO] Response: 200
+2024-01-21 13:19:22,100 [INFO] Gathering page 43 of 132
+2024-01-21 13:19:22,100 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704684925529451912
+2024-01-21 13:19:23,229 [INFO] Response: 200
+2024-01-21 13:19:23,231 [INFO] Gathering page 44 of 132
+2024-01-21 13:19:23,232 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704663584474605957
+2024-01-21 13:19:24,304 [INFO] Response: 200
+2024-01-21 13:19:24,306 [INFO] Gathering page 45 of 132
+2024-01-21 13:19:24,309 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704620612449326245
+2024-01-21 13:19:25,541 [INFO] Response: 200
+2024-01-21 13:19:25,543 [INFO] Gathering page 46 of 132
+2024-01-21 13:19:25,544 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704590645129482545
+2024-01-21 13:19:26,913 [INFO] Response: 200
+2024-01-21 13:19:26,915 [INFO] Gathering page 47 of 132
+2024-01-21 13:19:26,918 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704539558463302516
+2024-01-21 13:19:28,032 [INFO] Response: 200
+2024-01-21 13:19:28,033 [INFO] Gathering page 48 of 132
+2024-01-21 13:19:28,034 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704506037358836221
+2024-01-21 13:19:29,361 [INFO] Response: 200
+2024-01-21 13:19:29,362 [INFO] Gathering page 49 of 132
+2024-01-21 13:19:29,363 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704471116685484177
+2024-01-21 13:19:30,511 [INFO] Response: 200
+2024-01-21 13:19:30,513 [INFO] Gathering page 50 of 132
+2024-01-21 13:19:30,515 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704439088737779102
+2024-01-21 13:19:31,640 [INFO] Response: 200
+2024-01-21 13:19:31,641 [INFO] Gathering page 51 of 132
+2024-01-21 13:19:31,643 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704415500183983270
+2024-01-21 13:19:32,860 [INFO] Response: 200
+2024-01-21 13:19:32,861 [INFO] Gathering page 52 of 132
+2024-01-21 13:19:32,863 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704387699611129589
+2024-01-21 13:19:33,982 [INFO] Response: 200
+2024-01-21 13:19:33,983 [INFO] Gathering page 53 of 132
+2024-01-21 13:19:33,984 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704349768771886455
+2024-01-21 13:19:35,108 [INFO] Response: 200
+2024-01-21 13:19:35,109 [INFO] Gathering page 54 of 132
+2024-01-21 13:19:35,110 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704330663898148813
+2024-01-21 13:19:36,314 [INFO] Response: 200
+2024-01-21 13:19:36,314 [INFO] Gathering page 55 of 132
+2024-01-21 13:19:36,317 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704298072278309051
+2024-01-21 13:19:37,419 [INFO] Response: 200
+2024-01-21 13:19:37,420 [INFO] Gathering page 56 of 132
+2024-01-21 13:19:37,422 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704265200489953267
+2024-01-21 13:19:38,741 [INFO] Response: 200
+2024-01-21 13:19:38,744 [INFO] Gathering page 57 of 132
+2024-01-21 13:19:38,747 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704241800094621952
+2024-01-21 13:19:39,873 [INFO] Response: 200
+2024-01-21 13:19:39,874 [INFO] Gathering page 58 of 132
+2024-01-21 13:19:39,876 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704213269139095049
+2024-01-21 13:19:41,003 [INFO] Response: 200
+2024-01-21 13:19:41,004 [INFO] Gathering page 59 of 132
+2024-01-21 13:19:41,005 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704174057147510433
+2024-01-21 13:19:42,114 [INFO] Response: 200
+2024-01-21 13:19:42,116 [INFO] Gathering page 60 of 132
+2024-01-21 13:19:42,118 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704154399255784918
+2024-01-21 13:19:43,466 [INFO] Response: 200
+2024-01-21 13:19:43,467 [INFO] Gathering page 61 of 132
+2024-01-21 13:19:43,468 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704106803547228038
+2024-01-21 13:19:44,663 [INFO] Response: 200
+2024-01-21 13:19:44,664 [INFO] Gathering page 62 of 132
+2024-01-21 13:19:44,666 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704073620111725924
+2024-01-21 13:19:45,981 [INFO] Response: 200
+2024-01-21 13:19:45,982 [INFO] Gathering page 63 of 132
+2024-01-21 13:19:45,984 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704038381084094983
+2024-01-21 13:19:47,930 [INFO] Response: 200
+2024-01-21 13:19:47,932 [INFO] Gathering page 64 of 132
+2024-01-21 13:19:47,934 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703995200503475352
+2024-01-21 13:19:49,295 [INFO] Response: 200
+2024-01-21 13:19:49,297 [INFO] Gathering page 65 of 132
+2024-01-21 13:19:49,298 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703959200746934571
+2024-01-21 13:19:50,485 [INFO] Response: 200
+2024-01-21 13:19:50,487 [INFO] Gathering page 66 of 132
+2024-01-21 13:19:50,490 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703923704580729943
+2024-01-21 13:19:51,904 [INFO] Response: 200
+2024-01-21 13:19:51,905 [INFO] Gathering page 67 of 132
+2024-01-21 13:19:51,906 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703882883637680166
+2024-01-21 13:19:53,065 [INFO] Response: 200
+2024-01-21 13:19:53,066 [INFO] Gathering page 68 of 132
+2024-01-21 13:19:53,068 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703841817180154837
+2024-01-21 13:19:54,505 [INFO] Response: 200
+2024-01-21 13:19:54,506 [INFO] Gathering page 69 of 132
+2024-01-21 13:19:54,507 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703821673114543574
+2024-01-21 13:19:55,603 [INFO] Response: 200
+2024-01-21 13:19:55,605 [INFO] Gathering page 70 of 132
+2024-01-21 13:19:55,606 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703794966986777701
+2024-01-21 13:19:56,688 [INFO] Response: 200
+2024-01-21 13:19:56,689 [INFO] Gathering page 71 of 132
+2024-01-21 13:19:56,691 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703752056572568039
+2024-01-21 13:19:57,787 [INFO] Response: 200
+2024-01-21 13:19:57,789 [INFO] Gathering page 72 of 132
+2024-01-21 13:19:57,792 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703732024749667779
+2024-01-21 13:19:58,908 [INFO] Response: 200
+2024-01-21 13:19:58,909 [INFO] Gathering page 73 of 132
+2024-01-21 13:19:58,910 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703707064686089111
+2024-01-21 13:20:00,038 [INFO] Response: 200
+2024-01-21 13:20:00,039 [INFO] Gathering page 74 of 132
+2024-01-21 13:20:00,041 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703665708785218513
+2024-01-21 13:20:01,231 [INFO] Response: 200
+2024-01-21 13:20:01,231 [INFO] Gathering page 75 of 132
+2024-01-21 13:20:01,232 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703644157081041411
+2024-01-21 13:20:02,625 [INFO] Response: 200
+2024-01-21 13:20:02,626 [INFO] Gathering page 76 of 132
+2024-01-21 13:20:02,627 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703613600821183701
+2024-01-21 13:20:03,839 [INFO] Response: 200
+2024-01-21 13:20:03,841 [INFO] Gathering page 77 of 132
+2024-01-21 13:20:03,843 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703571126823906185
+2024-01-21 13:20:05,092 [INFO] Response: 200
+2024-01-21 13:20:05,093 [INFO] Gathering page 78 of 132
+2024-01-21 13:20:05,094 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703539937706610349
+2024-01-21 13:20:06,294 [INFO] Response: 200
+2024-01-21 13:20:06,295 [INFO] Gathering page 79 of 132
+2024-01-21 13:20:06,297 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703468206447542152
+2024-01-21 13:20:07,396 [INFO] Response: 200
+2024-01-21 13:20:07,398 [INFO] Gathering page 80 of 132
+2024-01-21 13:20:07,400 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703415747773675565
+2024-01-21 13:20:08,502 [INFO] Response: 200
+2024-01-21 13:20:08,504 [INFO] Gathering page 81 of 132
+2024-01-21 13:20:08,508 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703376688168238650
+2024-01-21 13:20:09,963 [INFO] Response: 200
+2024-01-21 13:20:09,963 [INFO] Gathering page 82 of 132
+2024-01-21 13:20:09,964 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703342501796867097
+2024-01-21 13:20:11,123 [INFO] Response: 200
+2024-01-21 13:20:11,124 [INFO] Gathering page 83 of 132
+2024-01-21 13:20:11,127 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703300400432208651
+2024-01-21 13:20:12,259 [INFO] Response: 200
+2024-01-21 13:20:12,261 [INFO] Gathering page 84 of 132
+2024-01-21 13:20:12,264 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703268000569199193
+2024-01-21 13:20:13,405 [INFO] Response: 200
+2024-01-21 13:20:13,406 [INFO] Gathering page 85 of 132
+2024-01-21 13:20:13,408 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703239544520883010
+2024-01-21 13:20:14,523 [INFO] Response: 200
+2024-01-21 13:20:14,525 [INFO] Gathering page 86 of 132
+2024-01-21 13:20:14,527 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703220389984056002
+2024-01-21 13:20:15,667 [INFO] Response: 200
+2024-01-21 13:20:15,667 [INFO] Gathering page 87 of 132
+2024-01-21 13:20:15,668 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703202621796884090
+2024-01-21 13:20:16,788 [INFO] Response: 200
+2024-01-21 13:20:16,790 [INFO] Gathering page 88 of 132
+2024-01-21 13:20:16,792 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703181600350732084
+2024-01-21 13:20:18,139 [INFO] Response: 200
+2024-01-21 13:20:18,141 [INFO] Gathering page 89 of 132
+2024-01-21 13:20:18,143 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703143967702963606
+2024-01-21 13:20:19,358 [INFO] Response: 200
+2024-01-21 13:20:19,360 [INFO] Gathering page 90 of 132
+2024-01-21 13:20:19,361 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703130642933197396
+2024-01-21 13:20:20,659 [INFO] Response: 200
+2024-01-21 13:20:20,661 [INFO] Gathering page 91 of 132
+2024-01-21 13:20:20,663 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703119851850749391
+2024-01-21 13:20:22,032 [INFO] Response: 200
+2024-01-21 13:20:22,034 [INFO] Gathering page 92 of 132
+2024-01-21 13:20:22,036 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703096126122489176
+2024-01-21 13:20:23,369 [INFO] Response: 200
+2024-01-21 13:20:23,371 [INFO] Gathering page 93 of 132
+2024-01-21 13:20:23,374 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703067998099029617
+2024-01-21 13:20:24,488 [INFO] Response: 200
+2024-01-21 13:20:24,490 [INFO] Gathering page 94 of 132
+2024-01-21 13:20:24,492 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703047632762437348
+2024-01-21 13:20:25,602 [INFO] Response: 200
+2024-01-21 13:20:25,603 [INFO] Gathering page 95 of 132
+2024-01-21 13:20:25,607 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703031750602798072
+2024-01-21 13:20:26,983 [INFO] Response: 200
+2024-01-21 13:20:26,984 [INFO] Gathering page 96 of 132
+2024-01-21 13:20:26,985 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1703008800814443848
+2024-01-21 13:20:28,123 [INFO] Response: 200
+2024-01-21 13:20:28,125 [INFO] Gathering page 97 of 132
+2024-01-21 13:20:28,126 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702984469451178567
+2024-01-21 13:20:29,276 [INFO] Response: 200
+2024-01-21 13:20:29,277 [INFO] Gathering page 98 of 132
+2024-01-21 13:20:29,279 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702962377597198014
+2024-01-21 13:20:30,393 [INFO] Response: 200
+2024-01-21 13:20:30,394 [INFO] Gathering page 99 of 132
+2024-01-21 13:20:30,395 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702942369911932675
+2024-01-21 13:20:31,711 [INFO] Response: 200
+2024-01-21 13:20:31,713 [INFO] Gathering page 100 of 132
+2024-01-21 13:20:31,714 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702917396543678386
+2024-01-21 13:20:32,916 [INFO] Response: 200
+2024-01-21 13:20:32,917 [INFO] Gathering page 101 of 132
+2024-01-21 13:20:32,918 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702882800543922871
+2024-01-21 13:20:34,025 [INFO] Response: 200
+2024-01-21 13:20:34,026 [INFO] Gathering page 102 of 132
+2024-01-21 13:20:34,028 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702865806993474359
+2024-01-21 13:20:35,179 [INFO] Response: 200
+2024-01-21 13:20:35,180 [INFO] Gathering page 103 of 132
+2024-01-21 13:20:35,181 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702845695025358097
+2024-01-21 13:20:36,389 [INFO] Response: 200
+2024-01-21 13:20:36,390 [INFO] Gathering page 104 of 132
+2024-01-21 13:20:36,391 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702810116697706323
+2024-01-21 13:20:37,535 [INFO] Response: 200
+2024-01-21 13:20:37,536 [INFO] Gathering page 105 of 132
+2024-01-21 13:20:37,537 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702779477554514782
+2024-01-21 13:20:38,945 [INFO] Response: 200
+2024-01-21 13:20:38,946 [INFO] Gathering page 106 of 132
+2024-01-21 13:20:38,947 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702749600479004736
+2024-01-21 13:20:40,070 [INFO] Response: 200
+2024-01-21 13:20:40,071 [INFO] Gathering page 107 of 132
+2024-01-21 13:20:40,072 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702708925585514961
+2024-01-21 13:20:41,234 [INFO] Response: 200
+2024-01-21 13:20:41,236 [INFO] Gathering page 108 of 132
+2024-01-21 13:20:41,238 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702676916357201586
+2024-01-21 13:20:42,421 [INFO] Response: 200
+2024-01-21 13:20:42,422 [INFO] Gathering page 109 of 132
+2024-01-21 13:20:42,423 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702647594781975685
+2024-01-21 13:20:43,546 [INFO] Response: 200
+2024-01-21 13:20:43,547 [INFO] Gathering page 110 of 132
+2024-01-21 13:20:43,549 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702622449919862094
+2024-01-21 13:20:44,696 [INFO] Response: 200
+2024-01-21 13:20:44,697 [INFO] Gathering page 111 of 132
+2024-01-21 13:20:44,698 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702607312873812067
+2024-01-21 13:20:46,205 [INFO] Response: 200
+2024-01-21 13:20:46,206 [INFO] Gathering page 112 of 132
+2024-01-21 13:20:46,209 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702589043181021509
+2024-01-21 13:20:47,421 [INFO] Response: 200
+2024-01-21 13:20:47,422 [INFO] Gathering page 113 of 132
+2024-01-21 13:20:47,422 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702569660942192151
+2024-01-21 13:20:48,593 [INFO] Response: 200
+2024-01-21 13:20:48,594 [INFO] Gathering page 114 of 132
+2024-01-21 13:20:48,596 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702537708057556151
+2024-01-21 13:20:49,732 [INFO] Response: 200
+2024-01-21 13:20:49,733 [INFO] Gathering page 115 of 132
+2024-01-21 13:20:49,735 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702524560270379405
+2024-01-21 13:20:50,850 [INFO] Response: 200
+2024-01-21 13:20:50,851 [INFO] Gathering page 116 of 132
+2024-01-21 13:20:50,852 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702514022163664000
+2024-01-21 13:20:52,022 [INFO] Response: 200
+2024-01-21 13:20:52,023 [INFO] Gathering page 117 of 132
+2024-01-21 13:20:52,025 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702494000065941941
+2024-01-21 13:20:53,129 [INFO] Response: 200
+2024-01-21 13:20:53,130 [INFO] Gathering page 118 of 132
+2024-01-21 13:20:53,131 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702469154269654296
+2024-01-21 13:20:54,249 [INFO] Response: 200
+2024-01-21 13:20:54,250 [INFO] Gathering page 119 of 132
+2024-01-21 13:20:54,251 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702447674970762122
+2024-01-21 13:20:55,348 [INFO] Response: 200
+2024-01-21 13:20:55,348 [INFO] Gathering page 120 of 132
+2024-01-21 13:20:55,349 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702437149209202974
+2024-01-21 13:20:56,483 [INFO] Response: 200
+2024-01-21 13:20:56,484 [INFO] Gathering page 121 of 132
+2024-01-21 13:20:56,486 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702421850632730786
+2024-01-21 13:20:57,611 [INFO] Response: 200
+2024-01-21 13:20:57,612 [INFO] Gathering page 122 of 132
+2024-01-21 13:20:57,613 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702398787027979818
+2024-01-21 13:20:58,711 [INFO] Response: 200
+2024-01-21 13:20:58,712 [INFO] Gathering page 123 of 132
+2024-01-21 13:20:58,713 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702366782876146496
+2024-01-21 13:20:59,811 [INFO] Response: 200
+2024-01-21 13:20:59,812 [INFO] Gathering page 124 of 132
+2024-01-21 13:20:59,813 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702352380616599929
+2024-01-21 13:21:01,049 [INFO] Response: 200
+2024-01-21 13:21:01,049 [INFO] Gathering page 125 of 132
+2024-01-21 13:21:01,050 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702339946912395024
+2024-01-21 13:21:02,325 [INFO] Response: 200
+2024-01-21 13:21:02,326 [INFO] Gathering page 126 of 132
+2024-01-21 13:21:02,327 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702317600233993645
+2024-01-21 13:21:03,474 [INFO] Response: 200
+2024-01-21 13:21:03,475 [INFO] Gathering page 127 of 132
+2024-01-21 13:21:03,477 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702285200349368079
+2024-01-21 13:21:04,647 [INFO] Response: 200
+2024-01-21 13:21:04,648 [INFO] Gathering page 128 of 132
+2024-01-21 13:21:04,649 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702269851152636459
+2024-01-21 13:21:05,856 [INFO] Response: 200
+2024-01-21 13:21:05,857 [INFO] Gathering page 129 of 132
+2024-01-21 13:21:05,857 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702253834029851839
+2024-01-21 13:21:06,986 [INFO] Response: 200
+2024-01-21 13:21:06,988 [INFO] Gathering page 130 of 132
+2024-01-21 13:21:06,992 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702226321597246124
+2024-01-21 13:21:08,121 [INFO] Response: 200
+2024-01-21 13:21:08,122 [INFO] Gathering page 131 of 132
+2024-01-21 13:21:08,124 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thewest&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1702194698770704403
+2024-01-21 13:21:09,296 [INFO] Response: 200
+2024-01-21 13:21:09,297 [INFO] Gathering page 132 of 132
+2024-01-21 13:21:09,299 [INFO] 
+Compiling 132 pages of results...
+2024-01-21 13:21:09,367 [INFO] All news articles gathered from thewest from 2023-12-10 to 2024-01-20!
+2024-01-21 13:21:09,368 [INFO] Processing tables...
+2024-01-21 13:21:09,899 [INFO] Tables have been processed.
+2024-01-21 13:21:09,899 [INFO] 
+Pushing results from thewest to Google BigQuery database...
+2024-01-21 13:21:10,694 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-01-21 13:21:11,024 [INFO] Table exists
+2024-01-21 13:21:22,350 [INFO] Loaded 67045 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-01-21 13:21:22,678 [INFO] Table exists
+2024-01-21 13:21:28,830 [INFO] Loaded 67659 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-01-21 13:21:29,191 [INFO] Table exists
+2024-01-21 13:21:33,975 [INFO] Loaded 147975 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-01-21 13:21:34,323 [INFO] Table exists
+2024-01-21 13:21:41,313 [INFO] Loaded 76434 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-01-21 13:21:41,315 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-01-21 13:21:41,315 [INFO] Gathering news articles from yahoo from 2023-12-10 to 2024-01-20
+2024-01-21 13:21:41,315 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au
+2024-01-21 13:21:42,296 [INFO] Response: 200
+2024-01-21 13:21:42,296 [INFO] Gathering page 1 of 24
+2024-01-21 13:21:42,297 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705558182216184864
+2024-01-21 13:21:43,226 [INFO] Response: 200
+2024-01-21 13:21:43,227 [INFO] Gathering page 2 of 24
+2024-01-21 13:21:43,228 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705443991420000115
+2024-01-21 13:21:44,126 [INFO] Response: 200
+2024-01-21 13:21:44,127 [INFO] Gathering page 3 of 24
+2024-01-21 13:21:44,129 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705283491389253307
+2024-01-21 13:21:45,051 [INFO] Response: 200
+2024-01-21 13:21:45,053 [INFO] Gathering page 4 of 24
+2024-01-21 13:21:45,055 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1705035343006770380
+2024-01-21 13:21:45,996 [INFO] Response: 200
+2024-01-21 13:21:45,997 [INFO] Gathering page 5 of 24
+2024-01-21 13:21:45,999 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704856183446624096
+2024-01-21 13:21:46,880 [INFO] Response: 200
+2024-01-21 13:21:46,882 [INFO] Gathering page 6 of 24
+2024-01-21 13:21:46,886 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704746560570291724
+2024-01-21 13:21:47,743 [INFO] Response: 200
+2024-01-21 13:21:47,744 [INFO] Gathering page 7 of 24
+2024-01-21 13:21:47,746 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704510004270764606
+2024-01-21 13:21:48,591 [INFO] Response: 200
+2024-01-21 13:21:48,592 [INFO] Gathering page 8 of 24
+2024-01-21 13:21:48,594 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704340479399110210
+2024-01-21 13:21:49,504 [INFO] Response: 200
+2024-01-21 13:21:49,505 [INFO] Gathering page 9 of 24
+2024-01-21 13:21:49,506 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704170452287921843
+2024-01-21 13:21:50,375 [INFO] Response: 200
+2024-01-21 13:21:50,376 [INFO] Gathering page 10 of 24
+2024-01-21 13:21:50,379 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-12-10&to_date=2024-01-20&country=au&page=1704058229623045592
+2024-01-21 13:21:51,042 [INFO] Response: 429
+2024-01-21 13:21:51,043 [INFO] 'totalResults'
+2024-01-21 13:21:51,043 [INFO] 
+Gather complete!

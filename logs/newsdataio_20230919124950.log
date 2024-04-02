@@ -1,0 +1,48 @@
+2023-09-19 12:49:50,063 [INFO] Starting News Gatherer
+2023-09-19 12:49:50,063 [INFO] Collecting news content from 1 domains.
+2023-09-19 12:49:50,064 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-09-19 12:49:50,064 [INFO] Gathering news articles from abc_net from 2023-08-01 to 2023-08-22
+2023-09-19 12:49:50,064 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-08-01&to_date=2023-08-22&country=au
+2023-09-19 12:49:52,507 [INFO] Response: 200
+2023-09-19 12:49:52,509 [INFO] Gathering page 1 of 5
+2023-09-19 12:49:52,521 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-08-01&to_date=2023-08-22&country=au&page=1692255384099723007
+2023-09-19 12:49:54,139 [INFO] Response: 200
+2023-09-19 12:49:54,143 [INFO] Gathering page 2 of 5
+2023-09-19 12:49:54,146 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-08-01&to_date=2023-08-22&country=au&page=1691891355482668516
+2023-09-19 12:49:55,879 [INFO] Response: 200
+2023-09-19 12:49:55,882 [INFO] Gathering page 3 of 5
+2023-09-19 12:49:55,884 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-08-01&to_date=2023-08-22&country=au&page=1691525595700783239
+2023-09-19 12:49:57,413 [INFO] Response: 200
+2023-09-19 12:49:57,415 [INFO] Gathering page 4 of 5
+2023-09-19 12:49:57,417 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-08-01&to_date=2023-08-22&country=au&page=1691176639743749768
+2023-09-19 12:49:59,050 [INFO] Response: 200
+2023-09-19 12:49:59,052 [INFO] Gathering page 5 of 5
+2023-09-19 12:49:59,054 [INFO] 
+Compiling 5 pages of results...
+2023-09-19 12:49:59,057 [INFO] All news articles gathered from abc_net from 2023-08-01 to 2023-08-22!
+2023-09-19 12:49:59,057 [INFO] Processing tables...
+2023-09-19 12:49:59,142 [INFO] Tables have been processed.
+2023-09-19 12:49:59,143 [INFO] 
+Pushing results from abc_net to Google BigQuery database...
+2023-09-19 12:50:00,294 [INFO] Dataset dmrc-data.newsdataio already exists
+2023-09-19 12:50:00,649 [INFO] Table exists
+2023-09-19 12:50:12,768 [INFO] Loaded 14797 rows and 11 columns to dmrc-data.newsdataio.newsdata_sep2022_au
+2023-09-19 12:50:13,234 [INFO] Table exists
+2023-09-19 12:50:22,239 [INFO] Loaded 14805 rows and 2 columns to dmrc-data.newsdataio.newsdata_sep2022_au_categories
+2023-09-19 12:50:22,585 [INFO] Table exists
+2023-09-19 12:50:31,713 [INFO] Loaded 21602 rows and 2 columns to dmrc-data.newsdataio.newsdata_sep2022_au_keywords
+2023-09-19 12:50:32,126 [INFO] Table exists
+2023-09-19 12:50:39,495 [INFO] Loaded 14797 rows and 2 columns to dmrc-data.newsdataio.newsdata_sep2022_au_creators
+2023-09-19 12:50:39,495 [INFO] 
+Gather complete!

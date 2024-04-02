@@ -1,0 +1,24 @@
+2023-07-11 17:31:41,035 [INFO] Starting News Gatherer
+2023-07-11 17:31:41,035 [INFO] Collecting news content from 31 domains.
+2023-07-11 17:31:41,035 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-11 17:31:41,035 [INFO] Gathering news articles from abc_net from 2022-09-01 to 2022-10-01
+2023-07-11 17:31:41,035 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=abc_net&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-11 17:31:52,007 [INFO] Response: 500
+2023-07-11 17:31:52,007 [INFO] Bad response: 500
+2023-07-11 17:31:52,007 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-11 17:31:52,007 [INFO] Gathering news articles from canberratimes from 2022-09-01 to 2022-10-01
+2023-07-11 17:31:52,007 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=canberratimes&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-11 17:32:02,926 [INFO] Response: 500
+2023-07-11 17:32:02,926 [INFO] Bad response: 500
+2023-07-11 17:32:02,926 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-11 17:32:02,926 [INFO] Gathering news articles from crikey from 2022-09-01 to 2022-10-01
+2023-07-11 17:32:02,926 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=crikey&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au

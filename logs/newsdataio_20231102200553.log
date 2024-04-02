@@ -1,0 +1,14 @@
+2023-11-02 20:05:53,915 [INFO] Starting News Gatherer
+2023-11-02 20:05:53,915 [INFO] Collecting news content from 21 domains.
+2023-11-02 20:05:53,915 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-11-02 20:05:53,915 [INFO] Gathering news articles from yahoo from 2023-09-01 to 2023-10-01
+2023-11-02 20:05:53,915 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au
+2023-11-02 20:05:54,647 [INFO] Response: 200
+2023-11-02 20:05:54,647 [INFO] Gathering page 1 of 23
+2023-11-02 20:05:54,651 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=yahoo&language=en&from_date=2023-09-01&to_date=2023-10-01&country=au&page=1695971801440295039
+2023-11-02 20:05:55,350 [INFO] Response: 200

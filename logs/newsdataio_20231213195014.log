@@ -1,0 +1,15 @@
+2023-12-13 19:50:14,717 [INFO] Starting News Gatherer
+2023-12-13 19:50:14,718 [INFO] Collecting news content from 21 domains.
+2023-12-13 19:50:14,718 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-12-13 19:50:14,719 [INFO] Gathering news articles from thesaturdaypaper from 2023-09-01 to 2023-09-15
+2023-12-13 19:50:14,719 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=thesaturdaypaper&language=en&from_date=2023-09-01&to_date=2023-09-15&country=au
+2023-12-13 19:50:58,882 [INFO] Response: 200
+2023-12-13 19:50:58,887 [INFO] Gathering page 1 of 1
+2023-12-13 19:50:58,895 [INFO] 
+Compiling 1 pages of results...
+2023-12-13 19:50:58,896 [INFO] All news articles gathered from thesaturdaypaper from 2023-09-01 to 2023-09-15!
+2023-12-13 19:50:58,897 [INFO] Processing tables...
+2023-12-13 19:50:59,033 [INFO] Tables have been processed.

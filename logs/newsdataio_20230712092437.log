@@ -1,0 +1,22 @@
+2023-07-12 09:24:37,196 [INFO] Starting News Gatherer
+2023-07-12 09:24:37,196 [INFO] Collecting news content from 28 domains.
+2023-07-12 09:24:37,197 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-07-12 09:24:37,197 [INFO] Gathering news articles from crikey from 2022-09-01 to 2022-10-01
+2023-07-12 09:24:37,197 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=crikey&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au
+2023-07-12 09:24:38,652 [INFO] Response: 200
+2023-07-12 09:24:38,654 [INFO] Gathering page 1 of 4
+2023-07-12 09:24:38,656 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=crikey&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au&page=166390080100a6bbd50a52e39bd466a1701f80f29b
+2023-07-12 09:24:39,920 [INFO] Response: 200
+2023-07-12 09:24:39,922 [INFO] Gathering page 2 of 4
+2023-07-12 09:24:39,924 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=&domain=crikey&language=en&from_date=2022-09-01&to_date=2022-10-01&country=au&page=166318910717421706fc7fff0566002e0929b696d7
+2023-07-12 09:24:50,712 [INFO] Response: 500
+2023-07-12 09:24:50,712 [INFO] 'totalResults'
+2023-07-12 09:24:50,713 [INFO] 
+Gather complete!

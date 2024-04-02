@@ -1,0 +1,14 @@
+2023-09-19 13:13:20,328 [INFO] Starting News Gatherer
+2023-09-19 13:13:20,329 [INFO] Collecting news content from 1 domains.
+2023-09-19 13:13:20,329 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-09-19 13:13:20,329 [INFO] Gathering news articles from abc_net from 2023-08-01 to 2023-08-02
+2023-09-19 13:13:20,329 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-08-01&to_date=2023-08-02&country=au
+2023-09-19 13:13:21,449 [INFO] Response: 200
+2023-09-19 13:13:21,452 [INFO] Gathering page 1 of 1
+2023-09-19 13:13:21,459 [INFO] 
+Compiling 1 pages of results...
+2023-09-19 13:13:21,460 [INFO] All news articles gathered from abc_net from 2023-08-01 to 2023-08-02!
+2023-09-19 13:13:21,460 [INFO] Processing tables...

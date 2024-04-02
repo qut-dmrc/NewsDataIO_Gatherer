@@ -1,0 +1,120 @@
+2024-03-23 19:07:21,070 [INFO] Starting News Gatherer
+2024-03-23 19:07:21,071 [INFO] Collecting news content from 36 domains.
+2024-03-23 19:07:21,071 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-23 19:07:21,071 [INFO] Gathering news articles from 7news from 2024-03-20 to 2024-03-22
+2024-03-23 19:07:21,071 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=7news&language=au&from_date=2024-03-20&to_date=2024-03-22&country=au
+2024-03-23 19:07:22,232 [INFO] Response: 422
+2024-03-23 19:07:22,233 [INFO] Domain 7news does not exist in the NewsdataIO database. Moving to next keyword.
+2024-03-23 19:07:22,233 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-23 19:07:22,233 [INFO] Gathering news articles from skynewsau from 2024-03-20 to 2024-03-22
+2024-03-23 19:07:22,233 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=skynewsau&language=au&from_date=2024-03-20&to_date=2024-03-22&country=au
+2024-03-23 19:07:22,901 [INFO] Response: 422
+2024-03-23 19:07:22,901 [INFO] Domain skynewsau does not exist in the NewsdataIO database. Moving to next keyword.
+2024-03-23 19:07:22,902 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-23 19:07:22,902 [INFO] Gathering news articles from sbs from 2024-03-20 to 2024-03-22
+2024-03-23 19:07:22,902 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=sbs&language=au&from_date=2024-03-20&to_date=2024-03-22&country=au
+2024-03-23 19:07:23,580 [INFO] Response: 422
+2024-03-23 19:07:23,580 [INFO] Domain sbs does not exist in the NewsdataIO database. Moving to next keyword.
+2024-03-23 19:07:23,580 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-23 19:07:23,580 [INFO] Gathering news articles from reneweconomy from 2024-03-20 to 2024-03-22
+2024-03-23 19:07:23,580 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=reneweconomy&language=au&from_date=2024-03-20&to_date=2024-03-22&country=au
+2024-03-23 19:07:24,279 [INFO] Response: 422
+2024-03-23 19:07:24,279 [INFO] Domain reneweconomy does not exist in the NewsdataIO database. Moving to next keyword.
+2024-03-23 19:07:24,279 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-23 19:07:24,279 [INFO] Gathering news articles from womensagenda from 2024-03-20 to 2024-03-22
+2024-03-23 19:07:24,279 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=womensagenda&language=au&from_date=2024-03-20&to_date=2024-03-22&country=au
+2024-03-23 19:07:24,993 [INFO] Response: 422
+2024-03-23 19:07:24,994 [INFO] Domain womensagenda does not exist in the NewsdataIO database. Moving to next keyword.
+2024-03-23 19:07:24,994 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-23 19:07:24,994 [INFO] Gathering news articles from spectator_au from 2024-03-20 to 2024-03-22
+2024-03-23 19:07:24,994 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=spectator_au&language=au&from_date=2024-03-20&to_date=2024-03-22&country=au
+2024-03-23 19:07:25,690 [INFO] Response: 422
+2024-03-23 19:07:25,691 [INFO] Domain spectator_au does not exist in the NewsdataIO database. Moving to next keyword.
+2024-03-23 19:07:25,691 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-23 19:07:25,691 [INFO] Gathering news articles from greenleft from 2024-03-20 to 2024-03-22
+2024-03-23 19:07:25,691 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=greenleft&language=au&from_date=2024-03-20&to_date=2024-03-22&country=au
+2024-03-23 19:07:26,534 [INFO] Response: 422
+2024-03-23 19:07:26,534 [INFO] Domain greenleft does not exist in the NewsdataIO database. Moving to next keyword.
+2024-03-23 19:07:26,534 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-23 19:07:26,535 [INFO] Gathering news articles from rebelnews from 2024-03-20 to 2024-03-22
+2024-03-23 19:07:26,535 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=rebelnews&language=au&from_date=2024-03-20&to_date=2024-03-22&country=au
+2024-03-23 19:07:27,220 [INFO] Response: 422
+2024-03-23 19:07:27,220 [INFO] Domain rebelnews does not exist in the NewsdataIO database. Moving to next keyword.
+2024-03-23 19:07:27,221 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-23 19:07:27,221 [INFO] Gathering news articles from quadrant from 2024-03-20 to 2024-03-22
+2024-03-23 19:07:27,221 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=quadrant&language=au&from_date=2024-03-20&to_date=2024-03-22&country=au
+2024-03-23 19:07:27,899 [INFO] Response: 422
+2024-03-23 19:07:27,899 [INFO] Domain quadrant does not exist in the NewsdataIO database. Moving to next keyword.
+2024-03-23 19:07:27,900 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-23 19:07:27,900 [INFO] Gathering news articles from pedestrian from 2024-03-20 to 2024-03-22
+2024-03-23 19:07:27,900 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=pedestrian&language=au&from_date=2024-03-20&to_date=2024-03-22&country=au
+2024-03-23 19:07:28,586 [INFO] Response: 422
+2024-03-23 19:07:28,587 [INFO] Domain pedestrian does not exist in the NewsdataIO database. Moving to next keyword.
+2024-03-23 19:07:28,587 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-23 19:07:28,587 [INFO] Gathering news articles from michaelwest from 2024-03-20 to 2024-03-22
+2024-03-23 19:07:28,588 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=michaelwest&language=au&from_date=2024-03-20&to_date=2024-03-22&country=au
+2024-03-23 19:07:29,271 [INFO] Response: 429
+2024-03-23 19:07:29,272 [INFO] Bad response: 429
+2024-03-23 19:07:29,272 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-23 19:07:29,272 [INFO] Gathering news articles from junkee from 2024-03-20 to 2024-03-22
+2024-03-23 19:07:29,272 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=junkee&language=au&from_date=2024-03-20&to_date=2024-03-22&country=au
+2024-03-23 19:07:29,943 [INFO] Response: 422
+2024-03-23 19:07:29,943 [INFO] Domain junkee does not exist in the NewsdataIO database. Moving to next keyword.
+2024-03-23 19:07:29,943 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-23 19:07:29,943 [INFO] Gathering news articles from dailymailuk from 2024-03-20 to 2024-03-22
+2024-03-23 19:07:29,943 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=dailymailuk&language=au&from_date=2024-03-20&to_date=2024-03-22&country=au
+2024-03-23 19:07:30,609 [INFO] Response: 422
+2024-03-23 19:07:30,609 [INFO] Domain dailymailuk does not exist in the NewsdataIO database. Moving to next keyword.
+2024-03-23 19:07:30,609 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-23 19:07:30,609 [INFO] Gathering news articles from 6newsau from 2024-03-20 to 2024-03-22
+2024-03-23 19:07:30,609 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=6newsau&language=au&from_date=2024-03-20&to_date=2024-03-22&country=au
+2024-03-23 19:07:31,301 [INFO] Response: 422
+2024-03-23 19:07:31,301 [INFO] Domain 6newsau does not exist in the NewsdataIO database. Moving to next keyword.
+2024-03-23 19:07:31,301 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-03-23 19:07:31,301 [INFO] Gathering news articles from news from 2024-03-20 to 2024-03-22
+2024-03-23 19:07:31,301 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=news&language=au&from_date=2024-03-20&to_date=2024-03-22&country=au

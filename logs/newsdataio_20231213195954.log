@@ -1,0 +1,30 @@
+2023-12-13 19:59:54,237 [INFO] Starting News Gatherer
+2023-12-13 19:59:54,238 [INFO] Collecting news content from 31 domains.
+2023-12-13 19:59:54,238 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-12-13 19:59:54,238 [INFO] Gathering news articles from abc_net from 2023-11-01 to 2023-12-01
+2023-12-13 19:59:54,238 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-11-01&to_date=2023-12-01&country=au
+2023-12-13 20:00:55,485 [INFO] Response: 500
+2023-12-13 20:00:55,486 [INFO] Bad response: 500
+2023-12-13 20:00:55,486 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-12-13 20:00:55,486 [INFO] Gathering news articles from canberratimes from 2023-11-01 to 2023-12-01
+2023-12-13 20:00:55,486 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=canberratimes&language=en&from_date=2023-11-01&to_date=2023-12-01&country=au
+2023-12-13 20:02:18,954 [INFO] Response: 200
+2023-12-13 20:02:18,959 [INFO] Gathering page 1 of 6
+2023-12-13 20:02:18,964 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=canberratimes&language=en&from_date=2023-11-01&to_date=2023-12-01&country=au&page=1701151200438491139
+2023-12-13 20:04:17,883 [INFO] Response: 200
+2023-12-13 20:04:17,888 [INFO] Gathering page 2 of 6
+2023-12-13 20:04:17,892 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=canberratimes&language=en&from_date=2023-11-01&to_date=2023-12-01&country=au&page=1700695442972019759
+2023-12-13 20:05:37,295 [INFO] Response: 500
+2023-12-13 20:05:37,296 [INFO] 'totalResults'
+2023-12-13 20:05:37,296 [INFO] 
+Gather complete!

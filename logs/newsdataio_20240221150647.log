@@ -1,0 +1,208 @@
+2024-02-21 15:06:47,453 [INFO] Starting News Gatherer
+2024-02-21 15:06:47,453 [INFO] Collecting news content from 1 domains.
+2024-02-21 15:06:47,453 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:06:47,453 [INFO] Gathering news articles from couriermail from 2023-08-01 to 2024-01-01
+2024-02-21 15:06:47,453 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au
+2024-02-21 15:06:48,450 [INFO] Response: 200
+2024-02-21 15:06:48,451 [INFO] Gathering page 1 of 37
+2024-02-21 15:06:48,452 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1700991780059740707
+2024-02-21 15:06:49,356 [INFO] Response: 200
+2024-02-21 15:06:49,356 [INFO] Gathering page 2 of 37
+2024-02-21 15:06:49,357 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1700835480659751380
+2024-02-21 15:06:50,223 [INFO] Response: 200
+2024-02-21 15:06:50,224 [INFO] Gathering page 3 of 37
+2024-02-21 15:06:50,225 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1700728380009545265
+2024-02-21 15:06:51,312 [INFO] Response: 200
+2024-02-21 15:06:51,312 [INFO] Gathering page 4 of 37
+2024-02-21 15:06:51,313 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1700645169635753985
+2024-02-21 15:06:52,395 [INFO] Response: 200
+2024-02-21 15:06:52,396 [INFO] Gathering page 5 of 37
+2024-02-21 15:06:52,398 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1700475190495783560
+2024-02-21 15:06:53,323 [INFO] Response: 200
+2024-02-21 15:06:53,324 [INFO] Gathering page 6 of 37
+2024-02-21 15:06:53,326 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1700346120969359721
+2024-02-21 15:06:54,420 [INFO] Response: 200
+2024-02-21 15:06:54,421 [INFO] Gathering page 7 of 37
+2024-02-21 15:06:54,421 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1700208000823661683
+2024-02-21 15:06:55,541 [INFO] Response: 200
+2024-02-21 15:06:55,541 [INFO] Gathering page 8 of 37
+2024-02-21 15:06:55,542 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1700111590567719236
+2024-02-21 15:06:56,398 [INFO] Response: 200
+2024-02-21 15:06:56,399 [INFO] Gathering page 9 of 37
+2024-02-21 15:06:56,401 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1700036280962380010
+2024-02-21 15:06:57,264 [INFO] Response: 200
+2024-02-21 15:06:57,265 [INFO] Gathering page 10 of 37
+2024-02-21 15:06:57,266 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1699920300347745089
+2024-02-21 15:06:58,127 [INFO] Response: 200
+2024-02-21 15:06:58,128 [INFO] Gathering page 11 of 37
+2024-02-21 15:06:58,129 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1699684860775810411
+2024-02-21 15:06:58,999 [INFO] Response: 200
+2024-02-21 15:06:59,000 [INFO] Gathering page 12 of 37
+2024-02-21 15:06:59,001 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1699609149061886561
+2024-02-21 15:06:59,894 [INFO] Response: 200
+2024-02-21 15:06:59,896 [INFO] Gathering page 13 of 37
+2024-02-21 15:06:59,897 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1699474560926015058
+2024-02-21 15:07:01,066 [INFO] Response: 200
+2024-02-21 15:07:01,066 [INFO] Gathering page 14 of 37
+2024-02-21 15:07:01,067 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1699343520120484507
+2024-02-21 15:07:02,155 [INFO] Response: 200
+2024-02-21 15:07:02,155 [INFO] Gathering page 15 of 37
+2024-02-21 15:07:02,156 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1699312620056728756
+2024-02-21 15:07:03,041 [INFO] Response: 200
+2024-02-21 15:07:03,042 [INFO] Gathering page 16 of 37
+2024-02-21 15:07:03,043 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1698701460922401338
+2024-02-21 15:07:03,917 [INFO] Response: 200
+2024-02-21 15:07:03,918 [INFO] Gathering page 17 of 37
+2024-02-21 15:07:03,919 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1698265080251725809
+2024-02-21 15:07:04,914 [INFO] Response: 200
+2024-02-21 15:07:04,916 [INFO] Gathering page 18 of 37
+2024-02-21 15:07:04,917 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1698076329641969371
+2024-02-21 15:07:05,998 [INFO] Response: 200
+2024-02-21 15:07:05,999 [INFO] Gathering page 19 of 37
+2024-02-21 15:07:06,000 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1697960880103706857
+2024-02-21 15:07:06,935 [INFO] Response: 200
+2024-02-21 15:07:06,936 [INFO] Gathering page 20 of 37
+2024-02-21 15:07:06,938 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1697872140521079902
+2024-02-21 15:07:07,821 [INFO] Response: 200
+2024-02-21 15:07:07,822 [INFO] Gathering page 21 of 37
+2024-02-21 15:07:07,824 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1697797569697446304
+2024-02-21 15:07:08,916 [INFO] Response: 200
+2024-02-21 15:07:08,918 [INFO] Gathering page 22 of 37
+2024-02-21 15:07:08,919 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1697737929014912737
+2024-02-21 15:07:09,793 [INFO] Response: 200
+2024-02-21 15:07:09,794 [INFO] Gathering page 23 of 37
+2024-02-21 15:07:09,797 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1697660770723722227
+2024-02-21 15:07:10,680 [INFO] Response: 200
+2024-02-21 15:07:10,681 [INFO] Gathering page 24 of 37
+2024-02-21 15:07:10,682 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1697547660434867401
+2024-02-21 15:07:11,613 [INFO] Response: 200
+2024-02-21 15:07:11,614 [INFO] Gathering page 25 of 37
+2024-02-21 15:07:11,618 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1697485560073111975
+2024-02-21 15:07:12,489 [INFO] Response: 200
+2024-02-21 15:07:12,490 [INFO] Gathering page 26 of 37
+2024-02-21 15:07:12,492 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1697417529315752399
+2024-02-21 15:07:13,336 [INFO] Response: 200
+2024-02-21 15:07:13,337 [INFO] Gathering page 27 of 37
+2024-02-21 15:07:13,337 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1697333640111719356
+2024-02-21 15:07:14,224 [INFO] Response: 200
+2024-02-21 15:07:14,225 [INFO] Gathering page 28 of 37
+2024-02-21 15:07:14,229 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1697184540551859050
+2024-02-21 15:07:15,232 [INFO] Response: 200
+2024-02-21 15:07:15,233 [INFO] Gathering page 29 of 37
+2024-02-21 15:07:15,235 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1697151129916271768
+2024-02-21 15:07:16,103 [INFO] Response: 200
+2024-02-21 15:07:16,105 [INFO] Gathering page 30 of 37
+2024-02-21 15:07:16,108 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1697062391975570618
+2024-02-21 15:07:16,974 [INFO] Response: 200
+2024-02-21 15:07:16,974 [INFO] Gathering page 31 of 37
+2024-02-21 15:07:16,975 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1697005740647743485
+2024-02-21 15:07:17,891 [INFO] Response: 200
+2024-02-21 15:07:17,892 [INFO] Gathering page 32 of 37
+2024-02-21 15:07:17,895 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1696824600704984256
+2024-02-21 15:07:18,781 [INFO] Response: 200
+2024-02-21 15:07:18,782 [INFO] Gathering page 33 of 37
+2024-02-21 15:07:18,782 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1696705200606577524
+2024-02-21 15:07:19,646 [INFO] Response: 200
+2024-02-21 15:07:19,647 [INFO] Gathering page 34 of 37
+2024-02-21 15:07:19,650 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1696635900965850449
+2024-02-21 15:07:20,513 [INFO] Response: 200
+2024-02-21 15:07:20,513 [INFO] Gathering page 35 of 37
+2024-02-21 15:07:20,514 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1696477150404581902
+2024-02-21 15:07:21,835 [INFO] Response: 200
+2024-02-21 15:07:21,837 [INFO] Gathering page 36 of 37
+2024-02-21 15:07:21,838 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=couriermail&language=en&from_date=2023-08-01&to_date=2024-01-01&country=au&page=1696380300738988185
+2024-02-21 15:07:22,899 [INFO] Response: 200
+2024-02-21 15:07:22,899 [INFO] Gathering page 37 of 37
+2024-02-21 15:07:22,900 [INFO] 
+Compiling 37 pages of results...
+2024-02-21 15:07:22,902 [INFO] All news articles gathered from couriermail from 2023-08-01 to 2024-01-01!
+2024-02-21 15:07:22,902 [INFO] Processing tables...
+2024-02-21 15:07:23,002 [INFO] Tables have been processed.
+2024-02-21 15:07:23,003 [INFO] 
+Pushing results from couriermail to Google BigQuery database...
+2024-02-21 15:07:24,036 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-21 15:07:24,384 [INFO] Table exists
+2024-02-21 15:07:33,768 [INFO] Loaded 171328 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-02-21 15:07:34,125 [INFO] Table exists
+2024-02-21 15:07:40,470 [INFO] Loaded 194931 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-02-21 15:07:40,797 [INFO] Table exists
+2024-02-21 15:07:47,400 [INFO] Loaded 388158 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-02-21 15:07:47,775 [INFO] Table exists
+2024-02-21 15:07:55,768 [INFO] Loaded 209262 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-02-21 15:07:55,768 [INFO] 
+Gather complete!

@@ -1,0 +1,45 @@
+2023-12-13 23:57:57,437 [INFO] Starting News Gatherer
+2023-12-13 23:57:57,437 [INFO] Collecting news content from 31 domains.
+2023-12-13 23:57:57,438 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2023-12-13 23:57:57,438 [INFO] Gathering news articles from abc_net from 2023-11-01 to 2023-11-5
+2023-12-13 23:57:57,438 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-11-01&to_date=2023-11-5&country=au
+2023-12-13 23:58:05,703 [INFO] Response: 200
+2023-12-13 23:58:05,705 [INFO] Gathering page 1 of 6
+2023-12-13 23:58:05,706 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-11-01&to_date=2023-11-5&country=au&page=1699109526659718154
+2023-12-13 23:58:16,504 [INFO] Response: 200
+2023-12-13 23:58:16,505 [INFO] Gathering page 2 of 6
+2023-12-13 23:58:16,506 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-11-01&to_date=2023-11-5&country=au&page=1699042194477417390
+2023-12-13 23:58:22,224 [INFO] Response: 200
+2023-12-13 23:58:22,225 [INFO] Gathering page 3 of 6
+2023-12-13 23:58:22,226 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-11-01&to_date=2023-11-5&country=au&page=1698959223195809406
+2023-12-13 23:58:26,900 [INFO] Response: 200
+2023-12-13 23:58:26,901 [INFO] Gathering page 4 of 6
+2023-12-13 23:58:26,902 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-11-01&to_date=2023-11-5&country=au&page=1698895258471744988
+2023-12-13 23:58:31,599 [INFO] Response: 200
+2023-12-13 23:58:31,600 [INFO] Gathering page 5 of 6
+2023-12-13 23:58:31,601 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=abc_net&language=en&from_date=2023-11-01&to_date=2023-11-5&country=au&page=1698825676739562273
+2023-12-13 23:58:37,297 [INFO] Response: 200
+2023-12-13 23:58:37,298 [INFO] Gathering page 6 of 6
+2023-12-13 23:58:37,299 [INFO] 
+Compiling 6 pages of results...
+2023-12-13 23:58:37,311 [INFO] All news articles gathered from abc_net from 2023-11-01 to 2023-11-5!
+2023-12-13 23:58:37,311 [INFO] Processing tables...
+2023-12-13 23:58:37,355 [INFO] Tables have been processed.
+2023-12-13 23:58:37,355 [INFO] 
+Pushing results from abc_net to Google BigQuery database...
+2023-12-13 23:58:37,355 [INFO] 'PushTables' object is not callable
+2023-12-13 23:58:37,355 [INFO] 
+Gather complete!

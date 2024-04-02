@@ -1,0 +1,53 @@
+2024-02-21 15:12:04,682 [INFO] Starting News Gatherer
+2024-02-21 15:12:04,683 [INFO] Collecting news content from 1 domains.
+2024-02-21 15:12:04,683 [INFO] 
+-------------------------------------------------------------------------------------------------------
+2024-02-21 15:12:04,683 [INFO] Gathering news articles from junkee from 2023-08-01 to 2024-02-20
+2024-02-21 15:12:04,683 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=junkee&language=en&from_date=2023-08-01&to_date=2024-02-20&country=au
+2024-02-21 15:12:06,450 [INFO] Response: 200
+2024-02-21 15:12:06,452 [INFO] Gathering page 1 of 6
+2024-02-21 15:12:06,454 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=junkee&language=en&from_date=2023-08-01&to_date=2024-02-20&country=au&page=1704695962540900315
+2024-02-21 15:12:08,019 [INFO] Response: 200
+2024-02-21 15:12:08,021 [INFO] Gathering page 2 of 6
+2024-02-21 15:12:08,022 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=junkee&language=en&from_date=2023-08-01&to_date=2024-02-20&country=au&page=1700783491776751557
+2024-02-21 15:12:09,594 [INFO] Response: 200
+2024-02-21 15:12:09,596 [INFO] Gathering page 3 of 6
+2024-02-21 15:12:09,597 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=junkee&language=en&from_date=2023-08-01&to_date=2024-02-20&country=au&page=1697514484183987760
+2024-02-21 15:12:11,158 [INFO] Response: 200
+2024-02-21 15:12:11,160 [INFO] Gathering page 4 of 6
+2024-02-21 15:12:11,161 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=junkee&language=en&from_date=2023-08-01&to_date=2024-02-20&country=au&page=1694416802712847267
+2024-02-21 15:12:12,727 [INFO] Response: 200
+2024-02-21 15:12:12,731 [INFO] Gathering page 5 of 6
+2024-02-21 15:12:12,733 [INFO] 
+API call:
+https://newsdata.io/api/1/archive?apikey=pub_200592638f3f0a1a0b3548daf92b7304983f8&q=*&domain=junkee&language=en&from_date=2023-08-01&to_date=2024-02-20&country=au&page=1691726949043696796
+2024-02-21 15:12:13,820 [INFO] Response: 200
+2024-02-21 15:12:13,823 [INFO] Gathering page 6 of 6
+2024-02-21 15:12:13,823 [INFO] 
+Compiling 6 pages of results...
+2024-02-21 15:12:13,825 [INFO] All news articles gathered from junkee from 2023-08-01 to 2024-02-20!
+2024-02-21 15:12:13,825 [INFO] Processing tables...
+2024-02-21 15:12:13,921 [INFO] Tables have been processed.
+2024-02-21 15:12:13,921 [INFO] 
+Pushing results from junkee to Google BigQuery database...
+2024-02-21 15:12:14,736 [INFO] Dataset dmrc-data.newsdataio_2024 already exists
+2024-02-21 15:12:15,089 [INFO] Table exists
+2024-02-21 15:12:23,346 [INFO] Loaded 172054 rows and 12 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au
+2024-02-21 15:12:23,685 [INFO] Table exists
+2024-02-21 15:12:29,423 [INFO] Loaded 195863 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_categories
+2024-02-21 15:12:29,791 [INFO] Table exists
+2024-02-21 15:12:36,602 [INFO] Loaded 390935 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_keywords
+2024-02-21 15:12:36,958 [INFO] Table exists
+2024-02-21 15:12:43,953 [INFO] Loaded 209991 rows and 2 columns to dmrc-data.newsdataio_2024.newsdata_nov2023_au_creators
+2024-02-21 15:12:43,953 [INFO] 
+Gather complete!
