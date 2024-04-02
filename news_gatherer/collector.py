@@ -70,15 +70,19 @@ def collect_news():
                 logging.info(f'Gathering news articles from {domain} from {Query.date_from} to {Query.date_to}')
 
                 # Make API call and get response
-                url = ('https://newsdata.io/api/1/archive?'
+                url = (f'https://newsdata.io/api/1/{Query.endpoint}?'
                        f'apikey={Query.api_key}&'
                        f'q={Query.query}&'
                        f'domain={domain}&'
                        f'language={Query.lang}&'
-                       f'from_date={Query.date_from}&'
-                       f'to_date={Query.date_to}&'
                        f'country={Query.country}'
                        )
+
+                if Query.endpoint == 'archive':
+                    url = (f'{url}&'
+                           f'from_date={Query.date_from}&'
+                           f'to_date={Query.date_to}'
+                           )
 
                 # Check response code
                 response = get_api_response(url=url)

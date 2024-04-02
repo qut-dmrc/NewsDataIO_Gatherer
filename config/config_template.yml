@@ -1,8 +1,8 @@
 # SearchParams:
 domains: ['theage', 'theaustralian', 'couriermail', 'dailytelegraph', 'smh', 'thewest', 'watoday', 'heraldsun']
 query: '*'
-date_from: '2024-03-01'
-date_to: '2024-03-03'
+date_from: '2024-04-01'
+date_to: '2024-04-02'
 
 country: 'au'  #au/de
 language: 'en'  #en/de

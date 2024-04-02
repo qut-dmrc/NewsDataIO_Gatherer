@@ -6,9 +6,36 @@ For more details, go to: https://newsdata.io/documentation
 
 
 ## How to use this tool
-1. Enter your config details in `config.yml`. An example of a valid configuration is shown below:
+
+<br>
+
+### 1. <b>Set your environment variables.</b>
+In Pycharm, this can be done by going to `Run` -> `Edit Configurations` -> `Environment Variables` 
+>![img_1.png](img_1.png)
+> 
+<b>You will need:</b>
+
+| Name                   | Value                            |
+|------------------------|----------------------------------|
+| <b>gbq_servicekey</b>  | `/path/to/your/credentials.json` |
+| <b>newsdata_apikey</b> | your newsdataio api key (value)  |
+
+Ensure that the name of your credentials are exactly as above, and that your path and key values are correct for your specific setup:
+
+![img.png](img.png)
+
+<br>
+
+### 2. <b> Install requirements</b>
+`pip install -r requirements.txt`
+
+<br>
+
+### 3. <b> Enter your config details in `config.yml`. An example of a valid configuration is shown below:</b>
 ```
 # SearchParams:
+
+endpoint: 'archive'     # 'archive' or 'news'
 domains: ['7news', 'skynewsau', 'sbs', ..., 'smh', 'thewest', 'theage', 'couriermail']
 
 query: '*'
@@ -24,7 +51,7 @@ dataset_name: 'newsdataio_data'
 tablename: 'newsdata_news_au'
 ```
 
-2. Run `run_newsio_gather.py`
+### 4. Run `run_newsio_gather.py`
 
 This will call `collector.py` to gather news articles from the NewsDataIO API and push the results to Google BigQuery.
 
