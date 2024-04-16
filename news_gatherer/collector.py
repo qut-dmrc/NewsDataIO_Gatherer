@@ -8,6 +8,7 @@ import warnings
 import pandas as pd
 # from pandas.core.common import SettingWithCopyWarning
 
+
 # warnings.simplefilter(action="ignore", category=SettingWithCopyWarning)
 
 from .config import Query

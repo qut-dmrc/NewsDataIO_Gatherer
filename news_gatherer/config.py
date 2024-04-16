@@ -15,6 +15,7 @@ except yaml.YAMLError:
 
 class Query:
     api_key = os.environ['newsdata_apikey']
+    endpoint = config['endpoint']
     domains = config['domains']
     query = config['query']
     date_from = config['date_from']

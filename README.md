@@ -1,13 +1,21 @@
 # NewsdataIO News Gatherer
 
-Uses the NewsData API to request news content and push results to a Google BigQuery database.
+Uses the NewsData API to request news content and push results to a specified Google BigQuery database.
 
 For more details, go to: https://newsdata.io/documentation
 
 
-## How to use this tool
+## What you will need
+
+- Python 3.10 or newer
+- A Google BigQuery service account
+- A NewsDataIO API key
 
 <br>
+
+## How to use this tool
+
+
 
 ### 1. <b>Set your environment variables.</b>
 In Pycharm, this can be done by going to `Run` -> `Edit Configurations` -> `Environment Variables` 
@@ -61,5 +69,5 @@ This will call `collector.py` to gather news articles from the NewsDataIO API an
 
 
 
-### TODO
+ TODO
 
